@@ -1,5 +1,6 @@
 
 * Programa 21
+<2023-08-16 mié>
 
 |   | Guión técnico |                                                     | Duración | Finaliza |
 | / | <>            | <>                                                  |       <> |       <> |
@@ -91,6 +92,84 @@ Lxs directorxs están debidamente notificadxs que lxs vamos a entrevistar pronto
 - Hemos llegado al final del programa.
 - ¡Nos vemos la semana que viene, miércoles a las 13:00! ¡los esperamos!
 - ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Programa 22
+<2023-08-23 mié>
+
+|   | Guión técnico |                                                     | Duración | Finaliza |
+| / | <>            | <>                                                  |       <> |       <> |
+| / | Inicio        |                                                     |          | 13:00:00 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
+|   | Inicio        |                                                     | 00:02:00 | 13:02:10 |
+|   | Noticias      |                                                     | 00:05:00 | 13:07:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \musicalnote{} Música     | \bomb{} Bomba, ¡todo tuyo!                               | 00:03:00 | 13:10:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 1      |                                                     | 00:15:00 | 13:25:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:30:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 2      |                                                     | 00:15:00 | 13:45:10 |
+|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:46:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | *Total*         |                                                     | 00:46:10 |          |
+#+TBLFM: @4$5..@11$5=$4 + @-1$5;T::@12$4='(apply '+ '(@4$4..@11$4));T
+
+\warning{} Preguntar al Bomba si se puede mencionar los nombres de las empresas.
+
+** Inicio del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Miércoles a las 13:00 de la tarde
+- Presentarse
+- Resumen de qué se trata Control Z: ciudadanía digital, cultura libre, estudiá computación, informática diversa, control N
+- Canales de comunicación: Instagram: ctrlz_fai | Web: https://controlz.fi.uncoma.edu.ar/ | Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+** Noticias
+
+FaiWeb:
+
+- Concursos para PAD (DIC), ASD (DIS), AYP (DIC, DIS, DP) para los Departamentos de Ingeniería de Sistemas (DIS), Ingeniería de Computadoras (DIC) y Programación (DP).
+- Curso de Posgrado "Negocios y Transformación Digital" Dra. Alejandra Cechich. Inicia: 07 de septiembre de 2023.
+- Departamento de alumnxs cambia de horario de 10:00 a 15:00.
+- Hay noticias en la bolsa de trabajo: Credi Guía e ITEC/DOHKO SRL. \warning{} Preguntar al Bomba
+
+Bienestar FaI:
+
+- Inició la segunda convocatoria para los planes Progresar, las inscripciones se encuentran abiertas desde el 14 de julio al 31 de agosto. También se lanza el Programa de Formación y Certificación en Lenguas Extranjeras para becarias y becarios Progresar y Manuel Belgrano. Más info en: https://www.argentina.gob.ar/becasprogresar
+- Taller "Estrategias y habilidades para el aprendizaje y el estudio"
+  25/08 a las 13:00 aula i1.
+- Taller "Importancia en la organización del aprendizaje"
+  01/09 a las 13:00 aula i1.
+- Charla "Malesta subjetivo y sus diferentes manifestaciones"
+  15/09 a las 13:00 aula i1.
+    
+Efemerides:
+
+- 7/08/1966  Nace Jimmy Wales, cofundador de Wikipedia
+- 11/08/1950 Nace Steve Wozniak
+- 12/08/1981 IBM PC 5150: La primera "PC"
+- 17/08/1936 Nace Margaret Hamilton, pionera de la ingeniería de software
+- 19/08/1923 Nace Edgar Codd
+- 23/08/1991 Día del Internauta
+- 23/08/1991 Tim Berners-Lee publica la primera página web
+- 25/08/1991 Linus Torvalds libera la primera versión de Linux
+- 29/08      Día del gamer
+- 30/08/1907 Nace John Mauchly
+  
+** Bloque 1: Trabajo en la informática
+Entrevista a Gonzalo Molina. Trabajo en el ámbito de la informática, y desmitificar un poco el trabajo para "afuera".
+
+** Bloque 2: 
+
+** Cierre del programa
+
+- Hemos llegado al final del programa.
+- ¡Nos vemos la semana que viene, miércoles a las 13:00! ¡los esperamos!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
 
 
 
