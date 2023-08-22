@@ -1,597 +1,349 @@
-<!doctype html>
-<html lang="es">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 <head>
+<!-- 2023-08-22 mar 16:29 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Guiones</title>
-<!-- 2023-08-17 jue 11:35 -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="generator" content="Org-mode">
-<meta name="author" content="Christian Gimenez">
-
-<link  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<meta name="author" content="Christian Gimenez" />
+<meta name="generator" content="Org Mode" />
 <style>
-/* org mode styles on top of twbs */
-
-html {
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
     position: relative;
-    min-height: 100%;
-}
-
-body {
-    font-size: 18px;
-    margin-bottom: 105px;
-}
-
-footer {
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 101px;
-    background-color: #f5f5f5;
-}
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
 
-footer > div {
-    padding: 10px;
-}
-
-footer p {
-    margin: 0 0 5px;
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
     text-align: center;
-    font-size: 16px;
-}
-
-#table-of-contents {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-blockquote p {
-    font-size: 18px;
-}
-
-pre {
-    font-size: 16px;
-}
-
-.footpara {
-    display: inline-block;
-}
-
-figcaption {
-  font-size: 16px;
-  color: #666;
-  font-style: italic;
-  padding-bottom: 15px;
-}
-
-/* from twbs docs */
-
-.bs-docs-sidebar.affix {
-    position: static;
-}
-@media (min-width: 768px) {
-    .bs-docs-sidebar {
-        padding-left: 20px;
-    }
-}
-
-/* All levels of nav */
-.bs-docs-sidebar .nav > li > a {
-    display: block;
-    padding: 4px 20px;
-    font-size: 14px;
-    font-weight: 500;
-    color: #999;
-}
-.bs-docs-sidebar .nav > li > a:hover,
-.bs-docs-sidebar .nav > li > a:focus {
-    padding-left: 19px;
-    color: #A1283B;
-    text-decoration: none;
-    background-color: transparent;
-    border-left: 1px solid #A1283B;
-}
-.bs-docs-sidebar .nav > .active > a,
-.bs-docs-sidebar .nav > .active:hover > a,
-.bs-docs-sidebar .nav > .active:focus > a {
-    padding-left: 18px;
-    font-weight: bold;
-    color: #A1283B;
-    background-color: transparent;
-    border-left: 2px solid #A1283B;
-}
-
-/* Nav: second level (shown on .active) */
-.bs-docs-sidebar .nav .nav {
-    display: none; /* Hide by default, but at >768px, show it */
-    padding-bottom: 10px;
-}
-.bs-docs-sidebar .nav .nav > li > a {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 30px;
-    font-size: 12px;
-    font-weight: normal;
-}
-.bs-docs-sidebar .nav .nav > li > a:hover,
-.bs-docs-sidebar .nav .nav > li > a:focus {
-    padding-left: 29px;
-}
-.bs-docs-sidebar .nav .nav > .active > a,
-.bs-docs-sidebar .nav .nav > .active:hover > a,
-.bs-docs-sidebar .nav .nav > .active:focus > a {
-    padding-left: 28px;
-    font-weight: 500;
-}
-
-/* Nav: third level (shown on .active) */
-.bs-docs-sidebar .nav .nav .nav {
-    padding-bottom: 10px;
-}
-.bs-docs-sidebar .nav .nav .nav > li > a {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 40px;
-    font-size: 12px;
-    font-weight: normal;
-}
-.bs-docs-sidebar .nav .nav .nav > li > a:hover,
-.bs-docs-sidebar .nav .nav .nav > li > a:focus {
-    padding-left: 39px;
-}
-.bs-docs-sidebar .nav .nav .nav > .active > a,
-.bs-docs-sidebar .nav .nav .nav > .active:hover > a,
-.bs-docs-sidebar .nav .nav .nav > .active:focus > a {
-    padding-left: 38px;
-    font-weight: 500;
-}
-
-/* Show and affix the side nav when space allows it */
-@media (min-width: 992px) {
-    .bs-docs-sidebar .nav > .active > ul {
-        display: block;
-    }
-    /* Widen the fixed sidebar */
-    .bs-docs-sidebar.affix,
-    .bs-docs-sidebar.affix-bottom {
-        width: 213px;
-    }
-    .bs-docs-sidebar.affix {
-        position: fixed; /* Undo the static from mobile first approach */
-        top: 20px;
-    }
-    .bs-docs-sidebar.affix-bottom {
-        position: absolute; /* Undo the static from mobile first approach */
-    }
-    .bs-docs-sidebar.affix .bs-docs-sidenav,.bs-docs-sidebar.affix-bottom .bs-docs-sidenav {
-        margin-top: 0;
-        margin-bottom: 0
-    }
-}
-@media (min-width: 1200px) {
-    /* Widen the fixed sidebar again */
-    .bs-docs-sidebar.affix-bottom,
-    .bs-docs-sidebar.affix {
-        width: 263px;
-    }
-}
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
 </style>
+<link href="css/guiones.css" rel="stylesheet">
+<script src="libs/org-info.js">
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+// @license-end
+</script>
+
 <script>
-$(function() {
-    'use strict';
-
-    $('.bs-docs-sidebar li').first().addClass('active');
-
-    $(document.body).scrollspy({target: '.bs-docs-sidebar'});
-
-    $('.bs-docs-sidebar').affix();
-});
-</script><link href="css/guiones.css" rel="stylesheet">
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+org_html_manager.set("TOC_DEPTH", "3");
+org_html_manager.set("LINK_HOME", "index.html");
+org_html_manager.set("LINK_UP", "index.html");
+org_html_manager.set("LOCAL_TOC", "1");
+org_html_manager.set("VIEW_BUTTONS", "1");
+org_html_manager.set("MOUSE_HINT", "underline");
+org_html_manager.set("FIXED_TOC", "1");
+org_html_manager.set("TOC", "1");
+org_html_manager.set("VIEW", "info");
+org_html_manager.setup();  // activate after the parameters are set
+// @license-end
+</script>
 </head>
 <body>
 <div id="org-div-home-and-up">
  <a accesskey="h" href="index.html"> UP </a>
  |
  <a accesskey="H" href="index.html"> HOME </a>
-</div><div id="content" class="container">
-<div class="row"><div class="col-md-3 col-md-push-9"><nav id="table-of-contents">
-<div id="text-table-of-contents" class="bs-docs-sidebar">
-<ul class="nav">
-<li><a href="#sec-1">1. Programa 21</a>
-<ul class="nav">
-<li><a href="#sec-1-1">1.1. Inicio del programa</a></li>
-<li><a href="#sec-1-2">1.2. Noticias</a></li>
-<li><a href="#sec-1-3">1.3. Bloque 1: IA y el trabajo</a>
-<ul class="nav">
-<li><a href="#sec-1-3-1">1.3.1. Bibliografía</a></li>
+</div><div id="content" class="content">
+<h1 class="title">Guiones</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>&Iacute;ndice</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org25bb0a5">1. Programa 22</a>
+<ul>
+<li><a href="#org8fe4362">1.1. Inicio del programa</a></li>
+<li><a href="#orgf9f3554">1.2. Noticias</a></li>
+<li><a href="#org78cece6">1.3. Bloque 1: Trabajo en la informática</a></li>
+<li><a href="#org9865e27">1.4. Bloque 2: ¿Hablar de quiénes son y qué hace Anonymous?</a></li>
+<li><a href="#org50e4c40">1.5. Cierre del programa</a></li>
 </ul>
 </li>
-<li><a href="#sec-1-4">1.4. Bloque 2: Proyectos de extensión</a></li>
-<li><a href="#sec-1-5">1.5. Cierre del programa</a></li>
+<li><a href="#orgbd2f347">2. Programa 21</a>
+<ul>
+<li><a href="#org384b0c2">2.1. Inicio del programa</a></li>
+<li><a href="#orga4bc4c5">2.2. Noticias</a></li>
+<li><a href="#orgf173352">2.3. Bloque 1: IA y el trabajo</a>
+<ul>
+<li><a href="#orgb920d76">2.3.1. Bibliografía</a></li>
 </ul>
 </li>
-<li><a href="#sec-2">2. Programa 22</a>
-<ul class="nav">
-<li><a href="#sec-2-1">2.1. Inicio del programa</a></li>
-<li><a href="#sec-2-2">2.2. Noticias</a></li>
-<li><a href="#sec-2-3">2.3. Bloque 1: Trabajo en la informática</a></li>
-<li><a href="#sec-2-4">2.4. Bloque 2:</a></li>
-<li><a href="#sec-2-5">2.5. Cierre del programa</a></li>
+<li><a href="#org17a0b43">2.4. Bloque 2: Proyectos de extensión</a></li>
+<li><a href="#orgad47f99">2.5. Cierre del programa</a></li>
 </ul>
 </li>
 </ul>
 </div>
-</nav>
-</div><div class="col-md-9 col-md-pull-3"><h1 class="title">Guiones</h1>
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> Programa 21</h2>
+</div>
+<div id="outline-container-org25bb0a5" class="outline-2">
+<h2 id="org25bb0a5"><span class="section-number-2">1.</span> Programa 22</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-<span class="timestamp-wrapper"><span class="timestamp">&lt;2023-08-16 mié&gt;</span></span>
+Emisión al aire: <span class="timestamp-wrapper"><span class="timestamp">&lt;2023-08-23 mié&gt;</span></span>
 </p>
 
-<table class="table table-striped table-bordered table-hover table-condensed">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
-<col  class="left">
+<col  class="org-left" />
 
-<col  class="left">
+<col  class="org-left" />
 
-<col  class="right">
+<col  class="org-right" />
 
-<col  class="right">
+<col  class="org-right" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="text-left">Guión técnico</th>
-<th scope="col" class="text-left">&#xa0;</th>
-<th scope="col" class="text-right">Duración</th>
-<th scope="col" class="text-right">Finaliza</th>
+<th scope="col" class="org-left">Guión técnico</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">Duración</th>
+<th scope="col" class="org-right">Finaliza</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="text-left">Comienzo</td>
-<td class="text-left">Cortinilla: <code>Cortinillas/Apertura Ctrl Z.mp3</code></td>
-<td class="text-right">00:00:10</td>
-<td class="text-right">13:00:10</td>
+<td class="org-left">Comienzo</td>
+<td class="org-left">Cortinilla: <code>Cortinillas/Apertura Ctrl Z.mp3</code></td>
+<td class="org-right">00:00:10</td>
+<td class="org-right">13:00:10</td>
 </tr>
 
 <tr>
-<td class="text-left">Inicio</td>
-<td class="text-left">&#xa0;</td>
-<td class="text-right">00:02:00</td>
-<td class="text-right">13:02:10</td>
+<td class="org-left">Inicio</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:02:00</td>
+<td class="org-right">13:02:10</td>
 </tr>
 
 <tr>
-<td class="text-left">Noticias</td>
-<td class="text-left">&#xa0;</td>
-<td class="text-right">00:05:00</td>
-<td class="text-right">13:07:10</td>
-</tr>
-</tbody>
-<tbody>
-<tr>
-<td class="text-left">&#127925; Música</td>
-<td class="text-left">&#128163; Bomba, ¡todo tuyo!</td>
-<td class="text-right">00:03:00</td>
-<td class="text-right">13:10:10</td>
+<td class="org-left">Noticias</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:07:10</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="text-left">Bloque 1</td>
-<td class="text-left">&#xa0;</td>
-<td class="text-right">00:15:00</td>
-<td class="text-right">13:25:10</td>
+<td class="org-left">&#127925; Música</td>
+<td class="org-left">&#128163; Bomba, ¡todo tuyo!</td>
+<td class="org-right">00:03:00</td>
+<td class="org-right">13:10:10</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="text-left">&#9208;&#65039; Tanda</td>
-<td class="text-left">&#x2013;&#x2014; Tanda Publicitaria -----</td>
-<td class="text-right">00:05:00</td>
-<td class="text-right">13:30:10</td>
+<td class="org-left">Bloque 1</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:15:00</td>
+<td class="org-right">13:25:10</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="text-left">Bloque 2</td>
-<td class="text-left">&#xa0;</td>
-<td class="text-right">00:15:00</td>
-<td class="text-right">13:45:10</td>
-</tr>
-
-<tr>
-<td class="text-left">Cierre</td>
-<td class="text-left">Cortinilla/separador: <code>Cortinillas/Cierre Ctrl Z.mp3</code></td>
-<td class="text-right">00:01:00</td>
-<td class="text-right">13:46:10</td>
+<td class="org-left">&#9208;&#65039; Tanda</td>
+<td class="org-left">&#x2013;&#x2014; Tanda Publicitaria -----</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:30:10</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="text-left"><b>Total</b></td>
-<td class="text-left">&#xa0;</td>
-<td class="text-right">00:46:10</td>
-<td class="text-right">&#xa0;</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-<div id="outline-container-sec-1-1" class="outline-3">
-<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Inicio del programa</h3>
-<div class="outline-text-3" id="text-1-1">
-<ul class="org-ul">
-<li>Bienvenida a Control Z, el espacio de la Facultad de Informática.
-</li>
-<li>Miércoles a las 13:00 de la tarde
-</li>
-<li>Presentarse
-</li>
-<li>Resumen de qué se trata Control Z: ciudadanía digital, cultura libre, estudiá computación, informática diversa, control N
-</li>
-<li>Canales de comunicación: Instagram: ctrlz_fai | Web: <a href="https://controlz.fi.uncoma.edu.ar/">https://controlz.fi.uncoma.edu.ar/</a> | Correo: controlz@fi.uncoma.edu.ar
-</li>
-<li>Resumen del programa de hoy: ¿qué hay hoy?
-</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-sec-1-2" class="outline-3">
-<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Noticias</h3>
-<div class="outline-text-3" id="text-1-2">
-<ul class="org-ul">
-<li>Si se están inscribiendo a la materia introducción a la programación correspondiente a la Tecnicatura Universitaria en Desarrollo Web a través del SIU Guaraní y les dice que no hay cupo disponible, no se preocupen que a lo largo de la semana se irá aumentando el cupo
-</li>
-<li>Centro PyME ADENEU: Busca Pasante:   Ser estudiante Regular o Activo de la Licenciatura en Ciencias de la Computación / Sistemas de Información y tener las materias SISTEMAS OPERATIVOS I,  REDES DE COMPUTADORAS I y GESTIÓN  DE BASE DE DATOS  aprobadas.   O ser estudiante  Regular o Activo del último año de la Tecnicatura Universitaria en Administración de Sistemas y Software Libre o de la Tecnicatura Universitaria en Desarrollo Web.
-</li>
-<li>Curso de Posgrado "Negocios y Transformación Digital" Dra. Alejandra Cechich. Inicia: 07 de septiembre de 2023 (FaIWeb)
-</li>
-<li>Bienestar: Inició la segunda convocatoria para los planes Progresar, las inscripciones se encuentran abiertas desde el 14 de julio al 31 de agosto. También se lanza el Programa de Formación y Certificación en Lenguas Extranjeras para becarias y becarios Progresar y Manuel Belgrano. Más info en: <a href="https://www.argentina.gob.ar/becasprogresar">https://www.argentina.gob.ar/becasprogresar</a>
-</li>
-<li>Departamento de alumnxs cambia de horario de 10:00 a 15:00.
-</li>
-<li>Cristian Ilabaca  - Nuevo Magister en Enseñanza en Escenarios Digitales.  El día jueves 10 de agosto de 2023 el Lic. Cristian Ilabaca.
-</li>
-</ul>
-
-<p>
-Efemerides:
-</p>
-<ul class="org-ul">
-<li>7/08/1966 Nace Jimmy Wales, cofundador de Wikipedia
-</li>
-<li>11/08/1950 Nace Steve Wozniak
-</li>
-<li>12/08/1981 IBM PC 5150: La primera "PC"
-</li>
-<li>17/08/1936 Nace Margaret Hamilton, pionera de la ingeniería de software
-</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-sec-1-3" class="outline-3">
-<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Bloque 1: IA y el trabajo</h3>
-<div class="outline-text-3" id="text-1-3">
-<ul class="org-ul">
-<li>IA en robots son caros y ¡ya se están utilizando!: industria automotriz con brazos mecánicos.
-<ul class="org-ul">
-<li>¿Cuánto sale un robot que cocina?
-</li>
-</ul>
-</li>
-<li>IA: ¿quién los configura? ¿quién los vigila/controla? → Nuevos puestos pero ¿para quiénes?
-<ul class="org-ul">
-<li>Ej.: Repartos de paquetes con drones → Un humano hace un reparto vs. un humano controla 50 drones de reparto.
-</li>
-</ul>
-</li>
-<li>Analogía: Cuando se incluyeron las computadoras: puestos se cerraron o cambiaron. → puestos se abrieron para configurarlas y mantenerlas
-</li>
-
-<li>Si no practicamos usar la IA (ChatGPT por ejemplo) ¿cómo vamos a saber usarlas y controlarlas?
-</li>
-<li>IAs existentes: para crear imágenes, músicas, textos, etc. Copian voces y estilos de lo que hay público en Internet.
-</li>
-
-<li>Beneficios
-<ul class="org-ul">
-<li>Responden a preguntas más propias de un usuario no técnico.
-</li>
-<li>Resultados de búsquedas más detalladas. 
-</li>
-<li>Información escrita de manera más entendible.
-</li>
-</ul>
-</li>
-<li>¿Riesgos? → 
-<ul class="org-ul">
-<li>ChatGPT escribe libros completos sin supervisión de un pedagogo ¿cómo generará esos libros?
-</li>
-<li>Chatbots pueden responder con cierto sesgo, discriminación, desinformación, ilusiones, etc.
-</li>
-<li>Creación de Fakenews con imágenes más creíbles: es simple crear una imágen superpuesta con otras.
-</li>
-<li>ChatGPT responda ante preguntas indebidas (apología al delito).
-</li>
-</ul>
-</li>
-<li>¿Quiénes deben marcar sus obras? ¿no sería prudente que se marquen las generadas con IA?
-<ul class="org-ul">
-<li>¿Una manera de detectar si fue hecho con IA? → ¡Justamente la IA es para pasar el Test de Turing!
-</li>
-</ul>
-</li>
-</ul>
-</div>
-
-<div id="outline-container-sec-1-3-1" class="outline-4">
-<h4 id="sec-1-3-1"><span class="section-number-4">1.3.1</span> Bibliografía</h4>
-<div class="outline-text-4" id="text-1-3-1">
-<ul class="org-ul">
-<li><a href="https://www.cronista.com/columnistas/inteligencia-artificial-dilemas-de-la-revolucion/">https://www.cronista.com/columnistas/inteligencia-artificial-dilemas-de-la-revolucion/</a>
-</li>
-<li><a href="https://www.infobae.com/tecno/2023/08/06/la-revolucion-de-los-robots-como-la-automatizacion-transformara-el-empleo/">https://www.infobae.com/tecno/2023/08/06/la-revolucion-de-los-robots-como-la-automatizacion-transformara-el-empleo/</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="outline-container-sec-1-4" class="outline-3">
-<h3 id="sec-1-4"><span class="section-number-3">1.4</span> Bloque 2: Proyectos de extensión</h3>
-<div class="outline-text-3" id="text-1-4">
-<p>
-Entrevistamos a Jorge Rodriguez Secretario de Extensión de la Facultad de Informática.
-</p>
-<ul class="org-ul">
-<li>¿Qué son los proyectos de extensión?
-</li>
-<li>¿Por qué son útiles los proyectos de extensión para la facultad/universidad?
-</li>
-<li>¿Qué proyectos de extensión hay?
-</li>
-<li>¿Cuál es la particularidad de estos proyectos?
-</li>
-<li>¿Podés contarnos un poquito de qué se tratan?
-</li>
-
-<li>"ALERTAR: un sistema informático inteligente y resiliente para la vigilancia y detección temprana de severidad de pacientes en 
-unidades de cuidados no intensivos." Director: Claudio Ruben Zanellatto – CoDirector: Javier Balladini.
-</li>
-<li>"El museo vuelve a las escuelas". Directora: Claudia Carina Fracchia - Co-Director: Amadeo Laurin.
-</li>
-<li>"Análisis forense de pericias médico-legales asistidas por sistemas inteligentes: preparación de datos". 
-Directora: Sandra Roger – CoDirector: Germán Braun.
-</li>
-<li>"Programación Lógica en la Escuela Primaria". Directora: Laura Cecchi  - CoDirector: Jorge Rodríguez.
-</li>
-<li>"FaIComm: Charlamos sobre Computación". Director: Christian Gimenez - CoDirector: Pablo Kogan .
-</li>
-<li>"Conectados con la Escuela". Directora: Ingrid Godoy - CoDirectora: Susana Parra 
-</li>
-</ul>
-
-<p>
-Lxs directorxs están debidamente notificadxs que lxs vamos a entrevistar pronto &#128518;.
-</p>
-</div>
-</div>
-<div id="outline-container-sec-1-5" class="outline-3">
-<h3 id="sec-1-5"><span class="section-number-3">1.5</span> Cierre del programa</h3>
-<div class="outline-text-3" id="text-1-5">
-<ul class="org-ul">
-<li>Hemos llegado al final del programa.
-</li>
-<li>¡Nos vemos la semana que viene, miércoles a las 13:00! ¡los esperamos!
-</li>
-<li>¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
-</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><span class="section-number-2">2</span> Programa 22</h2>
-<div class="outline-text-2" id="text-2">
-<p>
-<span class="timestamp-wrapper"><span class="timestamp">&lt;2023-08-23 mié&gt;</span></span>
-</p>
-
-<table class="table table-striped table-bordered table-hover table-condensed">
-
-
-<colgroup>
-<col  class="left">
-
-<col  class="left">
-
-<col  class="right">
-
-<col  class="right">
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="text-left">Guión técnico</th>
-<th scope="col" class="text-left">&#xa0;</th>
-<th scope="col" class="text-right">Duración</th>
-<th scope="col" class="text-right">Finaliza</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="text-left">Comienzo</td>
-<td class="text-left">Cortinilla: <code>Cortinillas/Apertura Ctrl Z.mp3</code></td>
-<td class="text-right">00:00:10</td>
-<td class="text-right">13:00:10</td>
+<td class="org-left">Bloque 2</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:15:00</td>
+<td class="org-right">13:45:10</td>
 </tr>
 
 <tr>
-<td class="text-left">Inicio</td>
-<td class="text-left">&#xa0;</td>
-<td class="text-right">00:02:00</td>
-<td class="text-right">13:02:10</td>
-</tr>
-
-<tr>
-<td class="text-left">Noticias</td>
-<td class="text-left">&#xa0;</td>
-<td class="text-right">00:05:00</td>
-<td class="text-right">13:07:10</td>
+<td class="org-left">Cierre</td>
+<td class="org-left">Cortinilla/separador: <code>Cortinillas/Cierre Ctrl Z.mp3</code></td>
+<td class="org-right">00:01:00</td>
+<td class="org-right">13:46:10</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="text-left">&#127925; Música</td>
-<td class="text-left">&#128163; Bomba, ¡todo tuyo!</td>
-<td class="text-right">00:03:00</td>
-<td class="text-right">13:10:10</td>
-</tr>
-</tbody>
-<tbody>
-<tr>
-<td class="text-left">Bloque 1</td>
-<td class="text-left">&#xa0;</td>
-<td class="text-right">00:15:00</td>
-<td class="text-right">13:25:10</td>
-</tr>
-</tbody>
-<tbody>
-<tr>
-<td class="text-left">&#9208;&#65039; Tanda</td>
-<td class="text-left">&#x2013;&#x2014; Tanda Publicitaria -----</td>
-<td class="text-right">00:05:00</td>
-<td class="text-right">13:30:10</td>
-</tr>
-</tbody>
-<tbody>
-<tr>
-<td class="text-left">Bloque 2</td>
-<td class="text-left">&#xa0;</td>
-<td class="text-right">00:15:00</td>
-<td class="text-right">13:45:10</td>
-</tr>
-
-<tr>
-<td class="text-left">Cierre</td>
-<td class="text-left">Cortinilla/separador: <code>Cortinillas/Cierre Ctrl Z.mp3</code></td>
-<td class="text-right">00:01:00</td>
-<td class="text-right">13:46:10</td>
-</tr>
-</tbody>
-<tbody>
-<tr>
-<td class="text-left"><b>Total</b></td>
-<td class="text-left">&#xa0;</td>
-<td class="text-right">00:46:10</td>
-<td class="text-right">&#xa0;</td>
+<td class="org-left"><b>Total</b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:46:10</td>
+<td class="org-right">&#xa0;</td>
 </tr>
 </tbody>
 </table>
@@ -601,42 +353,48 @@ Lxs directorxs están debidamente notificadxs que lxs vamos a entrevistar pronto
 </p>
 </div>
 
-<div id="outline-container-sec-2-1" class="outline-3">
-<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Inicio del programa</h3>
-<div class="outline-text-3" id="text-2-1">
+<div id="outline-container-org8fe4362" class="outline-3">
+<h3 id="org8fe4362"><span class="section-number-3">1.1.</span> Inicio del programa</h3>
+<div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
-<li>Bienvenida a Control Z, el espacio de la Facultad de Informática.
-</li>
-<li>Miércoles a las 13:00 de la tarde
-</li>
-<li>Presentarse
-</li>
-<li>Resumen de qué se trata Control Z: ciudadanía digital, cultura libre, estudiá computación, informática diversa, control N
-</li>
-<li>Canales de comunicación: Instagram: ctrlz_fai | Web: <a href="https://controlz.fi.uncoma.edu.ar/">https://controlz.fi.uncoma.edu.ar/</a> | Correo: controlz@fi.uncoma.edu.ar
-</li>
-<li>Resumen del programa de hoy: ¿qué hay hoy?
-</li>
+<li>Bienvenida a Control Z, el espacio de la Facultad de Informática.</li>
+<li>Miércoles a las 13:00 de la tarde</li>
+<li>Presentarse</li>
+<li>Resumen de qué se trata Control Z: ciudadanía digital, cultura libre, estudiá computación, informática diversa, control N</li>
+<li>Canales de comunicación: Instagram: <a href="https://www.instagram.com/ctrlz_fai/">ctrlz_fai</a> | Web: <a href="https://controlz.fi.uncoma.edu.ar/">https://controlz.fi.uncoma.edu.ar/</a> | Correo: controlz@fi.uncoma.edu.ar</li>
+<li>Resumen del programa de hoy: ¿qué hay hoy?</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-sec-2-2" class="outline-3">
-<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Noticias</h3>
-<div class="outline-text-3" id="text-2-2">
+<div id="outline-container-orgf9f3554" class="outline-3">
+<h3 id="orgf9f3554"><span class="section-number-3">1.2.</span> Noticias</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Internacionales:
+</p>
+
+<ul class="org-ul">
+<li>Xiaomi presentó CyberDog 2.
+<a href="https://www.diarioelnorte.com.ar/xiaomi-presento-cyberdog-2/">Ver fuente</a>.</li>
+<li>Fallo en WinRAR : Permite ejecutar código (programa) arbitrario luego de abrir un archivo RAR.
+<a href="https://computerhoy.com/ciberseguridad/fallo-winrar-permite-ciberdelincuentes-infectar-dispositivo-abrir-archivos-rar-1292194">Ver fuente</a>.</li>
+<li>Anonymous lanzó un ciberataque contra la central nuclear de Fukushima en señal de rechazo al vertido de su agua residual al océano.
+<a href="https://www.infobae.com/america/mundo/2023/08/18/anonymous-lanzo-un-ciberataque-contra-la-central-nuclear-de-fukushima-en-senal-de-rechazo-al-vertido-de-su-agua-residual/?outputType=amp-type">Ver fuente</a>.
+<ul class="org-ul">
+<li>Es un DDoS a la Web de la central nuclear.</li>
+</ul></li>
+</ul>
+
 <p>
 FaiWeb:
 </p>
 
 <ul class="org-ul">
-<li>Concursos para PAD (DIC), ASD (DIS), AYP (DIC, DIS, DP) para los Departamentos de Ingeniería de Sistemas (DIS), Ingeniería de Computadoras (DIC) y Programación (DP).
-</li>
-<li>Curso de Posgrado "Negocios y Transformación Digital" Dra. Alejandra Cechich. Inicia: 07 de septiembre de 2023.
-</li>
-<li>Departamento de alumnxs cambia de horario de 10:00 a 15:00.
-</li>
-<li>Hay noticias en la bolsa de trabajo: Credi Guía e ITEC/DOHKO SRL. &#9888;&#65039; Preguntar al Bomba
-</li>
+<li>Curso de Posgrado "Negocios y Transformación Digital" Dra. Alejandra Cechich. Inicia: 07 de septiembre de 2023.</li>
+<li>Departamento de alumnxs cambia de horario de 10:00 a 15:00.</li>
+<li>Hay noticias en la bolsa de trabajo: <a href="https://www.fi.uncoma.edu.ar/index.php/bolsa-de-trabajo/credi-guia/">Credi Guía</a> e <a href="https://www.fi.uncoma.edu.ar/index.php/bolsa-de-trabajo/itec-dohko-srl/">ITEC/DOHKO SRL</a>. &#9888;&#65039; Preguntar al Bomba</li>
+<li>Programa de Prácticas Educativas de Verano 2024 – Grupo TECHINT. Para estudiantes universitarios que cuenten con más del <b>50% de su carrera aprobada</b> y que deseen realizar una práctica profesional durante los meses de enero a marzo.</li>
 </ul>
 
 <p>
@@ -644,17 +402,13 @@ Bienestar FaI:
 </p>
 
 <ul class="org-ul">
-<li>Inició la segunda convocatoria para los planes Progresar, las inscripciones se encuentran abiertas desde el 14 de julio al 31 de agosto. También se lanza el Programa de Formación y Certificación en Lenguas Extranjeras para becarias y becarios Progresar y Manuel Belgrano. Más info en: <a href="https://www.argentina.gob.ar/becasprogresar">https://www.argentina.gob.ar/becasprogresar</a>
-</li>
+<li>Inició la segunda convocatoria para los planes Progresar, las inscripciones se encuentran abiertas desde el 14 de julio al 31 de agosto. También se lanza el Programa de Formación y Certificación en Lenguas Extranjeras para becarias y becarios Progresar y Manuel Belgrano. Más info en: <a href="https://www.argentina.gob.ar/becasprogresar">https://www.argentina.gob.ar/becasprogresar</a></li>
 <li>Taller "Estrategias y habilidades para el aprendizaje y el estudio"
-25/08 a las 13:00 aula i1.
-</li>
+25/08 a las 13:00 aula i1.</li>
 <li>Taller "Importancia en la organización del aprendizaje"
-01/09 a las 13:00 aula i1.
-</li>
-<li>Charla "Malesta subjetivo y sus diferentes manifestaciones"
-15/09 a las 13:00 aula i1.
-</li>
+01/09 a las 13:00 aula i1.</li>
+<li>Charla "Malestar subjetivo y sus diferentes manifestaciones"
+15/09 a las 13:00 aula i1.</li>
 </ul>
 
 <p>
@@ -662,53 +416,72 @@ Efemerides:
 </p>
 
 <ul class="org-ul">
-<li>7/08/1966  Nace Jimmy Wales, cofundador de Wikipedia
-</li>
-<li>11/08/1950 Nace Steve Wozniak
-</li>
-<li>12/08/1981 IBM PC 5150: La primera "PC"
-</li>
-<li>17/08/1936 Nace Margaret Hamilton, pionera de la ingeniería de software
-</li>
-<li>19/08/1923 Nace Edgar Codd
-</li>
-<li>23/08/1991 Día del Internauta
-</li>
-<li>23/08/1991 Tim Berners-Lee publica la primera página web
-</li>
-<li>25/08/1991 Linus Torvalds libera la primera versión de Linux
-</li>
-<li>29/08      Día del gamer
-</li>
-<li>30/08/1907 Nace John Mauchly
-</li>
+<li>7/08/1966  Nace Jimmy Wales, cofundador de Wikipedia</li>
+<li>11/08/1950 Nace Steve Wozniak</li>
+<li>12/08/1981 IBM PC 5150: La primera "PC"</li>
+<li>17/08/1936 Nace Margaret Hamilton, pionera de la ingeniería de software</li>
+<li>19/08/1923 Nace Edgar Codd</li>
+<li>23/08/1991 Día del Internauta</li>
+<li>23/08/1991 Tim Berners-Lee publica la primera página web</li>
+<li>25/08/1991 Linus Torvalds libera la primera versión de Linux</li>
+<li>29/08      Día del gamer</li>
+<li>30/08/1907 Nace John Mauchly</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-sec-2-3" class="outline-3">
-<h3 id="sec-2-3"><span class="section-number-3">2.3</span> Bloque 1: Trabajo en la informática</h3>
-<div class="outline-text-3" id="text-2-3">
+<div id="outline-container-org78cece6" class="outline-3">
+<h3 id="org78cece6"><span class="section-number-3">1.3.</span> Bloque 1: Trabajo en la informática</h3>
+<div class="outline-text-3" id="text-1-3">
 <p>
 Entrevista a Gonzalo Molina. Trabajo en el ámbito de la informática, y desmitificar un poco el trabajo para "afuera".
 </p>
-</div>
-</div>
 
-<div id="outline-container-sec-2-4" class="outline-3">
-<h3 id="sec-2-4"><span class="section-number-3">2.4</span> Bloque 2:</h3>
-</div>
-
-<div id="outline-container-sec-2-5" class="outline-3">
-<h3 id="sec-2-5"><span class="section-number-3">2.5</span> Cierre del programa</h3>
-<div class="outline-text-3" id="text-2-5">
 <ul class="org-ul">
-<li>Hemos llegado al final del programa.
-</li>
-<li>¡Nos vemos la semana que viene, miércoles a las 13:00! ¡los esperamos!
-</li>
-<li>¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
-</li>
+<li>¿Qué trabajo realizás?</li>
+<li>¿Trabajás en un grupo? ¿cómo es la comunicación y el trato diario con el grupo?</li>
+<li>¿Conocés a las personas con las que trabajás?</li>
+<li>¿Cómo es trabajar para afuera? ¿es más exigente? ¿es diferente a trabajar acá?</li>
+<li>¿Creés que estamos capacitados para esos trabajos? ¿te ayudó estudiar acá?</li>
+<li>¿Hay mucho trabajo disponible desde el exterior para los informáticos?</li>
+<li>¿Qué tips o recomendaciones darías para trabajar afuera?</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9865e27" class="outline-3">
+<h3 id="org9865e27"><span class="section-number-3">1.4.</span> Bloque 2: ¿Hablar de quiénes son y qué hace Anonymous?</h3>
+<div class="outline-text-3" id="text-1-4">
+<ul class="org-ul">
+<li>¡Aclarar la palabra Hack!</li>
+<li>Grupo de personas que realizan: hacktivismo, ataques cibernéticos.</li>
+<li>Personas que desean mantenerse anónimas, y se organizan para hacer ataques.</li>
+
+<li>Nacen en imageboard 4chan.</li>
+
+<li>¿Tienen un objetivo?
+<ul class="org-ul">
+<li>Usualmente, no hay un objetivo sobre todo el colectivo: bromas, activismo, cracking.</li>
+<li>Lulz: Cracking solo por diversión o porque se puede. Black hat.</li>
+</ul></li>
+
+<li>¿Qué hicieron?
+<ul class="org-ul">
+<li>Ataques a la iglesia de Cientología.</li>
+<li>Contraataques a la censura y el copyright en Internet</li>
+<li>Participación en la Primavera Árabe (protestas en varios paises árabes en contra del régimen).</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org50e4c40" class="outline-3">
+<h3 id="org50e4c40"><span class="section-number-3">1.5.</span> Cierre del programa</h3>
+<div class="outline-text-3" id="text-1-5">
+<ul class="org-ul">
+<li>Hemos llegado al final del programa.</li>
+<li>¡Nos vemos la semana que viene, miércoles a las 13:00! ¡los esperamos!</li>
+<li>¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"</li>
 </ul>
 
 
@@ -720,13 +493,235 @@ Entrevista a Gonzalo Molina. Trabajo en el ámbito de la informática, y desmiti
 </div>
 </div>
 </div>
-</div></div></div>
-<footer id="postamble" class="">
-<div><p class="date">Fecha: 16 ago 2023</p>
-<p class="author">Autor: Christian Gimenez</p>
-<p class="date">Created: 2023-08-17 jue 11:35</p>
-<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 30.0.50 (<a href="http://orgmode.org">Org-mode</a> 9.6.2)</p>
+
+<div id="outline-container-orgbd2f347" class="outline-2">
+<h2 id="orgbd2f347"><span class="section-number-2">2.</span> Programa 21</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Emisión al aire:  <span class="timestamp-wrapper"><span class="timestamp">&lt;2023-08-16 mié&gt;</span></span>
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Guión técnico</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">Duración</th>
+<th scope="col" class="org-right">Finaliza</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Comienzo</td>
+<td class="org-left">Cortinilla: <code>Cortinillas/Apertura Ctrl Z.mp3</code></td>
+<td class="org-right">00:00:10</td>
+<td class="org-right">13:00:10</td>
+</tr>
+
+<tr>
+<td class="org-left">Inicio</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:02:00</td>
+<td class="org-right">13:02:10</td>
+</tr>
+
+<tr>
+<td class="org-left">Noticias</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:07:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#127925; Música</td>
+<td class="org-left">&#128163; Bomba, ¡todo tuyo!</td>
+<td class="org-right">00:03:00</td>
+<td class="org-right">13:10:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Bloque 1</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:15:00</td>
+<td class="org-right">13:25:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#9208;&#65039; Tanda</td>
+<td class="org-left">&#x2013;&#x2014; Tanda Publicitaria -----</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:30:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Bloque 2</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:15:00</td>
+<td class="org-right">13:45:10</td>
+</tr>
+
+<tr>
+<td class="org-left">Cierre</td>
+<td class="org-left">Cortinilla/separador: <code>Cortinillas/Cierre Ctrl Z.mp3</code></td>
+<td class="org-right">00:01:00</td>
+<td class="org-right">13:46:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left"><b>Total</b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:46:10</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+</table>
 </div>
-</footer>
+
+<div id="outline-container-org384b0c2" class="outline-3">
+<h3 id="org384b0c2"><span class="section-number-3">2.1.</span> Inicio del programa</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>Bienvenida a Control Z, el espacio de la Facultad de Informática.</li>
+<li>Miércoles a las 13:00 de la tarde</li>
+<li>Presentarse</li>
+<li>Resumen de qué se trata Control Z: ciudadanía digital, cultura libre, estudiá computación, informática diversa, control N</li>
+<li>Canales de comunicación: Instagram: ctrlz_fai | Web: <a href="https://controlz.fi.uncoma.edu.ar/">https://controlz.fi.uncoma.edu.ar/</a> | Correo: controlz@fi.uncoma.edu.ar</li>
+<li>Resumen del programa de hoy: ¿qué hay hoy?</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga4bc4c5" class="outline-3">
+<h3 id="orga4bc4c5"><span class="section-number-3">2.2.</span> Noticias</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li>Si se están inscribiendo a la materia introducción a la programación correspondiente a la Tecnicatura Universitaria en Desarrollo Web a través del SIU Guaraní y les dice que no hay cupo disponible, no se preocupen que a lo largo de la semana se irá aumentando el cupo</li>
+<li>Centro PyME ADENEU: Busca Pasante:   Ser estudiante Regular o Activo de la Licenciatura en Ciencias de la Computación / Sistemas de Información y tener las materias SISTEMAS OPERATIVOS I,  REDES DE COMPUTADORAS I y GESTIÓN  DE BASE DE DATOS  aprobadas.   O ser estudiante  Regular o Activo del último año de la Tecnicatura Universitaria en Administración de Sistemas y Software Libre o de la Tecnicatura Universitaria en Desarrollo Web.</li>
+<li>Curso de Posgrado "Negocios y Transformación Digital" Dra. Alejandra Cechich. Inicia: 07 de septiembre de 2023 (FaIWeb)</li>
+<li>Bienestar: Inició la segunda convocatoria para los planes Progresar, las inscripciones se encuentran abiertas desde el 14 de julio al 31 de agosto. También se lanza el Programa de Formación y Certificación en Lenguas Extranjeras para becarias y becarios Progresar y Manuel Belgrano. Más info en: <a href="https://www.argentina.gob.ar/becasprogresar">https://www.argentina.gob.ar/becasprogresar</a></li>
+<li>Departamento de alumnxs cambia de horario de 10:00 a 15:00.</li>
+<li>Cristian Ilabaca  - Nuevo Magister en Enseñanza en Escenarios Digitales.  El día jueves 10 de agosto de 2023 el Lic. Cristian Ilabaca.</li>
+</ul>
+
+<p>
+Efemerides:
+</p>
+<ul class="org-ul">
+<li>7/08/1966 Nace Jimmy Wales, cofundador de Wikipedia</li>
+<li>11/08/1950 Nace Steve Wozniak</li>
+<li>12/08/1981 IBM PC 5150: La primera "PC"</li>
+<li>17/08/1936 Nace Margaret Hamilton, pionera de la ingeniería de software</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf173352" class="outline-3">
+<h3 id="orgf173352"><span class="section-number-3">2.3.</span> Bloque 1: IA y el trabajo</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul class="org-ul">
+<li>IA en robots son caros y ¡ya se están utilizando!: industria automotriz con brazos mecánicos.
+<ul class="org-ul">
+<li>¿Cuánto sale un robot que cocina?</li>
+</ul></li>
+<li>IA: ¿quién los configura? ¿quién los vigila/controla? → Nuevos puestos pero ¿para quiénes?
+<ul class="org-ul">
+<li>Ej.: Repartos de paquetes con drones → Un humano hace un reparto vs. un humano controla 50 drones de reparto.</li>
+</ul></li>
+<li>Analogía: Cuando se incluyeron las computadoras: puestos se cerraron o cambiaron. → puestos se abrieron para configurarlas y mantenerlas</li>
+
+<li>Si no practicamos usar la IA (ChatGPT por ejemplo) ¿cómo vamos a saber usarlas y controlarlas?</li>
+<li>IAs existentes: para crear imágenes, músicas, textos, etc. Copian voces y estilos de lo que hay público en Internet.</li>
+
+<li>Beneficios
+<ul class="org-ul">
+<li>Responden a preguntas más propias de un usuario no técnico.</li>
+<li>Resultados de búsquedas más detalladas.</li>
+<li>Información escrita de manera más entendible.</li>
+</ul></li>
+<li>¿Riesgos? → 
+<ul class="org-ul">
+<li>ChatGPT escribe libros completos sin supervisión de un pedagogo ¿cómo generará esos libros?</li>
+<li>Chatbots pueden responder con cierto sesgo, discriminación, desinformación, ilusiones, etc.</li>
+<li>Creación de Fakenews con imágenes más creíbles: es simple crear una imágen superpuesta con otras.</li>
+<li>ChatGPT responda ante preguntas indebidas (apología al delito).</li>
+</ul></li>
+<li>¿Quiénes deben marcar sus obras? ¿no sería prudente que se marquen las generadas con IA?
+<ul class="org-ul">
+<li>¿Una manera de detectar si fue hecho con IA? → ¡Justamente la IA es para pasar el Test de Turing!</li>
+</ul></li>
+</ul>
+</div>
+
+<div id="outline-container-orgb920d76" class="outline-4">
+<h4 id="orgb920d76"><span class="section-number-4">2.3.1.</span> Bibliografía</h4>
+<div class="outline-text-4" id="text-2-3-1">
+<ul class="org-ul">
+<li><a href="https://www.cronista.com/columnistas/inteligencia-artificial-dilemas-de-la-revolucion/">https://www.cronista.com/columnistas/inteligencia-artificial-dilemas-de-la-revolucion/</a></li>
+<li><a href="https://www.infobae.com/tecno/2023/08/06/la-revolucion-de-los-robots-como-la-automatizacion-transformara-el-empleo/">https://www.infobae.com/tecno/2023/08/06/la-revolucion-de-los-robots-como-la-automatizacion-transformara-el-empleo/</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org17a0b43" class="outline-3">
+<h3 id="org17a0b43"><span class="section-number-3">2.4.</span> Bloque 2: Proyectos de extensión</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+Entrevistamos a Jorge Rodriguez Secretario de Extensión de la Facultad de Informática.
+</p>
+<ul class="org-ul">
+<li>¿Qué son los proyectos de extensión?</li>
+<li>¿Por qué son útiles los proyectos de extensión para la facultad/universidad?</li>
+<li>¿Qué proyectos de extensión hay?</li>
+<li>¿Cuál es la particularidad de estos proyectos?</li>
+<li>¿Podés contarnos un poquito de qué se tratan?</li>
+
+<li>"ALERTAR: un sistema informático inteligente y resiliente para la vigilancia y detección temprana de severidad de pacientes en 
+unidades de cuidados no intensivos." Director: Claudio Ruben Zanellatto – CoDirector: Javier Balladini.</li>
+<li>"El museo vuelve a las escuelas". Directora: Claudia Carina Fracchia - Co-Director: Amadeo Laurin.</li>
+<li>"Análisis forense de pericias médico-legales asistidas por sistemas inteligentes: preparación de datos". 
+Directora: Sandra Roger – CoDirector: Germán Braun.</li>
+<li>"Programación Lógica en la Escuela Primaria". Directora: Laura Cecchi  - CoDirector: Jorge Rodríguez.</li>
+<li>"FaIComm: Charlamos sobre Computación". Director: Christian Gimenez - CoDirector: Pablo Kogan .</li>
+<li>"Conectados con la Escuela". Directora: Ingrid Godoy - CoDirectora: Susana Parra</li>
+</ul>
+
+<p>
+Lxs directorxs están debidamente notificadxs que lxs vamos a entrevistar pronto &#128518;.
+</p>
+</div>
+</div>
+<div id="outline-container-orgad47f99" class="outline-3">
+<h3 id="orgad47f99"><span class="section-number-3">2.5.</span> Cierre del programa</h3>
+<div class="outline-text-3" id="text-2-5">
+<ul class="org-ul">
+<li>Hemos llegado al final del programa.</li>
+<li>¡Nos vemos la semana que viene, miércoles a las 13:00! ¡los esperamos!</li>
+<li>¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Fecha: 16 ago 2023</p>
+<p class="author">Autor: Christian Gimenez</p>
+<p class="date">Created: 2023-08-22 mar 16:29</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
 </body>
 </html>
