@@ -47,6 +47,9 @@ Internacionales:
   [[https://www.infobae.com/america/mundo/2023/08/18/anonymous-lanzo-un-ciberataque-contra-la-central-nuclear-de-fukushima-en-senal-de-rechazo-al-vertido-de-su-agua-residual/?outputType=amp-type][Ver fuente]].
   - Es un DDoS a la Web de la central nuclear.
 
+Nacionales:
+  - Marchas a favor del CONICET y la UNComa en alerta por propuestas contra de la universidad pública. [[https://www.telam.com.ar/notas/202308/637516-filmus-defensa-conicet-tecnologia-nacional.html][Fuente 1]]. [[https://www.uncoma.edu.ar/la-unco-en-alerta-frente-a-propuestas-que-atacan-la-universidad-publica/][Fuente de la UNComa]].
+
 FaiWeb:
 
 - Curso de Posgrado "Negocios y Transformación Digital" Dra. Alejandra Cechich. Inicia: 07 de septiembre de 2023.
