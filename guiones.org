@@ -13,15 +13,17 @@ Emisión al aire: <2023-08-23 mié>
 |   | \musicalnote{} Música     | \bomb{} Bomba, ¡todo tuyo!                               | 00:03:00 | 13:10:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Bloque 1      |                                                     | 00:15:00 | 13:25:10 |
+|   | \lightbulb{} Tip Leo    |                                                     | 00:01:00 | 13:26:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:30:10 |
+|   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:31:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 2      |                                                     | 00:15:00 | 13:45:10 |
-|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:46:10 |
+|   | Bloque 2      |                                                     | 00:15:00 | 13:46:10 |
+|   | \lightbulb{} Tip Leo    |                                                     | 00:01:00 | 13:47:10 |
+|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:48:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | *Total*         |                                                     | 00:46:10 |          |
-#+TBLFM: @4$5..@11$5=$4 + @-1$5;T::@12$4='(apply '+ '(@4$4..@11$4));T
+|   | *Total*         |                                                     | 00:48:10 |          |
+#+TBLFM: @4$5..@13$5=$4 + @-1$5;T::@14$4='(apply '+ '(@4$4..@13$4));T
 
 \warning{} Preguntar al Bomba si se puede mencionar los nombres de las empresas.
 
@@ -75,6 +77,9 @@ Efemerides:
 - 29/08      Día del gamer
 - 30/08/1907 Nace John Mauchly
   
+** Tips de Leo
+- DNS Privado en Android para bloquear Ads. ¿Sirve? ¿A qué costo? [[https://www.croma.com/unboxed/how-to-block-ads-on-android-smartphone#:~:text=Enter%20the%20Network%20and%20Internet,and%20tap%20on%20'Save][Fuente 1]]. [[https://www.xatakandroid.com/tutoriales/como-usar-dns-privado-android-sirve][Fuente 2]].
+- SteamOS vs Steam en Linux.
 ** Bloque 1: Trabajo en la informática
 Entrevista a Gonzalo Molina. Trabajo en el ámbito de la informática, y desmitificar un poco el trabajo para "afuera".
 
