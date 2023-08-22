@@ -113,8 +113,6 @@ Entrevista a Gonzalo Molina. Trabajo en el ámbito de la informática, y desmiti
 
 
 
-#+HTML: <script src="js/guiones.js" type="text/javascript"></script>
-
 * Programa 21
 Emisión al aire:  <2023-08-16 mié>
 
@@ -209,6 +207,10 @@ Lxs directorxs están debidamente notificadxs que lxs vamos a entrevistar pronto
 - ¡Nos vemos la semana que viene, miércoles a las 13:00! ¡los esperamos!
 - ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
 
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: <script src="js/guiones.js" type="text/javascript"></script>
 
 * Meta     :noexport:
 
