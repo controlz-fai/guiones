@@ -56,16 +56,6 @@ FaiWeb:
 - Departamento de alumnxs cambia de horario de 10:00 a 15:00.
 - Hay noticias en la bolsa de trabajo: [[https://www.fi.uncoma.edu.ar/index.php/bolsa-de-trabajo/credi-guia/][Credi Guía]] e [[https://www.fi.uncoma.edu.ar/index.php/bolsa-de-trabajo/itec-dohko-srl/][ITEC/DOHKO SRL]]. \warning{} Preguntar al Bomba
 - Programa de Prácticas Educativas de Verano 2024 – Grupo TECHINT. Para estudiantes universitarios que cuenten con más del *50% de su carrera aprobada* y que deseen realizar una práctica profesional durante los meses de enero a marzo. 
-
-Bienestar FaI:
-
-- Inició la segunda convocatoria para los planes Progresar, las inscripciones se encuentran abiertas desde el 14 de julio al 31 de agosto. También se lanza el Programa de Formación y Certificación en Lenguas Extranjeras para becarias y becarios Progresar y Manuel Belgrano. Más info en: https://www.argentina.gob.ar/becasprogresar
-- Taller "Estrategias y habilidades para el aprendizaje y el estudio"
-  25/08 a las 13:00 aula i1.
-- Taller "Importancia en la organización del aprendizaje"
-  01/09 a las 13:00 aula i1.
-- Charla "Malestar subjetivo y sus diferentes manifestaciones"
-  15/09 a las 13:00 aula i1.
     
 Efemerides:
 
@@ -83,16 +73,23 @@ Efemerides:
 ** Tips de Leo
 - DNS Privado en Android para bloquear Ads. ¿Sirve? ¿A qué costo? [[https://www.croma.com/unboxed/how-to-block-ads-on-android-smartphone#:~:text=Enter%20the%20Network%20and%20Internet,and%20tap%20on%20'Save][Fuente 1]]. [[https://www.xatakandroid.com/tutoriales/como-usar-dns-privado-android-sirve][Fuente 2]].
 - SteamOS vs Steam en Linux.
-** Bloque 1: Trabajo en la informática
-Entrevista a Gonzalo Molina. Trabajo en el ámbito de la informática, y desmitificar un poco el trabajo para "afuera".
+** Bloque 1:
+- Susana Parra, secretaria de Bienestar de la Facultad de Informática
 
-- ¿Qué trabajo realizás?
-- ¿Trabajás en un grupo? ¿cómo es la comunicación y el trato diario con el grupo?
-- ¿Conocés a las personas con las que trabajás?
-- ¿Cómo es trabajar para afuera? ¿es más exigente? ¿es diferente a trabajar acá?
-- ¿Creés que estamos capacitados para esos trabajos? ¿te ayudó estudiar acá?
-- ¿Hay mucho trabajo disponible desde el exterior para los informáticos?
-- ¿Qué tips o recomendaciones darías para trabajar afuera?
+- ¿Qué es Bienestar?
+- ¿Qué es la Secretaría de Bienestar? ¿qué tareas realiza?
+- ¿Por qué es importante la Secretaría de Bienestar?
+- ¿Qué relación tiene con deportes? ¿hacen actividades recreativas?
+  - No solo se trata de actividades recreativas \to{} permanencia y estadía de los estudiantes.
+- ¿Qué eventos realizarán? ¿de qué se tratan? ¿por qué son relevantes?
+
+- Inició la segunda convocatoria para los planes Progresar, las inscripciones se encuentran abiertas desde el 14 de julio al 31 de agosto. También se lanza el Programa de Formación y Certificación en Lenguas Extranjeras para becarias y becarios Progresar y Manuel Belgrano. Más info en: https://www.argentina.gob.ar/becasprogresar
+- Taller "Estrategias y habilidades para el aprendizaje y el estudio"
+  25/08 a las 13:00 aula i1.
+- Taller "Importancia en la organización del aprendizaje"
+  01/09 a las 13:00 aula i1.
+- Charla "Malestar subjetivo y sus diferentes manifestaciones"
+  15/09 a las 13:00 aula i1.
 
 ** Bloque 2: ¿Hablar de quiénes son y qué hace Anonymous?
 - ¡Aclarar la palabra Hack!
@@ -120,6 +117,18 @@ Entrevista a Gonzalo Molina. Trabajo en el ámbito de la informática, y desmiti
 
 
 
+
+* Bloques que quedaron afuera
+** Bloque 1: Trabajo en la informática
+Entrevista a Gonzalo Molina. Trabajo en el ámbito de la informática, y desmitificar un poco el trabajo para "afuera".
+
+- ¿Qué trabajo realizás?
+- ¿Trabajás en un grupo? ¿cómo es la comunicación y el trato diario con el grupo?
+- ¿Conocés a las personas con las que trabajás?
+- ¿Cómo es trabajar para afuera? ¿es más exigente? ¿es diferente a trabajar acá?
+- ¿Creés que estamos capacitados para esos trabajos? ¿te ayudó estudiar acá?
+- ¿Hay mucho trabajo disponible desde el exterior para los informáticos?
+- ¿Qué tips o recomendaciones darías para trabajar afuera?
 
 * Programa 21
 Emisión al aire:  <2023-08-16 mié>
