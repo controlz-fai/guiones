@@ -1,3 +1,107 @@
+* Programa 23
+Emisión al aire: <2023-08-30 mié>
+
+|   | Guión técnico |                                                     | Duración | Finaliza |
+| / | <>            | <>                                                  |       <> |       <> |
+| / | Inicio        |                                                     |          | 13:00:00 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
+|   | Presentación  | Presentación del programa                           | 00:02:00 | 13:02:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 1      | CONICET - Entrevista con Martín Garriga             | 00:15:00 | 13:25:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \musicalnote{} Música     | \bomb{} Bomba, ¡todo tuyo!                               | 00:03:00 | 13:10:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Noticias      |                                                     | 00:05:00 | 13:07:10 |
+|   | \lightbulb{} Tips       |                                                     | 00:01:00 | 13:26:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:31:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 2      | CONICET - Enrevista a Rafaela Mazalú                | 00:15:00 | 13:46:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Noticias      |                                                     |          |          |
+|   | \lightbulb{} Tips       |                                                     | 00:01:00 | 13:47:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:48:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | *Total*         |                                                     | 00:48:10 |          |
+#+TBLFM: @4$5..@14$5=$4 + @-1$5;T::@15$4='(apply '+ '(@4$4..@14$4));T
+
+\warning{} Preguntar al Bomba si se puede mencionar los nombres de las empresas.
+
+** Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Miércoles a las 13:00 de la tarde
+- Presentarse
+- Resumen de qué se trata Control Z: ciudadanía digital, cultura libre, estudiá computación, informática diversa, control N
+- Canales de comunicación: Instagram: [[https://www.instagram.com/ctrlz_fai/][ctrlz_fai]] | Web: https://controlz.fi.uncoma.edu.ar/ | Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+** Noticias
+
+*** Internacionales
+
+- Respuesta de la comunidad de Firefox ante el DRM para la Web propuesto por Google.  [[https://github.com/mozilla/standards-positions/issues/852#issuecomment-1648820747][Fuente]]
+- Semana pasada se me escapó: alunizaje de la sonda chandrayaan-3 de la India, en una zona que no fue explorada aún.
+
+*** FaiWeb
+
+- Novedad: viernes 8 inicia ciclo de cine en la FaI 
+- Curso de Posgrado "Negocios y Transformación Digital" Dra. Alejandra Cechich. Inicia: 07 de septiembre de 2023.
+
+Bienestar:
+
+- Taller "Importancia en la organización del aprendizaje"
+  
+  01/09 a las 13:00 aula i1.
+- Charla "Malestar subjetivo y sus diferentes manifestaciones"
+  
+  15/09 a las 13:00 aula i1.
+    
+*** Efemerides
+
+- 7/08/1966  Nace Jimmy Wales, cofundador de Wikipedia
+- 11/08/1950 Nace Steve Wozniak
+- 12/08/1981 IBM PC 5150: La primera "PC"
+- 17/08/1936 Nace Margaret Hamilton, pionera de la ingeniería de software
+- 19/08/1923 Nace Edgar Codd
+- 23/08/1991 Día del Internauta
+- 23/08/1991 Tim Berners-Lee publica la primera página web
+- 25/08/1991 Linus Torvalds libera la primera versión de Linux
+- 29/08      Día del gamer
+- 30/08/1907 Nace John Mauchly
+  
+** Tips de Leo
+- Acortar videos para estudiar: Jum cutter o Skip Silence.  [[https://www.youtube.com/shorts/RUePCBaXKfs][Fuente.]]
+- Gandhi es tu peor enemigo en Civilization (ejemplo práctico de un underflow). [[https://youtube.com/shorts/xxGr3T8tDwE?si=g4L9rQErvKuLcwUX][Fuente.]]
+- SteamOS vs Steam en Linux.
+** Bloque 1: Entrevista a Martín Garriga
+- Dr. Martín Garriga fue becario doctoral del CONICET y ha concluido su beca.
+
+- ¿Qué es una beca doctoral? ¿cuál es el objetivo?
+- ¿Qué relación tiene el CONICET con la beca? 
+- ¿Cómo accediste a la beca doctoral? ¿qué tuviste que hacer?
+- ¿Cómo es trabajar con una beca doctoral?
+- ¿El CONICET gestionaba o administraba tu trabajo? ¿cómo?
+- ¿Y en qué consistía tu trabajo? ¿qué tareas hiciste para desarrollar tu beca?
+- ¿Podés contarnos un poco de qué trataba tu trabajo?
+- ¿Podrías haber desarrollado tu doctorado sin la beca? ¿cómo hubiera sido?
+- ¿cómo viviste la experiencia? ¿cómo te sentiste?
+
+** Bloque 2: Entrevista a Rafaela Mazalú
+- Dra. Rafaela Mazalú docente universitaria becaria doctoral CONICET
+
+Mismas preguntas que el Bloque 1.
+
+- ¿La beca o el doctorado ayuda a tu trabajo de docencia?
+- ¿de qué manera aporta a la universidad una becaria y/o una doctora?
+
+** Cierre del programa
+
+- Hemos llegado al final del programa.
+- ¡Nos vemos la semana que viene, miércoles a las 13:00! ¡los esperamos!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
 
 * Programa 22
 Emisión al aire: <2023-08-23 mié>
