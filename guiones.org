@@ -19,7 +19,7 @@ Emisión al aire: <2023-09-06 mié 13:00>
 |---+---------------+---------------------------------------------------------+----------+----------|
 |   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                          | 00:05:00 | 13:31:10 |
 |---+---------------+---------------------------------------------------------+----------+----------|
-|   | Bloque 2      | Esteban Pagano - Nuevo taller de Cultura Maker          | 00:15:00 | 13:46:10 |
+|   | Bloque 2      | Guillermo Grosso - Historia de la computación y Sadosky | 00:15:00 | 13:46:10 |
 |---+---------------+---------------------------------------------------------+----------+----------|
 |   | Noticias      |                                                         |          |          |
 |---+---------------+---------------------------------------------------------+----------+----------|
@@ -85,12 +85,46 @@ Bienestar:
 - 29/08      Día del gamer
 - 30/08/1907 Nace John Mauchly
   
+** Bloque 1: Daniela Zacharías - Observatorio Electoral en Ecuador y Bariloche
+- Daniela Zacharías, docente del Departamento de Estadística en el Centro Regional Universitario Bariloche (CRUB) e integrante del Obseratorio Electoral de la Universidad Nacional del Comahue.
+
+Hubo elecciones en Ecuador y el Observatorio Electoral estuvo presente.
+ 
+- ¿Cómo fueron las elecciones de Ecuador?
+- ¿Cómo se observó el ambiente social?
+- ¿Qué tareas realizaron allá?
+- ¿Qué mecanismo electoral utilizaron? 
+- ¿Qué observaron?
+  
+En Bariloche, el observatorio también estuvo presente.
+
+- ¿Qué mecanismo electoral utilizaron?
+- ¿Cómo fueron las observaciones? ¿dónde observaron?  
+- ¿Qué observaron? ¿Qué resultados relevantes obtuvieron?
+- ¿Alguna curiosidad para contarnos?
+
+Final:
+
+- Si yo quiero participar en futuras observaciones, ¿cómo hago?
+- ¿Por qué es importante participar?
+- Mencionar Web: observatorioelectoral.uncoma.edu.ar
+
+Despedir y repetir presentación.
+  
 ** Tips de Leo
 - Gandhi es tu peor enemigo en Civilization (ejemplo práctico de un underflow). [[https://youtube.com/shorts/xxGr3T8tDwE?si=g4L9rQErvKuLcwUX][Fuente.]]
   
-** Bloque 1: 
+** Bloque 2: Guillermo Grosso - Historia de la Computación y Sadosky
+Guillermo Grosso decano de la Facultad de Informática, profesor de Aspectos Profesionales y Sociales, materia donde se habla de la historia de la computación.
 
-** Bloque 2: 
+- Hablaremos de: Historia de la computación y un poco de Sadosky.
+- ¿Quién fue Sadosky? ¿Qué relevancia tuvo con la computación en la argentina?
+- ¿Qué proyectos relevantes hizo Sadosky? ¿En qué instituciones los hizo?
+- Trajo a Clementina, pero ¿había planes de hacer una computadora? ¿dónde?
+- Las primeras carreras de informática, ¿en qué momento se incluyeron a las universidades?
+- ¿Por qué suponés que esos proyectos e investigaciones se realizaron en las universidades públicas en nuestro país?
+
+Despedir y recordar temática y quién es el invitado.
 
 ** Noticias
 - Recordatorio importante para estudiantes:
@@ -462,8 +496,11 @@ Lxs directorxs están debidamente notificadxs que lxs vamos a entrevistar pronto
 - ¡Nos vemos la semana que viene, miércoles a las 13:00! ¡los esperamos!
 - ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
 
+
 * Licencia
 Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+- "Ranibow Tylenol". Autor: Kitsune^{2} (Renard Queenston), Album: Squaredance.
 
 #+HTML: <script src="js/guiones.js" type="text/javascript"></script>
 
