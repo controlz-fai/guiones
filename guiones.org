@@ -20,7 +20,7 @@ Emisión al aire: <2023-09-06 mié 13:00>
 |   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:31:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Bloque 2      | Triste noticia: Falleció Noemí Labrune              | 00:15:00 | 13:46:10 |
-|   |               | Llamar a Guillermo Grosso                           |          |          |
+|   |               | \telephonereceiver{} Llamar a Guillermo Grosso                        |          |          |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Noticias      |                                                     |          |          |
 |---+---------------+-----------------------------------------------------+----------+----------|
@@ -66,6 +66,15 @@ Bienestar:
   15/09 a las 13:00 aula i1.
    
 ** Bloque 1: Ciclo de cine en FaI
+
+Presentar invitadxs.
+
+- ¿Qué sucedió el viernes? ¿cómo fue? ¿fueron muchas personas?
+- ¿Qué peli pasaron? ¿De qué se trató la peli?
+- ¿Estuvo buena? ¿les gustó?
+- ¿Les dejó alguna moraleja o algo para pensar?
+- ¿Les pareción útil pasar pelis de ese tipo en la facu?
+- ¿Sugerirían alguna peli para pasar? ¿alguna temática en particular?  
 
 Despedir y repetir presentación.
   
