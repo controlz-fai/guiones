@@ -2,34 +2,36 @@
 * Programa 26
 Emisión al aire: <2023-09-20 mié 13:00>
 
-|   | Guión técnico |                                                     | Duración | Finaliza |
-| / | <>            | <>                                                  |       <> |       <> |
-| / | Inicio        |                                                     |          | 13:00:00 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
-|   | Presentación  | Presentación del programa                           | 00:02:00 | 13:02:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | Noticias      |                                                     | 00:05:00 | 13:07:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | \musicalnote{} Música     | \bomb{} Bomba: ¡Todo tuyo!                               | 00:03:00 | 13:10:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1      | ¿Qué pasó en el torneo de programación?             | 00:15:00 | 13:25:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | \lightbulb{} Tips       | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:01:00 | 13:26:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:31:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | Mini noticia  |                                                     | 00:02:00 | 13:33:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 2      | XINU: Rafael Zurita                                 | 00:15:00 | 13:48:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | \lightbulb{} Tips       | \bomb{} Bomba: Fondo Rainbow Tylenol                     |          |          |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:49:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | *Total*         |                                                     | 00:49:10 |          |
-#+TBLFM: @4$5..@14$5=$4 + @-1$5;T::@15$4='(apply '+ '(@4$4..@14$4));T
+|   | Guión técnico     |                                                     | Duración | Finaliza |
+| / | <>                | <>                                                  |       <> |       <> |
+| / | Inicio            |                                                     |          | 13:00:00 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Comienzo          | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
+|   | Presentación      | Presentación del programa                           | 00:02:00 | 13:02:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Noticias          |                                                     | 00:05:00 | 13:07:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | \musicalnote{} Música         | \bomb{} Bomba: ¡Todo tuyo!                               | 00:03:00 | 13:10:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 1          | ¿Qué pasó en el torneo de programación?             | 00:15:00 | 13:25:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:01:00 | 13:26:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | \pausebutton{} Tanda           | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:31:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Noticia deportiva | \telephone{} llamar a Ian                                      |          | 13:31:10 |
+|   | Mini noticia      |                                                     | 00:02:00 | 13:33:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 2          | XINU: Rafael Zurita                                 | 00:15:00 | 13:48:10 |
+|   |                   | \telephone{} Llamar a Rafael Zurita                            |          | 13:48:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     |          | 13:48:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Cierre            | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:49:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | *Total*             |                                                     | 00:49:10 |          |
+#+TBLFM: @4$5..@16$5=$4 + @-1$5;T::@17$4='(apply '+ '(@4$4..@16$4));T
 
 ** Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
@@ -44,6 +46,7 @@ Emisión al aire: <2023-09-20 mié 13:00>
 *** Internacionales
 
 - En el foro de The War Thunder un usuario ha publicado documentación restringida de un aeroplano de combate. [[https://www.techradar.com/gaming/consoles-pc/the-war-thunder-forum-has-once-again-been-used-to-share-restricted-plane-documentation-this-time-about-the-f-117-nighthawk][Fuente.]]
+- Unity cobrará por cada instalación. [[https://www.gamedeveloper.com/business/unity-to-start-charging-fee-pegged-to-game-installs][Fuente.]]
   
 *** Nacionales
 - Anita Sarkeesian anuncia el cierre de Feminist Frequency.
@@ -76,7 +79,10 @@ Despedir y repetir presentación.
 
 - Cuando giraron un edificio entero 90\deg{} (¡con las computadoras adentro funcionando!). [[https://youtube.com/shorts/7amxWIxnbyc?si=b4AdrW_-PdPScdiY][Fuente.]]
 
-** Mini Noticia
+** Noticia deportiva o mini Noticia
+
+- 20 de septiembre *día del deporte universitario*. Vamos a juntarnos en la peatonal para llevar algunas de las actividades deportivas y recreativas en calle interfacultades. Se están haciendo banners con los nombres de lxs estudiantes deportistas para colgar en la calle peatonal, de manera de reconocimiento a ellxs.
+
 - En el marco de actividades de proyecto de extensión "Reduciendo Brechas".
   - Taller DronLab - ESRN 17 - Lunes 4 y martes 5 de septiembre. Talleristas: Ian Franco Matías Acosta, Valentina Villarroel, Leo Joaquin Bruno, Jonathan Cabrera, Daniel Alexis Carrasco Cifuentes y Angel Gabriel Avellaneda. 
     
