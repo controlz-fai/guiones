@@ -91,6 +91,7 @@ Despedir y repetir presentación.
     Ian, Lucas, Valentina, Lara, Cristopher, Micaela, Romina, Gabriela, Laura y Jorge
     
 ** Tips de Leo
+- Para usuarios de VSCode - "Error Lens" una extensión para mostrar tus errores. [[https://youtube.com/shorts/51q0PYdYOJc?si=Jpsx8PXLsND2sMU2][Fuente.]]
 - El lado malvado de ChatGPT, generar código con ChatGPT... *¡pero que feo código!* \facepalm{}. [[https://youtube.com/shorts/rVi-TBeUus4?si=EcGnxZaxx_J-3nYN][Fuente.]]
   
 ** Bloque 2: XINU: Rafael Zurita
