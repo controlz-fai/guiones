@@ -13,14 +13,16 @@ Emisión al aire: <2023-09-20 mié 13:00>
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | \musicalnote{} Música         | \bomb{} Bomba: ¡Todo tuyo!                               | 00:03:00 | 13:10:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1          | XINU: Rafael Zurita                                 | 00:15:00 | 13:53:10 |
-|   |                   | \telephone{} Llamar a Rafael Zurita                            |          | 13:53:10 |
+|   | Bloque 1          | XINU: Rafael Zurita                                 | 00:15:00 | 13:25:10 |
+|   |                   | \telephone{} Llamar a Rafael Zurita                            |          | 13:25:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
-|   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:01:00 | 13:31:10 |
+|   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:01:00 | 13:26:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
-|   | \pausebutton{} Tanda           | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:36:10 |
+|   | \pausebutton{} Tanda           | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:31:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
-|   | Mini noticia      |                                                     | 00:02:00 | 13:38:10 |
+|   | Noticia deportiva | Llamar o hablar con Ian                             | 00:02:00 | 13:33:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Noticia colación  | \telephone{} Llamar a Federico Solorza                         | 00:05:00 | 13:38:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | Bloque 2          | Encuentro en Mariano Moreno                         | 00:15:00 | 13:53:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
@@ -74,6 +76,33 @@ Despedir y recordar temática.
 ** Tips de Leo
 - ¿Una vida sin contraseñas? Los desafíos de la ciberseguridad. [[https://tn.com.ar/tecno/internet/2023/09/24/una-vida-sin-contrasenas-los-desafios-de-la-ciberseguridad/][Fuente.]]
 - Clickjacking, la técnica de ciberestafa que es tendencia: de qué se trata y cómo detectarla. [[https://tn.com.ar/tecno/novedades/2023/09/22/clickjacking-la-tecnica-de-ciberestafa-que-te-hace-hacer-en-internet-cosas-que-no-queres/][Fuente.]]
+
+** Noticia Colación
+Federico Solorza estudiante de la facultad de informática, recibido de Licenciado en Ciencias de la Computación.
+
+Acto Académico de jura y entrega de diplomas de la Facultad de Informática, que tendrá lugar en el Aula Magna de nuestra Universidad el día viernes 29 de septiembre de 2023 a partir de las 18 horas.
+
+Graduados:
+
+*Licenciatura en Ciencias de la Computación*
+
+Federico Sebastián SOLORZA
+
+*Licenciatura en Sistemas de Información*
+
+Sebastián Alejandro YAUPE CARRASCO
+
+*Analista Programador Universitario*
+
+Diego Pablo Matías BALTAR, Guillermo Ariel GUERRERO, José Luis POLO SOLA, Santiago Andres VILLARROEL, Carolina Ayelén VILLEGAS
+
+*Tecnicatura Universitaria en Administración de Sistemas y Software Libre*
+
+Marcelo Daniel BOUZO, Maximiliano Andrés ESPINOZA, Daniel Antonio MERCADO, Sebastián Agustín ROZAR
+
+*Tecnicatura Universitaria en Desarrollo Web*
+
+Federico DIAZ AIMAR, Matias Federico PERALTA MACRI, Augusto PERCEVAL MISTCHENCO, Franco Agustin RAMIREZ, Dario SEMENZATO
 
 ** Bloque 2: 
 
