@@ -2,3 +2,12 @@
     color: green;
     text-decoration-line: line-through;
 }
+
+/* Corregir algunos inconvenientes de accesibilidad */
+.timestamp {
+    color: black;
+}
+
+p {
+    text-align: left;
+}

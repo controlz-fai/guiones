@@ -1,8 +1,11 @@
 
+#+HTML: <main>
+
 * Programa 28
 Emisión al aire: <2023-09-20 mié 13:00>
 
-|   | Guión técnico     |                                                     | Duración | Finaliza |
+#+caption: Guión técnico para el operador.
+|   | Guión técnico     |  Detalle                                            | Duración | Finaliza |
 | / | <>                | <>                                                  |       <> |       <> |
 | / | Inicio            |                                                     |          | 13:00:00 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
@@ -87,7 +90,8 @@ Presentar.
 * Programa 27
 Emisión al aire: <2023-09-20 mié 13:00>
 
-|   | Guión técnico     |                                                     | Duración | Finaliza |
+#+caption: Guión técnico para el operador.
+|   | Guión técnico     | Detalle                                             | Duración | Finaliza |
 | / | <>                | <>                                                  |       <> |       <> |
 | / | Inicio            |                                                     |          | 13:00:00 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
@@ -195,7 +199,8 @@ Federico DIAZ AIMAR, Matias Federico PERALTA MACRI, Augusto PERCEVAL MISTCHENCO,
 * Programa 26
 Emisión al aire: <2023-09-20 mié 13:00>
 
-|   | Guión técnico     |                                                     | Duración | Finaliza |
+#+caption: Guión técnico para el operador.
+|   | Guión técnico     | Detalle                                                    | Duración | Finaliza |
 | / | <>                | <>                                                  |       <> |       <> |
 | / | Inicio            |                                                     |          | 13:00:00 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
@@ -313,7 +318,8 @@ Despedir y recordar temática.
 * Programa 25
 Emisión al aire: <2023-09-06 mié 13:00>
 
-|   | Guión técnico |                                                     | Duración | Finaliza |
+#+caption: Guión técnico para el operador.
+|   | Guión técnico | Detalle                                             | Duración | Finaliza |
 | / | <>            | <>                                                  |       <> |       <> |
 | / | Inicio        |                                                     |          | 13:00:00 |
 |---+---------------+-----------------------------------------------------+----------+----------|
@@ -440,7 +446,8 @@ Despedir y recordar temática.
 * Programa 24
 Emisión al aire: <2023-09-06 mié 13:00>
 
-|   | Guión técnico |                                                         | Duración | Finaliza |
+#+caption: Guión técnico para el operador.
+|   | Guión técnico | Detalle                                                 | Duración | Finaliza |
 | / | <>            | <>                                                      |       <> |       <> |
 | / | Inicio        |                                                         |          | 13:00:00 |
 |---+---------------+---------------------------------------------------------+----------+----------|
@@ -594,7 +601,8 @@ Despedir y recordar temática y quién es el invitado.
 * Programa 23
 Emisión al aire: <2023-08-30 mié 13:00>
 
-|   | Guión técnico |                                                     | Duración | Finaliza |
+#+caption: Guión técnico para el operador.
+|   | Guión técnico | Detalle                                             | Duración | Finaliza |
 | / | <>            | <>                                                  |       <> |       <> |
 | / | Inicio        |                                                     |          | 13:00:00 |
 |---+---------------+-----------------------------------------------------+----------+----------|
@@ -712,7 +720,8 @@ Mismas preguntas que el Bloque 1.
 * Programa 22
 Emisión al aire: <2023-08-23 mié>
 
-|   | Guión técnico |                                                     | Duración | Finaliza |
+#+caption: Guión técnico para el operador.
+|   | Guión técnico | Detalle                                             | Duración | Finaliza |
 | / | <>            | <>                                                  |       <> |       <> |
 | / | Inicio        |                                                     |          | 13:00:00 |
 |---+---------------+-----------------------------------------------------+----------+----------|
@@ -843,7 +852,8 @@ Entrevista a Gonzalo Molina. Trabajo en el ámbito de la informática, y desmiti
 * Programa 21
 Emisión al aire:  <2023-08-16 mié>
 
-|   | Guión técnico |                                                     | Duración | Finaliza |
+#+caption: Guión técnico para el operador.
+|   | Guión técnico | Detalle                                             | Duración | Finaliza |
 | / | <>            | <>                                                  |       <> |       <> |
 | / | Inicio        |                                                     |          | 13:00:00 |
 |---+---------------+-----------------------------------------------------+----------+----------|
@@ -942,6 +952,8 @@ Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compart
 
 #+HTML: <script src="js/guiones.js" type="text/javascript"></script>
 
+#+HTML: </main>
+
 * Meta     :noexport:
 
 # ----------------------------------------------------------------------
@@ -965,16 +977,12 @@ Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compart
 
 # -- Export
 #+LANGUAGE: es
-#+LINK_UP:   
-#+LINK_HOME: 
 #+EXPORT_SELECT_TAGS: export
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+export_file_name: index
 
 # -- HTML Export
 #+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
-#+HTML_LINK_UP: index.html
-#+HTML_LINK_HOME: index.html
 #+XSLT:
 
 # -- For ox-twbs or HTML Export
