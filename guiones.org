@@ -61,7 +61,71 @@ Emisión al aire: <2023-09-20 mié 13:00>
 
   Dicen que estuvo genial.
 
-** Bloque 1: ¿Qué pasó en Mariano Moreno? ¡Muchos talleres!
+** Bloque 1: ¿Qué pasó en Mariano Moreno? ¡Muchos talleres! 
+- Nicolás Casanova, Director de Juventud de la localidad de Mariano Moreno.
+- La universidad realizó una actividad llamada *Programate Itinerante*.
+- ¿Dónde fue?
+
+  Lugar: CPEM37 - localidad de Mariano Moreno.
+- ¿Quiénes participaron?
+
+  - De la escuela participaron: 98 estudiantes de 3, 4 y 5 año.  También, estudiantes del turno vespertino.
+  - Rectorado, municipalidad de Mariano moreno, Fundación Sadosky.
+  - 
+- ¿Qué actividades realizaron?
+
+  Talleres: seis talleres.
+
+  Programación de drones, desarrollo de aplicaciones móviles e internet seguro.
+- De nuestra facultad, ¿quiénes participaron?
+
+  Ian, Valentina y Leo.
+- ¿De qué se tratan los talleres?
+- ¿Les gustó? ¿cómo la pasaron?
+- ¿Les gustaría más talleres?
+- ¿Qué opinión tuvieron los docentes de la escuela?
+- *¿Van a participar del programate este año?*
+- *Agradecimientos:*
+
+  Escuela CPEM37, chofer Juan Vidal (por bancarse la música de Ian), secretaría de juventud del municipio de Mariano Moreno.
+
+
+*** Más detalles
+La actividad se realizó en el marco de PROGRAMATE 2023. 
+
+Actividad: PROGRAMATE ITINERANTE  | Mariano Moreno
+
+Proyecto: Reduciendo Brechas
+
+Escuela: CPEM37
+
+Participantes: 98 estudiantes de 3, 4 y 5 año. También participa un grupo de estudiantes del turno vespertino
+
+Talleres: se desarrollan seis talleres. Programación de drones, desarrollo de aplicaciones móviles e internet seguro
+
+Talleristas: Ian, Valentina y Leo
+
+Apoyos: rectorado, municipalidad de Mariano moreno, fundación sadosky.
+
+Temas abordados: algoritmos y programación, software libre, ingeniería de software, oferta académica de la FaI y promoción de la Educación
+Pública.
+
+Dinámica: Apertura (quienes somos, quienes son, que hacemos) - agrupamiento ( se conformar tres grupos Valentina.internet seguro, leo
+programación de drones . Ian desarrollo apps) desarrollo de cada taller - cierre (que aprendimos, cómo la pasamos, oferta académica ,
+educación pública.
+
+Esto a la mañana y luego a la tarde.
+
+Notas, la secretaria de juventud del municipio acompaño durante toda la jornada. Nos invitaron a comer asado, excepto a Ian
+
+Nota, la docencia de la escuela participó activamente.
+
+Nota agradecimiento al chofer Juan Vidal que tuvo que bancar la música de Ian
+
+Nota, 40 de estos estudiantes nos visitaran en PROGRAMATE
+
+Nota, la actividad fue un evento para el pueblo y para la escuela
+
 
 ** Tips de Leo
 - ¿Una vida sin contraseñas? Los desafíos de la ciberseguridad. [[https://tn.com.ar/tecno/internet/2023/09/24/una-vida-sin-contrasenas-los-desafios-de-la-ciberseguridad/][Fuente.]]
@@ -75,7 +139,9 @@ Emisión al aire: <2023-09-20 mié 13:00>
 - Sábado 28 de octubre 18:00, polideportivo "Beto Monteros", Neuquén.
 - Sorteo para ganar dos entradas.
 ** Bloque 2: ¡Tenemos una huerta!
-Presentar.
+Gabriela  Sepúlveda, trabajadora social en la SBU, coordinadora general de la huerta.
+
+¡Cumplieron un año!
 
 - ¿De qué se trata el proyecto?
 - ¿Quiénes participan?
