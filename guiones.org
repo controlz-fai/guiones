@@ -1,8 +1,131 @@
 
 #+HTML: <main>
 
+* Programa 29
+Emisión al aire: <2023-10-11 mié 13:00>
+
+#+caption: Guión técnico para el operador.
+|   | Guión técnico     | Detalle                                             | Duración | Finaliza |
+| / | <>                | <>                                                  |       <> |       <> |
+| / | Inicio            |                                                     |          | 13:00:00 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Comienzo          | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
+|   | Presentación      | Presentación del programa                           | 00:02:00 | 13:02:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Noticias          |                                                     | 00:05:00 | 13:07:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | \musicalnote{} Música         | \bomb{} Bomba: ¡Todo tuyo!                               | 00:03:00 | 13:10:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 1          | Hornero en las escuelas                             | 00:15:00 | 13:25:10 |
+|   |                   | \telephone{} Llamar a Fede Ceccotti                            |          |          |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:27:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | \pausebutton{} Tanda           | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:32:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Noticia deportiva | \telephone{} Llamar o hablar con Ian                           | 00:05:00 | 13:37:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 2          | Observatorio Electoral en las elecciones            | 00:15:00 | 13:52:10 |
+|   |                   | \telephone{} Llamar ¿a una observadora?                        |          |          |
+|   |                   | \play{} Reproducir Audio de spot del observatorio         |          |          |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:54:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Cierre            | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:55:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | *Total*             |                                                     | 00:55:10 |          |
+#+TBLFM: @4$5..@17$5=$4 + @-1$5;T::@18$4='(apply '+ '(@4$4..@17$4));T
+
+** Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Miércoles a las 13:00 de la tarde
+- Presentarse
+- Resumen de qué se trata Control Z: ciudadanía digital, cultura libre, estudiá computación, informática diversa, control N
+- Canales de comunicación: Instagram: [[https://www.instagram.com/ctrlz_fai/][ctrlz_fai]] | Web: https://controlz.fi.uncoma.edu.ar/ | Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+** Noticias
+
+*** Internacionales
+
+- Las IA empeoran aún más las respuestas rápidas de Google: [[https://arstechnica.com/information-technology/2023/09/can-you-melt-eggs-quoras-ai-says-yes-and-google-is-sharing-the-result/][Can you melt eggs? Quora's AI says "yes", and Google is sharing the result - ARS Technica]].
+
+
+*** Nacionales
+- Clementina XXI comenzó a funcionar. Una supercomputadora adquirida en diciembre del 2022 se puso en funcionamiento el 27 de septiembre. Es una de las 100 supercomputadoras más poderosas del mundo. [[https://www.pagina12.com.ar/592307-clementina-xxi-la-supercomputadora-argentina-ya-comenzo-a-fu][Fuente]].
+
+*** FaiWeb
+- Carrera de la universidad: "UNCo Activa". Amplía nuestro columnista en deportes @Ian.
+- Extende inicio de Curso de Posgrado "Big Data: Procesos, Componentes y Herramientas". a Dra. Agustina Buccella. Inicia: *Jueves 19* de octubre de 2023. Comunicarse por mail a posgradofai@fi.uncoma.edu.ar. [[https://www.fi.uncoma.edu.ar/index.php/investigacion-y-postgrado/cursos/curso-de-posgrado-big-data-procesos-componentes-y-herramientas/][Fuente.]]
+- Cristian Vincenzini: Modelos de generación de comentarios de código basados en transformers. El 3 de octubre de 2023, el estudiante Cristian Vincenzini aprobó su tesis de Licenciatura en Ciencias de la Computación. ¡Felicitaciones Licenciado!
+- Pasayo:
+  - 75 estudiantes en el espectro en total de los cuales: 
+    - 55 corresponden a facilitaciones de la Escuela PASAYO
+    - 20 corresponden a estudiantes de docentes o terapeutas haciendo el trayecto de formación docente.
+  - 03 familias están iniciando el nivel TANGIBLE
+  - 12 familias están avanzandas en el nivel TANGIBLE
+  - 37 familias han completado el nivel TANGIBLE
+  - 12 familias están iniciando el nivel BLOQUES
+  - 26 familias están avanzandas en el nivel
+- Atención estudiantes de Licenciatura en Sistemas de Información: Cambios en los contenidos mínimos de algunas materias. ¡Ver en FaiWeb! [[https://www.fi.uncoma.edu.ar/index.php/novedades/importante-atencion-estudiantes-de-licenciatura-en-sistemas-de-informacion/][Fuente]].
+- ¿Ciclo de CineFaI el jueves? ¿16:00? \to{} A confirmar.
+
+
+** Bloque 1: Hornero en las escuelas
+Presentar: Federico Ceccotti
+
+Contexto:
+- ¿Cómo contactaste a la universidad? ¿qué actividades han realizado previamente?
+- ¿Qué es Hornero? ¿Para que lo han utilizado?
+
+Actividades actuales:
+- Y ahora, ¿qué hicieron con Hornero? ¿adaptaron el software? ¿qué actividades han hecho?
+- ¿quiénes instalaron y/o adaptaron el software?
+- ¿qué cursos participaron de los torneos? ¿les gustó participar a lxs estudiantes?
+
+A futuro:
+- ¿van a hacer más torneos? ¿piensan mejorar Hornero?
+- ¿les sirvió el software que produjo la universidad? ¿hubiera sido posible si no fuese una universidad pública?
+- ¿tienen pensado participar del Programate?
+- ¿piensan hacer torneos con otras escuelas?
+
+Mencionar invitadxs y despedir.
+
+** Tips de Leo
+- ¿Una vida sin contraseñas? Los desafíos de la ciberseguridad. [[https://tn.com.ar/tecno/internet/2023/09/24/una-vida-sin-contrasenas-los-desafios-de-la-ciberseguridad/][Fuente.]]
+
+  Nos la dejaste picando la semana pasada... ¡ahora contá! \laughing{}
+
+** \pausebutton{} Tanda
+** Noticia deportiva
+- Carrera de la universidad: "UNCo Activa".
+- Preinscripciones en [[https://uncoactiva.fi.uncoma.edu.ar][uncoactiva.fi.uncoma.edu.ar]].
+- Sábado 28 de octubre 18:00, polideportivo "Beto Monteros", Neuquén.
+- ¿Sorteo para ganar dos entradas? \to{} ¿ya está listo?
+** Bloque 2: Observatorio Electoral en las elecciones del 22 de octubre
+\play{} Repetir Convocatoria: Reproducir spot de la radio.
+
+Presentar: Pablo Kogan o observadora invitada.
+
+- ¿Qué tareas hace un observador?
+- ¿Por qué observar las elecciones?
+- ¿Qué hacen con las observaciones?
+- ¿Qué observaciones han hecho?
+  - ¿Dónde puedo obtener información de observaciones anteriores?
+- ¿Cómo inscribirse?
+  - Para personas mayores de 18 años
+  - Observación el día 22 de octubre
+  - Inscribirse por observatorioelectoral.uncoma.edu.ar o enviar mensaje al 294 459-4321
+
+Mencionar invitadxs y despedir.
+
+** Tips de Leo
+- Clickjacking, la técnica de ciberestafa que es tendencia: de qué se trata y cómo detectarla. [[https://tn.com.ar/tecno/novedades/2023/09/22/clickjacking-la-tecnica-de-ciberestafa-que-te-hace-hacer-en-internet-cosas-que-no-queres/][Fuente.]]
+
+
 * Programa 28
-Emisión al aire: <2023-09-20 mié 13:00>
+Emisión al aire: <2023-10-04 mié 13:00>
 
 #+caption: Guión técnico para el operador.
 |   | Guión técnico     |  Detalle                                            | Duración | Finaliza |
@@ -1010,6 +1133,69 @@ Lxs directorxs están debidamente notificadxs que lxs vamos a entrevistar pronto
 - ¡Nos vemos la semana que viene, miércoles a las 13:00! ¡los esperamos!
 - ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
 
+
+
+* Consideraciones en el desarrollo del documento
+Para el desarrollo de este documento se utiliza [[https://www.gnu.org/software/emacs/][Emacs]] con [[https://orgmode.org/][Org-mode]]. Aquí se presentan algunos tips y snippets (retazos de código fuente)  necesarios para utilizar y generar los documentos LaTeX, PDF y HTML adecuadamente.
+
+** Cambios para la accesibilidad
+:PROPERTIES:
+:header-args:css: :tangle css/guiones.css :mkdirp yes
+:END:
+
+*** Al hacer clic mostrar tachado
+#+BEGIN_SRC css
+.done {
+    color: green;
+    text-decoration-line: line-through;
+}
+#+END_SRC
+
+*** Corrigiendo contraste de colores
+El timestamp original tiene color gris, corregir al negro para dar mayor contraste.
+
+#+BEGIN_SRC css
+  .timestamp {
+      color: black;
+  }
+#+END_SRC
+
+*** Quitar justificado
+El justificado completo suele dejar espacios en blanco. Esto es contraproducente para personas con problemas para leer e interpretar el contenido.
+
+#+BEGIN_SRC css
+  p {
+      text-align: left;
+  }
+#+END_SRC
+
+
+** Exportar fecha en español
+Es necesario utilizar un comando de Emacs específico para exportar las fechas en el formato correcto. En este caso, se utiliza =M-x my-org-export-dispatch= en vez del convencional =M-x org-export-dispatch= para preconfigurar el formato de la fecha.
+
+De esta manera, no se afecta al comando =org-export-dispatch= para no alterar otros documentos Org. Aunque, se deba evaluar este código cada vez que se carga el documento.
+
+#+BEGIN_SRC emacs-lisp :results silent
+(defun my-org-export-dispatch ()
+  "Exportar un archivo Org con la fecha en español.
+Org-mode utiliza timestamps basada en la ISO 8601, y cambiarlo para el
+documento es problemático: solo afecta al overlay (visualización) y no
+al dato guardado.
+
+Esta función cambia el formato visible momentáneamente previo a
+exportar, así los documentos se exportan a LaTeX y HTML con el formato
+de fecha en español, y es más sencillo de leer."
+  (interactive)
+  (let ((org-time-stamp-custom-formats
+         '("<%A, %B %d, %Y>" . "<%A, %d de %B del %Y %H:%M>"))
+        (org-display-custom-times 't))
+    (org-export-dispatch)))
+#+END_SRC
+
+** Org-entities
+Para generar los emojis en HTML y LaTeX, se incorporan más entidades de Org-mode. Estas entidades se encuentran en mi configuración personal de Emacs, bajo la siguiente URL: [[https://gitlab.com/cnngimenez/emacs-stuff]]
+
+Actualmente, se utiliza la siguiente configuración en particular: [[https://gitlab.com/cnngimenez/emacs-stuff/-/blob/fc0ae63677b37c178be44b1f45abb0510dfa76b4/init.org?plain=1#L2058][Ver configuración]].
 
 * Licencia
 Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
