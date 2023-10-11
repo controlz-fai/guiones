@@ -26,7 +26,7 @@ Emisión al aire: <2023-10-11 mié 13:00>
 |   | Noticia deportiva | \telephone{} Llamar o hablar con Ian                           | 00:05:00 | 13:37:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | Bloque 2          | Observatorio Electoral en las elecciones            | 00:15:00 | 13:52:10 |
-|   |                   | \telephone{} Llamar ¿a una observadora?                        |          |          |
+|   |                   | \telephone{} Llamar a Soledad Anselmi                          |          |          |
 |   |                   | \play{} Reproducir Audio de spot del observatorio         |          |          |
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:54:10 |
@@ -49,7 +49,12 @@ Emisión al aire: <2023-10-11 mié 13:00>
 
 *** Internacionales
 
+- Segundo martes de Octubre se conoce como el día de Ada Lovelace. Honrando las contribuciones de las mujeres en las ciencias, la tecnología, la ingeniería y las matemáticas (STEM).
+  https://www.nationalgeographicla.com/ciencia/2023/10/fue-la-primera-programadora-de-la-historia-y-predijo-la-existencia-de-la-inteligencia-artificial
 - Las IA empeoran aún más las respuestas rápidas de Google: [[https://arstechnica.com/information-technology/2023/09/can-you-melt-eggs-quoras-ai-says-yes-and-google-is-sharing-the-result/][Can you melt eggs? Quora's AI says "yes", and Google is sharing the result - ARS Technica]].
+- "Robotaxi parks on woman’s leg after running her over".
+
+  https://www.telegraph.co.uk/world-news/2023/10/03/san-francisco-cruise-driverless-car-woman-hit-and-run-crash/
 
 
 *** Nacionales
@@ -106,7 +111,7 @@ Mencionar invitadxs y despedir.
 ** Bloque 2: Observatorio Electoral en las elecciones del 22 de octubre
 \play{} Repetir Convocatoria: Reproducir spot de la radio.
 
-Presentar: Pablo Kogan o observadora invitada.
+Presentar: Soledad Anselmi, participó como observadora en varias elecciones previas.
 
 - ¿Qué tareas hace un observador?
 - ¿Por qué observar las elecciones?
