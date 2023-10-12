@@ -40,7 +40,11 @@ Emisión al aire: <2023-10-11 mié 13:00>
 ** Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
 - Miércoles a las 13:00 de la tarde
-- Presentarse
+- Presentarse:
+    
+  Pablo Kogan, Rodrigo Cañibano, Christian Gimenez, Valentina Villarroel, Ángel Avellaneda e Ian Acosta.
+
+  Sergio Bomba Guzmán e Ivo Coluchi en operación.
 - Resumen de qué se trata Control Z: ciudadanía digital, cultura libre, estudiá computación, informática diversa, control N
 - Canales de comunicación: Instagram: [[https://www.instagram.com/ctrlz_fai/][ctrlz_fai]] | Web: https://controlz.fi.uncoma.edu.ar/ | Correo: controlz@fi.uncoma.edu.ar
 - Resumen del programa de hoy: ¿qué hay hoy?
@@ -97,11 +101,6 @@ A futuro:
 
 Mencionar invitadxs y despedir.
 
-** Tips de Leo
-- ¿Una vida sin contraseñas? Los desafíos de la ciberseguridad. [[https://tn.com.ar/tecno/internet/2023/09/24/una-vida-sin-contrasenas-los-desafios-de-la-ciberseguridad/][Fuente.]]
-
-  Nos la dejaste picando la semana pasada... ¡ahora contá! \laughing{}
-
 ** \pausebutton{} Tanda
 ** Noticia deportiva
 - Carrera de la universidad: "UNCo Activa".
@@ -124,9 +123,6 @@ Presentar: Soledad Anselmi, participó como observadora en varias elecciones pre
   - Inscribirse por observatorioelectoral.uncoma.edu.ar o enviar mensaje al 294 459-4321
 
 Mencionar invitadxs y despedir.
-
-** Tips de Leo
-- Clickjacking, la técnica de ciberestafa que es tendencia: de qué se trata y cómo detectarla. [[https://tn.com.ar/tecno/novedades/2023/09/22/clickjacking-la-tecnica-de-ciberestafa-que-te-hace-hacer-en-internet-cosas-que-no-queres/][Fuente.]]
 
 
 * Programa 28
