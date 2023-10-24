@@ -1,6 +1,80 @@
 
 #+HTML: <main>
 
+* Programa 31
+Emision al aire <2023-10-25 mié 13:00>
+
+#+caption: Guión técnico para el operador.
+|   | Guión técnico     | Detalle                                             | Duración | Finaliza |
+| / | <>                | <>                                                  |       <> |       <> |
+| / | Inicio            |                                                     |          | 13:00:00 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Comienzo          | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
+|   | Presentación      | Presentación del programa                           | 00:02:00 | 13:02:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Noticias          |                                                     | 00:05:00 | 13:07:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | \musicalnote{} Música         | \bomb{} Bomba: ¡Todo tuyo!                               | 00:03:00 | 13:10:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 1          | Hornero en las escuelas                             | 00:15:00 | 13:25:10 |
+|   |                   | \telephone{} Llamar a Fede Ceccotti                            |          |          |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:27:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | \pausebutton{} Tanda           | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:32:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Noticia deportiva | \telephone{} Llamar o hablar con Ian                           | 00:05:00 | 13:37:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 2          | Observatorio Electoral en las elecciones            | 00:15:00 | 13:52:10 |
+|   |                   | \telephone{} Llamar a Soledad Anselmi                          |          |          |
+|   |                   | \play{} Reproducir Audio de spot del observatorio         |          |          |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:54:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | Cierre            | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:55:10 |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | *Total*             |                                                     | 00:55:10 |          |
+#+TBLFM: @4$5..@17$5=$4 + @-1$5;T::@18$4='(apply '+ '(@4$4..@17$4));T
+
+** Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Miércoles a las 13:00 de la tarde
+- Presentarse
+  Participaron ¿?
+
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- Resumen de qué se trata Control Z: ciudadanía digital, cultura libre, estudiá computación, informática diversa, control N
+- Canales de comunicación: Instagram: ctrlz_fai | Web: https://controlz.fi.uncoma.edu.ar/ | Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+** Noticias
+- CineFAI: Viernes 27/10 a las 16:00 aula i1. Entrada libre y gratuita.
+- Información para ingresar. SIU ¿qué es?. PEDCO ¿qué es?. Correo Institucional ¿cómo solicitarlo?. Tutorías.
+- Atención estudiantes de Licenciatura en Sistemas de Información. Cambios en contenidos mínimos de algunas asignaturas de la Licenciatura en Sistemas de Información, entró en vigencia a partir del primer cuatrimestre 2023. [[https://www.fi.uncoma.edu.ar/index.php/novedades/importante-atencion-estudiantes-de-licenciatura-en-sistemas-de-informacion/][Fuente.]]
+- Curso de formación docente «La ciudadanía en un mundo atravesado por computadoras».
+
+  A través de un convenio con la Fundación Manuel Sadosky,
+
+  
+  Destinatarios: Docentes de escuelas secundarias e Institutos de formación Docente.
+
+  Semipresencial.
+
+  Inicio: 28 de octubre de 2023.
+
+  Pre-inscripciones hasta el 26/10/2023 en un formulario de Google en FaiWEB.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/prensa/curso-de-formacion-docente-la-ciudadania-en-un-mundo-atravesado-por-computadoras/][Fuente.]]
+
+** Bloque 1: Acreditación de la carrera
+
+- ¿Qué es la acreditación? ¿qué carreras se acreditaron?
+
+** \pausebutton{} Tanda
+** Bloque 2: ¿Qué pasó en Programate 2023?
+
 * Programa 30
 Emisión al aire <2023-10-18 mié 13:00>
 
@@ -41,9 +115,9 @@ Emisión al aire <2023-10-18 mié 13:00>
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
 - Miércoles a las 13:00 de la tarde
 - Presentarse
-  Participaron Ian Acosta, Ángel Avellaneda, Leo Bruno
+  Participaron Ian Acosta, Ángel Avellaneda, Leo Bruno, María Monserrat.
 
-  Detrás del micrófono: María Monserrat. Sergio "Bomba" Guzmán en la operación.
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
   
 - Resumen de qué se trata Control Z: ciudadanía digital, cultura libre, estudiá computación, informática diversa, control N
 - Canales de comunicación: Instagram: ctrlz_fai | Web: https://controlz.fi.uncoma.edu.ar/ | Correo: controlz@fi.uncoma.edu.ar
@@ -88,8 +162,8 @@ Emisión al aire <2023-10-18 mié 13:00>
 1. Picker de color para Chrome ™ de autocolorpicker.com Es una extension para cualquier navegador que permite elegir el color de cualquier imagen o web en tu navegador dandote el color en HEX y RGB. Esto les permitirá hacer sus propias paletas de colores. 
 2. Una vida sin contraseñas: https://tn.com.ar/tecno/internet/2023/09/24/una-vida-sin-contrasenas-los-desafios-de-la-ciberseguridad/ 
 3. Sitio para aprender y probar diferentes cositas de los lenguajes:  https://www.w3schools.com
-   
-** Bloque 2:Acreditación de la carrera o Consejos de Tutorías.
+
+** Bloque 2: Consejos de Tutorías.
 Mencionar la canción y la banda que pasa el bomba en la tanda
 
 Consejos de tutorías Plan B 
@@ -100,7 +174,7 @@ Consejos de tutorías Plan B
 - Recolectar ejercitación de tipo final.
 - Buscar compañero de estudio. 
 - Asistir a las clases de consulta, con preguntas.
-  
+   
 ** Noticia deportiva
 De 9h a 13 hs pueden ir al polideportivo a 👍
 - jugar al  tan gram, ajedrez, damas, tenis de mesa (llevar raqueta)
