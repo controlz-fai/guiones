@@ -55,7 +55,7 @@ Emision al aire <2023-10-25 mié 13:00>
 
 UNCo:
 
-- Deportes: UNCo Activa, carreras de 3, 7 y 15K. Se realizará el sábado 28 de octubre a las 18:00. Arranca en el Polideportivo "Beto Monteros".
+- Deportes: UNCo Activa, carreras de 3, 7 y 15K. *Se mueve al 29 de octubre a las 18:00*. Arranca en el Polideportivo "Beto Monteros".
 
   https://uncoactiva.fi.uncoma.edu.ar/
   
@@ -68,7 +68,7 @@ FaI:
 - CineFAI: Viernes 27/10 a las 16:00 aula i1. Entrada libre y gratuita.
 - Información para ingresar. SIU ¿qué es?. PEDCO ¿qué es?. Correo Institucional ¿cómo solicitarlo?. Tutorías.
 - Atención estudiantes de Licenciatura en Sistemas de Información. Cambios en contenidos mínimos de algunas asignaturas de la Licenciatura en Sistemas de Información, entró en vigencia a partir del primer cuatrimestre 2023. [[https://www.fi.uncoma.edu.ar/index.php/novedades/importante-atencion-estudiantes-de-licenciatura-en-sistemas-de-informacion/][Fuente.]]
-- Curso de formación docente «La ciudadanía en un mundo atravesado por computadoras».
+- Curso de formación docente "La ciudadanía en un mundo atravesado por computadoras".
 
   A través de un convenio con la Fundación Manuel Sadosky,
 
@@ -83,6 +83,10 @@ FaI:
 
   [[https://www.fi.uncoma.edu.ar/index.php/prensa/curso-de-formacion-docente-la-ciudadania-en-un-mundo-atravesado-por-computadoras/][Fuente.]]
 
+- El consejo superior aprobó los 6 proyectos de extensión de la facultad. De conjunto trabajan sobre el Sistema Público de Salud, preservación y divulgación del patrimonio cultural, escuelas primarias y escuelas secundarias públicas, divulgación científica y propagación de las voces que hacen computación y justicia.
+
+  Las acciones se despliegan desde chole Choel hasta loncopue. Involucran la participación de todos los claustros de la FaI.
+  
 ** Bloque 1: Acreditación de las carreras: ¿qué es?
 Guillermo Grosso, decano de la Facultad de Informática. Estuvo a cargo de la materia Aspectos Profesionales y Sociales donde se explican estos temas.
 
@@ -107,10 +111,10 @@ Jorge Rodriguez, Secretario de Extensión de la Facultad de Informática.
 
   Talleres:
   
-   - MÁQUINAS DE TURING introduce concepto de cómputo y máquinas de turing.
-   - CRIPTOGRAFÍA introduce conceptos de seguridad informática.
-   - CIENCIAS DE DATOS introducción a IA
-   - DRONES
+   - "Máquinas de turing" introduce concepto de cómputo y máquinas de turing.
+   - "Criptografía" introduce conceptos de seguridad informática.
+   - "Ciencias de datos" introducción a IA
+   - "Drones"
 - ¿Cómo la pasaron?
 - ¿Hay planes para el próximo Programate?
 
