@@ -17,14 +17,19 @@ Emision al aire <2023-10-25 mié 13:00>
 |   | \musicalnote{} Música         | \bomb{} Bomba: ¡Todo tuyo!                               | 00:03:00 | 13:10:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | Bloque 1          | Acreditación de las carreras: ¿qué es?              | 00:15:00 | 13:25:10 |
+|   |                   | \telephone{} Llamar a Guillermo Grosso                         |          |          |
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:27:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | \pausebutton{} Tanda           | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:32:10 |
+|   |                   | \play{} Spot de UNCo-Activa                               |          |          |
+|   |                   | \play{} Spot de Observatorio Electoral                    |          |          |
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | Noticia deportiva | \telephone{} Llamar o hablar con Ian                           | 00:05:00 | 13:37:10 |
+|   |                   | (Depende del tiempo)                                |          |          |
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | Bloque 2          | ¿Qué pasó en Programate 2023?                       | 00:15:00 | 13:52:10 |
+|   |                   | \telephone{} Llamar a Jorge Rodriguez                          |          |          |
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:54:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
@@ -32,7 +37,7 @@ Emision al aire <2023-10-25 mié 13:00>
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | *Total*             |                                                     | 00:55:10 |          |
-#+TBLFM: @4$5..@14$5=$4 + @-1$5;T::@15$4='(apply '+ '(@4$4..@14$4));T
+#+TBLFM: @4$5..@19$5=$4 + @-1$5;T::@20$4='(apply '+ '(@4$4..@19$4));T
 
 ** Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
@@ -47,6 +52,19 @@ Emision al aire <2023-10-25 mié 13:00>
 - Resumen del programa de hoy: ¿qué hay hoy?
 
 ** Noticias
+
+UNCo:
+
+- Deportes: UNCo Activa, carreras de 3, 7 y 15K. Se realizará el sábado 28 de octubre a las 18:00. Arranca en el Polideportivo "Beto Monteros".
+
+  https://uncoactiva.fi.uncoma.edu.ar/
+  
+- Inscripciones abiertas del Observatorio Electoral para participar de las observaciones del balotage.
+
+  https://observatorioelectoral.uncoma.edu.ar/
+
+FaI:
+
 - CineFAI: Viernes 27/10 a las 16:00 aula i1. Entrada libre y gratuita.
 - Información para ingresar. SIU ¿qué es?. PEDCO ¿qué es?. Correo Institucional ¿cómo solicitarlo?. Tutorías.
 - Atención estudiantes de Licenciatura en Sistemas de Información. Cambios en contenidos mínimos de algunas asignaturas de la Licenciatura en Sistemas de Información, entró en vigencia a partir del primer cuatrimestre 2023. [[https://www.fi.uncoma.edu.ar/index.php/novedades/importante-atencion-estudiantes-de-licenciatura-en-sistemas-de-informacion/][Fuente.]]
@@ -66,8 +84,12 @@ Emision al aire <2023-10-25 mié 13:00>
   [[https://www.fi.uncoma.edu.ar/index.php/prensa/curso-de-formacion-docente-la-ciudadania-en-un-mundo-atravesado-por-computadoras/][Fuente.]]
 
 ** Bloque 1: Acreditación de las carreras: ¿qué es?
+Guillermo Grosso, decano de la Facultad de Informática. Estuvo a cargo de la materia Aspectos Profesionales y Sociales donde se explican estos temas.
 
 - ¿Qué es la acreditación? ¿qué carreras se acreditaron?
+- ¿Quiénes acreditan? ¿qué organismos están involucrados?
+- ¿Qué significa que acredite? ¿por qué es importante acreditar?
+  
 
 ** \pausebutton{} Tanda
 
@@ -76,6 +98,21 @@ Emision al aire <2023-10-25 mié 13:00>
 
   https://youtube.com/shorts/7amxWIxnbyc?si=b4AdrW_-PdPScdiY
 ** Bloque 2: ¿Qué pasó en Programate 2023?
+
+Jorge Rodriguez, Secretario de Extensión de la Facultad de Informática.
+
+- Programate 2023, sucedió el miércoles, jueves y viernes de la semana pasada.
+- ¿Quiénes participaron?
+- ¿Qué se hizo en el Programate? ¿Qué talleres se dieron?
+
+  Talleres:
+  
+   - MÁQUINAS DE TURING introduce concepto de cómputo y máquinas de turing.
+   - CRIPTOGRAFÍA introduce conceptos de seguridad informática.
+   - CIENCIAS DE DATOS introducción a IA
+   - DRONES
+- ¿Cómo la pasaron?
+- ¿Hay planes para el próximo Programate?
 
 * Programa 30
 Emisión al aire <2023-10-18 mié 13:00>
@@ -92,26 +129,21 @@ Emisión al aire <2023-10-18 mié 13:00>
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | \musicalnote{} Música         | \bomb{} Bomba: ¡Todo tuyo!                               | 00:03:00 | 13:10:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1          | Hornero en las escuelas                             | 00:15:00 | 13:25:10 |
-|   |                   | \telephone{} Llamar a Fede Ceccotti                            |          |          |
+|   | Bloque 1          | Se viene el programate!!!                           | 00:15:00 | 13:25:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
-|   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:27:10 |
+|   | \pausebutton{} Tanda           | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:30:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
-|   | \pausebutton{} Tanda           | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:32:10 |
+|   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:32:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
-|   | Noticia deportiva | \telephone{} Llamar o hablar con Ian                           | 00:05:00 | 13:37:10 |
+|   | Bloque 2          | Consejos de Tutorías                                | 00:15:00 | 13:47:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 2          | Observatorio Electoral en las elecciones            | 00:15:00 | 13:52:10 |
-|   |                   | \telephone{} Llamar a Soledad Anselmi                          |          |          |
-|   |                   | \play{} Reproducir Audio de spot del observatorio         |          |          |
+|   | Noticia deportiva | \telephone{} Llamar o hablar con Ian                           | 00:05:00 | 13:52:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
-|   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:54:10 |
-|---+-------------------+-----------------------------------------------------+----------+----------|
-|   | Cierre            | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:55:10 |
+|   | Cierre            | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:53:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |---+-------------------+-----------------------------------------------------+----------+----------|
-|   | *Total*             |                                                     | 00:55:10 |          |
-#+TBLFM: @4$5..@17$5=$4 + @-1$5;T::@18$4='(apply '+ '(@4$4..@17$4));T
+|   | *Total*             |                                                     | 00:53:10 |          |
+#+TBLFM: @4$5..@13$5=$4 + @-1$5;T::@14$4='(apply '+ '(@4$4..@13$4));T
 
 ** Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
