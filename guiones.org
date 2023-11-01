@@ -67,6 +67,19 @@ FaI:
 - Atención estudiantes de Licenciatura en Sistemas de Información. Cambios en contenidos mínimos de algunas asignaturas de la Licenciatura en Sistemas de Información, entró en vigencia a partir del primer cuatrimestre 2023. [[https://www.fi.uncoma.edu.ar/index.php/novedades/importante-atencion-estudiantes-de-licenciatura-en-sistemas-de-informacion/][Fuente.]]
 - En la facultad hay juegos de mesa disponibles para quienes quieran. Estudiantes han donado juegos para usarlos en el hall de la facultad. ¡A cuidarlos y disfrutarlos!
 
+- Arrancó el curso de formación docente "La ciudadanía en un mundo atravesado por computadoras".
+
+  A través de un convenio con la Fundación Manuel Sadosky,
+  
+  Destinatarios: Docentes de escuelas secundarias e Institutos de formación Docente.
+
+  Semipresencial.
+
+  Inicio: 28 de octubre de 2023.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/prensa/curso-de-formacion-docente-la-ciudadania-en-un-mundo-atravesado-por-computadoras/][Fuente.]]
+
+
 ** Bloque 1: Jornadas de la FaI
 
 Del 6 al 10 de noviembre se realizarán las Jornadas FaI 2023. Espacio de intercambio, reflexión y producción colaborativa.
@@ -74,6 +87,10 @@ Del 6 al 10 de noviembre se realizarán las Jornadas FaI 2023. Espacio de interc
 https://www.fi.uncoma.edu.ar/index.php/novedades/jornadas-de-la-facultad-de-informatica-jfai23/
 
 - ¿Qué son las jornadas FaI?
+- ¿Por qué se hacen las jornadas? ¿cuál es el objetivo?
+- ¿En qué consiste? ¿son trabajos? ¿se exponen?
+- ¿Para quiénes están destinadas las jornadas?
+- ¿Cómo hicieron para presentar sus trabajos?
 - ¿Qué trabajos se presentan?
   - Resúmenes de tesis y trabajos finales de graduados y posgraduados de la FAI
   - Resúmenes de trabajos de estudiantes
