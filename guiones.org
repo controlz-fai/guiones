@@ -2,7 +2,7 @@
 #+HTML: <main>
 
 * Programa 32
-Emision al aire <2023-11-01 mié 13:00>
+Emision al aire <2023-11-08 mié 13:00>
 
 #+caption: Guión técnico para el operador.
 |   | Guión técnico     | Detalle                                             | Duración | Finaliza |
@@ -16,20 +16,18 @@ Emision al aire <2023-11-01 mié 13:00>
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | \musicalnote{} Música         | \bomb{} Bomba: ¡Todo tuyo!                               | 00:03:00 | 13:10:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1          |                                                     | 00:15:00 | 13:25:10 |
-|   |                   | \telephone{}                                                   |          |          |
-|---+-------------------+-----------------------------------------------------+----------+----------|
-|   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:27:10 |
+|   | Bloque 1          | Jornadas de la FaI                                  | 00:15:00 | 13:25:10 |
+|   |                   | \telephone{} Llamar a Gabriela Aranda                          |          |          |
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | \pausebutton{} Tanda           | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:32:10 |
-|   |                   | \play{} Spot de UNCo-Activa                               |          |          |
 |   |                   | \play{} Spot de Observatorio Electoral                    |          |          |
+|---+-------------------+-----------------------------------------------------+----------+----------|
+|   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:27:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | Noticia deportiva | \telephone{} Llamar o hablar con Ian                           | 00:05:00 | 13:37:10 |
 |   |                   | (Depende del tiempo)                                |          |          |
 |---+-------------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 2          |                                                     | 00:15:00 | 13:52:10 |
-|   |                   | \telephone{}                                                   |          |          |
+|   | Bloque 2          | ¡Más de las jornadas!                               | 00:15:00 | 13:52:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | \lightbulb{} Tips           | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:54:10 |
 |---+-------------------+-----------------------------------------------------+----------+----------|
@@ -37,7 +35,7 @@ Emision al aire <2023-11-01 mié 13:00>
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |---+-------------------+-----------------------------------------------------+----------+----------|
 |   | *Total*             |                                                     | 00:55:10 |          |
-#+TBLFM: @4$5..@19$5=$4 + @-1$5;T::@20$4='(apply '+ '(@4$4..@19$4));T
+#+TBLFM: @4$5..@17$5=$4 + @-1$5;T::@18$4='(apply '+ '(@4$4..@17$4));T
 
 ** Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
@@ -63,9 +61,30 @@ UNCo:
 
 FaI:
 
-- *CineFAI*: Viernes 27/10 a las 16:00 aula i1. Entrada libre y gratuita.
-- Atención estudiantes de Licenciatura en Sistemas de Información. Cambios en contenidos mínimos de algunas asignaturas de la Licenciatura en Sistemas de Información, entró en vigencia a partir del primer cuatrimestre 2023. [[https://www.fi.uncoma.edu.ar/index.php/novedades/importante-atencion-estudiantes-de-licenciatura-en-sistemas-de-informacion/][Fuente.]]
+# - *CineFAI*: Viernes 27/10 a las 16:00 aula i1. Entrada libre y gratuita.
+# - Atención estudiantes de Licenciatura en Sistemas de Información. Cambios en contenidos mínimos de algunas asignaturas de la Licenciatura en Sistemas de Información, entró en vigencia a partir del primer cuatrimestre 2023. [[https://www.fi.uncoma.edu.ar/index.php/novedades/importante-atencion-estudiantes-de-licenciatura-en-sistemas-de-informacion/][Fuente.]]
+- La JFaI está en nuestra facu. Arranca a las 14:00 con varias actividades.
+
+  Hay actividades del martes que se pasaron para la semana que viene:
+
+  Martes 14 de noviembre:
+
+  - 15 hs: Taller de Lenguaje de Señas (Aula i7)
+  - 17 hs: Conversatorio sobre carreras para estudiantes de la FAI (Aula i7)
+
 - En la facultad hay juegos de mesa disponibles para quienes quieran. Estudiantes han donado juegos para usarlos en el hall de la facultad. ¡A cuidarlos y disfrutarlos!
+
+- Curso de Posgrado: Generación de grafos de conocimiento para explorar silos de datos
+
+  En este curso, se introducen los conceptos fundamentales referidos a los grafos de conocimiento, presentando los fundamentos teóricos y lenguajes de modelado y consulta. Asimismo, se presentan ejemplos prácticos del uso, métodos y herramientas para la generación de dichos grafos.
+
+  Dictado por: Dra. Laura Cecchi y Dr. Germán Braun.
+
+  Inicia el 17 de noviembre.
+
+  Modalidad: Mixta.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/investigacion-y-postgrado/cursos/curso-de-posgrado-generacion-de-grafos-de-conocimiento-para-explorar-silos-de-datos/][Fuente.]]
 
 - Arrancó el curso de formación docente "La ciudadanía en un mundo atravesado por computadoras".
 
@@ -79,12 +98,16 @@ FaI:
 
   [[https://www.fi.uncoma.edu.ar/index.php/prensa/curso-de-formacion-docente-la-ciudadania-en-un-mundo-atravesado-por-computadoras/][Fuente.]]
 
+- Felicitaciones nueva licenciada: Gladys Gomez. Simulador Web para el manejo de robots compatibles con Frankestito. 1 de noviembre del 2023.
+
+- Viernes pasado 27 de octubre fue el CineFaI ¿?. Próxima presentación: 24 de noviembre.
+
 
 ** Bloque 1: Jornadas de la FaI
 
 Del 6 al 10 de noviembre se realizarán las Jornadas FaI 2023. Espacio de intercambio, reflexión y producción colaborativa.
 
-https://www.fi.uncoma.edu.ar/index.php/novedades/jornadas-de-la-facultad-de-informatica-jfai23/
+[[https://www.fi.uncoma.edu.ar/index.php/novedades/cronograma-de-las-jfai-2023/][Cronograma]]
 
 - ¿Qué son las jornadas FaI?
 - ¿Por qué se hacen las jornadas? ¿cuál es el objetivo?
@@ -107,13 +130,32 @@ https://www.fi.uncoma.edu.ar/index.php/novedades/jornadas-de-la-facultad-de-info
 ** Bloque 2: Secretaría de Bienestar
 Susana Parra, Secretaria de Bienestar de la Facultad de Informática.
 
-- ¿Qué es "bienestar"? ¿qué es la secretaría de bienestar? ¿Qué funciones cumple?
-- En general, ¿qué actividades puede realizar?
+# - ¿Qué es "bienestar"? ¿qué es la secretaría de bienestar? ¿Qué funciones cumple?
+# - En general, ¿qué actividades puede realizar?
+
+- ¿Cómo fue la apertura de la JFaI?
+- La charla "Reflejos de la diversidad en la FaI" ¿de qué se trató?
+- ¿Qué otras actividades hubo el lunes?
+
+  El martes se suspendió y pasaron algunos a virtuales por fuertes vientos.
+- ¿Qué actividades hay de bienestar en JFaI?
+
+Hoy:
+
+- 14 hs: Stands de Proyectos de Extensión (HALL FAI)
+- 15 hs: Charla del área TICs sobre la infraestructura de la FAI (Aula i5)
+- 16 hs: Conversatorio sobre  actividades de extensión y vinculación de la FAI (Aula i5)
+- 17:30 a 19:30 hs: Curso “Diseño inclusivo: introducción a la accesibilidad web”. Dirigido a estudiantes de todas las carreras y comunidad en general. Dictado por Rafaela Mazalu y Susana Parra (Aula i5)
+
+De la secretaría de bienestar:
+
 - ¿Qué actividades ha realizado? ¿qué actividades planean hacer?
 - ¿Cuándo podemos acudir a la secretaría de bienestar?
 - Este año se incorporó un tutor par inclusivo, ¿qué beneficios trajo a la comunidad Fai dicha inclusión?
 - ¿Dónde se la puede ubicar? (lugar de la oficina) ¿días horarios?
 - ¿Contactos o redes sociales?
+
+
 
 ** Despedida
 - Hemos llegado al final del programa.
