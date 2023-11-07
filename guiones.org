@@ -104,6 +104,7 @@ FaI:
 
 
 ** Bloque 1: Jornadas de la FaI
+#+html: <div id="programa32-bloque1"></div>
 
 Del 6 al 10 de noviembre se realizarán las Jornadas FaI 2023. Espacio de intercambio, reflexión y producción colaborativa.
 
@@ -128,6 +129,8 @@ Del 6 al 10 de noviembre se realizarán las Jornadas FaI 2023. Espacio de interc
   https://youtube.com/shorts/7amxWIxnbyc?si=b4AdrW_-PdPScdiY
 
 ** Bloque 2: Secretaría de Bienestar
+#+html: <div id="programa32-bloque2"></div>
+
 Susana Parra, Secretaria de Bienestar de la Facultad de Informática.
 
 # - ¿Qué es "bienestar"? ¿qué es la secretaría de bienestar? ¿Qué funciones cumple?
