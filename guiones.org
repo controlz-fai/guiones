@@ -70,7 +70,7 @@ FaI:
   [[https://www.fi.uncoma.edu.ar/index.php/investigacion-y-postgrado/cursos/curso-de-posgrado-generacion-de-grafos-de-conocimiento-para-explorar-silos-de-datos/][Fuente]].
   
 ** Bloque 1: JADiCC
-#+html: #+html: <div id="programa34-bloque1"></div>
+#+html: <div id="programa34-bloque1"></div>
 
 Jornadas Argentina de Didáctica de Las Ciencias de la Computación 2023.
 
