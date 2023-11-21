@@ -70,21 +70,36 @@ FaI:
   [[https://www.fi.uncoma.edu.ar/index.php/investigacion-y-postgrado/cursos/curso-de-posgrado-generacion-de-grafos-de-conocimiento-para-explorar-silos-de-datos/][Fuente]].
   
 ** Bloque 1: JADiCC
+#+html: #+html: <div id="programa34-bloque1"></div>
+
 Jornadas Argentina de Didáctica de Las Ciencias de la Computación 2023.
 
 Se llevarán a cabo el 1 y 2 de diciembre del 2023.
 
-Magdalena Garzón, miembro de la coordinación de la JADiCC, también integrante de la Fundación Sadosky.
+Magdalena Garzón. Forma para de la iniciativa Program.AR de la Fundación Sadosky. E integra el comité organizador de las JADiCC 2023 
 
 https://jadicc2023.program.ar
 
-- ¿Qué es el JADiCC?
+- ¿Qué es JADiCC?
 - ¿De qué se trata la jornada? ¿qué temas tratan?
+
+  "Compartir, intercambiar y discutir nuevas ideas relacionadas con la enseñanza y el aprendizaje de las Ciencias de la Computación."
+
+  Temas:
+
+  - Propuestas para la enseñanza y evaluación de temas de las CC.
+  - Experiencias en el aula.
+  - Formación docente.
+  - Herramientas originales para la enseñanza de las CC.
+  - Implicancias socioculturales de la enseñanza de las CC.
+
+- ¿Se hicieron otras ediciones anteriormente?
 - ¿Quiénes organizan? ¿quiénes participan?
+  - ¿Qué es la Fundación Sadosky? ¿Por qué participa en JADiCC?
 - ¿Qué se presenta en las jornadas? ¿artículos? ¿pósters?
 - ¿Habrá talleres? ¿cuáles talleres hay? ¿de qué se tratan?
 - ¿Participación virtual o presencial?
-  - ¿Dónde se realizará? ¿cómo puedo participar?
+  - ¿Dónde se realizará? ¿quiénes pueden presenciarlo? ¿cómo puedo participar?
 
 ** \pausebutton{} Tanda
 
