@@ -1,6 +1,109 @@
 
 #+HTML: <main>
 
+* Programa 34
+Emision al aire <2023-11-22 mié 13:00>
+
+#+caption: Guión técnico para el operador.
+|   | Guión técnico | Detalle                                             | Duración | Finaliza |
+| / | <>            | <>                                                  |       <> |       <> |
+| / | Inicio        |                                                     |          | 13:00:00 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
+|   | Presentación  | Presentación del programa                           | 00:02:00 | 13:02:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Noticias      |                                                     | 00:05:00 | 13:25:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \musicalnote{} Música     | \bomb{} Bomba: ¡Todo tuyo!                               | 00:03:00 | 13:05:10 |
+|   |               | Así te dá tiempo para llamar por teléfono.          |          | 13:05:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 1      | JADiCC                                              | 00:15:00 | 13:20:10 |
+|   |               | \telephone{} Llamar a Magdalena Garzón.                        |          | 13:20:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:30:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \lightbulb{} Tips       | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:32:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 2      | 25 de noviembre: Día internacional de la lucha      | 00:15:00 | 13:47:10 |
+|   |               | contra la violencia hacia la mujer                  |          |          |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \lightbulb{} Tips       | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:49:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:50:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | *Total*         |                                                     | 00:50:10 |          |
+#+TBLFM: @4$5..@16$5=$4 + @-1$5;T::@17$4='(apply '+ '(@4$4..@16$4));T
+
+** Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Miércoles a las 13:00 de la tarde
+- Presentarse
+  Participaron ¿?
+
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- Resumen de qué se trata Control Z:
+
+  Es una iniciativa de extensión de nuestra facultad y de nuestra *universidad pública*
+
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación, informática diversa, control N.
+  
+- Canales de comunicación: Instagram: ctrlz_fai | Web: https://controlz.fi.uncoma.edu.ar/ | Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+** Noticias
+
+FaI:
+
+- En la facultad hay juegos de mesa disponibles para quienes quieran. Estudiantes han donado juegos para usarlos en el hall de la facultad. ¡A cuidarlos y disfrutarlos!
+- Curso de Posgrado: Generación de grafos de conocimiento para explorar silos de datos
+
+  En este curso, se introducen los conceptos fundamentales referidos a los grafos de conocimiento, presentando los fundamentos teóricos y lenguajes de modelado y consulta. Asimismo, se presentan ejemplos prácticos del uso, métodos y herramientas para la generación de dichos grafos.
+
+  Dictado por: Dra. Laura Cecchi y Dr. Germán Braun.
+
+  Inicia el 17 de noviembre.
+
+  Modalidad: Mixta.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/investigacion-y-postgrado/cursos/curso-de-posgrado-generacion-de-grafos-de-conocimiento-para-explorar-silos-de-datos/][Fuente]].
+  
+** Bloque 1: JADiCC
+Jornadas Argentina de Didáctica de Las Ciencias de la Computación 2023.
+
+Se llevarán a cabo el 1 y 2 de diciembre del 2023.
+
+Magdalena Garzón, miembro de la coordinación de la JADiCC, también integrante de la Fundación Sadosky.
+
+https://jadicc2023.program.ar
+
+- ¿Qué es el JADiCC?
+- ¿De qué se trata la jornada? ¿qué temas tratan?
+- ¿Quiénes organizan? ¿quiénes participan?
+- ¿Qué se presenta en las jornadas? ¿artículos? ¿pósters?
+- ¿Habrá talleres? ¿cuáles talleres hay? ¿de qué se tratan?
+- ¿Participación virtual o presencial?
+  - ¿Dónde se realizará? ¿cómo puedo participar?
+
+** \pausebutton{} Tanda
+
+
+** Bloque 2: 25 de noviembre
+
+https://www.argentina.gob.ar/noticias/25-de-noviembre-dia-internacional-de-la-lucha-contra-la-violencia-hacia-la-mujer-0
+
+- 17 de diciembre de 1999: la Naciones Unidas designó el 25 de noviembre como el Día Internacional de la Lucha contra la Violencia hacia la Mujer.
+- Objetivo: Sensibilizar, denunciar y reclamar políticas públicas.
+- Su origen es por el asesinato de las hermanas Mirabal, 1960, en la República Dominicana.
+
+** Despedida
+- Hemos llegado al final del programa.
+- ¡Nos vemos la semana que viene, miércoles a las 13:00! ¡Les esperamos!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+
+
 * Programa 33 
 Emision al aire <2023-11-15 mié 13:00>
 
