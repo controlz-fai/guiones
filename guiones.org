@@ -12,28 +12,35 @@ Emision al aire <2023-11-22 mié 13:00>
 |   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
 |   | Presentación  | Presentación del programa                           | 00:02:00 | 13:02:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Noticias      |                                                     | 00:05:00 | 13:25:10 |
+|   | Noticias      |                                                     | 00:05:00 | 13:07:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | \musicalnote{} Música     | \bomb{} Bomba: ¡Todo tuyo!                               | 00:03:00 | 13:05:10 |
-|   |               | Así te dá tiempo para llamar por teléfono.          |          | 13:05:10 |
+|   | \musicalnote{} Música     | \bomb{} Bomba: ¡Todo tuyo!                               | 00:03:00 | 13:10:10 |
+|   |               | Así te dá tiempo para llamar por teléfono.          |          | 13:10:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1      | JADiCC                                              | 00:15:00 | 13:20:10 |
-|   |               | \telephone{} Llamar a Magdalena Garzón.                        |          | 13:20:10 |
+|   | Bloque 1      | JADiCC                                              | 00:15:00 | 13:25:10 |
+|   |               | \telephone{} Llamar a Magdalena Garzón.                        |          | 13:25:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:30:10 |
+|   |               | Después de la tanda, charlamos con Martín...        |          | 13:25:10 |
+|   | Adelanto      | \play{} Pasar audio de Martín                             | 00:01:20 | 13:26:30 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | \lightbulb{} Tips       | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:32:10 |
+|   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:31:30 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 2      | 25 de noviembre: Día internacional de la lucha      | 00:15:00 | 13:47:10 |
-|   |               | contra la violencia hacia la mujer                  |          |          |
+|   | \lightbulb{} Tips       | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:33:30 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | \lightbulb{} Tips       | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:49:10 |
+|   | Bloque 2      | JADiCC                                              | 00:15:00 | 13:48:30 |
+|   |               | \telephone{} Llamar a Martín.                                  |          | 13:48:30 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:50:10 |
+|   | \musicalnote{} Música     | \bomb{} Bomba: ¡Todo tuyo!                               | 00:01:00 | 13:49:30 |
+|   |               | ¡Vamos a tener cortarlo!                            |          | 13:49:30 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Minibloque    | 25 de noviembre: Día internacional de la lucha      | 00:05:00 | 13:54:30 |
+|   |               | contra la violencia hacia la mujer                  |          | 13:54:30 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:55:30 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | *Total*         |                                                     | 00:50:10 |          |
-#+TBLFM: @4$5..@16$5=$4 + @-1$5;T::@17$4='(apply '+ '(@4$4..@16$4));T
+|   | *Total*         |                                                     | 00:55:30 |          |
+#+TBLFM: @4$5..@21$5=$4 + @-1$5;T::@22$4='(apply '+ '(@4$4..@21$4));T
 
 ** Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
@@ -53,6 +60,17 @@ Emision al aire <2023-11-22 mié 13:00>
 - Resumen del programa de hoy: ¿qué hay hoy?
 
 ** Noticias
+
+UNCo:
+- ¿Sos estudiante y tenés un emprendimiento?
+
+  Queremos conocerte y conocer tu emprendimiento.
+
+  Te esperamos en la dirección de Becas de la UNCo de la sede central.
+  
+  Desde el martes 21/11 hasta el viernes 24/11 de 9:00 a 13:00.
+
+  Consultas: becasunco@gmail.com. 4490300 interno 216, 251.
 
 FaI:
 
@@ -103,8 +121,17 @@ https://jadicc2023.program.ar
 
 ** \pausebutton{} Tanda
 
+** Bloque 2: Taller de Robótica en JADiCC
+Martín Guzmán. Profesor de tecnología especializado en robótica educativa.
 
-** Bloque 2: 25 de noviembre
+- ¿De qué se trata el taller?
+- ¿Cuándo se brindará el taller? ¿el 1 o el 2?
+- ¿Nos contás un poco del trabajo colaborativo? ¿y del pensamiento lógico?
+  - ¿por qué es importante que lxs chicxs aprendan el pensamiento lógico?
+- ¿con qué nos encontraremos en el taller? ¿se puede spoilear un poco
+- ¿Quiénes pueden participar? ¿qué es necesario saber?
+
+** Minibloque : 25 de noviembre
 
 https://www.argentina.gob.ar/noticias/25-de-noviembre-dia-internacional-de-la-lucha-contra-la-violencia-hacia-la-mujer-0
 
