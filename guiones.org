@@ -23,8 +23,8 @@ Emision al aire <2023-12-06 mié 13:00>
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | \lightbulb{} Tips       | \bomb{} Bomba: Fondo Rainbow Tylenol                     | 00:02:00 | 13:32:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 2      |                                                     | 00:15:00 | 13:47:10 |
-|   |               | \telephone{} Llamar a .                                        |          | 13:47:10 |
+|   | Bloque 2      | Trabajos presentados en la muestra.                 | 00:15:00 | 13:47:10 |
+|   |               | \telephone{} Virtual con Daniel Gualda y Sebastián.            |          | 13:47:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:01:00 | 13:49:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
@@ -83,21 +83,29 @@ Muestra de la Tecnicatura Universitaria en Desarrollo Web. Realizada el 5 de dic
 
 Daniel Dolz, docente de la facultad de informática.
 
-- ¿Quiénes organizaronla muestra? ¿Quiénes la realizaron?
-- ¿En qué consistió?
-- ¿Quiénes podían presenciar la muestra?
-- ¿Qué trabajos se mostraron? ¿nos contás algunos ejemplos?
-- ¿Los programas estuvieron en funcionamiento? ¿se podían probar?
-
 De la tecnicatura Web:
 
 - ¿En qué consiste la tecnicatura?
 - ¿Qué se estudia?
 - ¿Quiénes pueden inscribirse? ¿cuándo?
 
+De la muestra:
+
+- ¿Quiénes organizaronla muestra? ¿Quiénes la realizaron?
+- ¿En qué consistió?
+- ¿Quiénes podían presenciar la muestra?
+- ¿Qué trabajos se mostraron? ¿nos contás algunos ejemplos?
+- ¿Los programas estuvieron en funcionamiento? ¿se podían probar?
+
 ** \pausebutton{} Tanda
 
-** Bloque 2: 
+** Bloque 2: Trabajos presentados.
+
+- ¿Qué trabajo presentaste? ¿de qué se trata?
+- ¿Cómo funciona?
+- ¿Con el trabajo ya te recibís o resta alguna actividad más?
+- ¿Cómo fue la experiencia de hacer el trabajo? ¿y de presentarlo en la muestra?
+- ¿Fue complicado realizar el trabajo? ¿te llevó mucho tiempo?
 
 ** Despedida
 - Hemos llegado al final del programa.
