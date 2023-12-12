@@ -59,21 +59,9 @@ Internacionales:
 
 FaI:
 
-- Actividades del Proyecto de Extensión "El Museo vuelve a las escuelas"
+- 11 de diciembre día de la profesión informática en Argentina.
 
-  Dirigido por Carina Fracchia y Amadeo Laurin. Visitaron los colegios Lincoln y Cumbres junto a guias del Museo Nacional de Bellas Artes.
-
-  [[https://www.fi.uncoma.edu.ar/index.php/prensa/actividades-del-proyecto-de-extension-el-museo-vuelve-a-las-escuelas/][Fuente.]]
-
-- Entrega de certificados – CPEM 71.
-
-  Se han entregado certificados en el CPEM 71 de Centenario. Corresponden a actividades de extensión desplegadas en la facultad para brindar acceso al conocimiento de las ciencias de la computación.
-
-  Las talleres son: Taller de App Inventor, Programate 2023, Encuentro de Estudiantes Secundarios Sobre Internet Seguro, MuestrApp y Trayecto Hola Mundo.
-
-  [[https://www.fi.uncoma.edu.ar/index.php/prensa/entrega-de-certificados-cpem-71/][Fuente.]]
-
-- Paula Cabrera y Carolina Sandmeier. Nuevas Magister en Enseñanza en Escenarios Digitales. Una maestría que se realiza entre 7 universidades del país.
+- El 14 de febrero: curso de matemática para estudiantes que ingresan en el 2024. El cuadernillo ya está disponible en FaIWeb. Asistencia Obligatoria.
 
  
 ** Bloque 1: ¿Qué hicimos en Control Z?
@@ -116,13 +104,18 @@ FaI:
 - ¡Más contenidos para mostrar!
 - ¡Más tips de Leo!
 - ¡Más CineFaI!
+- Semana del estudiante: ¿cómo va a ser?
+  - Va a ser una semana de actividades varias.
+- ¿Habrá FLISoL? ¿Día del software libre?
+- ¿Se viene el Programate 2024?
+- Semana del estudiante: ¿cómo va a ser?
+  - Va a ser una semana de actividades varias.
   
 ** Despedida
 - Hemos llegado al final del programa..
 - ¡Nos vemos el año que viene!
 - ¡Felices fiestas! \partypopper{}
 - ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
-
 
 * Programa 36
 Emision al aire <2023-12-06 mié 13:00>
@@ -160,7 +153,7 @@ Emision al aire <2023-12-06 mié 13:00>
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
 - Miércoles a las 13:00 de la tarde
 - Presentarse
-  Participaron Valentina Villarroel, Jorge Rodriguez, Christian Gimenez.
+  Participaron: Leo Bruno, Valentina Villarroel, Christian Gimenez.
 
   Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
   
