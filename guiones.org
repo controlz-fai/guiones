@@ -99,7 +99,15 @@ FaI:
 - Historia de la Computación
 - Entrevista a personas doctoras y becarias doctorales
 - Inteligencia Artificial en el trabajo
-- Proyectos de extensión e investigación.
+- Proyectos de extensión e investigación
+- Bienvenida a ingrestantes de las tecnicaturas
+- Tesis
+- Cybercirujas
+- Talleres: Ciencia de la computación en la escuela
+- Voto electrónico
+- R4A y Pasayo
+- Lignux y Huayra
+- ITJoven y Tecnópolis
 
 ** \pausebutton{} Tanda
 
