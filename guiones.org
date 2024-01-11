@@ -1,7 +1,7 @@
 
 #+HTML: <main>
 * Programa 37
-Emision al aire <2023-12-06 mié 13:00>
+Emision al aire <2023-12-13 mié 13:00>
 
 #+caption: Guión técnico para el operador.
 |   | Guión técnico | Detalle                                             | Duración | Finaliza |
@@ -230,7 +230,7 @@ De la muestra:
 - ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
 
 * Programa 35
-Emision al aire <2023-11-22 mié 13:00>
+Emision al aire <2023-11-29 mié 13:00>
 
 #+caption: Guión técnico para el operador.
 |   | Guión técnico | Detalle                                             | Duración | Finaliza |
@@ -491,7 +491,6 @@ https://www.argentina.gob.ar/noticias/25-de-noviembre-dia-internacional-de-la-lu
 - ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
 
 
-
 * Programa 33 
 Emision al aire <2023-11-15 mié 13:00>
 
@@ -626,7 +625,6 @@ Links institucionales que pueden usar:
 - ¡Nos vemos la semana que viene, miércoles a las 13:00! ¡Les esperamos!
 - ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
 
-
 * Programa 32
 Emision al aire <2023-11-08 mié 13:00>
 
@@ -667,7 +665,7 @@ Emision al aire <2023-11-08 mié 13:00>
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
 - Miércoles a las 13:00 de la tarde
 - Presentarse
-  Participaron ¿?
+  Participaron Marina Morán, Christian Gimenez.
 
   Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
   
@@ -798,6 +796,9 @@ De la secretaría de bienestar:
 - Hemos llegado al final del programa.
 - ¡Nos vemos la semana que viene, miércoles a las 13:00! ¡Les esperamos!
 - ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Programa 32 - ¡No hubo programa!
+Emisión cancelada: <2023-11-01 mié 13:00>
 
 * Programa 31
 Emision al aire <2023-10-25 mié 13:00>
