@@ -1,0 +1,508 @@
+#+title: Guion 1 - 20 de marzo del 2024
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Guión técnico        | Detalle                                               | Duración | Finaliza |
+| / | <>                   | <>                                                    |       <> |       <> |
+| / | Inicio               |                                                       |          | 13:00:00 |
+|---+----------------------+-------------------------------------------------------+----------+----------|
+|   | Comienzo             | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
+|   | Presentación         | Presentación del programa                             | 00:05:00 | 13:05:10 |
+|---+----------------------+-------------------------------------------------------+----------+----------|
+|   | Noticias             |                                                       | 00:10:00 | 13:15:10 |
+|---+----------------------+-------------------------------------------------------+----------+----------|
+|   | Bloque 1             | Asamblea Universitaria (Intro)                        | 00:15:00 | 13:30:10 |
+|---+----------------------+-------------------------------------------------------+----------+----------|
+|   | \pausebutton{} Tanda | ----- Tanda Publicitaria -----                        | 00:05:00 | 13:35:10 |
+|---+----------------------+-------------------------------------------------------+----------+----------|
+|   | Bloque 2             | Asamblea Unversitaria                                 | 00:15:00 | 13:50:10 |
+|   |                      | \telephone{} Llamar a Beatriz Gentile                 |          | 13:50:10 |
+|---+----------------------+-------------------------------------------------------+----------+----------|
+|   | Cierre               | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
+|---+----------------------+-------------------------------------------------------+----------+----------|
+|---+----------------------+-------------------------------------------------------+----------+----------|
+|   | *Total*              |                                                       | 00:55:10 |          |
+#+TBLFM: @4$5..@11$5=$4 + @-1$5;T::@12$4='(apply '+ '(@4$4..@11$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, control N.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+* Noticias
+:PROPERTIES:
+:CUSTOM_ID: h.wm4o5zhm93iq
+:CLASS: c17
+:END:
+** Internacionales
+:PROPERTIES:
+:CUSTOM_ID: h.kdb2u84l5bsw
+:CLASS: c11
+:END:
+- Ciberdelincuentes atacaron al FMI.
+  [[https://www.google.com/url?q=https://www.infobae.com/economia/2024/03/15/ciberdelincuentes-quebraron-la-seguridad-del-fmi-que-hackearon-y-a-que-informacion-accedieron/&sa=D&source=editors&ust=1710886972632432&usg=AOvVaw3MK5sLO3ywUFC3-BO7Q4N9][Artículo en Infobae.]]
+- [[https://www.google.com/url?q=https://www.infobae.com/tendencias/innovacion/2020/06/14/el-ingeniero-argentino-que-trabajo-en-spacex-querian-que-los-trajes-espaciales-fueran-cool/&sa=D&source=editors&ust=1710886972632727&usg=AOvVaw3PmfwnupMzX5FTW3INoMEW][Ingeniero argentino que trabajó en SpaceX]]
+
+- Hace unos días Pablo de Leon estuvo hablando en una radio del valle en
+  vivo (si no me equivoco fue este Sábado) y contaba cosas muy buenas en
+  vivo de el nivel educativo de las universidades públicas nacionales y
+  los distintos proyectos de las universidades con la NASA y nombró a
+  nuestra querida Universidad del Comahue, que participa activamente en
+  este tipo de proyectos
+
+- Tik Tok camino a prohibirse en EEUU.
+
+  Ver artículo en [[https://www.pagina12.com.ar/720607-estados-unidos-camino-a-prohibir-tik-tok][Página 12]] y en [[https://www.ambito.com/tecnologia/eeuu-mas-cerca-prohibir-tiktok-que-va-pasar-la-red-social-n5964629][Ámbito.com]].
+
+** FaI
+:PROPERTIES:
+:CUSTOM_ID: h.uicq4ti2diw7
+:CLASS: c11
+:END:
+- ¡Ya comenzaron las clases! ¡Hace una semana! - Horarios en FaIWeb
+- Sucedió la asamblea universitaria
+
+- 12 y 13 de marzo de la semana pasada.
+
+- Se está dictando un curso de formación docente sobre programación
+  lógica.
+
+* Bloque 1 - Asamblea Universitaria: ¿Qué es?
+:PROPERTIES:
+:CUSTOM_ID: h.43gx8gk5hgj0
+:CLASS: c17 c20
+:END:
+La Asamblea Universitaria es el máximo órgano de gobierno.
+
+Conformada por los miembros del Consejo Superior y de los Consejos
+Directivos de las Facultades y los Centros Regionales.
+
+Puede cambiar la división de facultades y modificar el estatuto.
+
+Puede ser convocada por el Consejo Superior y a pedido de un tercio de
+al menos un tercio de quienes componen la asamblea.
+
+En este caso, se presentaron 19 temas.
+
+Más info:
+[[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972633684&usg=AOvVaw0qhBCU1flWvDkvJ9Z0g3eL][https://asamblea.uncoma.edu.ar/]] y
+el estatuto (Org. CS. 470/2009 Título Quinto, Capítulo Primero).
+
+* ⏸️ -- Tanda --
+:PROPERTIES:
+:CUSTOM_ID: h.qm0feleg4vjo
+:CLASS: c17
+:END:
+* Bloque 2 - Asamblea Universitaria: Entrevista
+:PROPERTIES:
+:CUSTOM_ID: h.38inobon97da
+:CLASS: c17
+:END:
+Entrevista a Guillermo Grosso / Beatriz Gentile
+
+1. ¿Qué es la asamblea universitaria?
+2. ¿Quiénes estuvieron presentes?
+3. ¿Cómo sucedió la asamblea? ¿Cómo fue el ambiente?
+4. ¿Qué temas trataron?
+5. ¿Qué resolvieron?
+6. ¿Qué cambios relevantes se hicieron al estatuto?
+7. ¿Qué principios y objetivos se cambiaron en el estatuto?
+8. ¿Qué significa una universidad intercultural?¿y con perspectiva de
+   género? ¿y perspectiva ambiental?
+9. ¿Cómo afectan los resultados a la facultad de informática?
+10. ¿Cómo afectan los resultados a la sociedad?
+
+* Despedida
+:PROPERTIES:
+:CUSTOM_ID: h.su4eyyusfwqo
+:CLASS: c17
+:END:
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Anexo: Temas de la Asamblea
+:PROPERTIES:
+:CUSTOM_ID: h.xks3wybw07ub
+:CLASS: c17 c20
+:END:
+TEMA 1: “Actualizar Bases e Incorporar Principios y Objetivos al
+Estatuto”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-1-ACTUALIZACION-DE-BASES-E-INCORPORACION-DE-PRINCIPIOS-Y-OBJETIVOS-AL-ESTATUTO.pdf&sa=D&source=editors&ust=1710886972634914&usg=AOvVaw3GfTtE5uw2rY0CYXrrH5wR][Proyecto Consolidado]])
+
+TEMA 2: “Incorporar las Perspectivas Intercultural, de Género y
+Ambiental al Estatuto”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-2-INCOPORACION-DE-LAS-PERSPECTIVAS-INTERCULTURAL-DE-GENERO-Y-AMBIENTAL-AL-ESTATUTO.pdf&sa=D&source=editors&ust=1710886972635221&usg=AOvVaw0dqYYKeap4S9BmxNx6BzSz][Proyecto Consolidado]])
+
+TEMA 3: “Adecuar el Estatuto al Convenio Colectivo de Trabajo Docente”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-3-ADECUACION-DEL-ESTUTO-AL-CCT-DOCENTE.pdf&sa=D&source=editors&ust=1710886972635589&usg=AOvVaw2djMUg-TX-QYramtQE1YAX][Proyecto Consolidado]])
+
+TEMA 4: “Modificar el Estatuto según el Convenio Colectivo de Trabajo
+Nodocente”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-4-MODIFICAR-EL-ESTATUTO-SEGUN-CCT-NODOCENTE.pdf&sa=D&source=editors&ust=1710886972635925&usg=AOvVaw2NjGEmvDTnJVYPaApuMEjR][Proyecto Modificado]]).
+
+TEMA 5: “Incorporar el Sistema de Control Interno de la Universidad
+Nacional del Comahue al Estatuto”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-5-INCORPORAR-EL-SISTEMA-DE-CONTROL-INTERNO-DE-LA-UNCO.pdf&sa=D&source=editors&ust=1710886972636249&usg=AOvVaw1GbUYv8eEXBr6rX2mhSKy-][Proyecto Modificado]])
+
+TEMA 6: “Modificar los artículos 106, inciso n; 111, inciso k; 121,
+inciso m; artículo 125, Inciso m”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-6-MODIFICACION-ARTICULOS-106-inciso-n-111-inciso-k-121-inciso-m-articulo-125-Inciso-m-designacion-de-secretarios-.pdf&sa=D&source=editors&ust=1710886972636612&usg=AOvVaw3Rq6jK-aCa1VmrJZMA2fc8][Proyecto Modificado]]).
+
+TEMA 7: “Modificar la periodicidad de la Asamblea”
+
+(Dos Proyectos Originales
+--[[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-7-PROY-A-BRAMARDI-MODIFICACION-PERIODICIDAD-ASAMBLEA.pdf&sa=D&source=editors&ust=1710886972636975&usg=AOvVaw0i_lgKuOozCVmN1jgQf2wE][ ]][[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-7-PROY-A-BRAMARDI-MODIFICACION-PERIODICIDAD-ASAMBLEA.pdf&sa=D&source=editors&ust=1710886972637174&usg=AOvVaw0XEJuD4AvJ6jSY4UBEtS6E][Proyecto A]] y[[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-7-PROY-B-NATAINE-MODIFICACION-PERIODICIDAD-ASAMBLEA.pdf&sa=D&source=editors&ust=1710886972637379&usg=AOvVaw3NcOA9AGm7x6isUo1lgVyD][ ]][[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-7-PROY-B-NATAINE-MODIFICACION-PERIODICIDAD-ASAMBLEA.pdf&sa=D&source=editors&ust=1710886972637593&usg=AOvVaw3lM1761Y26AYszq00g3L3E][Proyecto B]]).
+
+TEMA 8: “Modificar los artículos 104 y 115 del Estatuto”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-8-MODIFICAR-LOS-ART-104-Y-115-DEL-ESTATUTO-mandato-personas-graduadas-.pdf&sa=D&source=editors&ust=1710886972637909&usg=AOvVaw1O1iigkntisn2hJuMddjir][Proyecto Original]]).
+
+TEMA 9: “Modificar los artículos: 104, 115 y 127, inciso c del Estatuto”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-9-MODIFICAR-LOS-ART-104-115-Y-127-INC-C-DEL-ESTATUTO-Mandato-consejeres-estudiantiles-u-condiciones-para-personas-electoras-y-candidatas.pdf&sa=D&source=editors&ust=1710886972638221&usg=AOvVaw1guFR_16f-_vd4vaOdcuXM][Proyecto Consolidado]]).
+
+TEMA 10: “Modificar el artículo 124° del Estatuto”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-10-MODIFICAR-EL-ART-124-DEL-ESTATUTO-Regular-la-acefalia-temporaria-o-permanente-de-decano-y-vicedecano-.pdf&sa=D&source=editors&ust=1710886972638678&usg=AOvVaw3rW5AmuwIc-piQeydNY0a4][Proyecto Modificado]]).
+
+TEMA 11: “Modificar el artículo 103 del Estatuto”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-11-MODIFICAR-EL-ART-103-DEL-ESTATUTO-voto-valido-.pdf&sa=D&source=editors&ust=1710886972639114&usg=AOvVaw3Bt7Y_WgYni3kPwSwB7b91][Proyecto Original]]).
+
+TEMA 12: “Crear el Consejo Social”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-12-CREACION-DEL-CONSEJO-SOCIAL.pdf&sa=D&source=editors&ust=1710886972639412&usg=AOvVaw3zcKuHjc0zVvfVIsEffjFE][Proyecto Modificado]]).
+
+TEMA 13: “Modificar el artículo 11 del Estatuto”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-13-MODIFICACION-DEL-ART-11-proceso-ensenanza-aprendizaje-1.pdf&sa=D&source=editors&ust=1710886972639679&usg=AOvVaw2qnmPFfvyrxIszMPWJ9-34][Proyecto Modificado]]).
+
+TEMA 14: “Modificar el artículo 39 del Estatuto”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-14-MODIFICACION-DEL-ART-39-evaluacion-docente-.pdf&sa=D&source=editors&ust=1710886972639969&usg=AOvVaw2oD_Ci2erq9aNvM4C22UYQ][Proyecto Modificado]]).
+
+TEMA 15: “Crear el Centro Regional Universitario Zapala”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-15-CREAR-EL-CENTRO-UNIVERSITARIO-REGIONAL-ZAPALA.pdf&sa=D&source=editors&ust=1710886972640282&usg=AOvVaw0RxIqrzS-01ejG20BV4Y0L][Proyecto Original]]).
+
+TEMA 16: “Crear la Facultad de Ciencias Marinas”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-16-CREAR-LA-FACULTAD-DE-CIENCIAS-MARINAS.pdf&sa=D&source=editors&ust=1710886972640558&usg=AOvVaw2Ryhl7wN5wCBWY7-R4-RFL][Proyecto Original]]).
+
+TEMA 17: “Crear el Centro Regional Universitario San Martín de los
+Andes”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-17-CREAR-EL-CENTRO-REGIONAL-UNIVERSITARIO-SAN-MARTIN-DE-LOS-ANDES.pdf&sa=D&source=editors&ust=1710886972640842&usg=AOvVaw3Q3qeXEPcZ97bLRZ3iioTj][Proyecto Original]]).
+
+TEMA 18: “Modificar el artículo 3° del Estatuto”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-18-MODIFICACION-DEL-ART-3-estructura-departamental-.pdf&sa=D&source=editors&ust=1710886972641106&usg=AOvVaw1_2gOKvh2943-J-SfnC_St][Proyecto Modificado]]).
+
+TEMA 19: “Crear un nuevo tipo de Unidad Académica y crear el Complejo
+Universitario Regional Zona Atlántica y Sur”
+
+([[https://www.google.com/url?q=https://asamblea.uncoma.edu.ar/wp-content/uploads/2024/02/TEMA-19-CREAR-UN-NUEVO-TIPO-DE-UNIDAD-ACADEMICA-Y-CREAR-EL-COMPLEJO-UNIVERSITARIO-REGIONAL-ZONA-ATLANTICA-Y-SUR.pdf&sa=D&source=editors&ust=1710886972641408&usg=AOvVaw2sbej_zvwg6i5kDExBvFBL][Proyecto Original]]).
+
+** Tema 1 - Actualizar Bases e Incorporar Principios y Objetivos al Estatuto
+:PROPERTIES:
+:CUSTOM_ID: h.jh1ed1mnhj0f
+:CLASS: c11
+:END:
+El texto de las bases del Estatuto requiere de una actualización y
+adecuación al contexto actual, en particular, incorporando diversos
+derechos en sus bases y fundamentos. Asimismo, se propone incorporar en
+detalle los principios y objetivos rectores de la Universidad, en
+acuerdo con las leyes nacionales vigentes.
+
+En cuanto a las bases y fundamentos, se propone integrar algunos
+aspectos esenciales que actualmente no se mencionan: la defensa de la
+democracia como forma de vida y gobierno de la sociedad; la
+consideración de la Educación Superior como bien público social, derecho
+humano universal y responsabilidad del Estado para garantizar su
+cumplimiento (en concordancia con las Declaraciones de la CRES 2008 y
+2018; y del CIN); la importancia de la Universidad como garante de
+información veraz y confiable por la calidad y profundidad de sus
+investigaciones y por la formación de sus profesionales; y la relevancia
+de la integración regional patagónica y latinoamericana para consolidar
+las vinculaciones externas de la Universidad.
+
+En cuanto al detalle de principios y objetivos del Estatuto se propone
+incorporar los lineamientos rectores de la Universidad en sus distintas
+funciones sustantivas y las perspectivas de ampliación de derechos, en
+particular aquellas vinculadas a las perspectivas intercultural, de
+género y ambiental.
+
+** Tema 2 - Incorporar las Perspectivas Intercultural, de Género y Ambiental al Estatuto
+:PROPERTIES:
+:CUSTOM_ID: h.6rz9qp93b0fh
+:CLASS: c11
+:END:
+En las décadas que han pasado desde la redacción de nuestro Estatuto
+universitario, las demandas sociales se han enriquecido con el
+reconocimiento de problemáticas que adquirieron plena visibilización en
+los últimos años. Es por ello que ante el desafío de la próxima Asamblea
+Universitaria se propone incorporar al Estatuto de la Universidad
+Nacional del Comahue una perspectiva comprometida con las problemáticas
+de su tiempo y de su territorio, buscando como horizonte promover una
+visión crítica en tres ejes: género, ambiente e interculturalidad.
+
+En este sentido, reconocer a la Interculturalidad como una relación a
+construir en el contexto de la diversidad social, cultural y lingüística
+es suponer la posibilidad de formarse en saberes, conocimientos y
+prácticas de la propia cultura, pero al mismo tiempo en la cultura de un
+‘otro' con quien compartimos, en un mismo país, espacio y territorio.
+
+Nuestra universidad, como todas las universidades nacionales, es una
+institución educativa diseñada bajo las premisas propias del Estado
+Nación argentino, constituido y asentado sobre territorios ya poblados y
+habitados por los pueblos originarios. La fuerte presencia del pueblo
+mapuce -- tehuelche en las dos provincias que se asienta, se ve
+reflejada en todos los claustros de la universidad. Por ello el desafío
+es pensar la interculturalidad como una herramienta de trabajo que
+permita ir transformando las estructuras epistémicas, pero a su vez las
+estructuras políticas y sociales, que son las bases sobre las que se
+asientan las desigualdades. El sistema de educación superior resulta
+clave para ello, porque es aquí donde se forman profesionales que ocupan
+posiciones de poder y toman decisiones en diversos ámbitos políticos,
+económicos y sociales. La propuesta de educación superior intercultural,
+o de interculturalizar la educación superior, reclama la construcción de
+un espacio común de producción de conocimiento en una relación fluida y
+no jerarquizada.
+
+Por otra parte, los movimientos feministas en nuestro país han instalado
+sus demandas adquiriendo relevancia en los últimos años con grandes
+movilizaciones como las generadas a partir del “Ni una menos” y la lucha
+por la Ley de Interrupción Voluntaria del Embarazo (Ley No 27610/21). En
+esta línea, es necesario mencionar dos antecedentes fundamentales para
+la incorporación que aquí se propone, que anudan los dos caminos antes
+mencionados. La Ordenanza N°1572 de 2014, mediante la cual se aprueba en
+nuestra Universidad el "Protocolo de intervención institucional ante
+denuncias por situaciones de violencia sexista en el ámbito de la
+Universidad Nacional del Comahue", convirtiendo a nuestra Universidad en
+la primera del país en contar con este tipo de instrumento. Otro
+antecedente lo constituye la Ordenanza N° 387 del 2019, mediante la cual
+la Universidad Nacional del Comahue adhiere a la Ley Nacional N°
+27.499/2018 "Ley Micaela de Capacitación Obligatoria en Género para
+todas las personas que Integran los tres poderes del Estado". Ambas
+normativas son fundamentales no sólo por su
+
+contribución específica en la construcción de una Universidad con
+igualdad de género y libre de violencias sino por su impacto social, en
+tanto sostienen la perspectiva de género como un principio que debe
+orientar la vida institucional y la formación que ofrece la Universidad,
+como proyección para la construcción de una sociedad más justa. La
+Universidad Nacional del Comahue también cuenta con una trayectoria
+respecto de la temática, tanto en el área de la docencia como en la
+investigación y la extensión, y es fundamental la institucionalización
+de los diversos esfuerzos teóricos y prácticos que se vienen realizando
+con el fin de mitigar las desigualdades y situaciones de violencia hacia
+adentro de la institución, pero también desde el reconocimiento de su
+rol histórico en los procesos de transformación cultural, como aporte al
+proceso social general. En el contexto de la Asamblea Universitaria, se
+genera la oportunidad de incorporar al Estatuto de la Universidad
+Nacional del Comahue la perspectiva de género, institucionalizando la
+misma como política para las futuras generaciones de profesionales. Por
+ello, se propone incorporarla como objetivo transversal a todos los
+ámbitos de la Universidad Nacional del Comahue, incluidas sus prácticas
+institucionales. Esto implica, la expresión de dicha perspectiva en
+prácticas que no reproduzcan estereotipos de género y promuevan una vida
+universitaria libre de violencias directas e indirectas basadas en el
+género y/u orientación sexual, con el objetivo de erradicar las
+violencias y discriminación, y de mitigar estas desigualdades. En el
+mismo sentido, con este proyecto se pretende garantizar que el texto
+final del Estatuto sea inclusivo y no sexista en su lenguaje, en
+cumplimiento de normativas nacionales e internacionales.
+
+Estas acciones y cambios reflejan claramente el compromiso de la
+Universidad Nacional del Comahue con la igualdad de género y la
+inclusión de la diversidad en su comunicación y prácticas
+institucionales.
+
+También las preocupaciones por la cuestión ambiental fueron acompañadas
+por la organización y la movilización socio territorial de las
+comunidades, logrando instalarse el tema en la agenda política e
+institucional, en particular, las referidas a la consecuencias del
+cambio climático y a las actividades productivas de carácter
+extractivista, estas últimas de especial preocupación en nuestra región.
+Las universidades iberoamericanas han asumido el desafío del tratamiento
+del tema ambiental desde una perspectiva amplia, procurando aportar a la
+construcción de una sociedad del conocimiento que combine crecimiento
+con distribución equitativa de la riqueza y en armonía con el ambiente.
+Esto demanda un abordaje integral desde la ciencia en el cual resulta
+clave una modalidad de investigación que incluya una amplia gama de
+áreas científicas que aporten a la búsqueda de soluciones de los
+problemas y conflictos ambientales desde una perspectiva
+multidisciplinaria; un proceso que se complementa con la incorporación
+de las temáticas ambientales en los programas de estudio universitarios
+y con la generación de productos tecnológicos y de transferencia que
+prevengan y contribuyan a la resolución de los conflictos socio
+ambientales.
+
+Por todo esto, la próxima Asamblea Universitaria constituye una
+oportunidad clave para incorporar las perspectivas de género, ambiental
+e intercultural a la Universidad Nacional del Comahue, que deberán
+materializarse en acciones concretas a nivel de la planificación
+institucional en todos los ámbitos de la vida universitaria.
+
+* Estatuto
+
+TíTULO QUINTO
+
+DEL GOBIERNO
+
+Artículo 95: Constituyen el gobierno de la Universidad:
+
+a. La Asamblea Universitaria   
+b. El Consejo Superior   
+c. El Rector   
+d. Los Consejos Directivos   
+e. Los Decanos   
+
+CAPÍTULO PRIMERO: DE LA ASAMBLEA UNIVERSITARIA
+
+Artículo 96: La Asamblea Universitaria está conformada por los miembros del Consejo
+Superior y de los Consejos Directivos de las Facultades y los Centros Regionales.
+
+Corresponde a la Asamblea:
+
+a. Resolver sobre la renuncia del Rector y/o Vicerrector.
+b. Suspenderlos o separarlos por causa justificada.
+c. Decidir sobre la creación, supresión y división de Facultades.
+d. Modificar el Estatuto.
+e. Asumir el gobierno de la Universidad en caso de conflicto insoluble en el seno del Consejo Superior que haga imposible el funcionamiento regular del gobierno universitario.
+
+Artículo 97: La modificación del presente Estatuto se ajustará a uno de los siguientes
+procedimientos:
+
+a. Por parte de la Asamblea Universitaria, citada al efecto por el Consejo Superior de conformidad con lo dispuesto en el artículo 106, inciso v. del Estatuto.
+b. Mediante un proyecto presentado y aprobado por el Consejo Superior y, posteriormente, avalado por la resolución favorable del setenta y cinco (75%) por ciento de los Consejos Directivos de las Facultades y Centros Regionales. En todos los cuerpos, Consejo Superior y Consejos Directivos, los proyectos deberán ser aprobados por el voto positivo de los dos tercios de sus miembros.
+
+Artículo 98: La Asamblea es convocada:
+
+a. Por decisión del Consejo Superior.
+b. A pedido de por lo menos un tercio de los componentes de la Asamblea misma.
+
+Artículo 99: La Asamblea Universitaria sesionará como mínimo una vez al año, con carácter
+obligatorio. La fecha será establecida por el Consejo Superior anualmente.
+
+En la sesión anual obligatoria se tratarán:
+
+a. Informe del Rector sobre el estado de la Universidad Nacional del Comahue.
+b. Temario aprobado por el Consejo Superior con una antelación de sesenta (60) días a la fecha fijada para la sesión anual.
+
+Artículo 100: La Asamblea Universitaria sesiona con la mitad más uno de los miembros y
+glamenta el orden de sus deliberaciones.
+
+Artículo 101: La Asamblea Universitaria es presidida por el Rector, en su defecto por el
+Vicerrector y, en su ausencia o impedimento de ambos, por el consejero que ella designe.
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+- "Ranibow Tylenol". Autor: Kitsune^{2} (Renard Queenston), Album: Squaredance.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "british"
+# org-latex-default-figure-position: "tbp"
+# End:
