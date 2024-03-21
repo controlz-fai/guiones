@@ -53,10 +53,11 @@ generar_html(Archivo, Html) :-
     format(atom(Html), '<p><a href="~s">~s</a></p>\n', [Archivo, Base]).
 
 generar_listado(Path, Htmls) :-
-    expand_file_name(Path, Archivos),
-    exclude(ignorefilename, Archivos, Archivos2),
+    expand_file_name(Path, Archivos1),
+    exclude(ignorefilename, Archivos1, Archivos2),
     sort(Archivos2, Archivos3),
-    maplist(generar_html, Archivos3, Htmls).
+    reverse(Archivos3, Archivos),
+    maplist(generar_html, Archivos, Htmls).
 
 %! aplicar_elt(-Commando: atom, -Arg: atom) is det.
 %
