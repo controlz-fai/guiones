@@ -28,9 +28,9 @@
 * Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
 - Todos los miércoles a las 13:00 de la tarde
-- Presentarse - Participaron
+- Presentarse - Participaron: Christian, Ángel.
   
-  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  Detrás del micrófono: Juan Cruz Gutierrez en la operación.
   
 - ¿De qué se trata Control Z?
 
@@ -114,7 +114,7 @@ el estatuto (Org. CS. 470/2009 Título Quinto, Capítulo Primero).
 :CUSTOM_ID: h.38inobon97da
 :CLASS: c17
 :END:
-Entrevista a Guillermo Grosso / Beatriz Gentile
+Entrevista a Beatriz Gentile
 
 1. ¿Qué es la asamblea universitaria?
 2. ¿Quiénes estuvieron presentes?

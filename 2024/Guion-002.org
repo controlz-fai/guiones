@@ -12,22 +12,24 @@
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Noticias      |                                                     | 00:10:00 | 13:15:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1      |                                                     | 00:15:00 | 13:30:10 |
+|   | Bloque 1      | La computación antes de la democracia               | 00:15:00 | 13:30:10 |
+|   |               | \telephone{} Llamar a Jorge Sznek                             |          |          |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 2      |                                                     | 00:15:00 | 13:50:10 |
+|   | Bloque 2      | Nuestra universidad y derechos humanos              | 00:15:00 | 13:50:10 |
+|   |               | \telephone{} Llamar a Leticia                                 |          |          |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | *Total*         |                                                     | 00:55:10 |          |
-#+TBLFM: @4$5..@10$5=$4 + @-1$5;T::@11$4='(apply '+ '(@4$4..@10$4));T
+#+TBLFM: @4$5..@12$5=$4 + @-1$5;T::@13$4='(apply '+ '(@4$4..@12$4));T
 
 * Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
 - Todos los miércoles a las 13:00 de la tarde
-- Presentarse - Participaron
+- Presentarse - Participaron:
   
   Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
   
@@ -50,17 +52,42 @@
 :CLASS: c17
 :END:
 ** Internacionales
+- [[https://www.elmundo.es/tecnologia/2024/03/23/65feee38fc6c83912e8b45e7.html][El bloqueo de Telegram, un paso más en la amplia lista de restricciones a la aplicación]] de El Mundo.
+
 
 ** FaI
 
-* Bloque 1 - 
+* Bloque 1 - La computación antes de la democracia
+\telephone{} Entrevista a Jorge Sznek.
+
+1. ¿En qué momento se inició la computación en Argentina?
+2. ¿Qué avances han surgido previo a la democracia?
+3. ¿Cómo era la computación antes de la democracia?
+4. ¿Qué sucedió después de la noche de los bastones largos?
+5. ¿Qué sucedió con Sadosky después de la noche de los bastones largos?
+6. ¿Qué fue "IBM Go Home"? ¿cómo nació esa frase?
+7. ¿Qué sucedió en las universidades entre el 70' y 80'?
+   
 
 * ⏸️ -- Tanda --
 :PROPERTIES:
 :CUSTOM_ID: h.qm0feleg4vjo
 :CLASS: c17
 :END:
-* Bloque 2 -
+* Bloque 2 - Nuestra universidad y derechos humanos
+\telephone{} Entrevista a Leticia.
+
+Muestra "Imágenes para no olvidar": http://apdh.fi.uncoma.edu.ar/
+
+También realizaron una actividad llamada "Cajitas para la memoria".
+
+1. ¿Qué relación tiene nuestra facultad y la universidad con APDH?
+2. ¿Nos contás de la muestra? ¿de qué se trata?
+3. ¿Qué consistía la actividad "Cajitas para la memoria?
+4. ¿Qué nos podés contar de la época de la dictadura? ¿qué pasaba con estudiantes? ¿cómo era estudiar y trabajar en ese momento?
+5. Anécdotas, situaciones que han pasado, noticias u otro evento relevante que nos quiera contar.
+   
+
 * Despedida
 :PROPERTIES:
 :CUSTOM_ID: h.su4eyyusfwqo
@@ -69,6 +96,18 @@
 - Hemos llegado al final del programa ...
 - ¡Nos vemos el próximo miércoles a las 13:00!
 - ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+
+* Recursos
+
+Historia de la computación Argentina
+
+- [[https://web.archive.org/web/20070928020926/http://www.sadio.org.ar/modules.php?op=modload&name=News&file=article&sid=50][Breve resumen de la historia de la computación en Argentina]] por Pablo Jacovkis. Sociedad Argentina de Informática (SADIO). 2004.
+
+UNCo:
+
+- [[https://www.uncoma.edu.ar/nutrida-presencia-de-la-unco-en-la-marcha-del-24m/][Nutrida presencia de la UNCo en la marcha del 24M]]
+- [[https://www.uncoma.edu.ar/la-unco-entregara-legajos-a-familiares-de-victimas-del-terrorismo-de-estado/][La UNCo entregará legajos a familiares de víctimas del terrorismo de Estado]] del 24 de marzo del 2023.
 
 * Licencia
 Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
