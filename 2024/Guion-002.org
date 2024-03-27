@@ -56,7 +56,15 @@
 
 
 ** FaI
+- Curso "Generación de grafos de conocimiento para explorar silos de datos".
 
+  En este curso, se introducen los conceptos fundamentales referidos a los grafos de conocimiento, presentando los fundamentos teóricos y lenguajes de modelado y consulta. Asimismo, se presentan ejemplos prácticos del uso, métodos y herramientas para la generación de dichos grafos.
+
+  - Abierta la inscripción.
+  - Inicia el 12 de abril del 2024.
+  - Dictado por Dra. Laura Cecchi y Dr. Germán Braun.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/curso-generacion-de-grafos-de-conocimiento-para-explorar-silos-de-datos/][Ver en FaIWeb.]]
 * Bloque 1 - La computación antes de la democracia
 \telephone{} Entrevista a Jorge Sznek.
 
@@ -75,17 +83,30 @@
 :CLASS: c17
 :END:
 * Bloque 2 - Nuestra universidad y derechos humanos
-\telephone{} Entrevista a Leticia.
+\telephone{} Entrevista a Leticia Bellini, docente jubilada de la UNCo, integrante de la APDH.
 
 Muestra "Imágenes para no olvidar": http://apdh.fi.uncoma.edu.ar/
 
-También realizaron una actividad llamada "Cajitas para la memoria".
-
 1. ¿Qué relación tiene nuestra facultad y la universidad con APDH?
 2. ¿Nos contás de la muestra? ¿de qué se trata?
-3. ¿Qué consistía la actividad "Cajitas para la memoria?
-4. ¿Qué nos podés contar de la época de la dictadura? ¿qué pasaba con estudiantes? ¿cómo era estudiar y trabajar en ese momento?
-5. Anécdotas, situaciones que han pasado, noticias u otro evento relevante que nos quiera contar.
+3. ¿Cómo te incorporaste a la APDH?
+4. ¿Cómo fue trabajar con Noemí Labrune?
+   1. Recordamos que Noemí recibió el título de Doctora Honoris Causa de la UNCo.
+   2. Además, fue investigadora en la UBA durante la dictadura de Onganía, y renunció luego de la Noche de los Bastones Largos ([[https://www.pagina12.com.ar/586724-murio-noemi-labrune-historica-militante-de-los-derechos-huma][Fuente]]).
+5. Noemí Labrune y la APDH colaboró con la facultad en varias ocasiones:
+   1. 2015 Jornada Estudiantil Interfacultades "La Universidad del Comahue en los Juicios de Lesa Humanidad".
+   2. 2017 Muestra "Juicio y castigo: Imágenes para no olvidar", exposición guiada por Noemí.
+   3. 2018 Proyecto conjunto FaI, Escuela Integral para Adolescentes y Jóvenes con Discapacidad y APDH Neuquén.
+
+      Creación de las "Cajitas de la Memoria", almacenaje de una versión de la muestra "Juicio y Castigo: Imágenes para no olvidar".
+   4. 2019 Iniciativa por la memoria, llevando la muestra a instituciones de la región.
+   5. 2019 La APDH Neuquén, la Confederación Mapuche del Neuquén y la FaI trabajaron en el desarrollo de la *Enciclopedia Juvenil Mapuche*.
+   6. 2021 La APDH Neuquén, Escuelas Amigas y la FaI relevaron la conectividad e infraestructura tecnológica en un grupo de escuelas primarias de la ciudad de Neuquén.
+   7. 2021 y 2022 La APDH Neuquén y la FaI diseñarol la plataforma digital para las jornadas "Pandemia/Pospandemia, la sociedad, la universidad, los universitarios".
+   8. 2023 Diseño de la infraestructura tecnológica para la residencia estudiantil y centro cultural
+   9. se emplaza en la casa que Noemí Labrune cedió a la Universidad Nacional del Comahue.
+
+
    
 
 * Despedida
