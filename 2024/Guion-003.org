@@ -3,27 +3,27 @@
 #+HTML: <main>
 
 #+caption: Guión técnico para el operador.
-|   | Guión técnico        | Detalle                                               | Duración | Finaliza |
-| / | <>                   | <>                                                    |       <> |       <> |
-| / | Inicio               |                                                       |          | 13:00:00 |
-|---+----------------------+-------------------------------------------------------+----------+----------|
-|   | Comienzo             | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
-|   | Presentación         | Presentación del programa                             | 00:05:00 | 13:05:10 |
-|---+----------------------+-------------------------------------------------------+----------+----------|
-|   | Noticias             |                                                       | 00:10:00 | 13:15:10 |
-|---+----------------------+-------------------------------------------------------+----------+----------|
-|   | Bloque 1             | Prolog for Kids                                       | 00:15:00 | 13:30:10 |
-|   |                      | \telephone{} Llamar a Laura Cecchi                    |          |          |
-|---+----------------------+-------------------------------------------------------+----------+----------|
-|   | \pausebutton{} Tanda | ----- Tanda Publicitaria -----                        | 00:05:00 | 13:35:10 |
-|---+----------------------+-------------------------------------------------------+----------+----------|
-|   | Bloque 2             | Observatorio Electoral             | 00:15:00 | 13:50:10 |
-|   |                      | \telephone{} Llamar a Pablo Kogan                     |          | 13:50:10 |
-|---+----------------------+-------------------------------------------------------+----------+----------|
-|   | Cierre               | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
-|---+----------------------+-------------------------------------------------------+----------+----------|
-|---+----------------------+-------------------------------------------------------+----------+----------|
-|   | *Total*              |                                                       | 00:55:10 |          |
+|   | Guión técnico | Detalle                                             | Duración | Finaliza |
+| / | <>            | <>                                                  |       <> |       <> |
+| / | Inicio        |                                                     |          | 13:00:00 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
+|   | Presentación  | Presentación del programa                           | 00:05:00 | 13:05:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Noticias      |                                                     | 00:10:00 | 13:15:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 1      | Prolog for Kids                                     | 00:15:00 | 13:30:10 |
+|   |               | \telephone{} Llamar a Laura Cecchi                            |          |          |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 2      | Enseñando los sistemas electorales en las escuelas  | 00:15:00 | 13:50:10 |
+|   |               | \telephone{} Llamar a Pablo Kogan                             |          | 13:50:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | *Total*         |                                                     | 00:55:10 |          |
 #+TBLFM: @4$5..@12$5=$4 + @-1$5;T::@13$4='(apply '+ '(@4$4..@12$4));T
 
 * Presentación del programa
@@ -83,16 +83,23 @@ Actividades realizadas con docentes:
 
 * ⏸️ -- Tanda --
 
-* Bloque 2 - Observatorio Electoral
+* Bloque 2 - Tres sistemas de votación en las escuelas
 
-1. ¿Qué actividades realiza el observatorio? ¿qué observa en las elecciones?
-2. ¿Quiénes participan? 
-3. ¿Por qué es útil que haya un observatorio?
-4. ¿Qué informes han publicado?
-5. ¿Han hecho otras actividades aparte de observar? ¿capacitaciones? ¿estudios?
-6. ¿Cómo me sumo?
+1. ¿Qué actividades han realizado en las escuelas?
+2. ¿Quiénes participaron? ¿estudiantes y docentes? ¿de qué año?
+   1. ¿Conocían el proceso electoral previo a las actividades?
+3. ¿En qué consisten? ¿Qué objetivos tienen las actividades?
+4. ¿Qué escuelas han abarcado? ¿esas escuelas hubieran podido alcanzarse si no fuese una universidad pública?
+5. ¿qué resultados obtuvieron? ¿qué significan esos resultados?
 
-[[https://observatorioelectoral.uncoma.edu.ar/]]
+# 6. ¿Qué actividades realiza el observatorio? ¿qué observa en las elecciones?
+# 7. ¿Quiénes participan? 
+# 8. ¿Por qué es útil que haya un observatorio?
+# 9. ¿Qué informes han publicado?
+# 10. ¿Han hecho otras actividades aparte de observar? ¿capacitaciones? ¿estudios?
+# 11. ¿Cómo me sumo?
+
+# [[https://observatorioelectoral.uncoma.edu.ar/]]
 
 * Despedida
 - Hemos llegado al final del programa ...
