@@ -12,13 +12,13 @@
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Noticias      |                                                     | 00:10:00 | 13:15:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1      |                                                     | 00:15:00 | 13:30:10 |
-|   |               | \telephone{}                                                  |          |          |
+|   | Bloque 1      | Situación de la Universidad y la Facultad           | 00:15:00 | 13:30:10 |
+|   |               | \telephone{} Llamar a Guillermo Grosso                        |          | 13:30:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 2      |                                                     | 00:15:00 | 13:50:10 |
-|   |               | \telephone{}                                                  |          | 13:50:10 |
+|   | Bloque 2      | El Museo Vuelve a la Escuelas                       | 00:15:00 | 13:50:10 |
+|   |               | \telephone{} Llamar a Carina Fracchia                         |          | 13:50:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
@@ -94,6 +94,7 @@ Hemos escuchado a la Rectora en [[https://radiocut.fm/radiostation/uncocalf/list
 * ⏸️ -- Tanda --
 * Bloque 2 - El Museo Vuelve a la Escuelas
 - ¿De qué se trata el proyecto? ¿cuál es su objetivo?
+- ¿Qué museos están trabajando en el proyecto? ¿qué establecimientos educativos?
 - ¿Qué actividades realizan? ¿tienen planificado nuevas actividades?
 - ¿hay actividades para el el 18 de mayo? (Día Internacional de los Museos)
 - ¿Contacto?
