@@ -1,0 +1,192 @@
+#+title: Guion 4 - 10 de abril del 2024
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Guión técnico | Detalle                                             | Duración | Finaliza |
+| / | <>            | <>                                                  |       <> |       <> |
+| / | Inicio        |                                                     |          | 13:00:00 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
+|   | Presentación  | Presentación del programa                           | 00:05:00 | 13:05:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Noticias      |                                                     | 00:10:00 | 13:15:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 1      |                                                     | 00:15:00 | 13:30:10 |
+|   |               | \telephone{}                                                  |          |          |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 2      |                                                     | 00:15:00 | 13:50:10 |
+|   |               | \telephone{}                                                  |          | 13:50:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | *Total*         |                                                     | 00:55:10 |          |
+#+TBLFM: @4$5..@12$5=$4 + @-1$5;T::@13$4='(apply '+ '(@4$4..@12$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian, Ángel.
+  
+  Detrás del micrófono: Juan Cruz Gutierrez en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, control N.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+* Noticias
+:PROPERTIES:
+:CUSTOM_ID: h.wm4o5zhm93iq
+:CLASS: c17
+:END:
+** Internacionales
+** UNCo
+- Banderazo en defensa de la Universidad Pública. Jueves 11. 11:00 en el playón de la UNCo. Cierran con tartafriteada popular.
+  
+** FaI
+
+- Vuelve CineFaI. Viernes 12 a las 14:00. Aula I1 de la FaI.
+
+- Curso "Generación de grafos de conocimiento para explorar silos de datos".
+
+  En este curso, se introducen los conceptos fundamentales referidos a los grafos de conocimiento, presentando los fundamentos teóricos y lenguajes de modelado y consulta. Asimismo, se presentan ejemplos prácticos del uso, métodos y herramientas para la generación de dichos grafos.
+
+  - Abierta la inscripción.
+  - Inicia el 12 de abril del 2024.
+  - Dictado por Dra. Laura Cecchi y Dr. Germán Braun.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/curso-generacion-de-grafos-de-conocimiento-para-explorar-silos-de-datos/][Ver en FaIWeb.]]
+
+* Bloque 1 - Situación de la Universidad y la FaI
+Hemos escuchado a la Rectora en [[https://radiocut.fm/radiostation/uncocalf/listen/2024/04/08/08/00/00/][el programa La Banda Ancha del lunes]]. También, varios artículos del diario (ver [1] y [2]).
+
+- ¿Qué sucede en la Universidad? ¿Qué presupuesto estamos utilizando?
+- ¿Cuál es la situación actual en nuestra facultad?
+- ¿Qué significa "cesación de pagos"? ¿cómo afectaría en las actividades de la facultad?
+- Si esto continúa, ¿cómo se encontrará la facultad/universidad a futuro?
+- Los proyectos de investigación y extensión, ¿sufrirán un impacto? ¿qué pasa si los proyectos no reciben fondos?
+  - ¿Qué suceden con publicaciones? ¿Qué sucede si la facultad no logra publicar?
+  - ¿Y con extensión? ¿qué sucede si se le quita fondos a los proyectos de extensión?
+
+- ¿Las clases se verán afectadas? ¿el trabajo de los docentes y no docentes?
+- ¿Cómo desempeña su trabajo un no docente sin el presupuesto adecuado?
+  - Hay no docentes que se encuentran realizando actividades en proyectos de extensión, deportes, etc. ¿y estas actividades que realiza dentro de la facultad?
+ 
+- El centro de estudiantes, ¿percibirá un cambio? ¿cómo afecta al centro? ¿y a los estudiantes?
+- ¿Qué pasa con los servicios del centro? ¿y los tutores pares?
+
+[1] [[https://www.rionegro.com.ar/politica/crisis-en-la-universidad-del-comahue-diputados-de-neuquen-piden-a-nacion-actualizar-el-presupuesto-3511068/]["Actualización por inflación del presupuesto para la Universidad del Comahue, el pedido de los diputados de Neuquén"]]. Diario Río Negro. 9 de abril del 2024.
+
+[2] [[https://www.rionegro.com.ar/sociedad/no-estamos-en-cesacion-de-pagos-aclaro-el-vicerrector-de-la-universidad-del-comahue-la-situacion-es-grave-y-critica-3509087/][""No estamos en cesación de pagos", aclaró el vicerrector de la Universidad del Comahue, pero la situación es "grave" y "crítica""]]. Diario Río Negro. 8 de abril del 2024.
+
+* ⏸️ -- Tanda --
+* Bloque 2 - El Museo Vuelve a la Escuelas
+- ¿De qué se trata el proyecto? ¿cuál es su objetivo?
+- ¿Qué actividades realizan? ¿tienen planificado nuevas actividades?
+- ¿hay actividades para el el 18 de mayo? (Día Internacional de los Museos)
+- ¿Contacto?
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+- "Ranibow Tylenol". Autor: Kitsune^{2} (Renard Queenston), Album: Squaredance.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "british"
+# org-latex-default-figure-position: "tbp"
+# End:
