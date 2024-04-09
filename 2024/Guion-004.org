@@ -57,7 +57,9 @@
   
 ** FaI
 
-- Vuelve CineFaI. Viernes 12 a las 14:00. Aula I1 de la FaI.
+- Asamblea interclaustros de la FaI este viernes a las 13:00.
+
+- *Volvería* CineFaI. Viernes 12 a las 14:00. Aula I1 de la FaI. Se ha suspendido para dar lugar a la asamblea.
 
 - Curso "Generación de grafos de conocimiento para explorar silos de datos".
 
@@ -96,7 +98,10 @@ Hemos escuchado a la Rectora en [[https://radiocut.fm/radiostation/uncocalf/list
 - ¿De qué se trata el proyecto? ¿cuál es su objetivo?
 - ¿Qué museos están trabajando en el proyecto? ¿qué establecimientos educativos?
 - ¿Qué actividades realizan? ¿tienen planificado nuevas actividades?
+  - ¿En qué se utiliza Realidad Aumentada/Realidad Virtual? ¿nos podrías dar ejemplos?
+  - ¿Cómo ayuda a la consevación de las obras? ¿y a la presentación?
 - ¿hay actividades para el el 18 de mayo? (Día Internacional de los Museos)
+- Hubo otros proyectos con museos anteriormente. ¿De qué se trataban?
 - ¿Contacto?
 
 * Despedida
