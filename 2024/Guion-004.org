@@ -61,6 +61,8 @@
 
 - *Volvería* CineFaI. Viernes 12 a las 14:00. Aula I1 de la FaI. Se ha suspendido para dar lugar a la asamblea.
 
+- Padrón provisorio elecciones 2024. El acto electoral se realizará el 10 y 11 de junio de 10:00 a 20:00. [[https://www.fi.uncoma.edu.ar/index.php/novedades/padrones-provisorios-elecciones-2024/][Padrón disponible en FaIWeb.]]
+
 - Curso "Generación de grafos de conocimiento para explorar silos de datos".
 
   En este curso, se introducen los conceptos fundamentales referidos a los grafos de conocimiento, presentando los fundamentos teóricos y lenguajes de modelado y consulta. Asimismo, se presentan ejemplos prácticos del uso, métodos y herramientas para la generación de dichos grafos.
