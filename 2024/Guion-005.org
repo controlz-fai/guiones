@@ -2,130 +2,52 @@
 
 #+HTML: <main>
 
+¡No hubo programa!
+
 #+caption: Guión técnico para el operador.
-|   | Guión técnico | Detalle                                             | Duración | Finaliza |
-| / | <>            | <>                                                  |       <> |       <> |
-| / | Inicio        |                                                     |          | 13:00:00 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
-|   | Presentación  | Presentación del programa                           | 00:05:00 | 13:05:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | Noticias      | \play{} CineFaI: Audio de Romina                          | 00:10:00 | 13:15:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1      | Consultoría de accesibilidad digital                | 00:15:00 | 13:30:10 |
-|   |               | \telephone{} Rafaela Mazalú                                   |          | 13:30:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 2      | FLISoL                                              | 00:15:00 | 13:50:10 |
-|   |               |                                                     |          | 13:50:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
-|---+---------------+-----------------------------------------------------+----------+----------|
-|---+---------------+-----------------------------------------------------+----------+----------|
-|   | *Total*         |                                                     | 00:55:10 |          |
+|   | Guión técnico        | Detalle          | Duración | Finaliza |
+| / | <>                   | <>               |       <> |       <> |
+| / | Inicio               |                  |          | 13:00:00 |
+|---+----------------------+------------------+----------+----------|
+|   | Comienzo             | Música           | 00:00:10 | 13:00:10 |
+|   | Presentación         | Música           | 00:05:00 | 13:05:10 |
+|---+----------------------+------------------+----------+----------|
+|   | Noticias             | Música           | 00:10:00 | 13:15:10 |
+|---+----------------------+------------------+----------+----------|
+|   | Bloque 1             | Más música       | 00:15:00 | 13:30:10 |
+|   |                      |                  |          | 13:30:10 |
+|---+----------------------+------------------+----------+----------|
+|   | \pausebutton{} Tanda |                  | 00:05:00 | 13:35:10 |
+|---+----------------------+------------------+----------+----------|
+|   | Bloque 2             | Mucha más Música | 00:15:00 | 13:50:10 |
+|   |                      |                  |          | 13:50:10 |
+|---+----------------------+------------------+----------+----------|
+|   | Cierre               | Música           | 00:05:00 | 13:55:10 |
+|---+----------------------+------------------+----------+----------|
+|---+----------------------+------------------+----------+----------|
+|   | *Total*              |                  | 00:55:10 |          |
 #+TBLFM: @4$5..@12$5=$4 + @-1$5;T::@13$4='(apply '+ '(@4$4..@12$4));T
 
 * Presentación del programa
-- Bienvenida a Control Z, el espacio de la Facultad de Informática.
-- Todos los miércoles a las 13:00 de la tarde
-- Presentarse - Participaron: Christian
-  
-  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
-  
-- ¿De qué se trata Control Z?
-
-- Es una iniciativa de extensión de nuestra facultad y de nuestra
-  universidad pública
-  
-  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
-  informática diversa, control N.
-
-- Canales de comunicación: Instagram: ctrlz_fai |
-  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
-  Correo: controlz@fi.uncoma.edu.ar
-- Resumen del programa de hoy: ¿qué hay hoy?
+Música.
 
 * Noticias
+Música.
 
-** Efemérides
-- 13/04/1914 Nace *Manuel Sadosky*, pionero de la informática en Argentina
-- 16/04/1959 John McCarthy presenta el lenguaje LISP
-- 17/04/1944 Se pone en marcha la MARK I
-- 19/04/1957 Se ejecuta el primer programa en FORTRAN
-- 19/04/1965 Se publica la “Ley de Moore”
-** UNCo
-  - La Rectora estuvo presente en varios programas de radio y televisión este fin de semana explicando la situación de la Universidad del Comahue.
-  - Martes de la semana que viene (23 de abril), se convoca a defender la educación pública, la ciencia y la Universidad Pública argentina. Se realizará una demostración nacional con representantes de todos los claustros. [[https://www.cin.edu.ar/convocamos-a-defender-la-educacion-publica-la-ciencia-y-el-sistema-universitario-nacional/][Ver convocatoria del CIN.]]
-    
-** FaI
-
-- Vuelve *CineFaI*. Viernes 19 a las 14:00. Aula I1 de la FaI.
-
-  \play{} Escuchamos la invitación de Romina.
-
-  *Entrada libre y gratuita*
-
-  ¡Pueden llevar mates! \mate{} 
-
-- Padrón provisorio elecciones 2024. El acto electoral se realizará el 10 y 11 de junio de 10:00 a 20:00. [[https://www.fi.uncoma.edu.ar/index.php/novedades/padrones-provisorios-elecciones-2024/][Padrón disponible en FaIWeb.]]
-
-- Becas FaI: Tutorías Pares.
-
-  Llamado a inscripción de alumnos avanzados de las carreras de la FAI para participar como Tutores Pares del Proyecto «Sigamos Estudiando».
-
-  [[https://www.fi.uncoma.edu.ar/index.php/novedades/becas-fai-tutorias-pares-actividades-de-extension/][Ver en FaIWeb.]]
-
-- Concurso Interino AYP (Dpto. Ingeniería de Sistemas).
-
-  [[https://www.fi.uncoma.edu.ar/index.php/academica/concursos/concursos-interinos-ayp-dpto-ing_sistemas-2024/][Ver en FaIWeb.]]
-
-
-* Bloque 1 - Espacio de Consultoría en accesibilidad digital
-
-- ¿Qué es el espacio de consultoría?
-- ¿Qué objetivos tiene?
-- ¿Para quiénes está destinado el espacio? ¿quiénes se benefician?
-- ¿Por qué hacer material accesible? ¿a quiénes está destinado el material accesible?
-- ¿Por qué crear un espacio de consultoría y no convertir el material a accesible directamente?    
-- ¿Qué actividades hacen? ¿de qué se trata?
-  - Si yo quisiera hacer una consulta, ¿qué debo hacer?
-  - ¿Qué me ofrecen? 
-- ¿Convierten el material y las páginas? ¿por qué no?
-- ¿Algún tip para las consultas?
-- ¿Contacto?
+* Bloque 1 - Más música
+Música.
 
 * ⏸️ -- Tanda --
-* Bloque 2 - FLISoL
-- ¿Qué es el FLISoL?
-- ¿Quiénes lo organizan?
-- ¿Dónde se realiza?
-  - Desde Ushuaia a toda Latinoamérica.
-- ¿Qué es un Grupo de Usuarios de Linux?
-  - ¿Qué grupos hubo/hay?
-  - LUGNA (disuelto), ULA, GULBar (¿?), CUSOL VP, USLA (nacional), otros.
-- ¿Cuántos FLISoLes sucedieron en el Alto Valle?
-- Nació en Colombia, en el 2003. Luego, en el 2005 se expandió a toda latinoamérica.
-- En Río Negro y Neuquén, se realizaron FLISoLes en las siguientes ciudades:
-
-  Neuquén, Allen, Bariloche, Viedma/Carmen de Patagones, Andacollo, Fiske (hubo rumores que en el IUPA se realizó una vez), Villa Regina.
-- Contacto:
-  - Web: flisol.info.
-  - En la Facultad: Montún y controlz.fi.uncoma.edu.ar
+* Bloque 2 - Mucha más música
+Música.
 
 * Despedida
-- Hemos llegado al final del programa ...
-- ¡Nos vemos el próximo miércoles a las 13:00!
-- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+Música.
 
 * Licencia
 Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
 
-- "Ranibow Tylenol". Autor: Kitsune^{2} (Renard Queenston), Album: Squaredance.
-
 #+HTML: </main>
-
-
 
 * Meta     :noexport:
 
