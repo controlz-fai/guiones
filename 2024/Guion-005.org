@@ -10,22 +10,21 @@
 |   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
 |   | Presentación  | Presentación del programa                           | 00:05:00 | 13:05:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Noticias      |                                                     | 00:10:00 | 13:15:10 |
+|   | Noticias      | \play{} CineFaI: Audio de Romina                          | 00:10:00 | 13:15:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1      | Situación de la Universidad y la Facultad           | 00:15:00 | 13:30:10 |
-|   |               | \telephone{}                                                  |          | 13:30:10 |
+|   | Bloque 1      | Consultoría de accesibilidad digital                | 00:15:00 | 13:30:10 |
+|   |               | \telephone{} Rafaela Mazalú                                   |          | 13:30:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 2      | El Museo Vuelve a la Escuelas                       | 00:15:00 | 13:50:10 |
-|   |               | Natalia del MNBA Neuquén                            |          |          |
-|   |               | \telephone{} Llamar a Carina Fracchia                         |          | 13:50:10 |
+|   | Bloque 2      | FLISoL                                              | 00:15:00 | 13:50:10 |
+|   |               |                                                     |          | 13:50:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | *Total*         |                                                     | 00:55:10 |          |
-#+TBLFM: @4$5..@13$5=$4 + @-1$5;T::@14$4='(apply '+ '(@4$4..@13$4));T
+#+TBLFM: @4$5..@12$5=$4 + @-1$5;T::@13$4='(apply '+ '(@4$4..@12$4));T
 
 * Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
@@ -63,6 +62,12 @@
 
 - Vuelve *CineFaI*. Viernes 19 a las 14:00. Aula I1 de la FaI.
 
+  \play{} Escuchamos la invitación de Romina.
+
+  *Entrada libre y gratuita*
+
+  ¡Pueden llevar mates! \mate{} 
+
 - Padrón provisorio elecciones 2024. El acto electoral se realizará el 10 y 11 de junio de 10:00 a 20:00. [[https://www.fi.uncoma.edu.ar/index.php/novedades/padrones-provisorios-elecciones-2024/][Padrón disponible en FaIWeb.]]
 
 - Becas FaI: Tutorías Pares.
@@ -91,7 +96,22 @@
 - ¿Contacto?
 
 * ⏸️ -- Tanda --
-* Bloque 2 - 
+* Bloque 2 - FLISoL
+- ¿Qué es el FLISoL?
+- ¿Quiénes lo organizan?
+- ¿Dónde se realiza?
+  - Desde Ushuaia a toda Latinoamérica.
+- ¿Qué es un Grupo de Usuarios de Linux?
+  - ¿Qué grupos hubo/hay?
+  - LUGNA (disuelto), ULA, GULBar (¿?), CUSOL VP, USLA (nacional), otros.
+- ¿Cuántos FLISoLes sucedieron en el Alto Valle?
+- Nació en Colombia, en el 2003. Luego, en el 2005 se expandió a toda latinoamérica.
+- En Río Negro y Neuquén, se realizaron FLISoLes en las siguientes ciudades:
+
+  Neuquén, Allen, Bariloche, Viedma/Carmen de Patagones, Andacollo, Fiske (hubo rumores que en el IUPA se realizó una vez), Villa Regina.
+- Contacto:
+  - Web: flisol.info.
+  - En la Facultad: Montún y controlz.fi.uncoma.edu.ar
 
 * Despedida
 - Hemos llegado al final del programa ...
@@ -104,6 +124,8 @@ Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compart
 - "Ranibow Tylenol". Autor: Kitsune^{2} (Renard Queenston), Album: Squaredance.
 
 #+HTML: </main>
+
+
 
 * Meta     :noexport:
 
