@@ -18,20 +18,21 @@
 |   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Bloque 2      | El Museo Vuelve a la Escuelas                       | 00:15:00 | 13:50:10 |
+|   |               | \telephone{} Natalia del MNBA Neuquén               |          |          |
 |   |               | \telephone{} Llamar a Carina Fracchia                         |          | 13:50:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | *Total*         |                                                     | 00:55:10 |          |
-#+TBLFM: @4$5..@12$5=$4 + @-1$5;T::@13$4='(apply '+ '(@4$4..@12$4));T
+#+TBLFM: @4$5..@13$5=$4 + @-1$5;T::@14$4='(apply '+ '(@4$4..@13$4));T
 
 * Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
 - Todos los miércoles a las 13:00 de la tarde
-- Presentarse - Participaron: Christian, Ángel.
+- Presentarse - Participaron: Christian, Franco.
   
-  Detrás del micrófono: Juan Cruz Gutierrez en la operación.
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
   
 - ¿De qué se trata Control Z?
 
@@ -76,6 +77,8 @@
 * Bloque 1 - Situación de la Universidad y la FaI
 Hemos escuchado a la Rectora en [[https://radiocut.fm/radiostation/uncocalf/listen/2024/04/08/08/00/00/][el programa La Banda Ancha del lunes]]. También, varios artículos del diario (ver [1] y [2]).
 
+Guillermo Grosso, decano de la Facultad de Informática (FaI) de la UNComa; Romina Tealdi, administrativa de la Secretaría de Investigación y Posgrado de la FAI; Franco Fabris, estudiante y vocal del centro de estudiantes de la FaI.
+
 - ¿Qué sucede en la Universidad? ¿Qué presupuesto estamos utilizando?
 - ¿Cuál es la situación actual en nuestra facultad?
 - ¿Qué significa "cesación de pagos"? ¿cómo afectaría en las actividades de la facultad?
@@ -97,6 +100,9 @@ Hemos escuchado a la Rectora en [[https://radiocut.fm/radiostation/uncocalf/list
 
 * ⏸️ -- Tanda --
 * Bloque 2 - El Museo Vuelve a la Escuelas
+
+El Museo Vuelve a las Escuelas es un proyecto de extensión. [[https://www.fi.uncoma.edu.ar/index.php/extension/proyectos-de-extension-vigentes/el-museo-vuelve-a-las-escuelas/][En FaIWeb se encuentra la descripción del proyecto.]]
+
 - ¿De qué se trata el proyecto? ¿cuál es su objetivo?
 - ¿Qué museos están trabajando en el proyecto? ¿qué establecimientos educativos?
 - ¿Qué actividades realizan? ¿tienen planificado nuevas actividades?
