@@ -1,4 +1,4 @@
-#+title: Guion 7 - 8 de mayo del 2024
+#+title: Guion 7 - 22 de mayo del 2024
 
 #+HTML: <main>
 
@@ -51,6 +51,9 @@
 - Assange podrá presentar una apelación contra su extradición. [[https://www.pagina12.com.ar/738171-julian-assange-podra-volver-a-apelar-contra-su-extradicion-a][Ver en Página 12.]]
 
 - Wikipedia en español celebro sus 23 años. Reunieron diferentes países entre ellos, el nuestro. [[https://wikimedia.es/wikipedistas-y-wikiproyectos-destacados-durante-la-celebracion-de-los-23-anos-de-wikipedia-en-espanol/][Ver noticia en wikimedia.es]].
+
+** UNCo
+- Marcha Universitaria de Antorchas. En defensa de la Universidad Pública. Hoy a las 18:30 en el playón de la UNCo. [[https://www.instagram.com/p/C7NRcfWxO6c][Ver noticia de FaEA]].
 
 ** FaI
  
