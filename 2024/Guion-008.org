@@ -12,13 +12,13 @@
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Noticias      |                                                     | 00:10:00 | 13:15:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1      | FLISoL                                              | 00:15:00 | 13:30:10 |
-|   |               | \telephone{} Miriam Lechner                                   |          | 13:30:10 |
+|   | Bloque 1      | Montún                                              | 00:15:00 | 13:30:10 |
+|   |               |                                                     |          | 13:30:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Bloque 2      | 18 de mayo: Día del mueso                           | 00:15:00 | 13:50:10 |
-|   |               | \telephone{} Meet: Carina Fracchia y Natalia Michelin         |          | 13:50:10 |
+|   |               | \telephone{} Meet: Carina Fracchia y Susana Parra             |          | 13:50:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
@@ -48,62 +48,48 @@
 
 * Noticias
 ** Internacionales
-- "Liga de Carreras Autónomas de Abu Dhabi: Todo los detalles sobre la primer competencia automovilísitica con autos conducidos por IA" [[https://culturageek.com.ar/liga-de-carreras-autonomas-de-abu-dhabi-todo-los-detalles-sobre-la-primer-competencia-automovilisitica-con-autos-conducidos-por-ia/][Ver en CulturaGeek.com.ar]].
+- Assange podrá presentar una apelación contra su extradición. [[https://www.pagina12.com.ar/738171-julian-assange-podra-volver-a-apelar-contra-su-extradicion-a][Ver en Página 12.]]
 
-  Sucedió el sábado 27 de abril. Tuvo 10.000 espectadores y 600.000 por Internet. 
-  Parece que hubo frenadas repentinas, choques y otras cosas raras. Ocho coches no pudieron completar una vuelta.
+- Wikipedia en español celebro sus 23 años. Reunieron diferentes países entre ellos, el nuestro. [[https://wikimedia.es/wikipedistas-y-wikiproyectos-destacados-durante-la-celebracion-de-los-23-anos-de-wikipedia-en-espanol/][Ver noticia en wikimedia.es]].
 
-  A pesar de esto, exploran otras tecnologías: drones y buggies autónomos. El objetivo es "remodelar el futuro de la movilidad a través de los deportes extremos".
-
-- "La única persona que se conecta a Steam en la Antártida es de Argentina: así se entretiene a decenas de grados bajo cero" [[https://www.xataka.com/videojuegos/unica-persona-que-se-conecta-a-steam-antartida-argentina-asi-se-entretiene-a-decenas-grados-cero][Ver en xataka.com]].
- 
 ** FaI
  
-- Comenzó el podcast Adentro de la FaI, de estudiantes para estudiantes.
-  
-- La FaI estuvo presente en el 50\deg aniversario de la Biblioteca Amigos del Libro acompañando y realizando entrevistas.
-  
-- Taller de preparación de exámenes parciales y finales desde la neuroeducación. Dictado por Psp. Leonardo Ibacache. Dirigido a estudiantes de la FaI.
+- Episodio 2 el podcast Adentro de la FaI, de estudiantes para estudiantes. [[https://open.spotify.com/show/4awHdyvNdD19YASVaQPaah?si=76fbc14d2e554dd5][Ver en Spotify]].   
 
-  Organizado por la Dirección de Becas de la Secretaría de Bienestar Universitario y la Secretaría Académica y Bienestar de la FaI.
+- El CPEM N\deg{} 7 de Junín de los Andes visitó la FaI. [[https://www.fi.uncoma.edu.ar/index.php/novedades/la-facultad-de-informatica-recibio-al-cpem-n-7-de-junin-de-los-andes/][Ver en FaiWeb]].
+  
+- Curso de posgrado Análisis Estático de Programas. Docente: Claudio Vaucheret. Inicia el 4 de junio. posgradofai@fi.uncoma.edu.ar.
 
-  Viernes 10 de mayo a las 12:00 en el aula i1 del edificio de la FaI.
+- Curso de posgrado Metodología de la Investigación. Docente: Gabriela Aranda. Inicia el 3 de junio.
  
-* Bloque 1 - FLISoL
-Miriam Lechner docente de nuestra facultad y de la Tecnicatura Universitaria en Administración de Sistemas y Software Libre.
+* Bloque 1 - Montún
 
-- Sábado 4 a las 10:00 fue el FLISoL en nuestra facu.
-- ¿Quiénes participaron? ¿qué actividades hubo?
-- Computadoras para nuestro museo:
-  - ¿Qué computadoras había?
-  - ¿Cuál es la idea de esas computadoras?
-  - ¿Estaban en funcionamiento? ¿Se podían usar?
-  - ¿Qué computadoras hace falta para el museo? ¿se busca alguna en particular que se usaba en la universidad?
-- Pendrive para probar GNU/Linux:
-  - ¿Qué software se compartió?
-  - Pero, y si tengo miedo que se rompa la compu... ¿podía probarlos igual?
-  - ¿Qué tiene de diferente ese sistema en un pendrive? ¿por qué el pendrive?
-- Charlas y mesas de debates:
-  - ¿Qué charlas hubo?
-  - ¿Qué temas se trataron en las mesas?
-  - ¿Qué decidieron?
+- ¿Qué es Montún?
+- ¿Qué actividades hacen? ¿quiénes lo componen?
+- ¿Por qué es importante el Software Libre?
+- ¿Existen otros grupos en Argentina y por acá? (LUGs)
+- ¿Qué se decidió en el FLISoL?
+- ¿Cómo participo de Montún?
+- ¿Contacto?
+- Viernes 24 a las 19:00 mostraremos diferentes distribuciones, sus interfaces
 
 * ⏸️ -- Tanda --
 * Bloque 2 - Día del Museo
-Natalia Michelin directora del Museo Nacional de Bellas Artes (MNBA) de Neuquén.
-
 Carina Fracchia docente de nuestra facultad, directora del proyecto de extensión "El Mueso Vuelve a las Escuelas".
+Susana Parra, docente de nuestra facultad.
 
 Más info: https://www.instagram.com/p/C5jDfP5Ogsp/?img_index=1
 
-- 18 de mayo de 9:00 a 16:00: día internacional del museo.
+Agradecimientos del MNBA: https://www.instagram.com/p/C7ILsTJxUL8/?img_index=1
+
+- 18 de mayo de 9:00 a 16:00: fue el día internacional del museo.
 - Iniciativa del Consejo Internacional de Museos (ICOM) para promover el intercambio y desarrollo cultural por medio de los museos ([[https://icom.museum/es/news/desbloqueando-el-conocimiento-el-dia-internacional-de-los-museos-2024-desvela-museos-para-la-educacion-y-la-investigacion/][ver artículo]]).
-- ¿Qué actividades se realizarán?
-- ¿Quiénes participan? ¿quiénes pueden ir?
+- ¿En qué actividades participó nuestra facultad?
+- ¿Cómo estuvo? ¿participó mucho público?
+- ¿Quiénes estuvieron exponiendo? 
 - ¿Por qué la facultad de informática participa? ¿qué actividades realizan en conjunto?
 - ¿Qué nuevas tecnologías han desarrollado en conjunto? ¿qué actividades han hecho con ellas?
-
-- ¿La semana que viene también hay actividades? ¿cuáles?  
+- ¿El proyecto de extensión tiene más actividades?
 
 * Despedida
 - Hemos llegado al final del programa ...
