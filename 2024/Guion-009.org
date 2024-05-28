@@ -1,0 +1,204 @@
+#+title: Guion 9 - 29 de mayo del 2024
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Guión técnico | Detalle                                             | Duración | Finaliza |
+| / | <>            | <>                                                  |       <> |       <> |
+| / | Inicio        |                                                     |          | 13:00:00 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
+|   | Presentación  |                                                     | 00:05:00 | 13:05:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Noticias      |                                                     | 00:10:00 | 13:15:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \musicalnote{} Música     |                                                     | 00:03:00 | 13:18:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 1      | La ronda en la Facu                                 | 00:15:00 | 13:33:10 |
+|   |               | \telephone{} Marina Morán                                     |          | 13:33:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:38:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 2      | Día de Ada                                          | 00:15:00 | 13:53:10 |
+|   |               | \telephone{} Sandra Roger                                     |          | 13:53:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:58:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | *Total*         |                                                     | 00:58:10 |          |
+#+TBLFM: @4$5..@13$5=$4 + @-1$5;T::@14$4='(apply '+ '(@4$4..@13$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian.
+  
+  Detrás del micrófono: Andrés Sepúlveda en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, control N.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+* Noticias
+** Internacionales
+- Assange podrá presentar una apelación contra su extradición. [[https://www.pagina12.com.ar/738171-julian-assange-podra-volver-a-apelar-contra-su-extradicion-a][Ver en Página 12.]]
+
+- Wikipedia en español celebro sus 23 años. Reunieron diferentes países entre ellos, el nuestro. [[https://wikimedia.es/wikipedistas-y-wikiproyectos-destacados-durante-la-celebracion-de-los-23-anos-de-wikipedia-en-espanol/][Ver noticia en wikimedia.es]].
+
+- ICQ dejará de funcionar el 29 de junio. [[https://www.pcgamer.com/software/well-miss-you-pioneering-instant-messaging-program-icq-is-finally-shutting-down-after-nearly-30-years/?utm_campaign=socialflow&utm_medium=social&utm_source=twitter.com][Ver noticia en PCGamer]].
+
+- Archive.org está bajo un ataque DDoS (Distributed Denial of Service). [[https://x.com/internetarchive/status/1795117949499445554][X post de @InternetArchive]].
+
+** FaI
+ 
+- Episodio 2 el podcast Adentro de la FaI, de estudiantes para estudiantes. [[https://open.spotify.com/show/4awHdyvNdD19YASVaQPaah?si=76fbc14d2e554dd5][Ver en Spotify]].   
+
+- El CPEM N\deg{} 7 de Junín de los Andes visitó la FaI. [[https://www.fi.uncoma.edu.ar/index.php/novedades/la-facultad-de-informatica-recibio-al-cpem-n-7-de-junin-de-los-andes/][Ver en FaiWeb]].
+  
+- Curso de posgrado Análisis Estático de Programas. Docente: Claudio Vaucheret. Inicia el 4 de junio. posgradofai@fi.uncoma.edu.ar.
+
+- Curso de posgrado Metodología de la Investigación. Docente: Gabriela Aranda. Inicia el 3 de junio.
+
+- *Montún* se juntó el viernes a las 19:00 para charlar acerca de Software Libre, distribuciones de Linux e interfaces gráficas. También se mostró cómo se instala y del proyecto Xinu de la facultad.
+
+- Hubo un *taller de origami* el viernes a las 14:00 dictado por Julian Díaz en el Hall de la FaI. [[https://www.fi.uncoma.edu.ar/index.php/novedades/taller-de-origami-en-la-fai/][Ver en FaIWeb]].
+
+- *CineFaI* este viernes a las 14:00 en el Aula I1. Entrada libre y gratuita.
+ 
+* Bloque 1 - La Ronda en la Facu
+Tomar la palabra en escenarios digitales: Herramientas para la comunidad travesti, trans y no binaria. Actividad de extensión.
+
+Se busca constituir un espacio de intercambio de saberes, con el objetivo de promover el acercamiento de herramientas digitales a personas travestis, trans y no binarias.
+
+- ¿Qué es La Ronda de Encuentros?
+- ¿Quiénes organizan y participan de la ronda? 
+- ¿Cómo se realizarán las actividades? ¿cupos? ¿modalidad?
+- Ejes socio-económicos presentados por el informe "Transformando Realidades" realizado por la Secretaría de Extensión, UNCo: Educación, identidad de género durante el tránsito escolar, discriminación y barreras.
+- ¿De qué se trata el proyecto? ¿qué objetivos tiene?
+  - Acercamiento real a la FaI.
+  - Identificar barreras de acceso digital.
+  - Crear materiales de difusión y comunicación.
+  - Indagar nuevos proyectos e inquietudes.
+
+* ⏸️ -- Tanda --
+* Bloque 2 - Día de Ada
+Día de Ada Lovelace.
+- Se realiza en el segundo martes de octubre: El martes 8 de octubre del 2024.
+
+Objetivo:
+- Incrementar la inclusión de mujeres en el STEM (Science, Technology, Engineering, and Maths).
+- Que nuevas personas sean roles modelos quienes inspiren a niñas interesadas en carreras del STEM. También, que dichas personas brinden apoyo a mujeres trabajando en STEM.
+
+[[https://findingada.com/][Ver página principal de Ada lovelace day.]]
+
+Preguntas:
+
+- ¿Qué es el día de Ada? ¿cuál es su objetivo?
+- ¿Qué actividades se hacen?
+- ¿Quiénes exponen y organizan? ¿Quiénes participan? Y en esta ocasión, ¿quiénes están invitadas?
+- ¿Por qué es necesario insipirar a niñas?
+  - Bajo ingreso femenino en las carreras de STEM.
+  - En Argentina, el cupo de ingreso femenino en crecimiento, aunque aún puede considerarse insuficience pues son minoría con repsecto al resto de las carreras (ver [[https://program.ar/por-que-estudiamos-informatica/][informe Program.Ar: "¿Por qué estudiamos informática?"]]).
+- ¿Tienen planificado realizar alguna actividad para octubre?
+  - ¿por qué se realiza en la facultad?
+
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "british"
+# org-latex-default-figure-position: "tbp"
+# End:
