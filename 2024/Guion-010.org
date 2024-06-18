@@ -1,0 +1,186 @@
+#+title: Guion 10 - 19 de junio del 2024
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Guión técnico | Detalle                                             | Duración | Finaliza |
+| / | <>            | <>                                                  |       <> |       <> |
+| / | Inicio        |                                                     |          | 13:00:00 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
+|   | Presentación  |                                                     | 00:05:00 | 13:05:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Noticias      |                                                     | 00:10:00 | 13:15:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | -             | - sin música -                                      | 00:00:00 | 13:15:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 1      | Conflugamer                                         | 00:16:30 | 13:31:40 |
+|   |               | \play{} Audio Conflugamer.                                |          | 13:31:40 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:36:40 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 2      | Estreno de la BUP en la UNCo                        | 00:15:00 | 13:51:40 |
+|   |               | \telephone{} Meet con Pablo Kogan                             |          | 13:51:40 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:56:40 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | *Total*         |                                                     | 00:56:40 |          |
+#+TBLFM: @4$5..@13$5=$4 + @-1$5;T::@14$4='(apply '+ '(@4$4..@13$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian.
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, control N.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+* Noticias
+** Internacionales
+** UNCo
+
+- Se dictarán dos carreras en la localidad de Cutral Co: Tecnicatura Universitaria en Farmacia y Tecnicatura Universitaria en Desarrollo Web. Por ello, la Facultad de Ciencias Médicas y la FaI estarán involucradas en esta extensión.
+
+  [[https://www.uncoma.edu.ar/la-unco-llega-con-dos-carreras-a-cutral-co-y-una-es-un-estreno/][Ver en UNco]]
+
+** FaI
+ 
+- El 30 de mayo, la FaI visitó la Escuela Primaria N\deg{} 125. La iniciativa de extensión "Prolog for Kids" lleva el mundo de la programación lógica a la escuela primaria por medio de actividades y juegos.
+
+  [[file:~/Documents/Control Z/biblioteca-amigos-del-libro/taller-libros digitales/presentación/presentacion.org::*HTML/Tecnologías Web][Ver en FaIWeb]]
+
+- El 3 de junio sucedió el primer torneo de programación del 2024. Participaron las escuelas ESRN 17, AMEN, CET 31, LINCOLN y CPEM 71 de las ciudades de Cipolletti, Neuquén, Villa Manzano y Centenario.
+
+  Se realizó una jornada donde se jugaron a resolver problemas. La actividad se llevó a cabo de forma mixta, virtual en sus propias escuelas y presencial en el Salón Azul de la Biblioteca de la UNCo. Participaron 120 estudiantes.
+
+  En agosto se realizará otra actividad similar y en octubre el PROGRAMATE 24. La actividad es abierta a las secundarias de la región y gratuita, se espera más estudiantes para los próximos torneos.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/torneos-de-programacion-2024-en-la-facultad-de-informatica/][Ver en FaIWeb]]
+
+- El 4 de junio se realizó el acto de apertura de la diplomatura universitaria ¡Hola mundo! Tus primeros pasos en programación. Es un convenio firmado entre la Municipalidad de Mariano Moreno y la FaI. 
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/se-realizo-el-acto-de-apertura-de-la-diplomatura-de-extension-universitaria-hola-mundo-tus-primeros-pasos-en-programacion/][Ver en FaIWeb]]
+
+- El 5 de junio se realizó La Ronda de Encuentros en la FaI. La Ronda de Encuentros entre personas travestis, trans y no binaras. Es un dispositivo que nace de una propuesta comunitaria de profesionales del Hospital Heller, Centro de Salud Almafuerte el equipo interdisciplinario de la Subsecretaría de Familia. En este caso, se realizó en la FaI para promover el acercamiento de herramientas digitales.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/la-ronda-en-la-facultad-de-informatica/][Ver en FaIWeb]]
+* Bloque 1 - Conflugamer
+- Conflugamer y la FaI organizaron un encuentro de videojuegos  solidario en la facultad.
+- Fue el viernes 17 de mayo y estuvieron toda la tarde.
+- Conflugamer solicitaba un alimento no perecedero para ayudar al comedor y merendero Unidos de Neuquén.
+
+  \play{} Reproducir audio de la entrevista.
+
+* ⏸️ -- Tanda --
+* Bloque 2 - Estreno de la BUP en la UNCo
+- El 10 y 11 de junio se llevó a cabo el acto electoral
+- Renovación de los cargos de Consejeros/as Superiores y Consejeros/as Directivos de los claustros de Estudiantes, Personas Graduadas y No Docentes.
+- ¿Qué es la BUP?
+- ¿Qué se utilizaba antes en estas elecciones?
+- ¿Por qué se utilizó la BUP? ¿qué ventajas tiene?
+- ¿Cómo se utiliza? ¿Es más sencillo?
+- ¿Hubo capacitación en la BUP para autoridades?
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "british"
+# org-latex-default-figure-position: "tbp"
+# End:
