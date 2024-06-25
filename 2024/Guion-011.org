@@ -1,0 +1,238 @@
+#+title: Guion 11 - 26 de junio del 2024
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Guión técnico | Detalle                                             | Duración | Finaliza |
+| / | <>            | <>                                                  |       <> |       <> |
+| / | Inicio        |                                                     |          | 13:00:00 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
+|   | Presentación  |                                                     | 00:05:00 | 13:05:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Noticias      |                                                     | 00:10:00 | 13:15:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Música        | Música para darle tiempo al Bomba \bomb{}                | 00:00:00 | 13:15:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 1      | Diplomatura en Mariano Moreno                       | 00:15:00 | 13:30:10 |
+|   |               | \telephone{} Meet con Karen Vazquez                           |          | 13:30:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 2      | Alerta Sofía y la informática                       | 00:07:00 | 13:42:10 |
+|   | ¿Música?      | \musicalnotes{}  Un tema músical dependiendo del tiempo          | 00:03:00 | 13:45:10 |
+|   |               | Assange y Wikileaks                                 | 00:07:00 | 13:52:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:57:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | *Total*         |                                                     | 00:57:10 |          |
+#+TBLFM: @4$5..@14$5=$4 + @-1$5;T::@15$4='(apply '+ '(@4$4..@14$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian.
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, control N.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+* Noticias
+** Internacionales
+- 23 de junio de 1912 nació Alan Turing. Propuso un modelo de computadora de propósito general que hoy en día se conoce como Máquina de Turing. 
+
+- Julian Assange recuperó su libertad. Un acuerdo de culpabilidad que, se lo declara culpable de conspiración, pero recuperará su libertad. Debe viajar a las Islas Marianas (EEUU) para comparecer ante el tribunal federal.
+
+  [[https://www.pagina12.com.ar/746967-historico-julian-assange-recupera-su-libertad]["Histórico: Julian Assange recupera su libertad", Página 12]]
+
+  [[https://www.theguardian.com/media/article/2024/jun/25/julian-assange-plea-deal-with-us-free-to-return-australia]["Julian Assange leaves UK after striking deal with US justice department", The Guardian]]
+** UNCo
+
+- No hay certezas de cuando el gobierno nacional girará lo necesario para los gastos de funcionamiento.
+
+  [[https://www.uncoma.edu.ar/estamos-tratando-de-salvar-el-segundo-cuatrimestre/][Ver noticia en la Web de UNCo]]
+
+- El 26 al 30 de junio, desde las 8:00 hasta las 22:00, en el salón Azul de la UNCo se realizará varias actividades.
+  Festival de Yoga por el día interancional del Yoga (sancionada por la ONU el 21/06/2015).
+  Es convocada por la UNCo y la Embajada de la India.
+  Actividad libre y gratuita.
+
+  [[https://www.instagram.com/p/C8Z4W7mvMiv/?img_index=1][Ver noticia en Instagram @sbucomahue]]
+
+- La UNCo celebra el Wiñoy Xipantv. Ceremonia intercultural abierta a la comunidad.
+  Sucedió el 26 de junio a las 8:00 en el Bosque de la vida. De la cede central de la UNCo.
+
+  [[https://www.uncoma.edu.ar/la-universidad-nacional-del-comahue-celebra-el-winoy-xipantv/][Ver noticia en la Web de UNCo]]
+
+** FaI
+- Este viernes 28 se realizará un encuentro en la Biblioteca Amigos del Libro "Formatos Digitales para la Escritura".
+
+
+* Bloque 1 - Diplomatura Hola Mundo en Mariano Moreno
+
+[[https://www.fi.uncoma.edu.ar/index.php/novedades/se-realizo-el-acto-de-apertura-de-la-diplomatura-de-extension-universitaria-hola-mundo-tus-primeros-pasos-en-programacion/][Ver noticia en FaIWeb]]
+
+El 4 de junio se llevó a cabo la apertura de de la Diplomatura de Extensión Universitaria "¡Hola Mundo! Tus primeros pasos en programación"
+
+- ¿Por qué es importante una diplomatura en Mariano Moreno?
+- En el acto de apertura se encontraban autoridades y el equipo de facilitación:
+  ¿Cómo fue recibida la diplomatura por las autoridades?
+- ¿Qué expectativas hay?
+- ¿Quiénes pueden participar de la diplomatura?
+- ¿Han empezado las inscripciones o las clases? ¿cuándo tienen previsto empezar?
+- ¿Qué contenidos se ven/están viendo en la diplomatura?
+- ¿La facultad ha realizado otras actividades en la localidad?
+
+Para estudiantes:
+
+- ¿Qué les parece la diplomatura? ¿les gusta?
+- ¿Qué temas les gusta más de computación?
+- ¿Les gustaría aprender más? 
+- ¿Les gustaría venir a la facultad a estudiar?
+- ¿Conocen la facultad? ¿les gustaría venir a conocer?
+
+
+Tips:
+
+- Una iniciativa para extender la facultad como institución.
+- Muy útil para comprender de qué se trata la informática.
+- Primeros pasos en programación para personas que pueden estar interesadas.
+
+
+* ⏸️ -- Tanda --
+* Bloque 2
+** Alerta Sofía y AMBER
+- Es un sistema de emergencia rápido. Para casos urgentes y de alto riesgo inminente, para niñas, niños y adolescentes (NNyA) desaparecido.
+- Acciones para difundir por distintos medios datos del caso para localizar a la niña.
+  - Concientizar y visibilizar a la población general acerla del caso para facilitar su localización.
+  - Habilitar para denuncias anónimas: *Línea 134* del Ministerio de Seguridad de la Nación.
+- Difusión:
+  - Redes sociales    
+  - Ente Nacional de Comunicaciones (ENACOM)
+  - Periódicos, radio, televisión, telefonía móvil, prestadores de serviciso de Internet etc.
+  - Puertos y aeropuertos
+  - Agencias publicitarias en autopistas.
+  - Entidades privadas y públicas de difusión
+  - Entidades estatales
+  - ICMEC, GMCN, [[https://www.internetalerts.org/][FIA]] que utilizan recursos informáticos
+- Afiches en https://www.argentina.gob.ar/seguridad/personasextraviadas
+- ¿Por qué? \to{} Es importante que cuanto antes se conozcan datos para localizar al NNyA.
+** Julian Assange y Wikileaks
+Lejos de ser periodistas internacionales, solo mencionaremos algunas cosas de Julian Assange.
+
+https://wikileaks.org
+
+https://justice4assange.com/
+
+- ¿Qué es Wikileaks? \to{} Un sitio Web y medio de comunicación.
+- Ha analizado y publicado documentos clasificados.
+  - El viedo del ataque a Bagdad en 2007
+  - Cablegate, publicado por Wikileaks. Chelsea Manning fue sentenciada por esta y otras filtraciones.
+- Fundado por Julian Assange en el 2006.
+- Julian Assange en el 2012 solicitó asilo político a la Embajada de Ecuador en el Reuno Unido. En su momento, Rafael Correa era el presidente de Ecuador.
+- En 2019, el presidente de ecuador de ese año, Lenín Moreno, deja de dar asilo a Assange. También, suspende su ciudadanía ecuatoriana argumentando irregularidades en el trámite (el cual fue realizado en el 2017 luego de cumplir 5 años en la embajada).
+
+  Fue detenido por las autoridades británicas. Desde entonces, estuvo detenido en la prisión de Belmarsh.
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "british"
+# org-latex-default-figure-position: "tbp"
+# End:
