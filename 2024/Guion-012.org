@@ -14,13 +14,13 @@
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Música        | Música para darle tiempo al Bomba \bomb{}                | 00:00:00 | 13:15:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1      | Proyecto Extensión                                  | 00:15:00 | 13:30:10 |
-|   |               | \telephone{} Carina Fraccia                                   |          | 13:30:10 |
+|   | Bloque 1      | Tallen en Biblioteca Popular Amigos del Libro       | 00:15:00 | 13:30:10 |
+|   |               | \telephone{} Nadia Sanchez                                    |          | 13:30:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 2      | Tallen en Biblioteca Popular Amigos del Libro       | 00:15:00 | 13:50:10 |
-|   |               | \telephone{} Nadia Sanchez                                    | 00:00:00 | 13:50:10 |
+|   | Bloque 2      | Proyecto Extensión                                  | 00:15:00 | 13:50:10 |
+|   |               | \telephone{} Meet: Carina Fraccia y Amadeo Laurin             | 00:00:00 | 13:50:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
@@ -84,29 +84,7 @@
 - Este viernes 28 se realizará un encuentro en la Biblioteca Amigos del Libro "Formatos Digitales para la Escritura".
 
 
-* Bloque 1 - El Museo vuelve a las Escuelas
-
-\telephone{} Carina Fraccia, directora del proyecto de extensión "El museo vuelve a las escuelas".
-
-[[https://www.fi.uncoma.edu.ar/index.php/extension/proyectos-de-extension-vigentes/el-museo-vuelve-a-las-escuelas/][Ver Proyecto de Extensión en FaIWeb.]]
-
-- ¿De qué se trata el proyecto?
-- ¿Quiénes participan?
-  - Museos:  Museo Nacional de Bellas Artes, Museo Histórico del Riego y Museo Provincial Carlos Ameghino.
-  - Escuelas.
-- ¿Qué es realidad virtual y realidad aumentada? ¿qué diferencias hay?
-- ¿Qué hacen con las obras? ¿cómo las llevan a la escuela?
-- ¿Qué actividades han realizado?
-  - Día de los museos (18 de mayo): ¿cómo fue esa actividad?
-- ¿Hay actividades planificadas?
-- Incorporación de museos de Trelew: Museo Municipal de Artes Visuales y el Museo Regional Pueblo de Luis.
-  - ¿Qué actividades van a realizar?
-  - ¿Vamos a poder ver sus obras?
-  - ¿Cómo se incorporaron estos museos?
-
-
-* ⏸️ -- Tanda --
-* Bloque 2 - Taller en BPAL
+* Bloque 1 - Taller en BPAL
 Dentro del [[https://www.fi.uncoma.edu.ar/index.php/extension/proyectos-de-extension-vigentes/faicomm-charlando-sobre-informatica/][Proyecto de Extensión FaIComm]], se realizó un taller "Formatos Digitales para la Escritura" este viernes 28, en la Biblioteca Popular Amigos del Libro de Fernandez Oro.
 
 \telephone{} Nadia Sanchez, colaboradora y trabaja en atención al público en la Biblioteca Popular Amigos del Libro.
@@ -134,6 +112,28 @@ Acerca de la biblioteca:
   - La cultura es un aspecto relevante para una biblioteca popular
 - ¿Tienen actividades planificadas para más adelante?
 - Concato de la biblioteca.
+
+* ⏸️ -- Tanda --
+* Bloque 2 - El Museo vuelve a las Escuelas
+
+\telephone{} Carina Fraccia y Amadeo Laurin, directora y co-director del proyecto de extensión "El museo vuelve a las escuelas".
+
+[[https://www.fi.uncoma.edu.ar/index.php/extension/proyectos-de-extension-vigentes/el-museo-vuelve-a-las-escuelas/][Ver Proyecto de Extensión en FaIWeb.]]
+
+- ¿De qué se trata el proyecto?
+- ¿Quiénes participan?
+  - Museos:  Museo Nacional de Bellas Artes, Museo Histórico del Riego y Museo Provincial Carlos Ameghino.
+  - Escuelas.
+- ¿Qué es realidad virtual y realidad aumentada? ¿qué diferencias hay?
+- ¿Qué hacen con las obras? ¿cómo las llevan a la escuela?
+- ¿Qué actividades han realizado?
+  - Día de los museos (18 de mayo): ¿cómo fue esa actividad?
+- ¿Hay actividades planificadas?
+- Incorporación de museos de Trelew: Museo Municipal de Artes Visuales y el Museo Regional Pueblo de Luis.
+  - ¿Qué actividades van a realizar?
+  - ¿Vamos a poder ver sus obras?
+  - ¿Cómo se incorporaron estos museos?
+
 
 * Despedida
 - Hemos llegado al final del programa ...
