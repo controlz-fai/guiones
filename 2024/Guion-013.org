@@ -14,12 +14,12 @@
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Música        | Música para darle tiempo al Bomba \bomb{}                | 00:00:00 | 13:15:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1      |                                                     | 00:15:00 | 13:30:10 |
-|   |               | \telephone{}                                                  |          | 13:30:10 |
+|   | Bloque 1      | Nueva tecnicatura en Cutral-Co                      | 00:15:00 | 13:30:10 |
+|   |               | \telephone{} Guillermo Grosso                                 |          | 13:30:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 2      |                                                     | 00:15:00 | 13:50:10 |
+|   | Bloque 2      | CrowdStrike / Meta AI                               | 00:15:00 | 13:50:10 |
 |   |               | \telephone{}                                                  | 00:00:00 | 13:50:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
@@ -79,10 +79,63 @@
 
   [[https://www.fi.uncoma.edu.ar/index.php/novedades/agosto-topicos-formales-en-criptografia/][Ver en FaiWeb]]
 
-* Bloque 1 -
+* Bloque 1 - Nueva tecnicatura en Cutral-Co
+ \telephone{} Guillermo Grosso, decano de la facultad de informática.
 
+ Apertura de la Tecnicatura Universitaria en Desarrollo Web en Cutral-Co.
+ 
+ - ¿de qué se trata la carrera?
+ - ¿cómo es la carrera? ¿quiénes pueden acceder?
+ - ¿cómo es que llegó la carrera a Cutral-Co? ¿por qué Cutral-Co?
+ - ¿qué significa que se abra una carrera en otra ciudad para la sociedad?
+ - ¿qué significa bajo el contexto económico actual?
+ 
+ [[https://web.archive.org/web/20240614155253/https://www.uncoma.edu.ar/la-unco-llega-con-dos-carreras-a-cutral-co-y-una-es-un-estreno/][Noticia en uncoma.edu.ar.]]
+
+ Sistema Inteligente de Gestión Turística (SIGETUR) de la provincia.
+ 
+ - ¿Qué es el SIGETUR? ¿qué tareas realiza el software?
+ - ¿Qué actividades realizará la facultad en este convenio?
+   - manuales de usuarios, asistencia en el desarrollo, monitorización, documentación técnica.
+ - ¿qué importancia tiene un convenio con la facultad?
+ 
+ [[https://web.archive.org/web/20240703180823/https://www.uncoma.edu.ar/dos-facultades-de-la-unco-intervendran-en-un-sistema-inteligente-de-gestion-turistica/][Noticia en uncoma.edu.ar - SIGETUR]]
 * ⏸️ -- Tanda --
-* Bloque 2 -
+* Bloque 2 - Crowdstrike y Meta AI
+
+[[https://www.infobae.com/america/mundo/2024/07/19/fallo-informatico-mundial-en-vivo-aerolineas-reportan-interrupciones-en-sus-sistemas-debido-a-problemas-tecnicos/][CrowdStrike aseguró que "el problema ha sido identificado, aislado y se ha desplegado una solución" - infobae.com]] 
+
+[[https://www.ambito.com/negocios/quien-es-y-que-hace-crowdstrike-la-empresa-detras-la-falla-masiva-microsoft-n6034995]["¿Qué es y qué hace CrowdStrike? La empresa detrás de la falla masiva de Microsoft" - Ambito.com]]
+
+[[https://www.dell.com/support/kbdoc/es-es/000126839/que-es-crowdstrike][¿Qué es la plataforma CrowdStrike Falcon? - Dell Technologies]]
+
+- ¿Qué es Crowdstrike? ¿qué es Falcon Sensor?
+  - Servicio as a Service (SaaS).
+
+  - Ofrece varios servicios de antivirus y detección de ciber-ataques por medio de EDR.
+  
+  - EDR :: Endpoint detection and response. Advierte a administradores acerca de comportamientos extraños en "endpoints" (URL utilizadas por aplicaciones para obtener información).
+  - XDR :: Similar pero abarca un conjunto de herramientas y técnicas (análisis de tráfico de redes, telemetría, otras alertas de seguridad) para detectar comportamientos extraños.
+- ¿Por qué afecta a Windows?
+  - Es un agente que se instala en las PC de escritorio o en los servidores en la nube.
+  - Dependen de un SaaS.
+
+Meta AI
+
+- Llama 3.1
+- *¡No! ¡No se puede desactivar de Whatsapp!*
+- Soporta la generación de imágenes y textos.
+- Entrada solo de texto.
+- ¡Las respuestas no siempre son exactas!
+- ¿Por qué está en la búsqueda y en un ícono?
+- ¿Qué pasó que no se puede desactivar?
+- ¿Qué efectos produce en el humano tener un generador de información tan fácil y a mano?
+  - ¿Más fácil acceso a Fake news?
+  - ¿Superficialidad en la información? \to{} ansiedad, falta de debates, calidad en la información y el conocimiento, falta de análisis completo
+  - ¿Repercute en contra al no poder aprender a investigar?
+- Hay ciertas tareas que son muy útiles y no las puede hacer
+  - ¿Por qué no las incluyeron? Por ejemplo, computar husos horarios, recordatorios, gráficos matemáticos, computar fechas y horas, etc.
+  - ¿Por qué no incluyeron otras tareas que son muy útiles en Whatsapp? Por ejemplo, un Speech-to-text, Optical Character Recognitions (OCR), etc.
 
 * Despedida
 - Hemos llegado al final del programa ...
