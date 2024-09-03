@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<!-- 2024-09-03 mar 20:22 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Guion 15 - 4 de septiembre del 2024</title>
+<meta name="author" content="Christian Gimenez" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link href="../css/guiones-2024.css" rel="stylesheet">
+<script src="libs/org-info.js">
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+// @license-end
+</script>
+
+<script>
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+org_html_manager.set("TOC_DEPTH", "3");
+org_html_manager.set("LINK_HOME", "");
+org_html_manager.set("LINK_UP", "");
+org_html_manager.set("LOCAL_TOC", "1");
+org_html_manager.set("VIEW_BUTTONS", "1");
+org_html_manager.set("MOUSE_HINT", "underline");
+org_html_manager.set("FIXED_TOC", "1");
+org_html_manager.set("TOC", "1");
+org_html_manager.set("VIEW", "info");
+org_html_manager.setup();  // activate after the parameters are set
+// @license-end
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Guion 15 - 4 de septiembre del 2024</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>&Iacute;ndice</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org2b0a9aa">1. Presentación del programa</a></li>
+<li><a href="#orgd6c9bae">2. Noticias</a>
+<ul>
+<li><a href="#orgc2439c8">2.1. Internacionales</a></li>
+<li><a href="#orgc9885ec">2.2. UNCo</a></li>
+<li><a href="#orgcd2661f">2.3. FaI</a></li>
+</ul>
+</li>
+<li><a href="#org1d56833">3. Bloque 1 - Visita al CPEM 18</a></li>
+<li><a href="#org42e2688">4. ⏸️ &#x2013; Tanda --</a></li>
+<li><a href="#org45d93fc">5. Bloque 2 - La FaI en la Expo Vocacional Neuquén</a></li>
+<li><a href="#org1633231">6. Despedida</a></li>
+<li><a href="#org2966739">7. Licencia</a></li>
+</ul>
+</div>
+</div>
+<main>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Tabla 1</span> Guión técnico para el operador.</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Guión técnico</th>
+<th scope="col" class="org-left">Detalle</th>
+<th scope="col" class="org-right">Duración</th>
+<th scope="col" class="org-right">Finaliza</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Comienzo</td>
+<td class="org-left">Cortinilla: <code>Cortinillas/Apertura Ctrl Z.mp3</code></td>
+<td class="org-right">00:00:10</td>
+<td class="org-right">13:00:10</td>
+</tr>
+
+<tr>
+<td class="org-left">Presentación</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:05:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Noticias</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:10:00</td>
+<td class="org-right">13:15:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Música</td>
+<td class="org-left">Música para darle tiempo al Bomba &#128163;</td>
+<td class="org-right">00:00:00</td>
+<td class="org-right">13:15:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Bloque 1</td>
+<td class="org-left">Visita al CPEM 18</td>
+<td class="org-right">00:15:00</td>
+<td class="org-right">13:30:10</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#9742;&#65039; Llamar: Sebastián Alvarado</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">13:30:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#9208;&#65039; Tanda</td>
+<td class="org-left">&#x2013;&#x2014; Tanda Publicitaria -----</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:35:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Bloque 2</td>
+<td class="org-left">La FaI en la Expo Vocacional Neuquén</td>
+<td class="org-right">00:15:00</td>
+<td class="org-right">13:50:10</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#9742;&#65039;</td>
+<td class="org-right">00:00:00</td>
+<td class="org-right">13:50:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Cierre</td>
+<td class="org-left">Cortinilla/separador: <code>Cortinillas/Cierre Ctrl Z.mp3</code></td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:55:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left"><b>Total</b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:55:10</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<div id="outline-container-org2b0a9aa" class="outline-2">
+<h2 id="org2b0a9aa"><span class="section-number-2">1.</span> Presentación del programa</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>Bienvenida a Control Z, el espacio de la Facultad de Informática.</li>
+<li>Todos los miércoles a las 13:00 de la tarde</li>
+<li><p>
+Presentarse - Participaron: Christian.
+</p>
+
+<p>
+Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+</p></li>
+
+<li>¿De qué se trata Control Z?</li>
+
+<li><p>
+Es una iniciativa de extensión de nuestra facultad y de nuestra
+universidad pública
+</p>
+
+<p>
+Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+informática diversa, control N.
+</p></li>
+
+<li>Canales de comunicación: Instagram: ctrlz_fai |
+Web:<a href="https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&amp;sa=D&amp;source=editors&amp;ust=1710886972631607&amp;usg=AOvVaw0Nd3amx84NFOIIJmebjzYD"> </a><a href="https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&amp;sa=D&amp;source=editors&amp;ust=1710886972631851&amp;usg=AOvVaw2WckiSK9W10CI0pP35EAyw">https://controlz.fi.uncoma.edu.ar/</a> |
+Correo: controlz@fi.uncoma.edu.ar</li>
+<li>Resumen del programa de hoy: ¿qué hay hoy?</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd6c9bae" class="outline-2">
+<h2 id="orgd6c9bae"><span class="section-number-2">2.</span> Noticias</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgc2439c8" class="outline-3">
+<h3 id="orgc2439c8"><span class="section-number-3">2.1.</span> Internacionales</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>"El Walkman de Sony cumple 45 años: llegó en 1979 y cambió para siempre cómo escuchamos música". <a href="https://www.lanacion.com.ar/tecnologia/el-walkman-de-sony-cumple-45-anos-llego-en-1979-y-cambio-para-siempre-como-escuchamos-musica-nid01072024/">Ver en LaNación.com.ar</a>.</li>
+
+<li>"Meta planea utilizar tu contenido para entrenar su IA". <a href="https://socialtic.org/blog/meta-planea-utilizar-tu-contenido-para-entrenar-su-ia/">Ver noticia en Socialtic.org.</a>
+
+<ul class="org-ul">
+<li>"¿Puedo evitar que Meta utilice mis publicaciones para entrenar a su IA?". <a href="https://www.nytimes.com/es/2024/06/10/espanol/meta-ia-datos-privacidad.html">Ver noticia de New York Times en Español.</a></li>
+
+<li>Ya comenzaron: a partir del 26 de junio.</li>
+<li>Utilizarán información pública solamente.</li>
+<li>Hay preocupaciones de quienes usan sus servicios por su privacidad.</li>
+<li>En algunos países se requiere configurar como privada la cuenta, o enviar una solicitud de exclusión.</li>
+</ul></li>
+
+<li>"La Justicia ordenó clausurar más de 120 sitios clandestinos de apuestas". <a href="https://www.infobae.com/sociedad/policiales/2024/06/28/la-justicia-ordeno-clausurar-mas-de-120-sitios-clandestinos-de-apuestas/">Ver en Infobae.com</a>.
+<ul class="org-ul">
+<li>La medida fue solicitada al ENACOM el viernes 28/06.</li>
+<li>Ninguno tenía filtro para evitar el acceso a menores de edad.</li>
+<li>Los 120 sitios no contaban con los sufijos ".bet.ar" en su nombre de dominio.</li>
+<li>En uno de los sitios, incautaron más de 250 millones de pesos.</li>
+</ul></li>
+
+<li>"Empieza a aplicarse la receta electrónica: qué pasa en Neuquén durante julio 2024". <a href="https://www.rionegro.com.ar/servicios/empieza-a-aplicarse-la-receta-electronica-que-pasa-en-neuquen-durante-julio-2024-3667551/#Echobox=1719890914">Ver en RioNegro.com.ar</a>.
+<ul class="org-ul">
+<li>Desde 1 de julio en <b>todo el país</b>.</li>
+<li>Es un nuevo sistema.</li>
+<li>La receta en papel sigue sirviendo, van a coexistir con la digital.</li>
+<li>Ya existen otros sistemas, por ejemplo: PAMI utiliza el propio digital.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgc9885ec" class="outline-3">
+<h3 id="orgc9885ec"><span class="section-number-3">2.2.</span> UNCo</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li><p>
+No hay certezas de cuando el gobierno nacional girará lo necesario para los gastos de funcionamiento.
+</p>
+
+<p>
+<a href="https://www.uncoma.edu.ar/estamos-tratando-de-salvar-el-segundo-cuatrimestre/">Ver noticia en la Web de UNCo</a>
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgcd2661f" class="outline-3">
+<h3 id="orgcd2661f"><span class="section-number-3">2.3.</span> FaI</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul class="org-ul">
+<li>Este viernes 28 se realizará un encuentro en la Biblioteca Amigos del Libro "Formatos Digitales para la Escritura".</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org1d56833" class="outline-2">
+<h2 id="org1d56833"><span class="section-number-2">3.</span> Bloque 1 - Visita al CPEM 18</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+<a href="https://www.fi.uncoma.edu.ar/index.php/novedades/la-fai-visita-el-cpem-18-con-una-actividad-ludica-centrada-en-el-tema-de-las-magnitudes/">Ver en FaIWeb</a>
+</p>
+
+<ul class="org-ul">
+<li>En el marco de las actividades de extensión de la FaI. Parte de la práctica profesional docente de la carrera de Profesorado en Informática del estudiante Sebastián Alvarado.</li>
+<li>Se realizó una jornada educativa en el CPEM 18. Con una actividad lúdica centrada en el tema de las magnitudes.</li>
+<li>¿Quiénes participaron de la escuela? ¿y de nuestra facu?
+<ul class="org-ul">
+<li>Estudiantes del tercer año.</li>
+<li>El profesor Jeremías Crisóstomo del CPEM 18.</li>
+<li>Luis Coralle y Alejandro Mora de la FaI (secretaría TIC).</li>
+<li>Jorge Rodriguez (secretaría de extensión).</li>
+</ul></li>
+<li>¿Cómo fue la actividad? ¿de qué se trata?</li>
+<li>¿Cómo interviene la informática en la actividad? ¿la aplicación cómo se desarrolló?
+<ul class="org-ul">
+<li>¿Se puede utilizar cualquiera aplicación informática? ¿qué tiene de particular esta aplicación para que se pueda utilizar en la escuela?</li>
+<li>En este caso, ¿qué involucró además del desarrollo de la herramienta digital?</li>
+</ul></li>
+<li>Entonces, ¿cómo es el Profesorado en Informática? ¿se realizan este tipo de activades en el profesorado?</li>
+<li>¿Cómo la pasaron? ¿qué dijeron el estudiantado?</li>
+<li>¿Y el profesor de la escuela? ¿qué le pareció la actividad?</li>
+<li>¿Por qué es importante el desarrollo de estas actividades con herramientas informáticas?</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org42e2688" class="outline-2">
+<h2 id="org42e2688"><span class="section-number-2">4.</span> ⏸️ &#x2013; Tanda --</h2>
+</div>
+<div id="outline-container-org45d93fc" class="outline-2">
+<h2 id="org45d93fc"><span class="section-number-2">5.</span> Bloque 2 - La FaI en la Expo Vocacional Neuquén</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+<a href="https://www.neuquencapital.gov.ar/turismo/eventos/expovocacional/">Ver invitación en la página de Neuquén Capital</a>
+</p>
+
+<ul class="org-ul">
+<li>Expo Vocacional Neuquén se realizará el 6, 7 y 8 de septiembre en el espacio DUAM.</li>
+<li>Una muestra educativa.</li>
+<li>La FaI estará presente en la expo.</li>
+
+<li>¿Qué actividades se realizará la FaI en la Expo Vocacional?</li>
+<li>Presentación de stands</li>
+<li>¿Quiénes estarán en la Expo? ¿estudiantes, docentes?</li>
+<li>¿Por qué es importante ir a la Expo?</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1633231" class="outline-2">
+<h2 id="org1633231"><span class="section-number-2">6.</span> Despedida</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>Hemos llegado al final del programa &#x2026;</li>
+<li>¡Nos vemos el próximo miércoles a las 13:00!</li>
+<li>¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org2966739" class="outline-2">
+<h2 id="org2966739"><span class="section-number-2">7.</span> Licencia</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+</p>
+
+</main>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Autor: Christian Gimenez</p>
+<p class="date">Created: 2024-09-03 mar 20:22</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
