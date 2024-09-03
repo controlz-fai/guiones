@@ -50,39 +50,51 @@
 
 * Noticias
 ** Internacionales
-- "El Walkman de Sony cumple 45 años: llegó en 1979 y cambió para siempre cómo escuchamos música". [[https://www.lanacion.com.ar/tecnologia/el-walkman-de-sony-cumple-45-anos-llego-en-1979-y-cambio-para-siempre-como-escuchamos-musica-nid01072024/][Ver en LaNación.com.ar]].
-
-- "Meta planea utilizar tu contenido para entrenar su IA". [[https://socialtic.org/blog/meta-planea-utilizar-tu-contenido-para-entrenar-su-ia/][Ver noticia en Socialtic.org.]]
-
-  - "¿Puedo evitar que Meta utilice mis publicaciones para entrenar a su IA?". [[https://www.nytimes.com/es/2024/06/10/espanol/meta-ia-datos-privacidad.html][Ver noticia de New York Times en Español.]]
-
-  - Ya comenzaron: a partir del 26 de junio.
-  - Utilizarán información pública solamente.
-  - Hay preocupaciones de quienes usan sus servicios por su privacidad.
-  - En algunos países se requiere configurar como privada la cuenta, o enviar una solicitud de exclusión.
-
-- "La Justicia ordenó clausurar más de 120 sitios clandestinos de apuestas". [[https://www.infobae.com/sociedad/policiales/2024/06/28/la-justicia-ordeno-clausurar-mas-de-120-sitios-clandestinos-de-apuestas/][Ver en Infobae.com]].
-  - La medida fue solicitada al ENACOM el viernes 28/06.
-  - Ninguno tenía filtro para evitar el acceso a menores de edad.
-  - Los 120 sitios no contaban con los sufijos ".bet.ar" en su nombre de dominio.
-  - En uno de los sitios, incautaron más de 250 millones de pesos.
-
-- "Empieza a aplicarse la receta electrónica: qué pasa en Neuquén durante julio 2024". [[https://www.rionegro.com.ar/servicios/empieza-a-aplicarse-la-receta-electronica-que-pasa-en-neuquen-durante-julio-2024-3667551/#Echobox=1719890914][Ver en RioNegro.com.ar]].
-  - Desde 1 de julio en *todo el país*.
-  - Es un nuevo sistema.
-  - La receta en papel sigue sirviendo, van a coexistir con la digital.
-  - Ya existen otros sistemas, por ejemplo: PAMI utiliza el propio digital.
   
 
 ** UNCo
+- El Consejo Superior declaró la emergencia salarial:  
 
-- No hay certezas de cuando el gobierno nacional girará lo necesario para los gastos de funcionamiento.
+  Declarada para docentes y no docentes en todas las funciones y grados. Aprobada por unanimidad.  
 
-  [[https://www.uncoma.edu.ar/estamos-tratando-de-salvar-el-segundo-cuatrimestre/][Ver noticia en la Web de UNCo]]
+  [[https://www.uncoma.edu.ar/el-consejo-superior-declaro-la-emergencia-salarial-en-la-unco/][Ver en la Web de la UNCo.]] 
+
+
 
 ** FaI
-- Este viernes 28 se realizará un encuentro en la Biblioteca Amigos del Libro "Formatos Digitales para la Escritura".
+- ¿Se viene la semana del estudiante? El 16 al 21 (sábado) de septiembre
 
+- III WEED: Workshop Enseñanza en Escenarios Digitales 
+
+  - Un espacio de intercambio y reflexión, donde se presentan trabajos, experiencias y reflexiones acerca de la enseñanza con recursos digitales. 
+  - 25, 26, 27 de septiembre en la FaI. Es en formato híbrido para docentes, graduados, estudiantes y magisters.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/iii-workshop-ensenanza-en-escenarios-digitales-iiiweed/][Ver en FaIWeb]] 
+  
+- La FaI se suma a Ada Lovelace day. Sábado 5 de octubre para niñas de 10 a 12 años acompañadas por docentes, familia y/o tutores.
+  
+  - Se realizan actividades en toda latinoamérica. La FaI también se une a estas jornadas. 
+  - Promover las carreras STEM (Ciencia, tecnología, ingeniería y matemáticas) a niñas de 10 a 12 años. 
+  - Requiere inscripción a adalovelaceday@fi.uncoma.edu.ar. Es gratuita con cupos limitados.
+  - Se aceptan inscripciones hasta el 6 de septiembre inclusive.
+
+  [[https:https://www.fi.uncoma.edu.ar/index.php/novedades/jornada-latinoamericana-de-talleres-stem-para-ninas-y-mujeres-adolescentes-ada-lovelace-2024/][Ver FaIWeb]]
+  
+- Se viene el Programate 24 el 17 y 18 de octubre... ¡Vayan averiguando!
+  - Asisten secundarios de Río Negro y Neuquén. 
+  - Torneo de Programación. EESISeg’24 – 8° Encuentro de Estudiantes Secundarios sobre Internet Seguro. MuestrApp’24 – IV Muestra Anual de Aplicaciones Móviles. ¡Muchos Talleres! 
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/programate-24/][Ver FaIWeb]]
+
+  Más info en:
+  
+  https://pm.fi.uncoma.edu.ar/
+
+- Expo Vocacional Neuquén se realizará el 6, 7 y 8 de septiembre en el espacio DUAM.
+  - Una muestra educativa.
+  - La FaI estará presente en la expo.
+
+  
 
 * Bloque 1 - Visita al CPEM 18
 
