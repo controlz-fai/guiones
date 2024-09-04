@@ -50,15 +50,33 @@
 
 * Noticias
 ** Internacionales
-  
+** Nacionales
+- El Senado logró dictámen para la Ley de Financiamiento Universitario.
+
+  - Ya cuenta con media sanción de la Cámara de Diputados.
+
+   [[https://www.rionegro.com.ar/politica/ley-de-financiamiento-universitario-el-senado-logro-dictamen-y-busca-otro-reves-para-el-gobierno-3774147/][Ver artículo del Diario Río Negro]]
+
+- Paro y marchas para el jueves a favor de la Ley de Financiamiento Universitario.
+
+  [[https://conaduhistorica.org.ar/prensa/05-09-paro-nacional-en-las-universidades-nacionales/][Ver artículo de CONADU Histórica]]
+
+  [[https://www.tiempoar.com.ar/ta_article/docentes-de-las-universidades-nacionales-vuelven-a-parar-y-marchan-el-jueves-en-favor-de-la-ley-de-financiamiento/][Ver artículo en Tiempo Argentino]]
+   
+- La UNRN se declaró en Emergencia Salarial.
+
+  - El 50% de su personal está por debajo de la línea de pobreza.
+  - En la semana del 25 de agosto se declaró en emergencia salarial.
+  - Ya tiene una declaración de emergencia económica desde febrero.
+
+  [[https://www.rionegro.com.ar/politica/la-unrn-declaro-la-emergencia-salarial-universitaria-3759720/][Ver artículo del Diario Río Negro.]]
 
 ** UNCo
 - El Consejo Superior declaró la emergencia salarial:  
 
   Declarada para docentes y no docentes en todas las funciones y grados. Aprobada por unanimidad.  
 
-  [[https://www.uncoma.edu.ar/el-consejo-superior-declaro-la-emergencia-salarial-en-la-unco/][Ver en la Web de la UNCo.]] 
-
+  [[https://www.uncoma.edu.ar/el-consejo-superior-declaro-la-emergencia-salarial-en-la-unco/][Ver en la Web de la UNCo.]]
 
 
 ** FaI
@@ -78,7 +96,7 @@
   - Requiere inscripción a adalovelaceday@fi.uncoma.edu.ar. Es gratuita con cupos limitados.
   - Se aceptan inscripciones hasta el 6 de septiembre inclusive.
 
-  [[https:https://www.fi.uncoma.edu.ar/index.php/novedades/jornada-latinoamericana-de-talleres-stem-para-ninas-y-mujeres-adolescentes-ada-lovelace-2024/][Ver FaIWeb]]
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/jornada-latinoamericana-de-talleres-stem-para-ninas-y-mujeres-adolescentes-ada-lovelace-2024/][Ver FaIWeb]]
   
 - Se viene el Programate 24 el 17 y 18 de octubre... ¡Vayan averiguando!
   - Asisten secundarios de Río Negro y Neuquén. 
@@ -90,10 +108,14 @@
   
   https://pm.fi.uncoma.edu.ar/
 
-- Expo Vocacional Neuquén se realizará el 6, 7 y 8 de septiembre en el espacio DUAM.
-  - Una muestra educativa.
+- Expo Vocacional Neuquén se realizará el 4, 5 y 6 de septiembre en el espacio DUAM.
+
+  - De 9:00 a 18:00 en espacio duam (San martín 5901).
+  - Todas las actividades son gratuitas.
+  - Una muestra educativa con más de 40 instituciones educativas y formativas.
   - La FaI estará presente en la expo.
 
+  [[https://www.rionegro.com.ar/sociedad/llega-la-expovocacional-a-neuquen-dias-horarios-y-propuestas-de-la-feria-educativa-mas-esperada-del-ano-3770036/][Artículo en Diario Río Negro]]
   
 
 * Bloque 1 - Visita al CPEM 18
