@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<!-- 2024-09-24 mar 20:55 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Guion 16 - 25 de septiembre del 2024</title>
+<meta name="author" content="Christian Gimenez" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link href="../css/guiones-2024.css" rel="stylesheet">
+<script src="libs/org-info.js">
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+// @license-end
+</script>
+
+<script>
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+org_html_manager.set("TOC_DEPTH", "3");
+org_html_manager.set("LINK_HOME", "");
+org_html_manager.set("LINK_UP", "");
+org_html_manager.set("LOCAL_TOC", "1");
+org_html_manager.set("VIEW_BUTTONS", "1");
+org_html_manager.set("MOUSE_HINT", "underline");
+org_html_manager.set("FIXED_TOC", "1");
+org_html_manager.set("TOC", "1");
+org_html_manager.set("VIEW", "info");
+org_html_manager.setup();  // activate after the parameters are set
+// @license-end
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Guion 16 - 25 de septiembre del 2024</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>&Iacute;ndice</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org53951a7">1. Presentación del programa</a></li>
+<li><a href="#org6f0f566">2. Noticias</a>
+<ul>
+<li><a href="#org66ae214">2.1. Internacionales</a></li>
+<li><a href="#org5a26ea8">2.2. Nacionales</a></li>
+<li><a href="#org983a8ac">2.3. UNCo</a></li>
+<li><a href="#org1f6a2c3">2.4. FaI</a></li>
+</ul>
+</li>
+<li><a href="#orge08d83a">3. Bloque 1 - Semana del Estudiante</a></li>
+<li><a href="#org55fcf1f">4. ⏸️ &#x2013; Tanda --</a></li>
+<li><a href="#org5d15176">5. Bloque 2 - Torneo de Programación</a></li>
+<li><a href="#org2cea9ed">6. Despedida</a></li>
+<li><a href="#orgd82c77e">7. Licencia</a></li>
+</ul>
+</div>
+</div>
+<main>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Tabla 1</span> Guión técnico para el operador.</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Guión técnico</th>
+<th scope="col" class="org-left">Detalle</th>
+<th scope="col" class="org-right">Duración</th>
+<th scope="col" class="org-right">Finaliza</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Comienzo</td>
+<td class="org-left">Cortinilla: <code>Cortinillas/Apertura Ctrl Z.mp3</code></td>
+<td class="org-right">00:00:10</td>
+<td class="org-right">13:00:10</td>
+</tr>
+
+<tr>
+<td class="org-left">Presentación</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:05:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Noticias</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:10:00</td>
+<td class="org-right">13:15:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Música</td>
+<td class="org-left">Música para darle tiempo al Bomba &#128163;</td>
+<td class="org-right">00:00:00</td>
+<td class="org-right">13:15:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Bloque 1</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:15:00</td>
+<td class="org-right">13:30:10</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#9742;&#65039;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">13:30:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#9208;&#65039; Tanda</td>
+<td class="org-left">&#x2013;&#x2014; Tanda Publicitaria -----</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:35:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Bloque 2</td>
+<td class="org-left">Torneo de programación</td>
+<td class="org-right">00:15:00</td>
+<td class="org-right">13:50:10</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#9742;&#65039; Meet: Ingrid Rebolledo</td>
+<td class="org-right">00:00:00</td>
+<td class="org-right">13:50:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Cierre</td>
+<td class="org-left">Cortinilla/separador: <code>Cortinillas/Cierre Ctrl Z.mp3</code></td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:55:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left"><b>Total</b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:55:10</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<div id="outline-container-org53951a7" class="outline-2">
+<h2 id="org53951a7"><span class="section-number-2">1.</span> Presentación del programa</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>Bienvenida a Control Z, el espacio de la Facultad de Informática.</li>
+<li>Todos los miércoles a las 13:00 de la tarde</li>
+<li><p>
+Presentarse - Participaron: Christian.
+</p>
+
+<p>
+Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+</p></li>
+
+<li>¿De qué se trata Control Z?</li>
+
+<li><p>
+Es una iniciativa de extensión de nuestra facultad y de nuestra
+universidad pública
+</p>
+
+<p>
+Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+informática diversa, control N.
+</p></li>
+
+<li>Canales de comunicación: Instagram: ctrlz_fai |
+Web:<a href="https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&amp;sa=D&amp;source=editors&amp;ust=1710886972631607&amp;usg=AOvVaw0Nd3amx84NFOIIJmebjzYD"> </a><a href="https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&amp;sa=D&amp;source=editors&amp;ust=1710886972631851&amp;usg=AOvVaw2WckiSK9W10CI0pP35EAyw">https://controlz.fi.uncoma.edu.ar/</a> |
+Correo: controlz@fi.uncoma.edu.ar</li>
+<li>Resumen del programa de hoy: ¿qué hay hoy?</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org6f0f566" class="outline-2">
+<h2 id="org6f0f566"><span class="section-number-2">2.</span> Noticias</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org66ae214" class="outline-3">
+<h3 id="org66ae214"><span class="section-number-3">2.1.</span> Internacionales</h3>
+</div>
+<div id="outline-container-org5a26ea8" class="outline-3">
+<h3 id="org5a26ea8"><span class="section-number-3">2.2.</span> Nacionales</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li><p>
+Les recuerdo que la Emergencia Salarial está declarada en la UNCO y la UNRN.
+</p>
+
+<ul class="org-ul">
+<li>El 50% de su personal está por debajo de la línea de pobreza.</li>
+<li>En la semana del 25 de agosto se declaró en emergencia salarial.</li>
+<li>Ya tiene una declaración de emergencia económica desde febrero.</li>
+<li>En UNCO: Declarada para docentes y no docentes en todas las funciones y grados. Aprobada por unanimidad.</li>
+</ul>
+
+<p>
+<a href="https://www.rionegro.com.ar/politica/la-unrn-declaro-la-emergencia-salarial-universitaria-3759720/">Ver artículo del Diario Río Negro</a> | <a href="https://www.uncoma.edu.ar/el-consejo-superior-declaro-la-emergencia-salarial-en-la-unco/">Ver en la Web de la UNCo</a>
+</p></li>
+
+<li>La Ley de Financiamiento Universitario será tratada este jueves 12.
+
+<ul class="org-ul">
+<li>Ya fue aplazada el jueves pasado.</li>
+<li>El Senado logró dictámen para la Ley de Financiamiento Universitario.</li>
+<li><p>
+Ya cuenta con media sanción de la Cámara de Diputados.
+</p>
+
+<p>
+<a href="https://www.rionegro.com.ar/gremios/paro-universitario-este-miercoles-y-jueves-en-neuquen-y-rio-negro-3782537/">Ver artículo del Diario Río Negro</a> |  <a href="https://conaduhistorica.org.ar/prensa/11-y-12-09-paro-de-48-horas-en-las-universidades-nacionales/">Artículo en CONADU Histórica</a>
+</p></li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org983a8ac" class="outline-3">
+<h3 id="org983a8ac"><span class="section-number-3">2.3.</span> UNCo</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul class="org-ul">
+<li><p>
+Ruidaso en toda la UNCo. Ayer y hoy a las 12:30. En defensa de la Universidad Pública, sí a la ley del financiamiento y no al veto.
+</p>
+
+<p>
+<a href="https://www.instagram.com/p/DARMQ1GS7tu/">Instagram ADUNC Comahue</a>
+</p></li>
+
+<li><p>
+2 de octubre: marcha federal universitaria con paro. No al veto a la ley de financiamiento. Estamos en la semana de visibilización con muchas actividades.
+</p>
+
+<p>
+<a href="https://www.instagram.com/p/DAJTDpeu5nG/">Intagram ADUNC Comahue</a> 
+</p></li>
+
+<li><p>
+Muy buena entrevista ayer con Juan Ribera en "Yo no fui, fue ella", ayer cerca de las 16:15. Acerca del reconocimiento facial y la campaña Reconoceme (<a href="https://reconoceme.org">https://reconoceme.org</a>).
+</p>
+
+<p>
+<a href="https://radiocut.fm/audiocut/entrevista-a-juan-ribera-campana-reconoceme/">Recorte de RadioCut.</a>
+</p></li>
+
+<li><p>
+Comenzaron las carreras en Cutral Có.
+</p>
+
+<p>
+Hace unas semanas, iniciaron las carreras y las clases de la Tecnicatura Universitaria en Desarrollo Web, en el Centro de Estudios Universitarios de Cutral Có.
+</p>
+
+<p>
+<a href="https://uncoma.edu.ar/comenzo-en-cutral-co-una-nueva-carrera-de-la-unco/">Noticia en UNCo</a> <a href="https://www.fi.uncoma.edu.ar/index.php/novedades/una-carrera-de-la-fai-se-dicta-en-cutral-co/">Noticia en FaIWeb</a>
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1f6a2c3" class="outline-3">
+<h3 id="org1f6a2c3"><span class="section-number-3">2.4.</span> FaI</h3>
+<div class="outline-text-3" id="text-2-4">
+<ul class="org-ul">
+<li>Pasamos la semana del estudiante.</li>
+
+<li><p>
+III WEED: Workshop Enseñanza en Escenarios Digitales 
+</p>
+
+<ul class="org-ul">
+<li>Un espacio de intercambio y reflexión, donde se presentan trabajos, experiencias y reflexiones acerca de la enseñanza con recursos digitales.</li>
+<li>25, 26, 27 de septiembre en la FaI. Es en formato híbrido para docentes, graduados, estudiantes y magisters.</li>
+</ul>
+
+<p>
+<a href="https://www.fi.uncoma.edu.ar/index.php/novedades/iii-workshop-ensenanza-en-escenarios-digitales-iiiweed/">Ver en FaIWeb</a> 
+</p></li>
+
+<li><p>
+La FaI se suma a Ada Lovelace day. Sábado 5 de octubre para niñas de 10 a 12 años acompañadas por docentes, familia y/o tutores.
+</p>
+
+<ul class="org-ul">
+<li>Se realizan actividades en toda latinoamérica. La FaI también se une a estas jornadas.</li>
+<li>Promover las carreras STEM (Ciencia, tecnología, ingeniería y matemáticas) a niñas de 10 a 12 años.</li>
+<li>Requiere inscripción a adalovelaceday@fi.uncoma.edu.ar. Es gratuita con cupos limitados.</li>
+<li>Se aceptan inscripciones hasta el 6 de septiembre inclusive.</li>
+</ul>
+
+<p>
+<a href="https://www.fi.uncoma.edu.ar/index.php/novedades/jornada-latinoamericana-de-talleres-stem-para-ninas-y-mujeres-adolescentes-ada-lovelace-2024/">Ver FaIWeb</a>
+</p></li>
+
+<li><p>
+Se viene el Programate 24 el 17 y 18 de octubre&#x2026; ¡Vayan averiguando!
+</p>
+<ul class="org-ul">
+<li>Asisten secundarios de Río Negro y Neuquén.</li>
+<li>Torneo de Programación. EESISeg’24 – 8° Encuentro de Estudiantes Secundarios sobre Internet Seguro. MuestrApp’24 – IV Muestra Anual de Aplicaciones Móviles. ¡Muchos Talleres!</li>
+</ul>
+
+<p>
+<a href="https://www.fi.uncoma.edu.ar/index.php/novedades/programate-24/">Ver FaIWeb</a>
+</p>
+
+<p>
+Más info en:
+</p>
+
+<p>
+<a href="https://pm.fi.uncoma.edu.ar/">https://pm.fi.uncoma.edu.ar/</a>
+</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orge08d83a" class="outline-2">
+<h2 id="orge08d83a"><span class="section-number-2">3.</span> Bloque 1 - Semana del Estudiante</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Semana del 16 al 20, no hay clases, pero sí actividades en la facultad.
+</p>
+
+<p>
+<a href="https://www.instagram.com/p/C_gBStTOMUY/">Calendario de Actividades (Post del CEFAI)</a>
+</p>
+
+<ul class="org-ul">
+<li>¿Qué actividades es realizan en la semana del estudiante?</li>
+<li>¿Cuáles son virtuales y cuáles presenciales?</li>
+<li>¿Hubo torneos? ¿Ajedrez, truco, otras actividades en el hall?</li>
+<li>¿Hubo CINEFAI?</li>
+<li>¿Conflugamer? ¿cómo la pasaron? ¿qué hicieron?
+<ul class="org-ul">
+<li>Saludos a Deni Pizarro, organizador de los eventos de Conflugamer.</li>
+</ul></li>
+<li>¿Taller de origami?</li>
+<li>¿Taller de entrevista laboral?</li>
+<li>¿Montún estuvo presente?
+<ul class="org-ul">
+<li>Miriam Lechner mostró sistemas GNU/Linux.</li>
+</ul></li>
+<li>¿Qué es eso del fogón? ¿qué comieron?</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org55fcf1f" class="outline-2">
+<h2 id="org55fcf1f"><span class="section-number-2">4.</span> ⏸️ &#x2013; Tanda --</h2>
+</div>
+<div id="outline-container-org5d15176" class="outline-2">
+<h2 id="org5d15176"><span class="section-number-2">5.</span> Bloque 2 - Torneo de Programación</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+<a href="https://www.fi.uncoma.edu.ar/index.php/novedades/torneos-de-programacion-2024/">Ver en FaIWeb</a>
+</p>
+
+<p>
+El 16 de septiembre se realizaron dos torneos, el segundo del año: un torneo de programación y un torneo de resolución de problemas. En el marco del proyecto de extensión "Conectados 2024" cuyo objetivo es acercar las secundarias a las ciencias de la computación.
+</p>
+
+<p>
+Participaron estudiantes de escuelas de la región.
+</p>
+
+<p>
+&#9742;&#65039; Ingrid Hernandez Rebolledo. Docente de la escuela CET 31 de Villa Manzano.
+</p>
+
+<ul class="org-ul">
+<li>¿Qué actividades hicieron en el torneo? ¿qué problemas resolvieron?</li>
+<li>¿Quiénes participaron? ¿docentes también?</li>
+<li>¿Tuvieron talleres o una introducción?</li>
+<li>¿Cómo participaron? ¿fue virtual? ¿presencial? si fue virtual, ¿cómo hicieron?</li>
+<li>¿Quiénes son "Los Michis"? ¿qué otros equipos participaron?</li>
+<li>¿Cómo fue la interacción con otros equipos? ¿y con compas de otras escuelas?</li>
+<li>Si fue presencial, ¿pudieron ver la facultad? ¿la biblioteca? ¿qué les pareció? ¿qué sintieron?</li>
+<li>¿Cómo la pasaron?</li>
+<li>Estas actividades, ¿cómo te parece que afectan a las escuelas? ¿el hecho de que sea una universidad pública modifica en algo la actividad?</li>
+<li>¿Van a venir al PROGRAMATE?</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org2cea9ed" class="outline-2">
+<h2 id="org2cea9ed"><span class="section-number-2">6.</span> Despedida</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>Hemos llegado al final del programa &#x2026;</li>
+<li>¡Nos vemos el próximo miércoles a las 13:00!</li>
+<li>¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd82c77e" class="outline-2">
+<h2 id="orgd82c77e"><span class="section-number-2">7.</span> Licencia</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+</p>
+
+</main>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Autor: Christian Gimenez</p>
+<p class="date">Created: 2024-09-24 mar 20:55</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
