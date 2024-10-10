@@ -20,7 +20,7 @@
 |   | \pausebutton{} Tanda      | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Bloque 2      | UNCo-  La realidad aumentada                        | 00:15:00 | 13:50:10 |
-|   |               | \telephone{} Meet: Carina Fracchia y César                    | 00:00:00 | 13:50:10 |
+|   |               | \telephone{} Meet: Carina Fracchia y César Rodríguez          | 00:00:00 | 13:50:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
@@ -31,7 +31,7 @@
 * Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
 - Todos los miércoles a las 13:00 de la tarde
-- Presentarse - Participaron: Christian.
+- Presentarse - Participaron: Christian, Ian.
   
   Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
   
@@ -120,11 +120,11 @@ Ada Lovelace Day (ALD) is an international celebration of the achievements of wo
 - ¿Va a haber una próxima edición? ¿dónde debo estar atenta/o?
 
 * ⏸️ -- Tanda --
-* Bloque 2 - UNCo y ¿? la realidad aumentada
+* Bloque 2 - La UNCo y la Universidad de Antonio Nariño: la realidad aumentada
 
 
 \telephone{} Carina Fracchia docente e investigadora de nuestra facultad.
-Y César. 
+\telephone{} César Rodríguez doctor en Ciencias Aplicada y profesor asociado e Investigador de la Universidad Antonio Nariño de Bogotá Colombia.
 
 - ¿Qué están estudiando en conjunto? ¿De qué se trata?
 - ¿Por qué están estudiando realidad aumentada? ¿Cuál es su utilidad?
