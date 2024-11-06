@@ -15,18 +15,19 @@
 |   | Música        | Música para darle tiempo al Bomba \bomb{}                | 00:00:00 | 13:15:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Bloque 1      | Visita y charlas de Verónica Dahl en la FaI         | 00:15:00 | 13:30:10 |
-|   |               | \telephone{} Meet con Verónica Dahl y Laura Cecchi            |          | 13:30:10 |
+|   |               | \play{} Grabación de entrevista (1ra parte)               |          | 13:30:10 |
+|   |               | \play{} (Opcional) La canción de Clementina               |          |          |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Bloque 2      | Programate 24, marcha del 23 y vigilias             | 00:15:00 | 13:50:10 |
-|   |               | \telephone{} Llamar:                                          | 00:00:00 | 13:50:10 |
+|   |               |                                                     | 00:00:00 | 13:50:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | *Total*         |                                                     | 00:55:10 |          |
-#+TBLFM: @4$5..@13$5=$4 + @-1$5;T::@14$4='(apply '+ '(@4$4..@13$4));T
+#+TBLFM: @4$5..@14$5=$4 + @-1$5;T::@15$4='(apply '+ '(@4$4..@14$4));T
 
 * Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
@@ -81,7 +82,7 @@ Dra. Verónica Dahl, informática y teórica argentina-canadiense. Reconocida co
 
 http://www.sfu.ca/people/veronica.html
 
-\play{} La charla está grabada.
+\play{} La charla está grabada: ¡solo la primer parte!
 
 Temas en el audio:
 
