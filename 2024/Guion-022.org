@@ -1,0 +1,240 @@
+#+title: Guion 22 - 6 de noviembre del 2024
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Guión técnico | Detalle                                             | Duración | Finaliza |
+| / | <>            | <>                                                  |       <> |       <> |
+| / | Inicio        |                                                     |          | 13:00:00 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
+|   | Presentación  |                                                     | 00:05:00 | 13:05:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Noticias      |                                                     | 00:10:00 | 13:15:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Música        | Música para darle tiempo al Bomba \bomb{}                | 00:00:00 | 13:15:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 1      | Visita y charlas de Verónica Dahl en la FaI         | 00:15:00 | 13:30:10 |
+|   |               | \telephone{} Meet con Verónica Dahl y Laura Cecchi            |          | 13:30:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 2      | Programate 24, marcha del 23 y vigilias             | 00:15:00 | 13:50:10 |
+|   |               | \telephone{} Llamar:                                          | 00:00:00 | 13:50:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
+|---+---------------+-----------------------------------------------------+----------+----------|
+|---+---------------+-----------------------------------------------------+----------+----------|
+|   | *Total*         |                                                     | 00:55:10 |          |
+#+TBLFM: @4$5..@13$5=$4 + @-1$5;T::@14$4='(apply '+ '(@4$4..@13$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian, Ian.
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, control N.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+* Noticias
+** Internacionales
+** Nacionales
+** UNCo
+- Marcha universitaria regional el 8 de noviembre. Concentración a las 17:00 en el playón de la UNCo.
+   
+** FaI
+   
+
+- La FaI estuvo en la Expo de Innovación Pedagógica EducaTIC 2024.
+
+  Impulsado por Dirección de Educación Digital del Ministerio de Educación.
+
+  Promueve el intercambio de conocimientos a través de proyectos pedagógicos.
+
+  Está dirigido a docentes y estudiantes de instituciones educativas, en todos los niveles y modalidades.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/la-facultad-de-informatica-presente-en-la-expo-de-innovacion-pedagogica-educatic-2024/][Noticia en FaIWeb]]
+  
+- La FaI tiene 8 nuevos proyectos de extensión aprobados.
+  122 extensionistas
+  32 contrapartes - más de 2800 personas beneficiarias
+  10 localidades
+  Agricultura - educación - discapacidad - patrimonio cultural - divulgación científica - género - justicia
+
+ 
+
+* Bloque 1 - Charlas de Verónica Dahl en la FaI
+
+Dra. Verónica Dahl, informática y teórica argentina-canadiense. Reconocida co-fundadora de la disciplina de la programación lógica junto con otras 14 personas.
+
+http://www.sfu.ca/people/veronica.html
+
+\play{} La charla está grabada.
+
+Temas en el audio:
+
+- Programación lógica en las escuelas  
+- Te pone contenta saber que se dá programación lógica en las escuelas
+- IA Simbólica vs IA Generativa
+- Sesgo en la IA
+- Por eso es importante aprender lógica
+- Se requiere un ser humano en la IA
+- Los humanos se van robotizando
+
+Brindó dos charlas en la FaI: "El poder transformador del razonamiento no monotónico" el lunes 28/10 y "¿Cuánta inteligencia humana esconde la inteligencia "artificial" y cuánta coerción esconde la lengua "natural"?".
+
+[[https://www.fi.uncoma.edu.ar/index.php/novedades/invitacion-a-la-charla-de-la-dra-veronica-dahl-el-poder-transformador-del-razonamiento-no-monotonico-lunes-28-de-octubre/][Invitación lunes]] | [[https://www.fi.uncoma.edu.ar/index.php/uncategorized/invitacion-a-charla-de-la-dra-veronica-dahl-cuanta-inteligencia-humana-esconde-la-inteligencia-artificial-y-cuanta-coercion-esconde-la-lengua-natural-martes-2/][Invitación martes]] 
+
+Guion de la entrevista:
+
+- ¿Cómo sucedió su visita a nuestra facultad? ¿por qué le interesó visitarnos?
+- ¿En qué se especializa su investigación?
+- ¿Podría contarnos de que se trata su primer charla? ¿qué temas abarcó?
+- ¿Qué opina de las Generative AI y su relación con ChatGPT?
+  - ¿Por qué diferencia entre IA simbólica y subsimbólica? ¿por qué dice que la IA no es tan inteligente?
+    - IA subsimbólica (big data) no son tan maduras
+  - black box
+  - el costo de los LLM, su transparencia, reemplazo de la inferencia por consenso por fuentes no validadas pirateadas.
+  - ¿nos podría explicar cómo la IA aprende a ser inteligente gracias a quienes la usan?
+  - debuggers sub-pagos o seres humanos que salvan el día precarizado
+  - ¿reemplaza la IA a seres humanos?
+- ¿Cómo afecta la diversidad en la IA y/o la informática?
+  - Reconocimiento facial sesgado.
+  - El problema de las Deep-nudes que se aplica solo a mujeres.
+- ¿Por qué es importante aprender lógica a temprana edad?
+  
+- ¿cómo el lenguaje influencia?
+- ¿Por qué dice que se usa antropomorfismo a la IA? \to{} Alucinaciones, personificaciones.
+- La IA está sesgada por la persona quien la configura.
+- ¿Por qué la IA generativa debe ser de patrimonio de la humanidad?
+ 
+Introducción brindada por Verónica:
+
+Verónica Dahl es una madre argentina/canadiense, escritora literaria, música, compositora y científica informática reconocida como una de las 15 fundadoras del campo de la programación lógica. Actualmente lidera un esfuerzo internacional para introducir la educación Prolog en los planes de estudio escolares de todos los niveles ( https://prologyear.logicprogramming.org/Education.html ), con el fin de que el razonamiento lógico y las habilidades de codificación confiables estén más disponibles universalmente.
+
+# Nos encontramos con Verónica Dahl. Madre argentina/canadiense, escritora literaria, música, compositora y científica informática. Es reconocida por ser una de las 15 fundadoras del campo de la programación lógica. Actualmente lidera un esfuerzo internacional para introducir la educación Prolog y el razonamiento lógico en todos los niveles escolares.
+
+* ⏸️ -- Tanda --
+* Bloque 2 - Programate 2024, interfacultades, marcha y vigilia
+
+[[https://www.fi.uncoma.edu.ar/index.php/novedades/programate-24-un-espacio-para-aprender-jugar-y-programar/][Programate en FaIWeb]]
+
+El 17 y 18 de octubre, se llevó a cabo el Programate 2024 en la FaI. Participaron 350 estudiantes de diversas escuelas secundarias.
+
+- ¿Cómo estuvo el programate 24?
+- ¿Quiénes participaron? ¿fue presencia y/o virtual?
+- ¿cómo la pasaron?
+
+Interfacultades
+
+- Más de 85 estudiantes inscriptos.
+[[https://www.fi.uncoma.edu.ar/index.php/novedades/juegos-deportivos-interfacultades-2024-2/][Noticia en FaIWeb]]
+
+
+Marcha de la semana pasada
+
+Vigilia.
+
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "british"
+# org-latex-default-figure-position: "tbp"
+# End:
