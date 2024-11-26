@@ -14,8 +14,8 @@
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Música        | Música para darle tiempo al Bomba \bomb{}                | 00:00:00 | 13:15:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1      |                                                     | 00:15:00 | 13:30:10 |
-|   |               | \telephone{}                                                  |          | 13:30:10 |
+|   | Bloque 1      | Charla-Taller Bug Bounty                            | 00:15:00 | 13:30:10 |
+|   |               | \telephone{} Benjamín Muñoz                                   |          | 13:30:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
@@ -94,10 +94,54 @@
 * Bloque 1 - Charla-Taller Bug Bounty
 [[https://www.fi.uncoma.edu.ar/index.php/novedades/invitacion-a-la-charla-intro-al-bug-bounty-un-metodo-practico-en-ciberseguridad/][Noticia en la FaIWeb]]
 
-* ⏸️ -- Tanda --
-* Bloque 2 - Cierre de temporada 2024
+Invitación a charla "Intro al Bug Bounty: un método práctico en ciberseguridad".
 
-¿Qué hicimos?
+El sábado 30/11 a las 10:00 les invitamos a participar de la charla que presentará Benjamín Muñoz en la Facultad de Informática de la Universidad Nacional del Comahue.
+
+El evento es presencial, de acceso libre y gratuito.
+
+- ¿Qué es el Bug bounty?
+- ¿En qué consiste el evento?
+- ¿Mostrarán en vivo cómo se hace bug bounty?
+- ¿Por qué es utilizado en ciberseguridad? ¿por qué esta técnica está siendo utilizada cada vez más?
+- ¿Por qué es importante que se reporten errores y fallos? ¿por qué es relevante para la seguridad informática?
+- ¿Quién puede participar del evento? ¿hace falta saber programar o algún conocimiento de informática?
+- ¿Contacto? 
+
+
+** Detalles del evento
+
+- Título :: Intro al Bug Bounty: un método práctico en ciberseguridad.
+- Ponente :: Tec. Muñoz, Benjamín.
+- Fecha :: 30 de Noviembre, 10 horas.
+- Lugar :: Facultad de Informática, UNComa.
+
+Resumen de la charla:
+
+La Facultad de Informática de la UNCo invita a participar de esta charla abierta sobre Bug Bounty Hunting, una práctica cada vez más utilizada para mejorar la seguridad de sistemas y aplicaciones. Vamos a explorar cómo es posible encontrar y reportar vulnerabilidades a cambio de recompensas.
+
+La charla está pensada en dos partes:
+
+    - Introducción al Bug Bounty: Qué es el Bug Bounty, cómo funciona y por qué es una excelente manera de aprender sobre ciberseguridad. Hablaremos sobre el rol de los hunters, la importancia de reportar responsablemente, los diferentes programas, y, claro, sobre las recompensas que pueden obtener.
+
+    - Demostración práctica: Mostraremos en vivo cómo abordar un objetivo real.  Se realizará una demostración del primer acercamiento de reconocimiento (recon) dentro del alcance de un programa público.
+
+Esta charla es ideal para quienes quieran dar sus primeros pasos en ciberseguridad de manera práctica o ya cuenten con cierta experiencia y deseen comenzar en bug bounty.
+
+* ⏸️ -- Tanda --
+* Bloque 2 - Uso responsable de tecnologías en secundarios y Cierre Control Z
+** Uso responsable de tecnologías en secundarios
+
+Un estudiante de ESRN17 estuvo haciendo un par de cosas interesantes:
+
+1. pasaron por varias escuelas primarias promoviendo el uso responsable de tecnologías.
+2. desarrolló una aplicación web para la biblioteca de su escuela y ahora la está instalando en otra biblioteca.
+
+** Cierre de temporada 2024
+
+- ¿Qué hicimos? ¿qué estuvo bueno? ¿qué mensaje dejó?
+- ¿Qué les gustaría repetir y qué no?
+- ¿Dá para charlar más de algún tema?
 
 
 | Programa | Tema                                                    |
