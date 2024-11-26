@@ -1,4 +1,4 @@
-#+title: Guion 21 - 16 de octubre del 2024
+#+title: Guion 25 - 27 de noviembre del 2024
 
 #+HTML: <main>
 
@@ -8,19 +8,19 @@
 | / | Inicio        |                                                     |          | 13:00:00 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Comienzo      | Cortinilla: =Cortinillas/Apertura Ctrl Z.mp3=         | 00:00:10 | 13:00:10 |
-|   | Presentación  | \play{} Ruido de la marcha: marcha.mp3                    | 00:05:00 | 13:05:10 |
+|   | Presentación  |                                                     | 00:05:00 | 13:05:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Noticias      |                                                     | 00:10:00 | 13:15:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Música        | Música para darle tiempo al Bomba \bomb{}                | 00:00:00 | 13:15:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 1      | Consejo Directivo y Superior                        | 00:15:00 | 13:30:10 |
-|   |               | \telephone{} Llamar: Guillermo Grosso                         |          | 13:30:10 |
+|   | Bloque 1      |                                                     | 00:15:00 | 13:30:10 |
+|   |               | \telephone{}                                                  |          | 13:30:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
-|   | Bloque 2      | Prolog for Kids en ICLP Dallas                      | 00:15:00 | 13:50:10 |
-|   |               | \telephone{} Llamar: Laura Cecchi                             | 00:00:00 | 13:50:10 |
+|   | Bloque 2      |                                                     | 00:15:00 | 13:50:10 |
+|   |               | \telephone{}                                                  | 00:00:00 | 13:50:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Cierre        | Cortinilla/separador: =Cortinillas/Cierre Ctrl Z.mp3= | 00:05:00 | 13:55:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
@@ -51,67 +51,97 @@
 * Noticias
 ** Internacionales
 ** Nacionales
-- Les recuerdo que la Emergencia Salarial está declarada en la UNCO y la UNRN.
-
-  - El 50% de su personal está por debajo de la línea de pobreza.
-  - En la semana del 25 de agosto se declaró en emergencia salarial.
-  - Ya tiene una declaración de emergencia económica desde febrero.
-  - En UNCO: Declarada para docentes y no docentes en todas las funciones y grados. Aprobada por unanimidad.  
-
-  [[https://www.rionegro.com.ar/politica/la-unrn-declaro-la-emergencia-salarial-universitaria-3759720/][Ver artículo del Diario Río Negro]] | [[https://www.uncoma.edu.ar/el-consejo-superior-declaro-la-emergencia-salarial-en-la-unco/][Ver en la Web de la UNCo]]
-  
-- La Ley de Financiamiento Universitario fue tratada el jueves 12.
-
-  - Ya fue aplazada el jueves pasado.
-  - El Senado logró dictámen para la Ley de Financiamiento Universitario.
-  - Ya cuenta con media sanción de la Cámara de Diputados.
-
-   [[https://www.rionegro.com.ar/gremios/paro-universitario-este-miercoles-y-jueves-en-neuquen-y-rio-negro-3782537/][Ver artículo del Diario Río Negro]] |  [[https://conaduhistorica.org.ar/prensa/11-y-12-09-paro-de-48-horas-en-las-universidades-nacionales/][Artículo en CONADU Histórica]]
-
 ** UNCo
-- Sesión Consejo Superior hoy a las 10 h. Plaza San Martín, Cipolletti.
+- "Los preinscriptos en la UNCo superaron los 3.300 en 15 días"
 
-- Asamblea interclaustros interfacultades de la barda. Viernes 18/10 a las 12:00 playón de la UNCo.
+  Se extiende hasta el 20 de diciembre. El 3 de febrero hay otra etapa.
 
-- Miércoles 23 de octubre: marcha de la comunidad universitaria de la UNCo. Concentración en el playón a las 18:00.
+  Recuerden que hay 17 unidades académicas que gestionan casi 81 carrera de grado. Por eso, es importante conocer las carreras que nos gustan previo inscribirse.
 
-  No al veto a la ley de financiamiento. Estamos en la semana de visibilización con muchas actividades.
- 
+  [[https://uncoma.edu.ar/los-preinscriptos-en-la-unco-superaron-los-3-300-en-15-dias/][Ver noticia]]
+
+- "Se viene "La noche de las universidades" en la UNCo"
+
+  Mañana jueves 21 a las 19:00 en el Hall Central y el Aula Magna.
+
+  [[https://uncoma.edu.ar/se-viene-la-noche-de-las-universidades-en-la-unco/][Ver noticia]]
+
+- Hacka-Neuquén.
+
+  Desde el 22 de noviembre a las 12:00 hasta el 23 de noviembre hasta las 12:00. En la Facultad de Economía y Administración.
+
+  [[https://uncoma.edu.ar/evento/hacka-neuquen-impulsando-la-innovacion-joven-en-la-provincia/][Ver Noticia]]
+
+- Festival por la Universidad Pública.
+
+  Festival y conmemoración de los 75 años de la gratuidad.
+
+  Este viernes 22 a las 18:00 en el playón de la UNCo.
+
 ** FaI
-   
-- Ayer sesionó el Consejo Directivo de forma extraordinaria. Declaró el repudio al veto y a manifestarse en contra de la compaña de desprestigio de la política de desfinanciamiento de las Universidades.
-
-- Se viene el Programate 24 el 17 y 18 de octubre... ¡Vayan averiguando!
-  - Asisten secundarios de Río Negro y Neuquén. 
-  - Torneo de Programación. EESISeg’24 – 8° Encuentro de Estudiantes Secundarios sobre Internet Seguro. MuestrApp’24 – IV Muestra Anual de Aplicaciones Móviles. ¡Muchos Talleres! 
-
-  [[https://www.fi.uncoma.edu.ar/index.php/novedades/programate-24/][Ver FaIWeb]]
-
-  Más info en:
-  
-  https://pm.fi.uncoma.edu.ar/
  
+- Charla-taller "Intro al Bug Bounty: un método práctico en ciberseguridad".
 
-* Bloque 1 - Consejo Superior en la calle
+  El sábado 30 de noviembre, 10:00. Facultad de Informática.
 
-- ¿Cuál es la situación de la universidad para que sucedan estos eventos? ¿Qué pronóstico se observa para el año que viene?
-- ¿Qué sucede ante el veto a la ley de financiamiento universitario? ¿el presupuesto 2025 ayuda en algo?
-- ¿Qué pasó ayer en el Consejo Directivo de la FaI? ¿Qué debatieron?
-- ¿Por qué es importante el consejo directivo de ayer y el consejo superior? ¿qué significa?
-- ¿Por qué está el Consejo Superior en la Plaza San Martín?
-- ¿Qué están debatiendo? ¿Qué está sucediendo?
+  Hay un formulario de inscripción.
+
+** Neuquén
+- Festival Solidario A.M.I. y la Kique en apoyo a las bibliotecas populares.
+
+  El sábado 23 de noviembre a las 20:00, en la Biblioteca Popular Kique Sanchez Vera: Rosario 361, Neuquén.
+  
+* Bloque 1 - Charla-Taller Bug Bounty
+[[https://www.fi.uncoma.edu.ar/index.php/novedades/invitacion-a-la-charla-intro-al-bug-bounty-un-metodo-practico-en-ciberseguridad/][Noticia en la FaIWeb]]
 
 * ⏸️ -- Tanda --
-* Bloque 2 - Prolog for Kids en ICLP Dallas
+* Bloque 2 - Cierre de temporada 2024
 
-Santiago Villarroel, Laura Cecchi, Christian Gimenez y Jorge Rodríguez, presentaron ante el International Conference on Logic Programming (ICLP) de Dallas su trabajo: "Democratising Access to Logic Programming: A Web Application Design Tool for Querying Prolog Code".
+¿Qué hicimos?
 
-- ¿Qué pasó el domingo?
-- ¿Qué es el ICLP?
-- ¿Qué trabajo presentaron? ¿cómo lo presentaron? ¿de qué se trata?
-- ¿Por qué enseñar Prolog en las escuelas? \to{} Pensamiento Lógico y pensamiento computacional.
-- ¿Qué relación tiene este trabajo con la extensión? ¿cómo se realizaría extensión con Prolog Web App Creator?
-- ¿Por qué es importante para la facultad presentar trabajos de investigación? 
+
+| Programa | Tema                                                    |
+|----------+---------------------------------------------------------|
+|       23 | Hacka-Neuquén                                           |
+|          | La noche de las letras y la noche de las universidades. |
+|       22 | Verónica Dahl                                           |
+|          | Programate 2024                                         |
+|          | Marchas, vigilias                                       |
+|       20 | Consejo directivo y superior en la plaza de Cipolletti  |
+|          | Prolog for kids                                         |
+|       19 | Ada Lovelace Day                                        |
+|          | UNCo y Universidad Antonio Nariño: Realidad aumentada   |
+|       18 | Semana del estudiante                                   |
+|          | Torneo de programación                                  |
+|       16 | Visita al CPEM 18                                       |
+|          | FaI en la Expo Vocacional Neuquén                       |
+|       14 | Living de la FaI                                        |
+|          | Bienvenida a ingresantes de la tecnicatura.            |
+|       13 | Nueva tecnicatur en Cutral-Co                           |
+|          | CrowdStrike / Meta AI                                   |
+|       12 | Taller en Biblioteca Popular Amigos del Libro           |
+|          | El Museo vuelve a las escuelas                          |
+|       11 | Diplomatura en Mariano Moreno                           |
+|          | Alerta Sofía, Assange y Wikileaks                       |
+|       10 | Conflugamer                                             |
+|          | Estreno de la BUP en la UNCo                            |
+|        9 | La ronda en la Facu                                     |
+|          | Día de Ada Lovelace                                     |
+|        8 | Montún                                                  |
+|          | 18 de mayo: Día del museo (2 parte)                     |
+|        7 | FLISoL                                                  |
+|          | 18 de mayo: Día del museo                               |
+|        6 | Marcha 23A                                              |
+|          | FLISoL (previa)                                         |
+|        5 | No hubo programa                                        |
+|        4 | Situación de la Universidad y la Facultad               |
+|          | El Museo vuelve a las Escuelas                          |
+|        3 | Prolog for Kids                                         |
+|          | Enseñando los sistemas electorales en las escuelas      |
+|        2 | La computación antes de la democracia                   |
+|          | Nuestra universidad y derechos humanos                  |
+|        1 | Asamblea Universitaria                                  |
+|          | Entrevista a Beatriz Gentile                            |
 
 
 * Despedida

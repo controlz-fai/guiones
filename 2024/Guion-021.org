@@ -1,8 +1,8 @@
-#+title: Guion 23 - 13 de noviembre del 2024
+#+title: Guion 21 - 30 de octubre del 2024
 
 #+HTML: <main>
 
-¡Programa realizado por estudiantes!
+¡No hubo programa!
 
 #+caption: Guión técnico para el operador.
 |   | Guión técnico | Detalle          | Duración | Finaliza |
