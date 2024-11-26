@@ -20,7 +20,7 @@
 |   | \pausebutton{} Tanda       | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:35:10 |
 |---+---------------+-----------------------------------------------------+----------+----------|
 |   | Bloque 2      | Uso responsable de tecnologías en los secundarios   | 00:15:00 | 13:50:10 |
-|   |               | \telephone{} ¿Estudiante y profe?                             | 00:00:00 | 13:50:10 |
+|   |               | \telephone{} Federico Ceccotti                                | 00:00:00 | 13:50:10 |
 |   |               |                                                     |          |          |
 |   |               | ¡Cierre del año!                                    |          |          |
 |---+---------------+-----------------------------------------------------+----------+----------|
@@ -134,10 +134,22 @@ Esta charla es ideal para quienes quieran dar sus primeros pasos en cibersegurid
 * Bloque 2 - Uso responsable de tecnologías en secundarios y Cierre Control Z
 ** Uso responsable de tecnologías en secundarios
 
-Un estudiante de ESRN17 estuvo haciendo un par de cosas interesantes:
+En el ESRN 17 estuvieron haciendo un par de cosas interesantes:
 
-1. pasaron por varias escuelas primarias promoviendo el uso responsable de tecnologías.
-2. desarrolló una aplicación web para la biblioteca de su escuela y ahora la está instalando en otra biblioteca.
+1. Pasaron por varias escuelas primarias promoviendo el uso responsable de tecnologías.
+2. Un estudiante desarrolló una aplicación para la biblioteca de su escuela y ahora la están instalando en otra biblioteca.
+
+\telephone{} Federico Ceccotti es docente de la escuela ESRN 17 de Cipolletti.
+
+# 
+
+- ¿Qué materias de informática tienen?
+- ¿Por qué visitaron a las primarias?
+  - ¿Qué contenidos fueron a mostrar?
+  - ¿Cómo fue la interacción entre estudiantes de secundario y primario? 
+- ¿Qué aplicación realizaron? ¿en qué consiste?
+  - ¿Qué reacción tuvieron en la biblioteca al presentar el software?
+  - ¿Dónde más utilizarán el software?
 
 ** Cierre de temporada 2024
 
