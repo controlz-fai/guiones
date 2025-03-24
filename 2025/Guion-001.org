@@ -1,0 +1,242 @@
+#+title: Guion 25 - 27 de noviembre del 2024
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Sección/Momento | Detalle Técnico                                     | Duración | Finaliza |
+| / | <>              | <>                                                  |       <> |       <> |
+| / | Inicio          |                                                     |          | 13:00:00 |
+|---+-----------------+-----------------------------------------------------+----------+----------|
+|   | Comienzo        | \musicalnote{} =Entrada - primeros programas.mp3=                | 00:00:10 | 13:00:10 |
+|   |                 | El audio empieza con la apertura vieja, y           |          | 13:00:10 |
+|   |                 | después se cambia a la nueva.                       |          | 13:00:10 |
+|---+-----------------+-----------------------------------------------------+----------+----------|
+|   | Presentación    | (se puede usar =Piso.mp3= de fondo por un rato)       | 00:05:00 | 13:05:10 |
+|---+-----------------+-----------------------------------------------------+----------+----------|
+|   | Noticias        |                                                     | 00:10:00 | 13:15:10 |
+|---+-----------------+-----------------------------------------------------+----------+----------|
+|   | Música          | Música para darle tiempo al Bomba \bomb{}               | 00:00:00 | 13:15:10 |
+|---+-----------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 1        | "Actividades de extensión 2024 y 2025"              | 00:15:00 | 13:30:10 |
+|   |                 | Cuando hablemos de los ingresantes voy a pedir      |          | 13:30:10 |
+|   |                 | dos audios:                                         |          | 13:30:10 |
+|   |                 | \play{} =Ian-entrevistas ingresantes/Ingresantes-Jose.mp3= | 00:01:26 | 13:31:36 |
+|   |                 | \play{} =Ian-entrevistas ingresantes/Ingresantes-Jose.mp3= | 00:01:13 | 13:32:49 |
+|---+-----------------+-----------------------------------------------------+----------+----------|
+|   |                 | \musicalnote{} =Piso.mp3=                                        |          | 13:32:49 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                      | 00:05:00 | 13:37:49 |
+|   |                 | \musicalnote{} =Piso.mp3=                                        |          | 13:37:49 |
+|---+-----------------+-----------------------------------------------------+----------+----------|
+|   | Bloque 2        | "Situación de la universidad"                       | 00:15:00 | 13:52:49 |
+|   |                 | Al comenzar voy a pedir pasar un comunicado que     |          | 13:52:49 |
+|   |                 | emitimos el año pasado:                             |          | 13:52:49 |
+|   |                 | \play{} =comunicado-21-08-2024-efecto viejo.mp3=           | 00:01:47 | 13:54:36 |
+|   |                 | "Memoria, verdad y justicia"                        |          | 13:54:36 |
+|   |                 | \play{} =Jorge Sznek - Su experiencia en 1976.mp3=         | 00:01:45 | 13:56:21 |
+|---+-----------------+-----------------------------------------------------+----------+----------|
+|   | Cierre          | \musicalnote{} =Entrada - loop.mp3=                              | 00:05:00 | 14:01:21 |
+|   |                 | ¡No tiene fade-out!                                 |          |          |
+|---+-----------------+-----------------------------------------------------+----------+----------|
+|---+-----------------+-----------------------------------------------------+----------+----------|
+|   | *Total*           |                                                     | 01:01:21 |          |
+#+TBLFM: @4$5..@24$5=$4 + @-1$5;T::@26$4='(apply '+ '(@4$4..@24$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian.
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, noticias.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+* Noticias
+
+** Internacionales
+- Se nos pasó lo de Deepseek: calleron las bolsas de Wall Street (en particular de NVidia) debido a la aparición del chatbot Deepseek.
+
+- Chromecast (dispositivos para hacer de televisores viejos las veces de televisor "smart") dejaron de funcionar, pero Google encontró el problema.
+
+  [[https://www.xatakamovil.com/multimedia/buenas-noticias-para-chromecast-que-dejaron-funcionar-google-encontro-problema-actualizacion-llegara-breve][Ver artículo]]
+** Nacionales
+- LIBRA y LIBRA V2
+
+- [[https://www.anroca.com.ar/noticias/2025/02/13/179016-dos-roquenses-crearon-una-app-de-viajes-colaborativos-para-estudiantes-del-alto-valle?fbclid=IwY2xjawIbB1dleHRuA2FlbQIxMQABHQ9UmRQMBep-tzztzUwrMOR-tZyA4GhQ6tdTmrgW4SDKfB9WEP9OHzcmpw_aem_Z55dLU8WSmIK7H8DmqxQgg][Roquenses crearon una app de viajes colaborativos para estudiantes y concursan en Ideas Emprendedoras]]
+
+** Universidad
+- Hubo paro docente el lunes 17 y martes 18 para reclamar por sueldos dignos.
+
+** FaI
+- ¡Bienvenidas a ingresantes 2025!
+
+- Se presentaron proyectos de extensión a ingresantes de la FaI
+
+  El viernes 21 de febrero se presentaron las actividades de extensión a los ingresantes de la FaI. Se organizó en conjunto con la Secretaría de Extensión, Secretaría de Bienestar, Área de Coordinación de Ingreso y Permanencia de la FaI.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/presentacion-de-actividades-de-extension-para-ingresantes-de-la-facultad-de-informatica/][Ver artículo]]
+
+- El CEFaI organizó una jornada para ayudar a las personas afectadas a los incendios de El Bolsón.
+
+  El 21 de febrero se realizó una jornada para colaborar con las personas afectadas a los incendios. En esta se realizaron actividades recreativas y una colecta.
+
+  Conflugamer estuvo presente.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/solidaridad-y-diversion-en-la-jornada-organizada-por-cefai-para-ayudar-a-las-personas-afectadas-por-los-incendios-en-el-bolson/][Ver artículo]]
+
+- Se agradece la donación de libros al espacio LIVING de Laura Suyai Aguilar.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/agradecimieto-por-la-donacion-de-libros-al-espacio-living-libros-en-comunidad/][Ver artículo]]
+
+- Se llevo a cabo el primer encuentro del Proyecto de Extensión "Producción de Recursos Abiertos Accesibles".
+
+  El encuentro fue el 6 de marzo. El objetivo es crear y mejorar los recursos y materiales educativos que sean accesibles.
+
+  Se enfocó en recursos para docentes de educación secundaria y en favorecer la inclusión.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/primer-encuentro-del-proyecto-de-extension-produccion-de-recursos-abiertos-accesibles/][Ver artículo]]
+
+- Se presentó la nueva carrera de posgrado "Especialización en Inteligencia de Datos Aplicada".
+
+  La jornada fue el 26 de febrero donde se presentó la carrera y se contó en qué consiste.
+
+  La especialización consiste en el uso de las tecnologías relacionadas a la explotación del dato para potenciar el desarrollo de las empresas.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/presentacion-de-la-nueva-carrera-de-posgrado-especializacion-en-inteligencia-de-datos-aplicada-en-la-fai/][Ver artículo]] | [[https://www.fi.uncoma.edu.ar/index.php/especializacion-ida/][Página de la especialización]] 
+  
+* Bloque 1 - Actividades 2024 y 2025 de extensión
+
+- ¿Qué tareas realiza la secretaría de extensión?
+
+Año pasado
+
+- ¿Qué actividades se realizaron en el 2024?
+- ¿Qué pasó con los proyectos de extensión? ¿cuántos hay?
+
+Este año
+
+- Bienvenida a Ingresantes.
+- Presentación de proyectos de extensión.
+- ¿Hay actividades planificadas para el 2025?
+
+* ⏸️ -- Tanda --
+* Bloque 2 - Situación de la Universidad
+
+- Recuerdo que el año pasado emitimos un comunicado... mmm... a ver cómo era...
+
+  \play{} =comunicado-21-08-2024.mp3=
+  
+- 17 y 18 de marzo hubo paro.
+- Salario docente simple AYP de 226.593 pesos contra una canasta de $1.033.715.
+- Incrementos de 1.5% y 1.2% para enero y febrero, cuando la inflación es del 2.3% en febrero.
+
+  Los aumentos son por decreto.
+
+  Sumado lo acumulado del año pasado.
+- Sin Ley de presupuesto para este 2025.
+- Belén Almejún, docente de la UBA, recibió un ataque en su domicilio en el que rompieron cañerías debido a una discusión con militantes libertarios.
+
+[[https://www.instagram.com/p/DHWXwqJRLDk/?img_index=1][FEDUN Paro panfleto 1]]
+
+[[https://www.instagram.com/p/DHMpNjCyiOM/?img_index=1][ADUNC Paro panfleto 1]]
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "british"
+# org-latex-default-figure-position: "tbp"
+# End:
