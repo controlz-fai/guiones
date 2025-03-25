@@ -1,4 +1,4 @@
-#+title: Guion 12 - 3 de julio del 2024
+#+title: Guion 13 - 31 de julio del 2024
 
 #+HTML: <main>
 
@@ -31,7 +31,7 @@
 * Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
 - Todos los miércoles a las 13:00 de la tarde
-- Presentarse - Participaron: Christian.
+- Presentarse - Participaron: Christian, Rodrigo.
   
   Detrás del micrófono: Andrés Sepúlveda en la operación.
   

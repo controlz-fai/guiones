@@ -1,4 +1,4 @@
-#+title: Guion 21 - 16 de octubre del 2024
+#+title: Guion 20 - 16 de octubre del 2024
 
 #+HTML: <main>
 
