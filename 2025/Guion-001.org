@@ -117,17 +117,24 @@
 * Bloque 1 - Actividades 2024 y 2025 de extensión
 
 - ¿Qué tareas realiza la secretaría de extensión?
+- ¿Qué es un proyecto de extensión? ¿cómo se extiende a la comunidad?
 
 Año pasado
 
 - ¿Qué actividades se realizaron en el 2024?
 - ¿Qué pasó con los proyectos de extensión? ¿cuántos hay?
+- Prolog for Kids, El museo vuelve a las escuelas, FLISoL, Día de Ada, La Ronda de la facu, talleres en biblioteca, visita a escuelas (CPEM 18 con Sebastián Alvarado), uso responsable de tecnologías en secundarios (talleres de grooming, de reciclado, desarrollo de aplicaciones).
+- Diplomaturas en Mariano Moreno, expo vocacional Neuquén (6,7,8/09/2025).
+- Torneos de programación.
+- Montún
 
 Este año
 
 - Bienvenida a Ingresantes.
 - Presentación de proyectos de extensión.
 - ¿Hay actividades planificadas para el 2025?
+  - FLISoL 2025
+  - Programate, visitas a escuelas.
 
 * ⏸️ -- Tanda --
 * Bloque 2 - Situación de la Universidad
@@ -150,10 +157,64 @@ Este año
 
 [[https://www.instagram.com/p/DHMpNjCyiOM/?img_index=1][ADUNC Paro panfleto 1]]
 
+24 de marzo, día de la memoria, verdad y la justicia.
+
+Oscar Humberto Andrada, Juan Carlos Castillo, Óscar Odola, Javier Seminario, Lilian Jiménez, Héctor Campos, Arlene Segel, Mirta Tronelli, Cecilia Bechi, Alicia Pifarre, Adriano Daniel Ramírez.
+
+Luis Frohm, Susana Mujica.
+
+Graciela Hernández, Mónica Morán, Ricardo Alfredo Rabí, Rodolfo Mariano Taberna, Miguel Ángel Tierno.
+
 * Despedida
 - Hemos llegado al final del programa ...
 - ¡Nos vemos el próximo miércoles a las 13:00!
 - ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+
+* Actividades del año pasado
+| Programa | Tema                                                    |
+|----------+---------------------------------------------------------|
+|       23 | Hacka-Neuquén                                           |
+|          | La noche de las letras y la noche de las universidades. |
+|       22 | Verónica Dahl                                           |
+|          | Programate 2024                                         |
+|          | Marchas, vigilias                                       |
+|       20 | Consejo directivo y superior en la plaza de Cipolletti  |
+|          | Prolog for kids                                         |
+|       19 | Ada Lovelace Day                                        |
+|          | UNCo y Universidad Antonio Nariño: Realidad aumentada   |
+|       18 | Semana del estudiante                                   |
+|          | Torneo de programación                                  |
+|       16 | Visita al CPEM 18                                       |
+|          | FaI en la Expo Vocacional Neuquén                       |
+|       14 | Living de la FaI                                        |
+|          | Bienvenida a ingresantes de la tecnicatura.            |
+|       13 | Nueva tecnicatur en Cutral-Co                           |
+|          | CrowdStrike / Meta AI                                   |
+|       12 | Taller en Biblioteca Popular Amigos del Libro           |
+|          | El Museo vuelve a las escuelas                          |
+|       11 | Diplomatura en Mariano Moreno                           |
+|          | Alerta Sofía, Assange y Wikileaks                       |
+|       10 | Conflugamer                                             |
+|          | Estreno de la BUP en la UNCo                            |
+|        9 | La ronda en la Facu                                     |
+|          | Día de Ada Lovelace                                     |
+|        8 | Montún                                                  |
+|          | 18 de mayo: Día del museo (2 parte)                     |
+|        7 | FLISoL                                                  |
+|          | 18 de mayo: Día del museo                               |
+|        6 | Marcha 23A                                              |
+|          | FLISoL (previa)                                         |
+|        5 | No hubo programa                                        |
+|        4 | Situación de la Universidad y la Facultad               |
+|          | El Museo vuelve a las Escuelas                          |
+|        3 | Prolog for Kids                                         |
+|          | Enseñando los sistemas electorales en las escuelas      |
+|        2 | La computación antes de la democracia                   |
+|          | Nuestra universidad y derechos humanos                  |
+|        1 | Asamblea Universitaria                                  |
+|          | Entrevista a Beatriz Gentile                            |
+
 
 * Licencia
 Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
