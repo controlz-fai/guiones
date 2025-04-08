@@ -13,25 +13,25 @@
 |---+-----------------+----------------------------------------------------------------+----------+----------|
 |   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato) | 00:05:00 | 13:05:10 |
 |---+-----------------+----------------------------------------------------------------+----------+----------|
-|   | Noticias        |                                                                | 00:10:00 | 13:15:10 |
+|   | Noticias        |                                                                | 00:05:00 | 13:10:10 |
 |---+-----------------+----------------------------------------------------------------+----------+----------|
-|   | Música          | Música para darle tiempo al Bomba \bomb{}                          | 00:02:00 | 13:17:10 |
+|   | Música          | Música para darle tiempo al Bomba \bomb{}                          | 00:02:00 | 13:12:10 |
 |---+-----------------+----------------------------------------------------------------+----------+----------|
-|   |                 | (se puede usar de fondo =Cortina programa.mp3=)                  |          | 13:17:10 |
-|   | Bloque 1        | "Actividades de bienestar 2024 y 2025"                         | 00:02:00 | 13:19:10 |
-|   |                 | \play{} =Entrevista Susana Parra.mp3=                                 | 00:15:20 | 13:34:30 |
+|   |                 | (se puede usar de fondo =Cortina programa.mp3=)                  |          | 13:12:10 |
+|   | Bloque 1        | "Actividades de bienestar 2024 y 2025"                         | 00:02:00 | 13:14:10 |
+|   |                 | \play{} =Entrevista Susana Parra.mp3=                                 | 00:15:20 | 13:29:30 |
 |---+-----------------+----------------------------------------------------------------+----------+----------|
-|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                             |          | 13:34:30 |
-|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                 | 00:05:00 | 13:39:30 |
-|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                      |          | 13:39:30 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                             |          | 13:29:30 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                 | 00:05:00 | 13:34:30 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                      |          | 13:34:30 |
 |---+-----------------+----------------------------------------------------------------+----------+----------|
-|   | Bloque 2        | "Semana de las ciencias"                                       | 00:02:00 | 13:41:30 |
-|   |                 | \play{} =Entrevista Gabriela Aranda.mp3=                              | 00:17:30 | 13:59:00 |
+|   | Bloque 2        | "Semana de las ciencias"                                       | 00:02:00 | 13:36:30 |
+|   |                 | \play{} =Entrevista Gabriela Aranda.mp3=                              | 00:13:56 | 13:50:26 |
 |---+-----------------+----------------------------------------------------------------+----------+----------|
-|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                            | 00:05:00 | 14:04:00 |
+|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                            | 00:05:00 | 13:55:26 |
 |---+-----------------+----------------------------------------------------------------+----------+----------|
 |---+-----------------+----------------------------------------------------------------+----------+----------|
-|   | *Total*           |                                                                | 01:04:00 |          |
+|   | *Total*           |                                                                | 00:55:26 |          |
 #+TBLFM: @4$5..@18$5=$4 + @-1$5;T::@19$4='(apply '+ '(@4$4..@18$4));T
 
 * Presentación del programa
@@ -57,37 +57,27 @@
 * Noticias
 
 ** Nacionales
-- Hoy movilización con jubiladas y jubilados.
+- *Hoy movilización con jubiladas y jubilados.*
 
   Se moviliza los gremios universitarios y CGT con los y las jubiladas.
 
   [[https://www.instagram.com/p/DIJtv8wsXsa/][Ver en Instagram Adunc_comahue]] | [[https://www.instagram.com/p/DIKuUxZsSzQ/][Ver Instagram en cediuncodocentes]]
 
-- Mañana 10 hay paro general.
+- *Mañana 10 hay paro general.*
 
   En reclamo de salarios dignos, paritarias libres y en defensa del presupuesto universitario.
 
   [[https://www.pagina12.com.ar/816156-paro-general-de-la-cgt-los-trabajadores-no-docentes-universi][Ver en Pagina 12]] | [[https://www.instagram.com/p/DIJRd3RA1y0/][Ver en Instagram adunc_comahue]] | [[https://www.instagram.com/p/DIKuUxZsSzQ/][Ver Instagram en cediuncodocentes]]
   
-- El botón "unirme" no es un virus.
-
-  [[https://chequeado.com/ultimas-noticias/el-boton-de-unirme-en-whatsapp-no-es-una-nueva-modalidad-de-hackeo-sino-la-invitacion-para-un-chat-de-audio-grupal/][Ver en chequeado.com]]
-
 ** Universidad
 
-- Semana nacional de las ciencias.
+- (Solo mención porque se trata en el Bloque 2)
+
+  Semana nacional de las ciencias.
 
   Promovida por el Consejo Interuniversitario Nacional (CIN), con actividades en todas las universidades.
 
   [[https://www.cin.edu.ar/semana-nacional-de-la-ciencia-2025/][Ver en CIN]] | [[https://uncoma.edu.ar/ultimas-noticias/se-viene-la-semana-nacional-de-la-ciencia-2025/][Ver en UNComa]]
-
-** FaI
-- Curso de posgrado "Big Data: Procesos, Componentes y Herramientas" dictado por Agustina Buccella.
-
-  Inicia el martes 22 de abril.
-
-  [[https://www.fi.uncoma.edu.ar/index.php/novedades/abril-big-data-procesos-componentes-y-herramientas/][Ver en FaIWeb]]
-
   
 * Bloque 1 - Actividades 2024 y 2025 de bienestar
 - La Secretaría de Bienestar de la UNCo y de la facultad es fundamental para nuestra comunidad..
