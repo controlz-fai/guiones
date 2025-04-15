@@ -1,0 +1,202 @@
+#+title: Guion 2 - 9 de abril del 2025
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Sección/Momento | Detalle Técnico                                                | Duración | Finaliza |
+| / | <>              | <>                                                             |       <> |       <> |
+| / | Inicio          |                                                                |          | 13:00:00 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Comienzo        | \musicalnote{} =Apertura vieja + 2025.mp3=                                  | 00:00:10 | 13:00:10 |
+|   |                 | El audio empieza con la apertura vieja, y                      |          | 13:00:10 |
+|   |                 | después se cambia a la nueva.                                  |          | 13:00:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato) | 00:05:00 | 13:05:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Noticias        |                                                                | 00:05:00 | 13:10:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Música          | Música para darle tiempo al Bomba \bomb{}                          | 00:02:00 | 13:12:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | (se puede usar de fondo =Cortina programa.mp3=)                  |          | 13:12:10 |
+|   | Bloque 1        | "Actividades de bienestar 2024 y 2025"                         | 00:02:00 | 13:14:10 |
+|   |                 | \play{} =Entrevista Susana Parra.mp3=                                 | 00:15:20 | 13:29:30 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                             |          | 13:29:30 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                 | 00:05:00 | 13:34:30 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                      |          | 13:34:30 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 2        | "Semana de las ciencias"                                       | 00:02:00 | 13:36:30 |
+|   |                 | \play{} =Entrevista Gabriela Aranda.mp3=                              | 00:13:56 | 13:50:26 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                            | 00:05:00 | 13:55:26 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | *Total*           |                                                                | 00:55:26 |          |
+#+TBLFM: @4$5..@18$5=$4 + @-1$5;T::@19$4='(apply '+ '(@4$4..@18$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian.
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, noticias.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+* Noticias
+
+** Nacionales
+- *Hoy movilización con jubiladas y jubilados.*
+
+  Se moviliza los gremios universitarios y CGT con los y las jubiladas.
+
+  [[https://www.instagram.com/p/DIJtv8wsXsa/][Ver en Instagram Adunc_comahue]] | [[https://www.instagram.com/p/DIKuUxZsSzQ/][Ver Instagram en cediuncodocentes]]
+
+- *Mañana 10 hay paro general.*
+
+  En reclamo de salarios dignos, paritarias libres y en defensa del presupuesto universitario.
+
+  [[https://www.pagina12.com.ar/816156-paro-general-de-la-cgt-los-trabajadores-no-docentes-universi][Ver en Pagina 12]] | [[https://www.instagram.com/p/DIJRd3RA1y0/][Ver en Instagram adunc_comahue]] | [[https://www.instagram.com/p/DIKuUxZsSzQ/][Ver Instagram en cediuncodocentes]]
+  
+** Universidad
+
+- (Solo mención porque se trata en el Bloque 2)
+
+  Semana nacional de las ciencias.
+
+  Promovida por el Consejo Interuniversitario Nacional (CIN), con actividades en todas las universidades.
+
+  [[https://www.cin.edu.ar/semana-nacional-de-la-ciencia-2025/][Ver en CIN]] | [[https://uncoma.edu.ar/ultimas-noticias/se-viene-la-semana-nacional-de-la-ciencia-2025/][Ver en UNComa]]
+  
+* Bloque 1 - Actividades 2024 y 2025 de bienestar
+- La Secretaría de Bienestar de la UNCo y de la facultad es fundamental para nuestra comunidad..
+- Refuerza la permanencia y la convivencia de estudiantes
+- También mejora la calidad educativa promoviendo habilidades extras necesarias para el desarrollo profesional
+- Realiza actividades como talleres, espacios, encuentros, charlas, etc.
+- Susana Parra, secretaria de bienestar de la facultad de informática.
+
+  Nos cuenta en qué consiste la secretaría de bienestar y las actividades que ha realizado el año pasado y las que se vienen en este año.
+  
+\play =Entrevista Susana Parra.mp3=
+
+* ⏸️ -- Tanda --
+* Bloque 2 - Semana nacional de las ciencias
+
+https://semanadelaciencia.cin.edu.ar/acerca-de-la-semana
+
+- El Consejo Interuniversitario Nacional (CIN) promueve a todas las universidades a participar de la Semana Nacional de las Ciencias.
+- Son actividades que se realizan entre el 7 y el 12 de abril.
+- "Busca potenciar un diálogo amplio sobre el presente y el futuro de la ciencia argentina"
+  - Fomentar la colaboración de la sociedad.
+  - Fortalecer el vínculo entre la ciencia, la investigación y la comunidad.
+  - Destacar la producción de conocimiento que se genera en las universidades y organismos.
+  - Visibilizar la situación crítica.
+  - Reafirmar la importancia de su desarrollo y continuidad.
+
+- Gabriela Aranda, secretaria de investigación y posgrado.
+
+- En el marco de la Semana Nacional de las Ciencias, nos brinda esta entrevista que nos cuenta qué son los proyectos de investigación y cómo aportan a la universidad y a la sociedad.
+
+\play{} =Entrevista Gabriela Aranda.mp3=
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "british"
+# org-latex-default-figure-position: "tbp"
+# End:
