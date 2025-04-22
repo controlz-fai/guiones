@@ -1,0 +1,214 @@
+#+title: Guion 4 - 23 de abril del 2025
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Sección/Momento | Detalle Técnico                                                | Duración | Finaliza |
+| / | <>              | <>                                                             |       <> |       <> |
+| / | Inicio          |                                                                |          | 13:00:00 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Comienzo        | \musicalnote{} =Apertura vieja + 2025.mp3=                                  | 00:00:10 | 13:00:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato) | 00:05:00 | 13:05:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | - Sin noticias -                                               | 00:00:00 | 13:05:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Música          | Música para darle tiempo al Bomba \bomb{}                          | 00:02:00 | 13:07:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | (se puede usar de fondo =Cortina programa.mp3=)                  |          | 13:07:10 |
+|   | Bloque 1        | Un libro de Xinu en la facu                                    | 00:02:00 | 13:09:10 |
+|   |                 | \telephone{} Meet con Rafael Zurita                                     | 00:15:20 | 13:24:30 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                             |          | 13:24:30 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                 | 00:05:00 | 13:29:30 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                      |          | 13:29:30 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 2        | "FLISoL en la FaI"                                             | 00:15:00 | 13:44:30 |
+|   | Música          | \play{} Posiblemente una canción para cortar...                     | 00:05:00 | 13:49:30 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                            | 00:05:00 | 13:54:30 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | *Total*           |                                                                | 00:54:30 |          |
+#+TBLFM: @4$5..@16$5=$4 + @-1$5;T::@17$4='(apply '+ '(@4$4..@16$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian.
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, noticias.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+  
+* Bloque 1 - Un libro de Xinu en la facu
+Xinu es Xinu Is Not Unix, un sistema operativo minimal para embebidos. Es desarrollado por Douglas Comer para la educación y la industria en la universidad de Purdue.
+Nuestra facultad ayuda al desarrollo de Xinu.
+
+Se encuentra un nuevo libro en preventa:
+
+https://www.routledge.com/Operating-System-Design-The-Xinu-Approach/Comer/p/book/9781032980997
+
+- ¿Qué es Xinu?
+- ¿Es software libre?
+- ¿Para qué se utiliza?
+- ¿Cómo nuestra facultad aporta al proyecto?
+  - ¿Qué significa que nuestra facultad aporte a este proyecto? ¿por qué es importante?
+- ¿Se utiliza en nuestra facultad? ¿qué materias lo utilizan? ¿para qué?
+- ¿Por qué utilizar Xinu en esas materias? ¿por qué no Linux?
+  - ¿Y por qué no Windows?
+- ¿Qué significa este libro nuevo de Xinu?
+- ¿Se va a presentar Xinu en el FLISoL de este sábado 26 a las 11:00?
+
+* ⏸️ -- Tanda --
+* Bloque 2 - FLISoL en la FaI
+Se viene el FLISoL el sábado 26 a las 11:00 en el hall de la Facultad de Informática. Pero antes, veamos qué es lo que se va a compartir y charlar en el festival: 
+
+Software Libre
+
+- ¿Qué es el software libre? ¿qué es el Open Source?
+- ¿Por qué es importante?
+  - Respeto al usuario
+  - En la facu:
+    - nos permite enseñar y aprender
+    - crear y adaptar nuevos desarrollos
+- ¿Qué me permite el Software Libre?
+  - Libertad a usar el programa
+  - Libertad a estudiar cómo funciona
+  - Libertad a distribuir copias
+  - Libertad a mejorar el programa
+  - Respetando la autoría del programa.
+  - Se requiere el código fuente.
+- Software libre en el estado e instituciones públicas y privadas:
+  - Todo producto del estado puede ser leído y usado
+  - No obliga a comprar licencias al estado ni a otras personas
+  - Reparación y adaptación de sistemas por mano propia o local
+    - autonomía digital y no depedencia
+  - Ahorro económico y distribución del mismo software a demás entidades del estado
+    - Se desarrolla en un lugar, y se puede compartir ahorrando plata
+  - Creación de comunidades alrededor del software para: soporte; nuevas formas de uso; reparación; colaboración con imágenes, traducciones o desarrollos; reporte de errores y mejoras; etc.
+- ¿Software Libre es Linux?
+  - No es solo linux, de hecho usamos Software Libre y Open Source todo el tiempo:
+    - Firefox, Chrome se basa en software Open Source y libre, Android tiene mucho software open source, las páginas Webs se desarrollan con software libre.
+
+FLISoL
+
+- ¿Qué es el FLISoL?
+  - Festival Latinoamericano \to{} Se realiza en toda latinoamerica en el mismo día
+  - Nace en Colombia en el 2003 y se reparte en toda latinoamérica.
+  - Promocionan y comparten Software Libre.
+  - Siempre son de entrada gratuita y abierta.
+- El Software Libre permite estos festivales:
+  - Como se puede compartir y estudiar
+  - Se instala y comparte software (GNU/Linux, pero también otros que funcionan en otros sistemas).
+- ¿Qué se hace en el FLISoL de la FaI?
+  - *Sábado 26 a las 11:00 en el hall de la facultad.*
+  - Se toma mucho mates \mate{}.
+  - Charlas y debates para compartir experiencias y conocimientos.
+  - Se comparte software y programas con charlas y explicaciones.
+
+    
+    
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "british"
+# org-latex-default-figure-position: "tbp"
+# End:
