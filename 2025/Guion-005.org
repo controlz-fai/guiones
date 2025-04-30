@@ -7,7 +7,7 @@
 | / | <>              | <>                                                                   |       <> |       <> |
 | / | Inicio          |                                                                      |          | 13:00:00 |
 |---+-----------------+----------------------------------------------------------------------+----------+----------|
-|   | Comienzo        | \musicalnote{} =Apertura vieja + 2025.mp3=                                        | 00:00:10 | 13:00:10 |
+|   | Comienzo        | \musicalnote{} =Apertura 2025.mp3=                                                | 00:00:10 | 13:00:10 |
 |---+-----------------+----------------------------------------------------------------------+----------+----------|
 |   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato)       | 00:05:00 | 13:05:10 |
 |---+-----------------+----------------------------------------------------------------------+----------+----------|
@@ -22,9 +22,9 @@
 |   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                       | 00:05:00 | 13:29:10 |
 |   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                            |          | 13:29:10 |
 |---+-----------------+----------------------------------------------------------------------+----------+----------|
-|   | Bloque 2        | Columna de Seguridad Informática                                     | 00:10:00 | 13:39:10 |
+|   | Bloque 2        | *Columna de Seguridad Informática*                                   | 00:10:00 | 13:39:10 |
 |   | Música          | \play{} Música (Mica Orsi, Los Viajes, Estafa Dub, Gysology, Las Plantas) | 00:05:00 | 13:44:10 |
-|   |                 | ¿Cómo fue el FLISoL?                                                 | 00:05:00 | 13:49:10 |
+|   |                 | *¿Cómo fue el FLISoL?* (Si hay tiempo)                               | 00:05:00 | 13:49:10 |
 |---+-----------------+----------------------------------------------------------------------+----------+----------|
 |   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                                  | 00:05:00 | 13:54:10 |
 |---+-----------------+----------------------------------------------------------------------+----------+----------|
@@ -58,7 +58,7 @@
 
   El gobierno español aún no descarta un ataque informático.
 
-  El apagón fue el lunes al mediodía y especulaban que iba a durar entre 6 a 10 horas el reestablecimiento. Ahora están reestableciendo paulatinamente.
+  El apagón fue el lunes al mediodía y especulaban que iba a durar entre 6 a 10 horas el restablecimiento. Ahora están restableciendo paulatinamente.
 
   [[https://www.pagina12.com.ar/821849-por-que-se-produjo-el-apagon-en-espana-rige-una-investigacio][Artículo en Página 12]]
 
@@ -92,7 +92,7 @@ Hablamos con: Marcia Pizarro, docente de informática de la EPET 11 y EPET 15 de
 - ¿Cómo llegó el Programate a Zapala?
 - ¿Quiénes pueden participar? ¿Quiénes colaboran en el desarrollo?
 - ¿Qué actividades van a realizar?
-  - ¿Qué clase de talleres van a realiazar?
+  - ¿Qué clase de talleres van a realizar?
   - ¿Qué capacitaciones recibirán las y los docentes?
     - Con puntaje docente.
   - ¿Se utiliza el software Hornero para alguna actividad?
@@ -120,24 +120,26 @@ Kit de supervivencia:
 
 * ⏸️ -- Tanda --
 * Bloque 2 - Columna Seguridad Informática y FLISoL
-
+** Columna
 Columna a cargo de Benja Muñoz, estudiante de nuestra facultad.
 
 - \thinkingface{} Se podría hablar del kit de supervivencia recomendado por la UE para apagones (si hay tiempo de sobra).
 
 
-\play{} Una canción para separar y dar descanzo a la audiencia.
+\play{} Una canción para separar y dar descanso a la audiencia.
 
+** FLISoL
 FLISoL fue el sábado 26 a las 11:00 en el hall de la FaI.
 
 - ¿Qué sucedió en el FLISoL?
 - ¿Hubo instalaciones de software?
 - ¿Charlas y debates?
+- ¿Mucha gente? ¿estudiantes? ¿otras personas?
 
-FLISoL
+Apuntes y preguntas de la semana pasada del tema FLISoL:
 
 - ¿Qué es el FLISoL?
-  - Festival Latinoamericano \to{} Se realiza en toda latinoamerica en el mismo día
+  - Festival Latinoamericano \to{} Se realiza en toda latinoamérica en el mismo día
   - Nace en Colombia en el 2003 y se reparte en toda latinoamérica.
   - Promocionan y comparten Software Libre.
   - Siempre son de entrada gratuita y abierta.
@@ -148,10 +150,7 @@ FLISoL
   - *Sábado 26 a las 11:00 en el hall de la facultad.*
   - Se toma mucho mates \mate{}.
   - Charlas y debates para compartir experiencias y conocimientos.
-  - Se comparte software y programas con charlas y explicaciones.
-
-    
-    
+  - Se comparte software y programas con charlas y explicaciones.   
 
 * Despedida
 - Hemos llegado al final del programa ...
