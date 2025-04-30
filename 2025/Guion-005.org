@@ -35,9 +35,9 @@
 * Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
 - Todos los miércoles a las 13:00 de la tarde
-- Presentarse - Participaron: Christian.
+- Presentarse - Participaron: Christian, Ian y Marina.
   
-  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  Detrás del micrófono: Andrés Sepúlveda en la operación.
   
 - ¿De qué se trata Control Z?
 
