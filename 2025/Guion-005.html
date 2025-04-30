@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<!-- 2025-04-29 mar 22:45 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Guion 5 - 30 de abril del 2025</title>
+<meta name="author" content="Christian Gimenez" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link href="../css/guiones-2024.css" rel="stylesheet">
+<script src="libs/org-info.js">
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+// @license-end
+</script>
+
+<script>
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+org_html_manager.set("TOC_DEPTH", "3");
+org_html_manager.set("LINK_HOME", "");
+org_html_manager.set("LINK_UP", "");
+org_html_manager.set("LOCAL_TOC", "1");
+org_html_manager.set("VIEW_BUTTONS", "1");
+org_html_manager.set("MOUSE_HINT", "underline");
+org_html_manager.set("FIXED_TOC", "1");
+org_html_manager.set("TOC", "1");
+org_html_manager.set("VIEW", "info");
+org_html_manager.setup();  // activate after the parameters are set
+// @license-end
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Guion 5 - 30 de abril del 2025</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>&Iacute;ndice</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orga0ccfd4">1. Presentación del programa</a></li>
+<li><a href="#orga437d6e">2. Noticias</a>
+<ul>
+<li><a href="#org4467a11">2.1. Universitarias</a></li>
+<li><a href="#org9093c96">2.2. Facultad</a></li>
+</ul>
+</li>
+<li><a href="#org7eeb096">3. Bloque 1 - Programate Itinerante</a>
+<ul>
+<li><a href="#org21b676d">3.1. Alternativa: apagones ¿y qué hacer?</a></li>
+</ul>
+</li>
+<li><a href="#orgf3b8302">4. ⏸️ &#x2013; Tanda --</a></li>
+<li><a href="#org5e2c73a">5. Bloque 2 - Columna Seguridad Informática y FLISoL</a></li>
+<li><a href="#org8bc74ee">6. Despedida</a></li>
+<li><a href="#org94ed1d8">7. Licencia</a></li>
+</ul>
+</div>
+</div>
+<main>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Tabla 1</span> Guión técnico para el operador.</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Sección/Momento</th>
+<th scope="col" class="org-left">Detalle Técnico</th>
+<th scope="col" class="org-right">Duración</th>
+<th scope="col" class="org-right">Finaliza</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Comienzo</td>
+<td class="org-left">&#127925; <code>Apertura vieja + 2025.mp3</code></td>
+<td class="org-right">00:00:10</td>
+<td class="org-right">13:00:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Presentación</td>
+<td class="org-left">(se puede usar <code>Cortina apertura 2025.mp3</code> de fondo por un rato)</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:05:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Algunas noticias</td>
+<td class="org-right">00:02:00</td>
+<td class="org-right">13:07:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Bloque 1</td>
+<td class="org-left">&#127925; <code>Separador entrevista telefónica.mp3</code></td>
+<td class="org-right">00:02:00</td>
+<td class="org-right">13:09:10</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">(se puede usar de fondo <code>Cortina entrevista telefónica.mp3</code>)</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">13:09:10</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left"><b>Programate Itinerante</b></td>
+<td class="org-right">00:15:00</td>
+<td class="org-right">13:24:10</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#9742;&#65039; Meet con Marcia Pizarro y Valentina Villaroel</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">13:24:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#127925; <code>Sep Ctrl Z.mp3</code></td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">13:24:10</td>
+</tr>
+
+<tr>
+<td class="org-left">&#9208;&#65039; Tanda</td>
+<td class="org-left">&#x2013;&#x2014; Tanda Publicitaria -----</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:29:10</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#127925; <code>Sep Ctrl Z.mp3</code> o <code>Cortina programa.mp3</code></td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">13:29:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Bloque 2</td>
+<td class="org-left">Columna de Seguridad Informática</td>
+<td class="org-right">00:10:00</td>
+<td class="org-right">13:39:10</td>
+</tr>
+
+<tr>
+<td class="org-left">Música</td>
+<td class="org-left">&#9654;&#65039; Música (Mica Orsi, Los Viajes, Estafa Dub, Gysology, Las Plantas)</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:44:10</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">¿Cómo fue el FLISoL?</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:49:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Cierre</td>
+<td class="org-left">&#127925; <code>Cierre 2025.mp3</code></td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:54:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left"><b>Total</b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:54:10</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+<div id="outline-container-orga0ccfd4" class="outline-2">
+<h2 id="orga0ccfd4"><span class="section-number-2">1.</span> Presentación del programa</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>Bienvenida a Control Z, el espacio de la Facultad de Informática.</li>
+<li>Todos los miércoles a las 13:00 de la tarde</li>
+<li><p>
+Presentarse - Participaron: Christian.
+</p>
+
+<p>
+Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+</p></li>
+
+<li>¿De qué se trata Control Z?</li>
+
+<li><p>
+Es una iniciativa de extensión de nuestra facultad y de nuestra
+universidad pública
+</p>
+
+<p>
+Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+informática diversa, noticias.
+</p></li>
+
+<li>Canales de comunicación: Instagram: ctrlz_fai |
+Web:<a href="https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&amp;sa=D&amp;source=editors&amp;ust=1710886972631607&amp;usg=AOvVaw0Nd3amx84NFOIIJmebjzYD"> </a><a href="https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&amp;sa=D&amp;source=editors&amp;ust=1710886972631851&amp;usg=AOvVaw2WckiSK9W10CI0pP35EAyw">https://controlz.fi.uncoma.edu.ar/</a> |
+Correo: controlz@fi.uncoma.edu.ar</li>
+<li>Resumen del programa de hoy: ¿qué hay hoy?</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga437d6e" class="outline-2">
+<h2 id="orga437d6e"><span class="section-number-2">2.</span> Noticias</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li><p>
+Apagón en España, Portugal y sur de Francia.
+</p>
+
+<p>
+El gobierno español aún no descarta un ataque informático.
+</p>
+
+<p>
+El apagón fue el lunes al mediodía y especulaban que iba a durar entre 6 a 10 horas el reestablecimiento. Ahora están reestableciendo paulatinamente.
+</p>
+
+<p>
+<a href="https://www.pagina12.com.ar/821849-por-que-se-produjo-el-apagon-en-espana-rige-una-investigacio">Artículo en Página 12</a>
+</p>
+
+<p>
+<a href="https://www.infobae.com/america/mundo/2025/04/29/apagones-desastres-naturales-o-guerras-como-es-el-kit-de-supervivencia-que-recomienda-la-union-europea-para-catastrofes/">Recomendación de Kit de supervivencia después del apagón - Infobae</a>
+</p></li>
+</ul>
+</div>
+<div id="outline-container-org4467a11" class="outline-3">
+<h3 id="org4467a11"><span class="section-number-3">2.1.</span> Universitarias</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>El 23 de abril fue un año de la marcha multitudinaria federal universitaria.</li>
+<li><p>
+La UNCo estuvo presente en la Segunda Cumbre del Hub Tech IA + Energía + Agua.
+</p>
+
+<p>
+25 de abril en la isla 132 de Neuquén.  
+</p></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9093c96" class="outline-3">
+<h3 id="org9093c96"><span class="section-number-3">2.2.</span> Facultad</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li><p>
+Programate Itinerante.
+</p>
+
+<p>
+15 de mayo de 9:00 a 18:00. Zapala.
+</p>
+
+<p>
+Híbrida - no arancelada. Instancia presencial y 2 virtuales. Con puntaje docente.
+</p>
+
+<p>
+Inscripciones: para docentes con formulario y para estudiantes por medio de la dirección de su escuela. Cupos limitados.
+</p>
+
+<p>
+Contacto: 02942 421616
+</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org7eeb096" class="outline-2">
+<h2 id="org7eeb096"><span class="section-number-2">3.</span> Bloque 1 - Programate Itinerante</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Programate: Es un espacio de convergencia entre el juego, la creatividad y talleres. Busca acercar las ciencias de la computación a estudiantes de secundaria.
+</p>
+
+<p>
+El evento tiene lugar usualmente en octubre en el campus de la Universidad del Comahue, pero esta vez es itinerante: se realizará en Zapala.
+</p>
+
+<p>
+Hablamos con: Marcia Pizarro, docente de informática de la EPET 11 y EPET 15 de Zapala. Valentina Villarroel, estudiante de nuestra facultad.
+</p>
+
+<ul class="org-ul">
+<li>¿Cómo llegó el Programate a Zapala?</li>
+<li>¿Quiénes pueden participar? ¿Quiénes colaboran en el desarrollo?</li>
+<li>¿Qué actividades van a realizar?
+<ul class="org-ul">
+<li>¿Qué clase de talleres van a realiazar?</li>
+<li>¿Qué capacitaciones recibirán las y los docentes?
+<ul class="org-ul">
+<li>Con puntaje docente.</li>
+</ul></li>
+<li>¿Se utiliza el software Hornero para alguna actividad?</li>
+<li>En Programate había talleres de Internet Seguro. ¿También hay estos talleres en el itinerante?</li>
+</ul></li>
+<li>¿Cómo se participa en las actividades?
+<ul class="org-ul">
+<li>¿Son presenciales o virtuales?</li>
+</ul></li>
+<li>¿Aún están las inscripciones abiertas? ¿cómo puedo inscribirme?
+<ul class="org-ul">
+<li>02942 421616 y epet011zapala@gmail.com</li>
+</ul></li>
+<li>Para Valentina: ¿Cómo participa la FaI?
+<ul class="org-ul">
+<li>¿Quiénes participan de nuestra facultad?</li>
+<li>¿Tienen que viajar?</li>
+<li>¿Cómo se siente participar de estas actividades de extensión?</li>
+</ul></li>
+<li>Si se realiza el Programate en Octubre, ¿también participarán del Programate 2025?</li>
+</ul>
+</div>
+<div id="outline-container-org21b676d" class="outline-3">
+<h3 id="org21b676d"><span class="section-number-3">3.1.</span> Alternativa: apagones ¿y qué hacer?</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Kit de supervivencia:
+</p>
+
+<ul class="org-ul">
+<li>como los botiquines, deben ser testeados y renovados cada tanto
+<ul class="org-ul">
+<li>¡deja de ser útil si está vencido o no sirve por viejo!</li>
+</ul></li>
+<li>extintores, agua embotellada y otros elementos se vencen con el tiempo</li>
+<li>cargadores de celulares (powerbanks) deben mantenerse con carga (sino, ¿¡para qué servirían!?)</li>
+<li>como las radios analógicas, siempre es una buena idea tener varios medios de comunicación alternativos</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf3b8302" class="outline-2">
+<h2 id="orgf3b8302"><span class="section-number-2">4.</span> ⏸️ &#x2013; Tanda --</h2>
+</div>
+<div id="outline-container-org5e2c73a" class="outline-2">
+<h2 id="org5e2c73a"><span class="section-number-2">5.</span> Bloque 2 - Columna Seguridad Informática y FLISoL</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+Columna a cargo de Benja Muñoz, estudiante de nuestra facultad.
+</p>
+
+<ul class="org-ul">
+<li>&#129300; Se podría hablar del kit de supervivencia recomendado por la UE para apagones (si hay tiempo de sobra).</li>
+</ul>
+
+
+<p>
+&#9654;&#65039; Una canción para separar y dar descanzo a la audiencia.
+</p>
+
+<p>
+FLISoL fue el sábado 26 a las 11:00 en el hall de la FaI.
+</p>
+
+<ul class="org-ul">
+<li>¿Qué sucedió en el FLISoL?</li>
+<li>¿Hubo instalaciones de software?</li>
+<li>¿Charlas y debates?</li>
+</ul>
+
+<p>
+FLISoL
+</p>
+
+<ul class="org-ul">
+<li>¿Qué es el FLISoL?
+<ul class="org-ul">
+<li>Festival Latinoamericano &rarr; Se realiza en toda latinoamerica en el mismo día</li>
+<li>Nace en Colombia en el 2003 y se reparte en toda latinoamérica.</li>
+<li>Promocionan y comparten Software Libre.</li>
+<li>Siempre son de entrada gratuita y abierta.</li>
+</ul></li>
+<li>El Software Libre permite estos festivales:
+<ul class="org-ul">
+<li>Como se puede compartir y estudiar</li>
+<li>Se instala y comparte software (GNU/Linux, pero también otros que funcionan en otros sistemas).</li>
+</ul></li>
+<li>¿Qué se hace en el FLISoL de la FaI?
+<ul class="org-ul">
+<li><b>Sábado 26 a las 11:00 en el hall de la facultad.</b></li>
+<li>Se toma mucho mates &#129481;.</li>
+<li>Charlas y debates para compartir experiencias y conocimientos.</li>
+<li>Se comparte software y programas con charlas y explicaciones.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8bc74ee" class="outline-2">
+<h2 id="org8bc74ee"><span class="section-number-2">6.</span> Despedida</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>Hemos llegado al final del programa &#x2026;</li>
+<li>¡Nos vemos el próximo miércoles a las 13:00!</li>
+<li>¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org94ed1d8" class="outline-2">
+<h2 id="org94ed1d8"><span class="section-number-2">7.</span> Licencia</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+</p>
+
+</main>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Autor: Christian Gimenez</p>
+<p class="date">Created: 2025-04-29 mar 22:45</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,245 @@
+#+title: Guion 5 - 30 de abril del 2025
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Sección/Momento | Detalle Técnico                                                      | Duración | Finaliza |
+| / | <>              | <>                                                                   |       <> |       <> |
+| / | Inicio          |                                                                      |          | 13:00:00 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   | Comienzo        | \musicalnote{} =Apertura vieja + 2025.mp3=                                        | 00:00:10 | 13:00:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato)       | 00:05:00 | 13:05:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   |                 | Algunas noticias                                                     | 00:02:00 | 13:07:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   | Bloque 1        | \musicalnote{} =Separador entrevista telefónica.mp3=                              | 00:02:00 | 13:09:10 |
+|   |                 | (se puede usar de fondo =Cortina entrevista telefónica.mp3=)           |          | 13:09:10 |
+|   |                 | *Programate Itinerante*                                                | 00:15:00 | 13:24:10 |
+|   |                 | \telephone{} Meet con Marcia Pizarro y Valentina Villaroel                    |          | 13:24:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                                   |          | 13:24:10 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                       | 00:05:00 | 13:29:10 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                            |          | 13:29:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   | Bloque 2        | Columna de Seguridad Informática                                     | 00:10:00 | 13:39:10 |
+|   | Música          | \play{} Música (Mica Orsi, Los Viajes, Estafa Dub, Gysology, Las Plantas) | 00:05:00 | 13:44:10 |
+|   |                 | ¿Cómo fue el FLISoL?                                                 | 00:05:00 | 13:49:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                                  | 00:05:00 | 13:54:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   | *Total*           |                                                                      | 00:54:10 |          |
+#+TBLFM: @4$5..@17$5=$4 + @-1$5;T::@18$4='(apply '+ '(@4$4..@17$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian.
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, noticias.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+* Noticias
+
+- Apagón en España, Portugal y sur de Francia.
+
+  El gobierno español aún no descarta un ataque informático.
+
+  El apagón fue el lunes al mediodía y especulaban que iba a durar entre 6 a 10 horas el reestablecimiento. Ahora están reestableciendo paulatinamente.
+
+  [[https://www.pagina12.com.ar/821849-por-que-se-produjo-el-apagon-en-espana-rige-una-investigacio][Artículo en Página 12]]
+
+  [[https://www.infobae.com/america/mundo/2025/04/29/apagones-desastres-naturales-o-guerras-como-es-el-kit-de-supervivencia-que-recomienda-la-union-europea-para-catastrofes/][Recomendación de Kit de supervivencia después del apagón - Infobae]]
+
+** Universitarias
+- El 23 de abril fue un año de la marcha multitudinaria federal universitaria.
+- La UNCo estuvo presente en la Segunda Cumbre del Hub Tech IA + Energía + Agua.
+
+  25 de abril en la isla 132 de Neuquén.  
+
+** Facultad
+- Programate Itinerante.
+
+  15 de mayo de 9:00 a 18:00. Zapala.
+
+  Híbrida - no arancelada. Instancia presencial y 2 virtuales. Con puntaje docente.
+
+  Inscripciones: para docentes con formulario y para estudiantes por medio de la dirección de su escuela. Cupos limitados.
+
+  Contacto: 02942 421616
+
+* Bloque 1 - Programate Itinerante
+
+Programate: Es un espacio de convergencia entre el juego, la creatividad y talleres. Busca acercar las ciencias de la computación a estudiantes de secundaria.
+
+El evento tiene lugar usualmente en octubre en el campus de la Universidad del Comahue, pero esta vez es itinerante: se realizará en Zapala.
+
+Hablamos con: Marcia Pizarro, docente de informática de la EPET 11 y EPET 15 de Zapala. Valentina Villarroel, estudiante de nuestra facultad.
+
+- ¿Cómo llegó el Programate a Zapala?
+- ¿Quiénes pueden participar? ¿Quiénes colaboran en el desarrollo?
+- ¿Qué actividades van a realizar?
+  - ¿Qué clase de talleres van a realiazar?
+  - ¿Qué capacitaciones recibirán las y los docentes?
+    - Con puntaje docente.
+  - ¿Se utiliza el software Hornero para alguna actividad?
+  - En Programate había talleres de Internet Seguro. ¿También hay estos talleres en el itinerante?
+- ¿Cómo se participa en las actividades?
+  - ¿Son presenciales o virtuales?
+- ¿Aún están las inscripciones abiertas? ¿cómo puedo inscribirme?
+  - 02942 421616 y epet011zapala@gmail.com
+- Para Valentina: ¿Cómo participa la FaI?
+  - ¿Quiénes participan de nuestra facultad? 
+  - ¿Tienen que viajar?
+  - ¿Cómo se siente participar de estas actividades de extensión?
+- Si se realiza el Programate en Octubre, ¿también participarán del Programate 2025?
+
+
+** Alternativa: apagones ¿y qué hacer?
+
+Kit de supervivencia:
+
+- como los botiquines, deben ser testeados y renovados cada tanto
+  - ¡deja de ser útil si está vencido o no sirve por viejo!
+- extintores, agua embotellada y otros elementos se vencen con el tiempo
+- cargadores de celulares (powerbanks) deben mantenerse con carga (sino, ¿¡para qué servirían!?)
+- como las radios analógicas, siempre es una buena idea tener varios medios de comunicación alternativos
+
+* ⏸️ -- Tanda --
+* Bloque 2 - Columna Seguridad Informática y FLISoL
+
+Columna a cargo de Benja Muñoz, estudiante de nuestra facultad.
+
+- \thinkingface{} Se podría hablar del kit de supervivencia recomendado por la UE para apagones (si hay tiempo de sobra).
+
+
+\play{} Una canción para separar y dar descanzo a la audiencia.
+
+FLISoL fue el sábado 26 a las 11:00 en el hall de la FaI.
+
+- ¿Qué sucedió en el FLISoL?
+- ¿Hubo instalaciones de software?
+- ¿Charlas y debates?
+
+FLISoL
+
+- ¿Qué es el FLISoL?
+  - Festival Latinoamericano \to{} Se realiza en toda latinoamerica en el mismo día
+  - Nace en Colombia en el 2003 y se reparte en toda latinoamérica.
+  - Promocionan y comparten Software Libre.
+  - Siempre son de entrada gratuita y abierta.
+- El Software Libre permite estos festivales:
+  - Como se puede compartir y estudiar
+  - Se instala y comparte software (GNU/Linux, pero también otros que funcionan en otros sistemas).
+- ¿Qué se hace en el FLISoL de la FaI?
+  - *Sábado 26 a las 11:00 en el hall de la facultad.*
+  - Se toma mucho mates \mate{}.
+  - Charlas y debates para compartir experiencias y conocimientos.
+  - Se comparte software y programas con charlas y explicaciones.
+
+    
+    
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "british"
+# org-latex-default-figure-position: "tbp"
+# End:
