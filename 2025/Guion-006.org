@@ -83,6 +83,8 @@
 * Bloque 1 - Rocas y Minerales en Realidad Aumentada
 #+html: <a id="bloque1"></a>
 
+María Eugenia Matus, técnica en análisis mineros, docente de Química General y Analítica Aplicada del CREUZA.
+
 1. ¿Hiciste este trabajo en el marco de la Maestría en Enseñanza en Educación a Distancia (MEED)?
 2. ¿En qué consiste el software qué hiciste?
 3. ¿Cómo sería la Realidad Aumentada (RA)? ¿Qué hace?
