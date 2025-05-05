@@ -1,0 +1,195 @@
+#+title: Guion 5 - 30 de abril del 2025
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Sección/Momento | Detalle Técnico                                                      | Duración | Finaliza |
+| / | <>              | <>                                                                   |       <> |       <> |
+| / | Inicio          |                                                                      |          | 13:00:00 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   | Comienzo        | \musicalnote{} =Apertura 2025.mp3=                                                | 00:00:10 | 13:00:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato)       | 00:05:00 | 13:05:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   |                 | Algunas noticias                                                     | 00:02:00 | 13:07:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   | Bloque 1        | \musicalnote{} =Separador entrevista telefónica.mp3=                              | 00:02:00 | 13:09:10 |
+|   |                 | (se puede usar de fondo =Cortina entrevista telefónica.mp3=)           |          | 13:09:10 |
+|   |                 | *Rocas y Minerales en Realidad Aumentada*                              | 00:15:00 | 13:24:10 |
+|   |                 | \telephone{} Meet con María Eugenia Matus                                     |          | 13:24:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                                   |          | 13:24:10 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                       | 00:05:00 | 13:29:10 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                            |          | 13:29:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   | Bloque 2        | *Hacka Neuquén Episodio II*                                            | 00:10:00 | 13:39:10 |
+|   | Música          | \play{} Música (Mica Orsi, Los Viajes, Estafa Dub, Gysology, Las Plantas) | 00:05:00 | 13:44:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                                  | 00:05:00 | 13:49:10 |
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|---+-----------------+----------------------------------------------------------------------+----------+----------|
+|   | *Total*           |                                                                      | 00:49:10 |          |
+#+TBLFM: @4$5..@16$5=$4 + @-1$5;T::@17$4='(apply '+ '(@4$4..@16$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian, Ian y Marina.
+  
+  Detrás del micrófono: Andrés Sepúlveda en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, noticias.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+* Noticias
+
+- Apagón en España, Portugal y sur de Francia.
+
+  El gobierno español aún no descarta un ataque informático.
+
+  El apagón fue el lunes al mediodía y especulaban que iba a durar entre 6 a 10 horas el restablecimiento. Ahora están restableciendo paulatinamente.
+
+  [[https://www.pagina12.com.ar/821849-por-que-se-produjo-el-apagon-en-espana-rige-una-investigacio][Artículo en Página 12]]
+
+  [[https://www.infobae.com/america/mundo/2025/04/29/apagones-desastres-naturales-o-guerras-como-es-el-kit-de-supervivencia-que-recomienda-la-union-europea-para-catastrofes/][Recomendación de Kit de supervivencia después del apagón - Infobae]]
+
+** Universitarias
+- El 23 de abril fue un año de la marcha multitudinaria federal universitaria.
+- La UNCo estuvo presente en la Segunda Cumbre del Hub Tech IA + Energía + Agua.
+
+  25 de abril en la isla 132 de Neuquén.  
+
+** Facultad
+- Programate Itinerante.
+
+  15 de mayo de 9:00 a 18:00. Zapala.
+
+  Híbrida - no arancelada. Instancia presencial y 2 virtuales. Con puntaje docente.
+
+  Inscripciones: para docentes con formulario y para estudiantes por medio de la dirección de su escuela. Cupos limitados.
+
+  Contacto: 02942 421616
+
+* Bloque 1 - Rocas y Minerales en Realidad Aumentada
+
+1. ¿Hiciste este trabajo en el marco de la Maestría en Enseñanza en Educación a Distancia (MEED)?
+2. ¿En qué consiste el software qué hiciste?
+3. ¿Cómo sería la Realidad Aumentada (RA)? ¿Qué hace?
+   1. ¿Qué hace falta para ver los minerales en RA?
+4. ¿En qué contexto utilizan rocas y minerales? ¿y el software que desarrollaste?
+5. ¿Cómo les ayuda en su trabajo esta página?
+   1. Cantidad de minerales disponibles para estudiantes y fragilidad de los materiales.
+   2. Disponibilidad de los recursos para las clases
+6. ¿Por qué utilizar la RA? ¿funciona con Realidad Virtual?
+7. El software que usás para escanear los minerales, ¿es libre o gratuito?
+   1. ¿Los modelos son libres?
+   2. ¿Requerís de un hardware específico?
+   3. ¿Quién invirtió en software y hardware?
+8. ¿Qué les parece a las y los estudiantes este recurso?
+9. ¿Es parte de tu tesis de maestría? ¿cuándo comenzaste a desarrollar este trabajo?
+10. ¿Quiénes aportan a esta biblioteca? ¿cualquier persona puede consultarla?
+    1. ¿Cuántas rocas y minerales posee actualmente?
+
+
+* ⏸️ -- Tanda --
+* Bloque 2 - Hacka Neuquén
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "british"
+# org-latex-default-figure-position: "tbp"
+# End:
