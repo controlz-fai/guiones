@@ -3,33 +3,34 @@
 #+HTML: <main>
 
 #+caption: Guión técnico para el operador.
-|   | Sección/Momento | Detalle Técnico                                                      | Duración | Finaliza |
-| / | <>              | <>                                                                   |       <> |       <> |
-| / | Inicio          |                                                                      |          | 13:00:00 |
-|---+-----------------+----------------------------------------------------------------------+----------+----------|
-|   | Comienzo        | \musicalnote{} =Apertura 2025.mp3=                                                | 00:00:10 | 13:00:10 |
-|---+-----------------+----------------------------------------------------------------------+----------+----------|
-|   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato)       | 00:05:00 | 13:05:10 |
-|---+-----------------+----------------------------------------------------------------------+----------+----------|
-|   |                 | Algunas noticias                                                     | 00:02:00 | 13:07:10 |
-|---+-----------------+----------------------------------------------------------------------+----------+----------|
-|   | Bloque 1        | \musicalnote{} =Separador entrevista telefónica.mp3=                              | 00:02:00 | 13:09:10 |
-|   |                 | (se puede usar de fondo =Cortina entrevista telefónica.mp3=)           |          | 13:09:10 |
-|   |                 | *Rocas y Minerales en Realidad Aumentada*                              | 00:15:00 | 13:24:10 |
-|   |                 | \telephone{} Meet con María Eugenia Matus                                     |          | 13:24:10 |
-|---+-----------------+----------------------------------------------------------------------+----------+----------|
-|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                                   |          | 13:24:10 |
-|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                       | 00:05:00 | 13:29:10 |
-|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                            |          | 13:29:10 |
-|---+-----------------+----------------------------------------------------------------------+----------+----------|
-|   | Bloque 2        | *Hacka Neuquén Episodio II*                                            | 00:10:00 | 13:39:10 |
-|   | Música          | \play{} Música (Mica Orsi, Los Viajes, Estafa Dub, Gysology, Las Plantas) | 00:05:00 | 13:44:10 |
-|---+-----------------+----------------------------------------------------------------------+----------+----------|
-|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                                  | 00:05:00 | 13:49:10 |
-|---+-----------------+----------------------------------------------------------------------+----------+----------|
-|---+-----------------+----------------------------------------------------------------------+----------+----------|
-|   | *Total*           |                                                                      | 00:49:10 |          |
-#+TBLFM: @4$5..@16$5=$4 + @-1$5;T::@17$4='(apply '+ '(@4$4..@16$4));T
+|   | Sección/Momento | Detalle Técnico                                                       | Duración | Finaliza |
+| / | <>              | <>                                                                    |       <> |       <> |
+| / | Inicio          |                                                                       |          | 13:00:00 |
+|---+-----------------+-----------------------------------------------------------------------+----------+----------|
+|   | Comienzo        | \musicalnote{} =Apertura 2025.mp3=                                                 | 00:00:10 | 13:00:10 |
+|---+-----------------+-----------------------------------------------------------------------+----------+----------|
+|   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato)        | 00:05:00 | 13:05:10 |
+|   | y noticias      | Algunas noticias                                                      | 00:02:00 | 13:07:10 |
+|---+-----------------+-----------------------------------------------------------------------+----------+----------|
+|   | Música          | \play{} Música (Mica Orsi, Los Viajes, Estafa Dub, Gypsology, Las Plantas) | 00:05:00 | 13:12:10 |
+|---+-----------------+-----------------------------------------------------------------------+----------+----------|
+|   | Bloque 1        | \musicalnote{} =Separador entrevista telefónica.mp3=                               |          | 13:12:10 |
+|   |                 | (se puede usar de fondo =Cortina entrevista telefónica.mp3=)            |          | 13:12:10 |
+|   |                 | *Rocas y Minerales en Realidad Aumentada*                               | 00:15:00 | 13:27:10 |
+|   |                 | \telephone{} Meet/llamada con María Eugenia Matus                              |          | 13:27:10 |
+|---+-----------------+-----------------------------------------------------------------------+----------+----------|
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                                    |          | 13:27:10 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                        | 00:05:00 | 13:32:10 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                             |          | 13:32:10 |
+|---+-----------------+-----------------------------------------------------------------------+----------+----------|
+|   | Bloque 2        | *Hacka Neuquén Episodio II*                                             | 00:15:00 | 13:47:10 |
+|   |                 | \telephone{} Llamar a Jorge Pedregosa                                          |          | 13:47:10 |
+|---+-----------------+-----------------------------------------------------------------------+----------+----------|
+|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                                   | 00:05:00 | 13:52:10 |
+|---+-----------------+-----------------------------------------------------------------------+----------+----------|
+|---+-----------------+-----------------------------------------------------------------------+----------+----------|
+|   | *Total*           |                                                                       | 00:52:10 |          |
+#+TBLFM: @4$5..@17$5=$4 + @-1$5;T::@18$4='(apply '+ '(@4$4..@17$4));T
 
 * Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
@@ -53,21 +54,16 @@
 
 * Noticias
 
-- Apagón en España, Portugal y sur de Francia.
+** Universidad
 
-  El gobierno español aún no descarta un ataque informático.
+- Vacunate en la UNCo
 
-  El apagón fue el lunes al mediodía y especulaban que iba a durar entre 6 a 10 horas el restablecimiento. Ahora están restableciendo paulatinamente.
+  	
+  7 y 8 de mayo de 10:00 a 14:00. Hall de la sede central. Coordinada con Bienestar Universitario y Ministerio de Salud de la Provincia de Neuquén.
 
-  [[https://www.pagina12.com.ar/821849-por-que-se-produjo-el-apagon-en-espana-rige-una-investigacio][Artículo en Página 12]]
+  Vacunas del calendario completo para adultos. Vacunas antigripal para personas dentro de grupos de riesgo.
 
-  [[https://www.infobae.com/america/mundo/2025/04/29/apagones-desastres-naturales-o-guerras-como-es-el-kit-de-supervivencia-que-recomienda-la-union-europea-para-catastrofes/][Recomendación de Kit de supervivencia después del apagón - Infobae]]
-
-** Universitarias
-- El 23 de abril fue un año de la marcha multitudinaria federal universitaria.
-- La UNCo estuvo presente en la Segunda Cumbre del Hub Tech IA + Energía + Agua.
-
-  25 de abril en la isla 132 de Neuquén.  
+  https://uncoma.edu.ar/ultimas-noticias/vacunate-en-la-unco/
 
 ** Facultad
 - Programate Itinerante.
@@ -79,6 +75,16 @@
   Inscripciones: para docentes con formulario y para estudiantes por medio de la dirección de su escuela. Cupos limitados.
 
   Contacto: 02942 421616
+
+- Elecciones Claustro Estudiantil: padrones oficiales disponibles.
+
+  Las elecciones son el 9 y 10 de junio.
+
+  Cargos de consejeras/os directivos y superiores del claustro estudiantil.
+
+  Se puede consultar el padrón en FaIWeb.
+
+  https://www.fi.uncoma.edu.ar/index.php/novedades/elecciones-claustro-estudiantil-2025-padrones-oficiales/
 
 * Bloque 1 - Rocas y Minerales en Realidad Aumentada
 #+html: <a id="bloque1"></a>
@@ -106,6 +112,36 @@ María Eugenia Matus, técnica en análisis mineros, docente de Química General
 
 * ⏸️ -- Tanda --
 * Bloque 2 - Hacka Neuquén
+
+Hacka Neuquén Episodio II "Innovando hoy, transformando el futuro".
+
+Lic. Jorge Pedregosa, responsable de la oficina de vinculación tecnológica del CONICET CCT Patagonia confluencia.
+
+[[https://uncoma.edu.ar/estudiantes/llega-a-la-unco-el-hacka-neuque-episodio-ii/][Noticia en UNComa]]
+
+[[https://www.rionegro.com.ar/sociedad/hacka-neuquen-vuelve-el-evento-de-innovacion-para-universitarios-y-apuestan-a-mas-participacion-con-la-modalidad-virtual-4114839/][Noticia en el Diario Río Negro]]
+
+
+
+- ¿En qué consiste el Hacka Neuquén? 
+- ¿Cuál es el objetivo en esta edición?
+- ¿Quiénes pueden participar?
+  - Inscripción individual o grupal. Equipos de 4 a 6 personas.
+  - Universitarios de entre 18 y 35 años.
+- ¿Es gratuito? ¿debo inscribirme?
+- Organiza la Universidad Tecnológica Nacional (UTN), el CONICET, la UNCo, el ANIDE y el gobierno de la provincia de Neuquén.
+- ¿Cuánto tiempo durará?
+  - Durará 3 semanas. Del 14 al 7 de junio.
+- ¿Cómo se desarrollará el hackatón? ¿presencial o virtual?
+  - Mayormente virtual con algunas fechas de presencialidad obligatoria.
+- ¿Qué temáticas se pueden tratar?
+- ¿La idea es en grupos? ¿se colabora entre grupos? ¿cómo es la modalidad?
+- ¿Emitirán certificados?
+- Cuando decimos Hackatón nos imaginamos esos eventos de programación, pero, ¿es necesario saber programar para participar? ¿se programa?
+- ¿Cómo contactarles?
+  - hackaneuquen@gmail.com
+  - 299 456 9464
+
 * Despedida
 - Hemos llegado al final del programa ...
 - ¡Nos vemos el próximo miércoles a las 13:00!
