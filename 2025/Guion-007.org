@@ -1,0 +1,233 @@
+#+title: Guion 7 - 28 de mayo del 2025
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Sección/Momento | Detalle Técnico                                                | Duración | Finaliza |
+| / | <>              | <>                                                             |       <> |       <> |
+| / | Inicio          |                                                                |          | 13:00:00 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Comienzo        | \musicalnote{} =Apertura 2025.mp3=                                          | 00:00:10 | 13:00:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato) | 00:05:00 | 13:05:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 1        | \musicalnote{} =Separador entrevista telefónica.mp3=                        |          | 13:05:10 |
+|   |                 | Desarrollo Web en la facultad                                  |          | 13:05:10 |
+|   |                 | \studiomic{} En estudio con Araceli Mondaca                             | 00:15:00 | 13:20:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Música          | \play{} Música (si hace falta hacer tiempo)                         | 00:03:00 | 13:23:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                             |          | 13:23:10 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                 | 00:05:00 | 13:28:10 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                      |          | 13:28:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 2        | *Hacka Neuquén Episodio II*                                      | 00:10:00 | 13:38:10 |
+|   |                 | \telephone{} Llamar a Lara Acuña                                        |          | 13:38:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Música          | \play{} Música                                                      | 00:03:00 | 13:41:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | *Programate Itinerante en Zapala*                                | 00:10:00 | 13:51:10 |
+|   |                 | \telephone{} Llamar a Paula Viggiano                                    |          | 13:51:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                            | 00:05:00 | 13:56:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | *Total*           |                                                                | 00:56:10 |          |
+#+TBLFM: @4$5..@18$5=$4 + @-1$5;T::@19$4='(apply '+ '(@4$4..@18$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian, Ian y Marina.
+  
+  Detrás del micrófono: Andrés Sepúlveda en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, noticias.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+* Noticias
+
+** Facultad
+- Elecciones Claustro Estudiantil: padrones oficiales disponibles.
+
+  Las elecciones son el 9 y 10 de junio.
+
+  Cargos de consejeras/os directivos y superiores del claustro estudiantil.
+
+  Se puede consultar el padrón en FaIWeb.
+
+  https://www.fi.uncoma.edu.ar/index.php/novedades/elecciones-claustro-estudiantil-2025-padrones-oficiales/
+
+* Bloque 1 - Desarrollo Web en la facultad
+#+html: <a id="bloque1"></a>
+
+Estudiantes de la tecnicatura Web desarrollaron sistemas Webs con temáticas muy interesantes.
+
+Araceli Mondaca, estudiante de la Facultad de Informática en la carrera de Tecnicatura Universitaria en Desarrollo Web.
+
+- ¿Cómo es la aplicación Rutas del Mate? ¿en qué materia lo hicieron?
+  - Materia dictada por Agustín Chiaroto.
+  - ¿Por qué decidieron hacer el tema Rutas del Mate y no otro?
+  - ¿Qué utilizaron para hacerlo?
+  - ¿Cómo funciona? ¿qué información guarda?
+  - ¿Saben de otros desarrollos en la materia?
+  - ¿Cómo se accede para ver la página?
+- ¿Cuál es la materia? ¿de qué se trata? ¿en qué consiste el trabajo práctico?
+  - ¿En las otras materias hicieron trabajos similares?
+- ¿Es útil lo que se vé en la materia para tu trabajo o futuro trabajo?
+- ¿Te gustaría trabajar o ya trabajás de desarrolladora?
+  - ¿Hay muchas compañeras que trabajan en desarrollo?
+  - *Si hay pocas: ¿por qué crees que hay pocas?*
+- ¿Qué potencial ves en el desarrollo de sistemas Web? ¿cómo puede servir a otras personas e instituciones?
+- ¿Qué diferencia hay en sistemas Web y página Web?
+- ¿Cómo es la tecnicatura Web?
+  - *¿Cómo llegaste a elegir la carrera?*
+- *¿Por qué elegiste la universidad pública? ¿qué fue lo que te llevó a optar por nuestra facultad?*
+- ¿Disfrutás la tecnicatura? ¿qué es lo que más te gusta de la carrera?
+
+* ⏸️ -- Tanda --
+* Bloque 2 - Hacka Neuquén 
+#+html: <a id="bloque2"></a>
+
+Hacka Neuquén Episodio II "Innovando hoy, transformando el futuro".
+
+Lara Acuña, estudiante de la Facultad de Informática y participante del Hacka Neuquén.
+
+\warning{} Recordar que está participando, *no se puede preguntar información del trabajo que están haciendo*.
+
+[[https://uncoma.edu.ar/estudiantes/llega-a-la-unco-el-hacka-neuque-episodio-ii/][Noticia en UNComa]]
+
+[[https://www.rionegro.com.ar/sociedad/hacka-neuquen-vuelve-el-evento-de-innovacion-para-universitarios-y-apuestan-a-mas-participacion-con-la-modalidad-virtual-4114839/][Noticia en el Diario Río Negro]]
+
+- ¿En qué consiste el Hacka Neuquén? 
+- ¿Cuál es el objetivo en esta edición?
+  - Diseñar soluciones innovadoras para desafíos del territorio neuquino.
+  - ¿Los desafíos se pueden elegir o se los fueron asignados? (\nogood{} *no preguntar qué desafío le tocó* \nogood{})
+- ¿Quiénes participan?
+  - Inscripción individual o grupal. Equipos de 4 a 6 personas.
+  - Universitarios de entre 18 y 35 años.
+- ¿Es gratuito?
+- Organiza la Universidad Tecnológica Nacional (UTN), el CONICET, la UNCo, el ANIDE y el gobierno de la provincia de Neuquén.
+- ¿Cuánto tiempo dura?
+  - Durará 3 semanas. Del 14 al 7 de junio.
+- ¿Cómo se desarrolla el hackatón? ¿presencial o virtual?
+  - Mayormente virtual con algunas fechas de presencialidad obligatoria.
+- ¿Qué temáticas (en general) se pueden tratar? (\prohibited{} *que no cuente temáticas particulares* \prohibited).
+- ¿La idea es en grupos? ¿se colabora entre grupos? ¿cómo es la modalidad?
+- ¿Emitirán certificados?
+- Cuando decimos Hackatón nos imaginamos esos eventos de programación, pero, ¿es necesario saber programar para participar? ¿se programa?
+- ¿Cómo contactarles?
+  - hackaneuquen@gmail.com
+  - 299 456 9464
+- ¿Cómo la estás pasando?
+- ¿Los grupos son diversos? ¿o hay grupos de informáticos/etc.?
+* Programate Itinerante
+El Programate, evento en el que las escuelas secundarias se acercan a la facultad a mostrar sus trabajos y participar de talleres, esta vez se trasladó a Zapala.
+
+Paula Viggiano, estudiante de la Facultad de Informática.
+
+- ¿Cómo fue el Programate Itinerante en Zapala?
+- ¿Participaron muchas escuelas?
+- ¿Qué actividades hicieron?
+- ¿Cómo la pasaron docentes, estudiantes y talleristas?
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "es"
+# org-latex-default-figure-position: "tbp"
+# End:
