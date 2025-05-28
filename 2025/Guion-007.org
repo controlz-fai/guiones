@@ -38,9 +38,9 @@
 * Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
 - Todos los miércoles a las 13:00 de la tarde
-- Presentarse - Participaron: Christian, Ian y Marina.
+- Presentarse - Participaron: Christian y Marina.
   
-  Detrás del micrófono: Andrés Sepúlveda en la operación.
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
   
 - ¿De qué se trata Control Z?
 
@@ -74,6 +74,8 @@
 Estudiantes de la tecnicatura Web desarrollaron sistemas Webs con temáticas muy interesantes.
 
 Araceli Mondaca, estudiante de la Facultad de Informática en la carrera de Tecnicatura Universitaria en Desarrollo Web.
+
+Realizaron la aplicación Web La Ruta del Mate: https://tp-react-parte2-grupo9.vercel.app/
 
 - ¿Cómo es la aplicación Rutas del Mate? ¿en qué materia lo hicieron?
   - Materia dictada por Agustín Chiaroto.
