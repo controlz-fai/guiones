@@ -1,0 +1,200 @@
+#+title: Guion 9 - 2 de julio del 2025
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Sección/Momento | Detalle Técnico                                                | Duración | Finaliza |
+| / | <>              | <>                                                             |       <> |       <> |
+| / | Inicio          |                                                                |          | 13:00:00 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Comienzo        | \musicalnote{} =Apertura 2025.mp3=                                          | 00:00:10 | 13:00:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato) | 00:05:00 | 13:05:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Música          | \play{} Música (si hace falta hacer tiempo)                         | 00:03:00 | 13:08:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 1        | Estudiantes de la FaI en el Congreso Nacional                  | 00:10:00 | 13:18:10 |
+|   |                 | \telephone{} Meet con Manuel Latorre y Antonella Torres                 | 00:10:00 | 13:28:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                             |          | 13:28:10 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                 | 00:05:00 | 13:33:10 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                      |          | 13:33:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 2        | Centro de Estudiantes                                          |          | 13:33:10 |
+|   |                 | \play{}                                                             | 00:15:38 | 13:48:48 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Música          | \play{} Música                                                      | 00:03:00 | 13:51:48 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | Aniversario del natalicio de Alan Turing                       | 00:02:00 | 13:53:48 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                            | 00:05:00 | 13:58:48 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | *Total*           |                                                                | 00:58:48 |          |
+#+TBLFM: @4$5..@16$5=$4 + @-1$5;T::@17$4='(apply '+ '(@4$4..@16$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian y Marina.
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, noticias.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar |
+  Spotify: Control Z FaI
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+
+* Bloque 1 - Estudiantes de la FaI en el Congreso
+#+html: <a id="bloque1"></a>
+[[https://www.antena-libre.com.ar/2025/07/01/estudiantes-del-bloque-comahue-debatieron-en-el-congreso-sobre-ia-y-patentes/][Noticia en Antena-Libre]]
+
+- El 26 y 27 de junio, 270 estudiantes universitarios (22 de la UNCo) cambiaron de roles y se convirtieron en legisladoras y legisladores nacionales.
+- Debatieron el anteproyecto de Ley Marco sobre Patentes e Inteligencia Artificial.
+- "Cambio de roles" es un programa de la Cámara de Diputados de la Nación. Se encuentra en su décima edición.
+- Tres estudiantes de la FaI integraron el Bloque Comahue: Adriano Lusso, Antonella Torres y Manuel Latorre.
+
+Charlamos con Manuel Latorre y Antonella Torres para que nos cuenten cómo les fue.
+
+- ¿Quiénes participaron en "Cambio de roles"?
+- ¿Cómo fue la llegada a la Cámara de Diputados?
+- ¿Qué actividades hicieron allá? ¿Cómo fue el tratamiento del anteproyecto?
+- ¿De qué se trata el anteproyecto? ¿Pueden contarnos un poco del tema que trataron?
+- ¿Cómo fue la sesión?
+- Debatieron igual que las y los diputados...
+  - ¿Nos pueden contar un poquito lo que dijeron?
+  - ¿Algo que recuerden que les gustó de los demás discursos?
+  - ¿Cómo se sintió ese momento?
+- ¿Y después de la sesión? ¿Qué actividades hicieron?
+- Después de su paso por la Cámara de Diputados, ¿el estado, la política y la informática están unidos?
+- ¿Les parece importante la educación en las ciencias de la computación y la informática para la política?
+
+* ⏸️ -- Tanda --
+* Bloque 2 - Centro de Estudiantes
+#+html: <a id="bloque2"></a>
+
+** Elecciones Claustro Estudiantil de CD y Cs y Centro de Estudiantes
+
+- Fue el 9 y 10 de junio
+- ¿Cómo transcurrieron las elecciones?
+- ¿Qué es votaba? ¿Qué son los cargos que se votaban?
+- ¿Por qué es importante ir a votar?
+- ¿Cómo fueron los resultados?
+- ¿El centro de estudiantes también se votaba?
+- ¿Qué participación hubo?
+
+* Alan Turing
+Alan Mathison Turing, fue un matemático y lógico. Se dedicó a la informática y la criptografía, también desarrolló investigaciones dentro de la biología teórica.
+
+- Nació el 23 de junio de 1912 en Maida Vale, Reino Unido.
+- Diseño un modelo matemático de lo que es una computadora: la Máquina de Turing.
+  - Dicha máquina abstracta es una representación formal de nuestras computadoras de hoy.
+- Se recibió su doctorado en matemática.
+- En la segunda guerra mundial, trabajó en descifrar la máquina enigma en y fue director en Bletchley Park.
+- Diseñó los primeros computadores electrónicos programables digitales
+- En 1950 describió un test el cual determina si una computadora es indistinguible de un ser humano. Este test se denominó posteriormente como Test de Turing.
+
+  Este artículo que lo describe se lo considera como la incursión en lo que hoy se conoce como Inteligencia Artificial.
+- Fue procesado por "indecencia grave y perversión sexual" en 1952 y condenado a prisión o a un tratamiento hormonal de "reducción de la líbido". Escogió el tratamiento hormonal.
+- En 1954 fallece por envenenamiento de cianuro, al comerse una manzana envenenada. Oficialmente la causa se indica como suicidio.
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "es"
+# org-latex-default-figure-position: "tbp"
+# End:
