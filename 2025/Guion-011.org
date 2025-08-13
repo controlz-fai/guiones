@@ -1,0 +1,187 @@
+#+title: Guion 11 - 13 de agosto del 2025
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Sección/Momento | Detalle Técnico                                                | Duración | Finaliza |
+| / | <>              | <>                                                             |       <> |       <> |
+| / | Inicio          |                                                                |          | 13:00:00 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Comienzo        | \musicalnote{} =Apertura 2025.mp3=                                          | 00:00:10 | 13:00:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato) | 00:05:00 | 13:05:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Música          | \play{} Música (si hace falta hacer tiempo)                         | 00:03:00 | 13:08:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 1        | Maestría en Enseñanza en Escenarios Digitales                  | 00:10:00 | 13:18:10 |
+|   |                 | \telephone{} Llamar a Carina Fraccia                                    | 00:10:00 | 13:28:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                             |          | 13:28:10 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                 | 00:05:00 | 13:33:10 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                      |          | 13:33:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 2        | ¡Columna de Segurida Informática con Benja!                    |          | 13:33:10 |
+|   |                 | \telephone{} Llamar a Benjamín Muñoz                                    | 00:15:38 | 13:48:48 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                            | 00:05:00 | 13:58:48 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | *Total*           |                                                                | 00:58:48 |          |
+#+TBLFM: @4$5..@14$5=$4 + @-1$5;T::@15$4='(apply '+ '(@4$4..@14$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian y Marina.
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, noticias.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar |
+  Spotify: Control Z FaI
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+
+* Bloque 1 - MEED
+#+html: <a id="bloque1"></a>
+
+La Maetría en Escenarios en Enseñanza Digitas (MEED) es una carrera que pertenece a la Asociación de Universidades Sur Andina (AUSA). Es interinstitucional, y se puede realizar en varias universidades.
+
+https://www.fi.uncoma.edu.ar/index.php/936-maestria-en-ensenanza-en-escenarios-digitales/
+
+
+https://sites.google.com/view/sitio-meed/p%C3%A1gina-principal?authuser=0
+
+Carina Fraccia es docente de nuestra facultad.
+
+- ¿La maestría solo se realiza en la FaI?
+- ¿Cuál es el objetivo?
+- ¿Cómo se realiza la carrera?
+- Después de la pandemia, las TIC tuvieron un gran impacto. ¿Cómo se vivió esto en la maestriá?
+- ¿Por qué es importante la maestría?
+  - ¿Por qué es importante para la sociedad? ¿y para la facultad?
+- ¿Qué trabajos y tesis han presentado?
+  - https://rocasymineralesra.com/
+- ¿Cuántas personas están cursando y cuántas se han recibido ya? 
+
+¿Qué otras actividades estás planeando Carina?
+
+- Charla que va a dar en el museo el viernes
+  - ¿Dónde? ¿Cuándo? ¿De qué se trata? ¿Cómo? 
+- Charla de IA para no docentes
+  - ¿De qué se trata?
+  - ¿Dónde y cuándo se realiza?
+
+* ⏸️ -- Tanda --
+* Bloque 2 - Hack el Valle
+#+html: <a id="bloque2"></a>
+
+Hack el Valle.
+
+https://hackelvalle.org/
+
+Se realizará el sábado 23 de agosto a las 9:30 hasta las 18:00 en el salón Azul de la Biblioteca Central de la UNCo.
+
+- ¿Qué es Hack el Valle?
+- ¿Qué actividades van a desarrollar? ¿Nos explicás un poquito?
+- ¿Estoy a tiempo para inscribirme?
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "es"
+# org-latex-default-figure-position: "tbp"
+# End:
