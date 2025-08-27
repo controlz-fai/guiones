@@ -1,0 +1,179 @@
+#+title: Guion 13 - 27 de agosto del 2025
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Sección/Momento | Detalle Técnico                                                | Duración | Finaliza |
+| / | <>              | <>                                                             |       <> |       <> |
+| / | Inicio          |                                                                |          | 13:00:00 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Comienzo        | \musicalnote{} =Apertura 2025.mp3=                                          | 00:00:10 | 13:00:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato) | 00:05:00 | 13:05:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 1        | Novedades desde el Centro de Estudiantes                       | 00:10:00 | 13:15:10 |
+|   |                 | \telephone{} Llamar a Tania Barbieri                                    | 00:18:47 | 13:33:57 |
+|   |                 | \play{} Hay audios de Whatsapp para pasar durante la entrevista     |          |          |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                             |          | 13:33:57 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                 | 00:05:00 | 13:38:57 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                      |          | 13:38:57 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 2        | \play{} Audio de Hack el Valle.mp3                                  | 00:03:02 | 13:41:59 |
+|   |                 | Taller de Accesibilidad                                        | 00:00:28 | 13:42:27 |
+|   |                 | \telephone{} Llamar a Rafaela Mazalú                                    | 00:15:38 | 13:58:05 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                            | 00:05:00 | 14:03:05 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | *Total*           |                                                                | 01:03:05 |          |
+#+TBLFM: @4$5..@15$5=$4 + @-1$5;T::@16$4='(apply '+ '(@4$4..@15$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian y Marina.
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, noticias.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar |
+  Spotify: Control Z FaI
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+
+* Noticias
+
+- Recorridos inmersivos e interactivos con Realidad Aumentada y Realidad Virtual en el Museo Nacional de Bellas Artes. Viernes 15 de agosto. Muestra "Los mundos de Liliana" de la artista Liliana Montes Le Fort. Actividad que participa la FaI colaborando con un recorrido virtual de 360\deg{}. Proyecto de extensión "El museo vuelve a las escuelas - Parte II" dirigido por Carina Fracchia y Amadeo Laurín.
+
+  https://www.fi.uncoma.edu.ar/index.php/novedades/recorridos-inmersivos-e-interactivos-en-la-muestra-los-mundos-de-liliana/
+
+* Bloque 1 - Centro de estudiantes
+#+html: <a id="bloque1"></a>
+
+\play Audio de intercolegiales.
+
+- Semana del estudiante
+- intercolegiales
+- tu perspectiva de la situación actual:¿cómo afecta la falta de presupuesto al estudiantado?
+- Qué actividades están realizando o ya hicieron.
+- si participaste de Hack el valle y de la charla de Luis Biedma
+- alguna novedad de consejeros estudiantiles y del consejo directivo
+  
+* ⏸️ -- Tanda --
+* Bloque 2 - Transformando tu Aula
+#+html: <a id="bloque2"></a>
+
+Hack el Valle, se realizó el sábado 23 de agosto a las 9:30 hasta las 18:00 en el salón Azul de la Biblioteca Central de la UNCo.
+
+\play{} Audio de Hack el Valle.mp3
+
+Aclaración: con hack siempre se refiere a hack ético.
+
+Taller "Transformando tu Aula" es este viernes a las 16:00 en el auditorio de la FATU.
+
+- ¿De qué se trata este taller?
+- ¿Qué son los materiales accesibles? ¿por qué son importantes?
+- ¿Por qué es importante conocer cómo se hacen materiales accesibles?
+- ¿Se vé algo de Inteligencia Artificial para accesibilidad? ¿cómo es eso?
+- ¿Cuántos eventos son? ¿quiénes pueden participar?
+- ¿Cómo me contacto? ¿cómo participo?
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "es"
+# org-latex-default-figure-position: "tbp"
+# End:
