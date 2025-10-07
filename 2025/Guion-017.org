@@ -1,0 +1,220 @@
+#+title: Guion 17 - 8 de octubre del 2025
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Sección/Momento | Detalle Técnico                                                | Duración | Finaliza |
+| / | <>              | <>                                                             |       <> |       <> |
+| / | Inicio          |                                                                |          | 13:00:00 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Comienzo        | \musicalnote{} =Apertura 2025.mp3=                                          | 00:00:10 | 13:00:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato) | 00:05:00 | 13:05:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Noticias        | Algunas noticias...                                            | 00:05:00 | 13:10:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 1        | \play{} =Separador Entrevista.mp3=                                    |          | 13:10:10 |
+|   |                 | Expo vocacional 2025                                           | 00:00:00 | 13:10:10 |
+|   |                 | \telephone{} Llamar a Soraya Vichich                                    | 00:15:10 | 13:25:20 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                             |          | 13:25:20 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                 | 00:05:00 | 13:30:20 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                      |          | 13:30:20 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 2        | Columna F5 - Situación Docente                                 |          | 13:30:20 |
+|   |                 | \play{} Audio de Valeria D'angelo                                   | 00:03:57 | 13:34:17 |
+|   |                 |                                                                |          |          |
+|   |                 | \play{} =Separador Entrevista.mp3=                                    |          | 13:34:17 |
+|   |                 | Situación Académica: nuestros graduados                        |          | 13:34:17 |
+|   |                 | \telephone{} Llamar a Silvia Amaro                                      | 00:15:38 | 13:49:55 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                            | 00:05:00 | 13:54:55 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | *Total*           |                                                                | 00:54:55 |          |
+#+TBLFM: @4$5..@19$5=$4 + @-1$5;T::@20$4='(apply '+ '(@4$4..@19$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian y Marina.
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, noticias.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar |
+  Spotify: Control Z FaI
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+
+* Noticias
+
+- Ciclo de Charlas Magistrales "La Tecnología en la industria del Oil & Gas"
+
+  Lunes 1/09 -  Ciberseguridad General (IT/OT) y Ciber-Riesgos Emergentes Ing. Hernán Pérez – Consultor de Ciberseguridad Industrial e Infraestructuras Críticas
+
+  Lunes 15/09 - Inteligencia Artificial general y aplicada a Oil&Gas
+  Dr. Javier Vázquez – Líder Técnico de Inteligencia Artificial
+ 
+  Lunes 29/09 - Tecnología Aplicada en Oil&Gas
+  Lic. Pablo Monti – Líder de Productos Digitales – Upstream
+  Ing. Guillermo Sosa – Líder de Sistemas de Control y Seguridad
+ 
+  Abierto a toda la comunidad académica.
+
+  https://www.fi.uncoma.edu.ar/index.php/novedades/ciclo-de-charlas-magistrales-la-tecnologia-en-la-industria-del-oil-gas/
+
+- Taller "Transformando tu Aula" dictado por Rafaela Mazalú dentro del marco del Proyecto de Extensión "Producción participativa de recursos educativos abiertos (REA) accesibles".
+
+  29 de agosto, 26 de septiembre y 31 de octubre.
+
+-  ¡inscripciones abiertas! El Día de Ada Lovelace se celebra con talleres STEM
+
+  Inspirar a las jóvenes a explorar el mundo de las ciencias, la tecnología, la ingeniería y las matemáticas (STEM).
+
+  Quiénes pueden participar: niñas de 10 a 12 años aompañadas por un docente, familiar o tutor responsable.
+
+  Cupos limitados. Inscripciones en FaIWeb.
+
+  Correo: adalovelaceday@fi.uncoma.edu.ar
+  Instagram: @adalovelaceday.fi.unco
+
+  Fecha: sábado 4 de octubre de 9:30 a 13:00 hs.
+  Facultad de Informática, UNCo – Buenos Aires 1400, Neuquén
+  https://www.fi.uncoma.edu.ar/index.php/novedades/el-dia-de-ada-lovelace-se-celebra-con-talleres-stem-inscripciones-abiertas/
+* Bloque 1 - Expo vocacional 2025
+#+html: <a id="bloque1"></a>
+
+Hablamos con Soraya Vichich, integra el equipo de trabajo de la Dirección de Orientación e Ingreso Estudiantil de la UNCo.
+
+[[https://planeamiento.uncoma.edu.ar/wp-content/uploads/2025/03/UNCo-SINTESIS-ESTADISTICA-2024.pdf][PDF con síntesis estadística]] (hay una sección de "Ingreso y Orientación").
+
+https://academica.uncoma.edu.ar/index.php/direccion-de-orientacion-e-ingreso/
+
+- ¿Qué actividades realiza la DOIE de nuestra universidad?
+- ¿Y en la expo vocacional? ¿qué actividades hicieron? 
+- ¿Nos contarías qué actividades hicieron de la Facultad de Informática en la expo?
+- ¿Hay muchas chicas y chicos con interés en nuestras carreras de la FaI? ¿y de todas las carreras de la UNCo?
+- Con respecto al cupo femenino en STEM, ¿cómo lo perciben? ¿aumenta? ¿hay más o menos que el masculino? 
+- Recuerdo que cada tanto hay un montón de chicas y chicos de secundario visitando la facultad con docentes. ¿Esas actividades las organizan Uds.? ¿Cuántos colegios han recibido de visita la UNCo? ¿qué recorridos hacen? 
+- ¿Por qué es importante la expo vocacional y estas actividades que realizan? ¿hay muchas chicas y chicos decididos en la carrera que van a hacer?
+- ¿Qué tiene que hacer un estudiante que quiere ingresar a la universidad? ¿cómo puede contactarles?
+  
+* ⏸️ -- Tanda --
+* Bloque 2
+#+html: <a id="bloque2"></a>
+** F5 - ADUNC
+La semana pasada recibimos un audio de Valeria D'Angelo. Nos cuenta cómo fue la marcha de la semana pasada en CURZA.
+
+Audio de Valeria D'angelo, Secretaria General de ADUNC de Viedma/CURZA.
+
+Recordamos que en la sesión del Senado que se refiere el audio del jueves, se aprobó la insistencia a la Ley del Financiamiento Universitario, rechazando los vetos del presidente.
+
+** Situación Académica - Graduados
+
+Hablamos con Silvia Amaro, docente y Secretaria Académica de nuestra facultad.
+
+- ¿Cuántos graduados hay en nuestra facultad?
+- ¿De qué carreras hay graduados?
+- ¿Qué significa que haya más graduados? ¿cómo impacta a la sociedad?
+- Este lunes hubo una colación, ¿cómo se vive? ¿cómo fue la última colación?
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "es"
+# org-latex-default-figure-position: "tbp"
+# End:
