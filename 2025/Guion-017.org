@@ -58,35 +58,11 @@
 
 * Noticias
 
-- Ciclo de Charlas Magistrales "La Tecnología en la industria del Oil & Gas"
-
-  Lunes 1/09 -  Ciberseguridad General (IT/OT) y Ciber-Riesgos Emergentes Ing. Hernán Pérez – Consultor de Ciberseguridad Industrial e Infraestructuras Críticas
-
-  Lunes 15/09 - Inteligencia Artificial general y aplicada a Oil&Gas
-  Dr. Javier Vázquez – Líder Técnico de Inteligencia Artificial
- 
-  Lunes 29/09 - Tecnología Aplicada en Oil&Gas
-  Lic. Pablo Monti – Líder de Productos Digitales – Upstream
-  Ing. Guillermo Sosa – Líder de Sistemas de Control y Seguridad
- 
-  Abierto a toda la comunidad académica.
-
-  https://www.fi.uncoma.edu.ar/index.php/novedades/ciclo-de-charlas-magistrales-la-tecnologia-en-la-industria-del-oil-gas/
-
 - Taller "Transformando tu Aula" dictado por Rafaela Mazalú dentro del marco del Proyecto de Extensión "Producción participativa de recursos educativos abiertos (REA) accesibles".
 
-  29 de agosto, 26 de septiembre y 31 de octubre.
+  31 de octubre.
 
--  ¡inscripciones abiertas! El Día de Ada Lovelace se celebra con talleres STEM
-
-  Inspirar a las jóvenes a explorar el mundo de las ciencias, la tecnología, la ingeniería y las matemáticas (STEM).
-
-  Quiénes pueden participar: niñas de 10 a 12 años aompañadas por un docente, familiar o tutor responsable.
-
-  Cupos limitados. Inscripciones en FaIWeb.
-
-  Correo: adalovelaceday@fi.uncoma.edu.ar
-  Instagram: @adalovelaceday.fi.unco
+- El Día de Ada Lovelace se celebra con talleres STEM
 
   Fecha: sábado 4 de octubre de 9:30 a 13:00 hs.
   Facultad de Informática, UNCo – Buenos Aires 1400, Neuquén
