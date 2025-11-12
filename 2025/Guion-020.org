@@ -22,14 +22,16 @@
 |   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                      |          | 13:30:20 |
 |---+-----------------+----------------------------------------------------------------+----------+----------|
 |   | Bloque 2        | \play{} =Separador Entrevista.mp3=                                    |          | 13:30:20 |
-|   |                 | Género y TIC                                                   |          | 13:30:20 |
-|   |                 | \telephone{} Llamar a Eliana Grandier                                   | 00:15:38 | 13:45:58 |
+|   |                 | Género y TIC (suspendido)                                      |          | 13:30:20 |
+|   |                 | \telephone{} Llamar a Eliana Grandier (suspendido)                      | 00:15:38 | 13:45:58 |
+|   |                 | Rodrigo Cañibano nos cuenta de:                                |          | 13:45:58 |
+|   |                 | - Problemas en centralizar Internet y la caída de AWS          |          | 13:45:58 |
 |---+-----------------+----------------------------------------------------------------+----------+----------|
 |   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                            | 00:05:00 | 13:50:58 |
 |---+-----------------+----------------------------------------------------------------+----------+----------|
 |---+-----------------+----------------------------------------------------------------+----------+----------|
 |   | *Total*           |                                                                | 00:50:58 |          |
-#+TBLFM: @4$5..@16$5=$4 + @-1$5;T::@17$4='(apply '+ '(@4$4..@16$4));T
+#+TBLFM: @4$5..@18$5=$4 + @-1$5;T::@19$4='(apply '+ '(@4$4..@18$4));T
 
 * Presentación del programa
 - Bienvenida a Control Z, el espacio de la Facultad de Informática.
@@ -87,10 +89,18 @@ Hablamos con Agustín Fereyra y Valentina Villarroel estudiantes de la FaI que p
 - ¿Se divertieron?
 
 * ⏸️ -- Tanda --
-* Bloque 2 - Género y TIC
+* Bloque 2 - +Género y TIC+
 #+html: <a id="bloque2"></a>
 
-Eliana Grandier
+Eliana Grandier (suspendido)
+
+https://generoytic.com/quienesSomos.html
+
+- ¿Qué es Genero y TIC? ¿Quiénes lo componen?
+- ¿Por qué se enfocan en la erradicación de la violencia en el ámbito digital?
+  - ¿qué tareas realizan?
+  - cibeviolencia
+  - contacto
 
 * Despedida
 - Hemos llegado al final del programa ...
