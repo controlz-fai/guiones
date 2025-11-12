@@ -84,6 +84,10 @@
 
   [[https://www.fi.uncoma.edu.ar/index.php/novedades/curso-de-posgrado-gamificacion/][Ver noticia en FaIWeb]]
 
+- ¿Casi se inunda la facu? Hubo inconvenientes en la lluvia en la Biblioteca y las Aulas 100.
+  
+  ¿La falta de presupuesto para obras que cuiden nuestra universidad?
+
 * Bloque 1 - ¿Cómo es estudiar un doctorado?
 #+html: <a id="bloque1"></a>
 
