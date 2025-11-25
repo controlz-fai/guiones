@@ -55,39 +55,6 @@
 
 * Noticias
 
-- Jornada de robótica y aprendizaje con la Escuela Primaria Nº 16
-
-  - En el marco de:
-    - Proyecto Ada Lovelace para la educación en STEM
-    - Curricularización de la extensión "Lenguajes Declarativos al alcance de las infancias"
-    - Grupo de investigación GILIA
-
-  - 6 de noviembre en el espacio LIVING de la facultad.
-  - Estudiantes y docentes de la Escuela Primaria 16 visitaron la facultad.
-  - Hubo talleres de robótica, preguntas acerca de la carrera, recorridos al Museo de la Universidad del Comahue
-  
-  [[https://www.fi.uncoma.edu.ar/index.php/novedades/jornada-de-robotica-y-aprendizaje-con-la-escuela-primaria-no-16/][Ver noticia en FaIWeb]]
-
-- Presentación del recorrido virtual inmersivo del Museo Histórico del Riego
-  - 4 de noviembre
-  - En el marco del proyecto de extensión: "Tecnologías visuales e interactivas aplicadas a la producción de contenidos transmedia para la vinculación y difusión del Patrimonio Cultural" dirigido por Viviana Sánchez y Amadeo Laurín
-  - A cargo de Germán Kiessling que desarrolló el recorrido como parte de su tesis de la Licenciatura en Ciencias de la Computación.
-  - Estuvieron presente referentes de proyectos de distintos museos de Río Negro y Neuquén.
-
-  [[https://www.fi.uncoma.edu.ar/index.php/novedades/presentacion-del-recorrido-virtual-inmersivo-del-museo-historico-del-riego/][Ver noticia en FaIWeb]]
-
-- Curso de Posgrado – Gamificación
-  - A cargo de la Mgter. Cristina Gómez
-  - Reconocer las características de una propuesta didáctica gamificada, identificar los componentes de las propuestas gamificadas en educación y diseñar una propuesta gamificada para destinatarios concretos.
-  - Inicia el 18/11.
-  - Bajo una modalidad a distancia, con instancias sincrónicas y asincrónicas.
-
-  [[https://www.fi.uncoma.edu.ar/index.php/novedades/curso-de-posgrado-gamificacion/][Ver noticia en FaIWeb]]
-
-- ¿Casi se inunda la facu? Hubo inconvenientes en la lluvia en la Biblioteca y las Aulas 100.
-  
-  ¿La falta de presupuesto para obras que cuiden nuestra universidad?
-
 * Bloque 1 - ¿Qué hace un profesional en SI?
 #+html: <a id="bloque1"></a>
 
