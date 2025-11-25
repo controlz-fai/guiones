@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<!-- 2025-11-25 mar 17:03 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Guion 22 - 26 de noviembre del 2025</title>
+<meta name="author" content="Christian Gimenez" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link href="../css/guiones-2024.css" rel="stylesheet">
+<script src="libs/org-info.js">
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+// @license-end
+</script>
+
+<script>
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+org_html_manager.set("TOC_DEPTH", "3");
+org_html_manager.set("LINK_HOME", "");
+org_html_manager.set("LINK_UP", "");
+org_html_manager.set("LOCAL_TOC", "1");
+org_html_manager.set("VIEW_BUTTONS", "1");
+org_html_manager.set("MOUSE_HINT", "underline");
+org_html_manager.set("FIXED_TOC", "1");
+org_html_manager.set("TOC", "1");
+org_html_manager.set("VIEW", "info");
+org_html_manager.setup();  // activate after the parameters are set
+// @license-end
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Guion 22 - 26 de noviembre del 2025</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>&Iacute;ndice</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgdac128d">1. Presentación del programa</a></li>
+<li><a href="#orgd0f9ca9">2. Noticias</a></li>
+<li><a href="#orgd50d8c9">3. Bloque 1 - ¿Qué hace un profesional en SI?</a></li>
+<li><a href="#org1986c37">4. ⏸️ &#x2013; Tanda --</a></li>
+<li><a href="#orge25e414">5. Bloque 2 - Wikimedia</a></li>
+<li><a href="#org713c530">6. Despedida</a></li>
+<li><a href="#org6e71325">7. Licencia</a></li>
+</ul>
+</div>
+</div>
+<main>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Tabla 1</span> Guión técnico para el operador.</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Sección/Momento</th>
+<th scope="col" class="org-left">Detalle Técnico</th>
+<th scope="col" class="org-right">Duración</th>
+<th scope="col" class="org-right">Finaliza</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Comienzo</td>
+<td class="org-left">&#127925; <code>Apertura 2025.mp3</code></td>
+<td class="org-right">00:00:10</td>
+<td class="org-right">13:00:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Presentación</td>
+<td class="org-left">(se puede usar <code>Cortina apertura 2025.mp3</code> de fondo por un rato)</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:05:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Noticias</td>
+<td class="org-left">Algunas noticias&#x2026;</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:10:10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Bloque 1</td>
+<td class="org-left">&#9654;&#65039; <code>Separador Entrevista.mp3</code></td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">13:10:10</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Columna Seguridad Inf.: ¿qué hace un profesional en SI?</td>
+<td class="org-right">00:00:00</td>
+<td class="org-right">13:10:10</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#9742;&#65039; Llamar a Benjamín Muñoz</td>
+<td class="org-right">00:15:10</td>
+<td class="org-right">13:25:20</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#127925; <code>Sep Ctrl Z.mp3</code></td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">13:25:20</td>
+</tr>
+
+<tr>
+<td class="org-left">&#9208;&#65039; Tanda</td>
+<td class="org-left">&#x2013;&#x2014; Tanda Publicitaria -----</td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:30:20</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#127925; <code>Sep Ctrl Z.mp3</code> o <code>Cortina programa.mp3</code></td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">13:30:20</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Bloque 2</td>
+<td class="org-left">&#9654;&#65039; <code>Separador Entrevista.mp3</code></td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">13:30:20</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">¿Qué es Wikimedia?</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">13:30:20</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#9742;&#65039; Llamar a Florencia Guastavino</td>
+<td class="org-right">00:15:38</td>
+<td class="org-right">13:45:58</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Cierre</td>
+<td class="org-left">&#127925; <code>Cierre 2025.mp3</code></td>
+<td class="org-right">00:05:00</td>
+<td class="org-right">13:50:58</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left"><b>Total</b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">00:50:58</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+<div id="outline-container-orgdac128d" class="outline-2">
+<h2 id="orgdac128d"><span class="section-number-2">1.</span> Presentación del programa</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>Bienvenida a Control Z, el espacio de la Facultad de Informática.</li>
+<li>Todos los miércoles a las 13:00 de la tarde</li>
+<li><p>
+Presentarse - Participaron: Christian y Marina.
+</p>
+
+<p>
+Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+</p></li>
+
+<li>¿De qué se trata Control Z?</li>
+
+<li><p>
+Es una iniciativa de extensión de nuestra facultad y de nuestra
+universidad pública
+</p>
+
+<p>
+Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+informática diversa, noticias.
+</p></li>
+
+<li>Canales de comunicación: Instagram: ctrlz_fai |
+Web:<a href="https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&amp;sa=D&amp;source=editors&amp;ust=1710886972631607&amp;usg=AOvVaw0Nd3amx84NFOIIJmebjzYD"> </a><a href="https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&amp;sa=D&amp;source=editors&amp;ust=1710886972631851&amp;usg=AOvVaw2WckiSK9W10CI0pP35EAyw">https://controlz.fi.uncoma.edu.ar/</a> |
+Correo: controlz@fi.uncoma.edu.ar |
+Spotify: Control Z FaI</li>
+<li>Resumen del programa de hoy: ¿qué hay hoy?</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd0f9ca9" class="outline-2">
+<h2 id="orgd0f9ca9"><span class="section-number-2">2.</span> Noticias</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li><p>
+Jornada de robótica y aprendizaje con la Escuela Primaria Nº 16
+</p>
+
+<ul class="org-ul">
+<li>En el marco de:
+<ul class="org-ul">
+<li>Proyecto Ada Lovelace para la educación en STEM</li>
+<li>Curricularización de la extensión "Lenguajes Declarativos al alcance de las infancias"</li>
+<li>Grupo de investigación GILIA</li>
+</ul></li>
+
+<li>6 de noviembre en el espacio LIVING de la facultad.</li>
+<li>Estudiantes y docentes de la Escuela Primaria 16 visitaron la facultad.</li>
+<li>Hubo talleres de robótica, preguntas acerca de la carrera, recorridos al Museo de la Universidad del Comahue</li>
+</ul>
+
+<p>
+<a href="https://www.fi.uncoma.edu.ar/index.php/novedades/jornada-de-robotica-y-aprendizaje-con-la-escuela-primaria-no-16/">Ver noticia en FaIWeb</a>
+</p></li>
+
+<li><p>
+Presentación del recorrido virtual inmersivo del Museo Histórico del Riego
+</p>
+<ul class="org-ul">
+<li>4 de noviembre</li>
+<li>En el marco del proyecto de extensión: "Tecnologías visuales e interactivas aplicadas a la producción de contenidos transmedia para la vinculación y difusión del Patrimonio Cultural" dirigido por Viviana Sánchez y Amadeo Laurín</li>
+<li>A cargo de Germán Kiessling que desarrolló el recorrido como parte de su tesis de la Licenciatura en Ciencias de la Computación.</li>
+<li>Estuvieron presente referentes de proyectos de distintos museos de Río Negro y Neuquén.</li>
+</ul>
+
+<p>
+<a href="https://www.fi.uncoma.edu.ar/index.php/novedades/presentacion-del-recorrido-virtual-inmersivo-del-museo-historico-del-riego/">Ver noticia en FaIWeb</a>
+</p></li>
+
+<li><p>
+Curso de Posgrado – Gamificación
+</p>
+<ul class="org-ul">
+<li>A cargo de la Mgter. Cristina Gómez</li>
+<li>Reconocer las características de una propuesta didáctica gamificada, identificar los componentes de las propuestas gamificadas en educación y diseñar una propuesta gamificada para destinatarios concretos.</li>
+<li>Inicia el 18/11.</li>
+<li>Bajo una modalidad a distancia, con instancias sincrónicas y asincrónicas.</li>
+</ul>
+
+<p>
+<a href="https://www.fi.uncoma.edu.ar/index.php/novedades/curso-de-posgrado-gamificacion/">Ver noticia en FaIWeb</a>
+</p></li>
+
+<li><p>
+¿Casi se inunda la facu? Hubo inconvenientes en la lluvia en la Biblioteca y las Aulas 100.
+</p>
+
+<p>
+¿La falta de presupuesto para obras que cuiden nuestra universidad?
+</p></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd50d8c9" class="outline-2">
+<h2 id="orgd50d8c9"><span class="section-number-2">3.</span> Bloque 1 - ¿Qué hace un profesional en SI?</h2>
+<div class="outline-text-2" id="text-3">
+<a id="bloque1"></a>
+
+<p>
+Benjamín Muñoz, nuestro columnista en Seguridad Informática (SI).
+</p>
+
+<ol class="org-ol">
+<li>¿Cómo se forma una persona que quiere trabajar de SI?</li>
+<li>¿Qué trabajos puede hacer? ¿Y esos trabajos se suelen realizar?</li>
+<li>¿Por qué es importante para una empresa o entidad tener personal de SI?
+<ol class="org-ol">
+<li>¿Solo con una persona que sepa SI alcanza?</li>
+<li>¿Sirve consultar un especialista en SI cuando el ataque ya sucedió?
+¿O es preferible antes del ataque?</li>
+</ol></li>
+<li>¿Qué ramas de la SI existen hoy en día?
+<ol class="org-ol">
+<li>¿Qué hace cada rama? ¿por qué es importante?</li>
+<li>¿Ejemplo de lo que hace?</li>
+<li>¿Existen personas que se dedican a esta rama?</li>
+</ol></li>
+<li>¿Por qué hay que estar siempre al día? ¿Qué sucede si no nos mantenemos al tanto de lo que sucede?</li>
+<li>¿Cómo ves el mercado laboral y las instituciones? ¿Se interesan por la SI?</li>
+<li>¿Nos recomendás algo para ver, leer o buscar?</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org1986c37" class="outline-2">
+<h2 id="org1986c37"><span class="section-number-2">4.</span> ⏸️ &#x2013; Tanda --</h2>
+</div>
+<div id="outline-container-orge25e414" class="outline-2">
+<h2 id="orge25e414"><span class="section-number-2">5.</span> Bloque 2 - Wikimedia</h2>
+<div class="outline-text-2" id="text-5">
+<a id="bloque2"></a>
+
+<p>
+Florencia Guastavino, Responsable del Programa de Educación de Wikimedia. 
+</p>
+
+<p>
+<a href="https://meta.wikimedia.org/wiki/Wikimedia_Argentina">Wikimedia Argentina</a>
+</p>
+
+<p>
+<a href="https://wikimedia.org.ar/">https://wikimedia.org.ar/</a>
+</p>
+
+<p>
+<a href="https://wikimediafoundation.org/es/who-we-are/">Wikimedia Foundation: ¿Quiénes somos?</a>
+</p>
+
+<ol class="org-ol">
+<li>¿Qué es Wikimedia? ¿Qué relación tiene con Wikipedia?
+<ol class="org-ol">
+<li>¿Qué otras plataformas posee Wikimedia?</li>
+</ol></li>
+<li>¿Por qué es importante Wikipedia y Wikimedia?
+<ol class="org-ol">
+<li>¿Qué contenidos almacenan? ¿qué trabajos realizan?</li>
+</ol></li>
+<li>¿Quiénes aportan a Wikimedia? ¿Cómo lo hacen?
+<ol class="org-ol">
+<li>¿Cualquier persona puede aportar?</li>
+<li>¿Cómo se gestiona para mejorar su calidad de contenido?</li>
+</ol></li>
+<li>¿Qué clase de contenidos? ¿quiénes pueden acceder y consultar?
+<ol class="org-ol">
+<li>¿Por qué decidieron que sea abierto y libre?</li>
+<li>¿Hay contenido no libre? ¿Cómo lo gestionan?</li>
+</ol></li>
+<li>¿Qué tareas realizan la fundación? ¿cómo mantienen las plataformas?</li>
+<li>En Argentina, ¿hay un equipo de la fundación? ¿en qué otras partes del mundo?
+<ol class="org-ol">
+<li>¿Qué otras actividades, programas o proyectos realizan?</li>
+</ol></li>
+<li>¿Cómo nos contactamos con la fundación? ¿redes sociales?</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org713c530" class="outline-2">
+<h2 id="org713c530"><span class="section-number-2">6.</span> Despedida</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>Hemos llegado al final del programa &#x2026;</li>
+<li>¡Nos vemos el próximo miércoles a las 13:00!</li>
+<li>¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6e71325" class="outline-2">
+<h2 id="org6e71325"><span class="section-number-2">7.</span> Licencia</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+</p>
+
+</main>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Autor: Christian Gimenez</p>
+<p class="date">Created: 2025-11-25 mar 17:03</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

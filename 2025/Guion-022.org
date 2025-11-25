@@ -1,0 +1,227 @@
+#+title: Guion 22 - 26 de noviembre del 2025
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Sección/Momento | Detalle Técnico                                                | Duración | Finaliza |
+| / | <>              | <>                                                             |       <> |       <> |
+| / | Inicio          |                                                                |          | 13:00:00 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Comienzo        | \musicalnote{} =Apertura 2025.mp3=                                          | 00:00:10 | 13:00:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato) | 00:05:00 | 13:05:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Noticias        | Algunas noticias...                                            | 00:05:00 | 13:10:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 1        | \play{} =Separador Entrevista.mp3=                                    |          | 13:10:10 |
+|   |                 | Columna Seguridad Inf.: ¿qué hace un profesional en SI?        | 00:00:00 | 13:10:10 |
+|   |                 | \telephone{} Llamar a Benjamín Muñoz                                    | 00:15:10 | 13:25:20 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                             |          | 13:25:20 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                 | 00:05:00 | 13:30:20 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                      |          | 13:30:20 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 2        | \play{} =Separador Entrevista.mp3=                                    |          | 13:30:20 |
+|   |                 | ¿Qué es Wikimedia?                                             |          | 13:30:20 |
+|   |                 | \telephone{} Llamar a Florencia Guastavino                              | 00:15:38 | 13:45:58 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                            | 00:05:00 | 13:50:58 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | *Total*           |                                                                | 00:50:58 |          |
+#+TBLFM: @4$5..@16$5=$4 + @-1$5;T::@17$4='(apply '+ '(@4$4..@16$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian y Marina.
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, noticias.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar |
+  Spotify: Control Z FaI
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+
+* Noticias
+
+- Jornada de robótica y aprendizaje con la Escuela Primaria Nº 16
+
+  - En el marco de:
+    - Proyecto Ada Lovelace para la educación en STEM
+    - Curricularización de la extensión "Lenguajes Declarativos al alcance de las infancias"
+    - Grupo de investigación GILIA
+
+  - 6 de noviembre en el espacio LIVING de la facultad.
+  - Estudiantes y docentes de la Escuela Primaria 16 visitaron la facultad.
+  - Hubo talleres de robótica, preguntas acerca de la carrera, recorridos al Museo de la Universidad del Comahue
+  
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/jornada-de-robotica-y-aprendizaje-con-la-escuela-primaria-no-16/][Ver noticia en FaIWeb]]
+
+- Presentación del recorrido virtual inmersivo del Museo Histórico del Riego
+  - 4 de noviembre
+  - En el marco del proyecto de extensión: "Tecnologías visuales e interactivas aplicadas a la producción de contenidos transmedia para la vinculación y difusión del Patrimonio Cultural" dirigido por Viviana Sánchez y Amadeo Laurín
+  - A cargo de Germán Kiessling que desarrolló el recorrido como parte de su tesis de la Licenciatura en Ciencias de la Computación.
+  - Estuvieron presente referentes de proyectos de distintos museos de Río Negro y Neuquén.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/presentacion-del-recorrido-virtual-inmersivo-del-museo-historico-del-riego/][Ver noticia en FaIWeb]]
+
+- Curso de Posgrado – Gamificación
+  - A cargo de la Mgter. Cristina Gómez
+  - Reconocer las características de una propuesta didáctica gamificada, identificar los componentes de las propuestas gamificadas en educación y diseñar una propuesta gamificada para destinatarios concretos.
+  - Inicia el 18/11.
+  - Bajo una modalidad a distancia, con instancias sincrónicas y asincrónicas.
+
+  [[https://www.fi.uncoma.edu.ar/index.php/novedades/curso-de-posgrado-gamificacion/][Ver noticia en FaIWeb]]
+
+- ¿Casi se inunda la facu? Hubo inconvenientes en la lluvia en la Biblioteca y las Aulas 100.
+  
+  ¿La falta de presupuesto para obras que cuiden nuestra universidad?
+
+* Bloque 1 - ¿Qué hace un profesional en SI?
+#+html: <a id="bloque1"></a>
+
+Benjamín Muñoz, nuestro columnista en Seguridad Informática (SI).
+
+1. ¿Cómo se forma una persona que quiere trabajar de SI?
+2. ¿Qué trabajos puede hacer? ¿Y esos trabajos se suelen realizar?
+3. ¿Por qué es importante para una empresa o entidad tener personal de SI?
+   1. ¿Solo con una persona que sepa SI alcanza?
+   2. ¿Sirve consultar un especialista en SI cuando el ataque ya sucedió?
+      ¿O es preferible antes del ataque?
+4. ¿Qué ramas de la SI existen hoy en día?
+   1. ¿Qué hace cada rama? ¿por qué es importante?
+   2. ¿Ejemplo de lo que hace?
+   3. ¿Existen personas que se dedican a esta rama?
+5. ¿Por qué hay que estar siempre al día? ¿Qué sucede si no nos mantenemos al tanto de lo que sucede?
+6. ¿Cómo ves el mercado laboral y las instituciones? ¿Se interesan por la SI? 
+7. ¿Nos recomendás algo para ver, leer o buscar?
+
+
+* ⏸️ -- Tanda --
+* Bloque 2 - Wikimedia
+#+html: <a id="bloque2"></a>
+
+Florencia Guastavino, Responsable del Programa de Educación de Wikimedia. 
+
+[[https://meta.wikimedia.org/wiki/Wikimedia_Argentina][Wikimedia Argentina]]
+
+[[https://wikimedia.org.ar/]]
+
+[[https://wikimediafoundation.org/es/who-we-are/][Wikimedia Foundation: ¿Quiénes somos?]]
+
+1. ¿Qué es Wikimedia? ¿Qué relación tiene con Wikipedia?
+   1. ¿Qué otras plataformas posee Wikimedia?
+2. ¿Por qué es importante Wikipedia y Wikimedia?
+   1. ¿Qué contenidos almacenan? ¿qué trabajos realizan?
+3. ¿Quiénes aportan a Wikimedia? ¿Cómo lo hacen?
+   1. ¿Cualquier persona puede aportar?
+   2. ¿Cómo se gestiona para mejorar su calidad de contenido?
+4. ¿Qué clase de contenidos? ¿quiénes pueden acceder y consultar?
+   1. ¿Por qué decidieron que sea abierto y libre?
+   2. ¿Hay contenido no libre? ¿Cómo lo gestionan?
+5. ¿Qué tareas realizan la fundación? ¿cómo mantienen las plataformas?
+6. En Argentina, ¿hay un equipo de la fundación? ¿en qué otras partes del mundo?
+   1. ¿Qué otras actividades, programas o proyectos realizan?
+7. ¿Cómo nos contactamos con la fundación? ¿redes sociales?
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "es"
+# org-latex-default-figure-position: "tbp"
+# End:
