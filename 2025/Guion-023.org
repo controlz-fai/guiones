@@ -1,0 +1,168 @@
+#+title: Guion 23 - 3 de diciembre del 2025
+
+#+HTML: <main>
+
+#+caption: Guión técnico para el operador.
+|   | Sección/Momento | Detalle Técnico                                                | Duración | Finaliza |
+| / | <>              | <>                                                             |       <> |       <> |
+| / | Inicio          |                                                                |          | 13:00:00 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Comienzo        | \musicalnote{} =Apertura 2025.mp3=                                          | 00:00:10 | 13:00:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Presentación    | (se puede usar =Cortina apertura 2025.mp3= de fondo por un rato) | 00:05:00 | 13:05:10 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 1        | Género y TIC                                                   | 00:00:00 | 13:05:10 |
+|   |                 | \play{} Entrevista a Eliana Grandier                                | 00:20:30 | 13:25:40 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3=                                             |          | 13:25:40 |
+|   | \pausebutton{} Tanda        | ----- Tanda Publicitaria -----                                 | 00:05:00 | 13:30:40 |
+|   |                 | \musicalnote{} =Sep Ctrl Z.mp3= o =Cortina programa.mp3=                      |          | 13:30:40 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Bloque 2        | Muestra de Trabajos Finales de la TUDW                         |          | 13:30:40 |
+|   |                 | \telephone{} Llamar a Daniel Dolz                                       | 00:15:00 | 13:45:40 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   |                 | Despedida del año                                              | 00:05:00 | 13:50:40 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | Cierre          | \musicalnote{} =Cierre 2025.mp3=                                            | 00:05:00 | 13:55:40 |
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|---+-----------------+----------------------------------------------------------------+----------+----------|
+|   | *Total*           |                                                                | 00:55:40 |          |
+#+TBLFM: @4$5..@14$5=$4 + @-1$5;T::@15$4='(apply '+ '(@4$4..@14$4));T
+
+* Presentación del programa
+- Bienvenida a Control Z, el espacio de la Facultad de Informática.
+- Todos los miércoles a las 13:00 de la tarde
+- Presentarse - Participaron: Christian y Marina.
+  
+  Detrás del micrófono: Sergio "Bomba" Guzmán en la operación.
+  
+- ¿De qué se trata Control Z?
+
+- Es una iniciativa de extensión de nuestra facultad y de nuestra
+  universidad pública
+  
+  Charlamos de: Ciudadanía digital, cultura libre, estudiá computación,
+  informática diversa, noticias.
+
+- Canales de comunicación: Instagram: ctrlz_fai |
+  Web:[[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631607&usg=AOvVaw0Nd3amx84NFOIIJmebjzYD][ ]][[https://www.google.com/url?q=https://controlz.fi.uncoma.edu.ar/&sa=D&source=editors&ust=1710886972631851&usg=AOvVaw2WckiSK9W10CI0pP35EAyw][https://controlz.fi.uncoma.edu.ar/]] |
+  Correo: controlz@fi.uncoma.edu.ar |
+  Spotify: Control Z FaI
+- Resumen del programa de hoy: ¿qué hay hoy?
+
+
+* Bloque 1 - Género y TIC
+#+html: <a id="bloque1"></a>
+
+Eliana Grandier miembro de Gentic. Gentic trabaja en la prevención y erradicación de la violencia de género en el ámbito digital.
+
+https://generoytic.com
+
+* ⏸️ -- Tanda --
+* Bloque 2 - Trabajos Finales de la TUDW
+#+html: <a id="bloque2"></a>
+
+- La Tecnicatura Universitaria en Desarrollo Web es una carrera de la Facultad.
+- Todos los años realizan una exposición para mostrar los trabajos realizados por estudiantes de los últimos años.
+
+Hablamos con Daniel Dolz, docente de nuestra facultad que se encuentra en la exposición en este momento
+
+1. ¿De qué se trata la exposición?
+2. ¿Quiénes realizan los trabajos? ¿de qué año?
+3. ¿La tecnicatura se encarga de hacer sistemas Web? ¿qué es un sistema Web?
+4. ¿Cómo hicieron cada software? ¿Utilizan las mismas herramientas?
+5. ¿Quienes egresan están preparados para desarrollar y diseñar en cualquier herramienta?
+6. ¿De qué se tratan los trabajos de este año?
+7. ¿Quiénes pueden realizar la TUDW? ¿cómo puedo saber más de la carrera?
+
+
+* Despedida
+- Hemos llegado al final del programa ...
+- ¡Nos vemos el próximo miércoles a las 13:00!
+- ¡Pero no se vayan! Que ya viene Meteoro en "Yo no fui"
+
+* Licencia
+Esta obra se encuentra bajo la licencia Creative Commons - Atribución - Compartir Igual.
+
+#+HTML: </main>
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: TODO(t!) CURRENT(c!) PAUSED(p!) | DONE(d!) CANCELED(C!@)
+
+# -- Export
+#+LANGUAGE: es
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+# #+export_file_name: 
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+#+HTML_HEAD_EXTRA: <link href="../css/guiones-2024.css" rel="stylesheet">
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+# #+latex_header: \usepackage[margin=2cm]{geometry}
+# #+latex_header: \usepackage{fontspec}
+#+latex_header: \usepackage{emoji}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Guiones: (Guion)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Guiones
+#+TEXINFO_FILENAME: Guion.info
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "es"
+# org-latex-default-figure-position: "tbp"
+# End:
